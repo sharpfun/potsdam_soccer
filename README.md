@@ -1,6 +1,6 @@
 # potsdam_soccer
 
-Potsdam soccer is a project with a general goal to make knowledge base from reports. 
+Potsdam soccer is a project with the general goal to make knowledge base from reports. 
 Knowledge base presented as a facts in ASP. 
 Therefore will use ASP for queries like:
 
