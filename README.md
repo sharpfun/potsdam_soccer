@@ -4,7 +4,7 @@ Potsdam soccer is a project with the general goal to make knowledge base from re
 Knowledge base presented as a facts in ASP. 
 Therefore will use ASP for queries like:
 
-- how many passes was during the game
+- how many passes there were during the game
 - who win
 - how many red cards
 
