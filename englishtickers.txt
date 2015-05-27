@@ -1,0 +1,66 @@
+http://live.premierleague.com/#/gameweek/37/matchday/37/match/755671
+
+P1: 90'+4'	Match ends, West Bromwich Albion 3, Chelsea 0.
+P2: 90'+4'	    Second Half ends, West Bromwich Albion 3, Chelsea 0.
+P3: 90'+3'	    Darren Fletcher (West Bromwich Albion) wins a free kick in the defensive half.
+P4: 90'+3'	    Foul by Nathan Aké (Chelsea).
+P5: 90'+3'	    Attempt blocked. Eden Hazard (Chelsea) right footed shot from outside the box is blocked. Assisted by Filipe Luis.
+P6: 90'+1'	    Foul by Joleon Lescott (West Bromwich Albion).
+P7: 90'+1'	    Juan Cuadrado (Chelsea) wins a free kick on the right wing.
+P8: 90'+1'	    Attempt missed. Nemanja Matic (Chelsea) left footed shot from outside the box is just a bit too high from a direct free kick.
+P9: 90'	    Foul by Claudio Yacob (West Bromwich Albion).
+P10: 90'	    Eden Hazard (Chelsea) wins a free kick in the attacking half.
+P11: 89'	    SUBSTITUTIONSubstitution, West Bromwich Albion. Chris Baird replaces James Morrison.
+P12: 89'	    Foul by Craig Gardner (West Bromwich Albion).
+P13: 89'	    Juan Cuadrado (Chelsea) wins a free kick on the left wing.
+P14: 84'	    Foul by Joleon Lescott (West Bromwich Albion).
+P15: 84'	    Nathan Aké (Chelsea) wins a free kick in the defensive half.
+P16: 82'	    YELLOW CARDJuan Cuadrado (Chelsea) is shown the yellow card for a bad foul.
+P17: 82'	    Joleon Lescott (West Bromwich Albion) wins a free kick on the left wing.
+P18: 82'	    Foul by Juan Cuadrado (Chelsea).
+P19: 79'	    SUBSTITUTIONSubstitution, West Bromwich Albion. Brown Ideye replaces Saido Berahino.
+P20: 79'	    SUBSTITUTIONSubstitution, Chelsea. Izzy Brown replaces Loïc Remy.
+
+
+http://www.flashscore.com/soccer/england/
+
+F1: 90+4'	We have witnessed a rather boring football with almost no goal opportunities nor exciting moments on either side. There wasn't any significant dominance on either side in this game. The home side was creating their opportunities using lightning-fast counter-attacks. The tactic of the away side was slow build-up play.
+F2: 90+4'	Nothing more will happen today, Mike Jones has blown his whistle and the game is over.
+F3: 90+3'	This one will not go through. Eden Hazard (Chelsea) lines up a shot from the edge of the box and goes for goal, but the effort is well blocked by a defender.
+F4: 90+1'	Nemanja Matic (Chelsea) attempts to score from a mid-range free kick, but he curls his effort a few inches over the crossbar.
+F5: 90'	3 min. of stoppage-time to be played.
+F6: 90'	Claudio Yacob (West Brom) does well to dispossess the attacking effort with a slide tackle, but the referee blows his whistle for a foul. Another situation results in a direct free kick for Chelsea.
+F7: 90'	Filipe Luis (Chelsea) plays in a hopeful cross, but it doesn't find its way to any of the attacking players.
+F8: 89' 	Manager makes a subsitution with Chris Baird (West Brom) coming on for James Morrison (West Brom).
+F9: 89'	Craig Gardner (West Brom) with a slide tackle, but referee Mike Jones calls for a foul. Chelsea get a free kick.
+F10: 87'	West Brom seem to be finding their feet as they enjoy some possession. Great movement by offensive players allows those more defensive to build up the attack.
+F11: 83' 	The ball possession at this moment is 37:63.
+F12: 82' Juan Cuadrado (Chelsea) takes his opponent down and has been booked. That was a really nasty challenge, and he can be glad it is not a red card.
+F13: 79'  Tony Pulis has decided to make a change. Ideye Brown (West Brom) replaces Saido Berahino (West Brom).
+F14: 79'  Substitution. Isaiah Brown (Chelsea) in, Loic Remy (Chelsea) out.
+
+Alignment:
+P1 missing in F
+P2=F2
+P3 missing in F
+P4 missing in F
+P5<F3
+P6 missing in F
+P7 missing in F
+P8=F4
+P9<F6
+P10<F6
+P11=F8
+P12<F9
+P13<F9
+P14 missing in F
+P15 missing in F
+P16<F12
+P17 missing in F
+P18<F12
+P19=F13
+P20=F14 modulo name (special char.)
+
+(plus various F missing in P)
+
+
