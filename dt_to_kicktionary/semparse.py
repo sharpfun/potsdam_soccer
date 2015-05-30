@@ -34,7 +34,7 @@ def main():
     parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
     parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
     ## will need to add verbnet XML file(s) at some point, maybe a complete folder
-    parser.add_option("--verbnet", dest="verbnet", help="location of verbnet xml files", default="../data/verbnet")
+    parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
     (options, args) = parser.parse_args()
 
     verbose = options.verbose
