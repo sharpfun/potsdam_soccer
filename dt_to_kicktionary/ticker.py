@@ -9,6 +9,7 @@
 # TODO: the minute marks should somehow be added to each tree so that it can be used later in the ASP representation
 
 class Node(object):
+
     def __init__(self):
         self.node_id = 0
         self.word = None
@@ -21,7 +22,9 @@ class Node(object):
         return "({},{},{})".format(self.head, self.lemma, self.type)
     __repr__ = __str__
 
+
 class Tree(object):
+
     def __init__(self):
         self.tree_id = 0
         self.nodes = []
@@ -32,6 +35,7 @@ class Tree(object):
 
     def __str__(self):
         return "({},{})".format(self.root, self.nodes)
+
 
 def read_ticker(parsed_ticker, verbose, language):
     if verbose: print "Reading ticker..."
@@ -81,6 +85,6 @@ def read_ticker(parsed_ticker, verbose, language):
         roots = []
         for tree in trees:
             roots.append(tree.root)
-        print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
+        #print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
     
     return trees

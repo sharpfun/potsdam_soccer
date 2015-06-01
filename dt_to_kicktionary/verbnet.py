@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
-# Defines Verb class and read_verbnet() function.
+# Defines class "Verb" and function "read_verbnet()."
 # Reads in Verbnet xml files and returns list of Verb objects.
 
 import os
-
 from bs4 import BeautifulSoup
-
 
 # TODO: Add in other useful attributes from Verbnet .xml files.
 class Verb(object):
@@ -17,11 +15,11 @@ class Verb(object):
 
 
 # TODO: read in possible arguments for each lexical unit (?).      
-class Argument(object):
-
-    def __init__(self):
-        self.name = None
-        self.type = None
+#class Argument(object):
+#
+#    def __init__(self):
+#        self.name = None
+#        self.type = None
 
 
 def read_verbnet(verbnet_folder, verbose, language):
@@ -29,18 +27,21 @@ def read_verbnet(verbnet_folder, verbose, language):
    
     verbnet = []
     for filename in os.listdir(verbnet_folder):
-        if verbose: print "Loading Verb net file " + filename
         soup = BeautifulSoup(open(verbnet_folder + "/" + filename), "xml")
         verb = soup("MEMBER")
-        frame = soup("VNCLASS")
+
+        frame_raw = soup("VNCLASS")[0]["ID"]
+        sep = '-'
+        frame = frame_raw.split(sep, 1)[0]
    
         for item in verb:
             vb = Verb()
             vb.lemma = item["name"]
-            vb.frame = frame["ID"]
-            print "%s + (%s)" % vb.lemma, vb.frame
-            verbnet.append(vb)     
+            vb.frame = frame
+            verbnet.append(vb)
+
+        #print "(%s, Frame: %s)" % (vb.lemma, vb.frame)
   
-    if verbose: print "Read in " + str(len(verbnet)) + " verbnet verbs"   
+    if verbose: print "Read in " + str(len(verbnet)) + " verbs"   
        
     return verbnet
