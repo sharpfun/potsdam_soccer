@@ -40,11 +40,11 @@ def main():
     verbose = options.verbose
     language = options.language
         
-    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
-    ticker = read_ticker(options.ticker, verbose, language)
-    # verbnet = read_verbnet(options.verbnet)
+    #kicktionary = read_kicktionary(options.kicktionary, verbose, language)
+    #ticker = read_ticker(options.ticker, verbose, language)
+    verbnet = read_verbnet(options.verbnet, verbose, language)
 
-    ticker_with_lus = kicktionary_lookup(kicktionary, ticker, verbose)
+    #ticker_with_lus = kicktionary_lookup(kicktionary, ticker, verbose)
 
 if __name__ == "__main__":
     main()
