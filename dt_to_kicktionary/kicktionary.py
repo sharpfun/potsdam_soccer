@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 
 class LexicalUnit(object):
     def __init__(self):
+        self.lemma = None
         self.scenario = None
         self.frame = None
         self.lang = None
@@ -14,7 +15,12 @@ class LexicalUnit(object):
         self.super_scenario = None
         self.synset = None
         self.frynset = None
-        self.arguments = []       
+        self.arguments = []
+
+    def __str__(self):
+        return self.lemma.replace("\n", " ") if self.lemma else "-"
+
+    __repr__ = __str__
 
 # TODO: read in possible arguments for each lexical unit (?)        
 class Argument(object):
