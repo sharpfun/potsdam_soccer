@@ -1,7 +1,12 @@
 # potsdam_soccer
 
 Potsdam soccer is a project with the general goal to make knowledge base from reports. 
-Knowledge base presented as a facts in ASP. 
+Knowledge base presented as a facts in ASP.
+
+Main goals:
+
+- merge two separate tickers of the same game
+
 Therefore will use ASP for queries like:
 
 - how many passes there were during the game
