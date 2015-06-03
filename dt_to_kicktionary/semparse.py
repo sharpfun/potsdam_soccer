@@ -68,9 +68,9 @@ def main():
     #raw_input()
     #print ticker
     #raw_input()
-    # verbnet = read_verbnet(options.verbnet)
+    verbnet = read_verbnet(options.verbnet, verbose, language)
 
-    ticker_with_lus = kicktionary_lookup(kicktionary, ticker, verbose)
+    ticker_with_lus = kicktionary_lookup(kicktionary, verbnet, ticker, verbose)
     #print ticker_with_lus
 
 if __name__ == "__main__":

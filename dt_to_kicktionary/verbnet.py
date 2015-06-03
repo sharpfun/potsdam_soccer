@@ -37,7 +37,7 @@ def read_verbnet(verbnet_folder, verbose, language):
             #for item in frame:
             #    vb.frame = frame["ID"]
             
-            print vb.lemma
+            #print vb.lemma
             verbnet.append(vb)        
    
     if verbose: print "Read in " + str(len(verbnet)) + " verbnet verbs"    
