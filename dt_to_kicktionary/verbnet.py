@@ -38,6 +38,7 @@ def read_verbnet(verbnet_folder, verbose, language):
             vb = Verb()
             vb.lemma = item["name"]
             vb.frame = frame
+            vb.siblings = [i for i in verb if i != vb ]
             verbnet.append(vb)
 
         #print "(%s, Frame: %s)" % (vb.lemma, vb.frame)
