@@ -1,0 +1,15 @@
+%%
+%% Definitions of actions that can occur
+%% during a game
+%%
+%% event(
+
+
+%> pass(
+
+
+%> goal
+
+
+%> score
+
