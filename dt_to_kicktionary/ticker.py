@@ -85,6 +85,6 @@ def read_ticker(parsed_ticker, verbose, language):
         roots = []
         for tree in trees:
             roots.append(tree.root)
-        #print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
+        print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
     
     return trees
