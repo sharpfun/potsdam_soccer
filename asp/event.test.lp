@@ -4,10 +4,11 @@
 %
 
 #const maxScore=20.
-score(0..maxScore).
-time(0..10).
 
 %% statics like 
+score(0..maxScore).
+time(0..10).
+%
 player(oezil, arsenal).
 player(ramsey, arsenal).
 player(ramires, chelsea).
@@ -15,6 +16,7 @@ player(remy, chelsea).
 % ...
 
 % and for better usability
+% just a few derivations of the statics
 player(P) :- player(P,T).
 team(T)   :- player(P,T).
 
@@ -39,8 +41,8 @@ init(neg(ball(P))) :- player(P).
 %% ticker(Time,Event)
 
 % A pass from ramires to remy
-ticker(1, pass(ramires,remy)).
+ticker(pass(ramires,remy), 1).
 
 % the score is 0 to 3
-ticker(2, score(0,arsenal)).
-ticker(2, score(3,chelsea)).
+ticker(score(0,arsenal), 2).
+ticker(score(3,chelsea), 2).
