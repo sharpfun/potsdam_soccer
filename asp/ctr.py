@@ -10,10 +10,11 @@ def onModel(model):
     for time in range(len(states)):
         print "{}".format(time)
         if time in events:
-           x for e in events[time]:
+            for e in events[time]:
                 print "[e]  {}".format(e)
+        print "[s] "
         for s in states[time]:
-            print "[s]  {}".format(s)
+            print "     {}".format(s)
 
 def getEvents(atoms):
     events = {}
