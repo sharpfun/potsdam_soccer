@@ -55,7 +55,7 @@ holds(score(S2,Team),Time+1)    :- ticker(score(Id),Time), team(Team,2), score(I
 %> SUBSTITUTE
 %    COACH
 %    SUBSTITUTED_PLAYER
-holds(neg(player((P)),Time+1) :- ticker(substitute(Id),Time), subsituted_player(Id,P).
+holds(neg(player(P)),Time+1)  :- ticker(substitute(Id),Time), subsituted_player(Id,P).
 holds(bench(P),Time+1)        :- ticker(substitute(Id),Time), subsituted_player(Id,P).
 %    SUBSTITUTE
 holds(player(P),Time+1)       :- ticker(substitute(Id),Time), substitute(Id,P).
