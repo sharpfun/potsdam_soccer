@@ -54,7 +54,6 @@ def lookup(kicktionary, verbnet, ticker, verbose):
         # a. Root-->Verbnet.Verb-->Verbnet.Frame-->Kicktionary.
         # b. ??? Root--> Verbnet.Verb-->Verbnet.Sibling-->Kicktionary.
             else:
-
                 # TO DO: Reverse look-up order
                 for vb in verbnet:
                     if vb.lemma == tree.root:
