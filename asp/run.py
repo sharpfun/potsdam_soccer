@@ -1,10 +1,14 @@
-#script (python)
-
-from gringo import *
-from pprint import pprint
+#!/usr/bin/python
+#
+# author:
+# 
+# date: 
+# description:
+#
+import gringo
 
 def onModel(model):
-    atoms = model.atoms(Model.ATOMS)
+    atoms = model.atoms(gringo.Model.ATOMS)
     events = getFluents(atoms, "ticker")
     states = getFluents(atoms, "holds" )
     for time in range(len(states)):
@@ -25,8 +29,13 @@ def getFluents(atoms, name):
             fluents[time].append(lit)
     return fluents
 
-def main(ctr):
+def main():
+    ctr = gringo.Control()
+    ctr.load("event.enc.lp")
+    ctr.load("event.test.lp")
+    ctr.load("meta.enc.lp")
     ctr.ground([("base", [])])
     ret = ctr.solve([], onModel)
 
-#end.
+if __name__ == "__main__":
+    main()

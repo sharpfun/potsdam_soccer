@@ -13,12 +13,16 @@ player(oezil, arsenal).
 player(ramsey, arsenal).
 player(ramires, chelsea).
 player(remy, chelsea).
+
+bench(clayton, arsenal).
 % ...
 
 % and for better usability
 % just a few derivations of the statics
 player(P) :- player(P,T).
 team(T)   :- player(P,T).
+team(arsenal, 1).
+team(chelsea, 2).
 
 %%
 %% fluent definitions
@@ -26,12 +30,18 @@ team(T)   :- player(P,T).
 %%
 fluent(score(S,T)) :- score(S), team(T).
 fluent(ball(P))    :- player(P).
+fluent(player(P))  :- player(P).
+fluent(player(P))  :- bench(P).
+fluent(bench(P))   :- player(P).
+fluent(bench(P))   :- bench(P).
 
 %%
 %% init(Property).
 %%
 init(score(0,T))  :- team(T).
-init(neg(ball(P))) :- player(P).
+init(player(P))   :- player(P).
+init(bench(P))    :- bench(P).
+%init(neg(ball(P))) :- player(P).
 
 
 %%
@@ -41,8 +51,5 @@ init(neg(ball(P))) :- player(P).
 %% ticker(Time,Event)
 
 % A pass from ramires to remy
-ticker(pass(ramires,remy), 1).
+ticker(pass(1), 1). passer(1,ramires). recipient(1,remy).
 
-% the score is 0 to 3
-ticker(score(0,arsenal), 2).
-ticker(score(3,chelsea), 2).
