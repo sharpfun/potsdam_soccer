@@ -1,14 +1,14 @@
 %
-% just for testing
-% later this is done by the ticker framework dynamically
+% FOR TESTING
+% Later, this is done by the ticker framework dynamically.
 %
 
 #const maxScore=20.
 
-%% statics like 
+%% Statistics, such as.
 score(0..maxScore).
 time(0..10).
-%
+
 player(oezil, arsenal).
 player(ramsey, arsenal).
 player(ramires, chelsea).
@@ -17,7 +17,7 @@ player(remy, chelsea).
 bench(clayton, arsenal).
 % ...
 
-% and for better usability
+% And for better usability.
 % just a few derivations of the statics
 player(P) :- player(P,T).
 team(T)   :- player(P,T).
@@ -25,8 +25,8 @@ team(arsenal, 1).
 team(chelsea, 2).
 
 %%
-%% fluent definitions
-%% what is a state described in the [soccer] world
+%% Fluents Definitions.
+%% (what is a state described in the [soccer] world)
 %%
 fluent(score(S,T)) :- score(S), team(T).
 fluent(ball(P))    :- player(P).
@@ -38,18 +38,23 @@ fluent(bench(P))   :- bench(P).
 %%
 %% init(Property).
 %%
-init(score(0,T))  :- team(T).
-init(player(P))   :- player(P).
-init(bench(P))    :- bench(P).
+init(score(0,T))  	:- team(T).
+init(player(P))   	:- player(P).
+init(bench(P))    	:- bench(P).
 %init(neg(ball(P))) :- player(P).
+
+
+
+
+
+
+
 
 %%
 %% Here come sample sentences (their asp representation)
 %%
 
 %% ticker(Time,Event)
-
-
 
 % Ramires completes a fine lofted pass to Remy down field.
 
@@ -95,7 +100,6 @@ substitute(3,violand).
 
 ticker(pass(4), 4).
 passer(4,violand)
-recipient(4,?)									% What here???
 
 % Now Oezil passes the ball up the left side back to Violand.
 
