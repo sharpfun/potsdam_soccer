@@ -1,19 +1,16 @@
 # potsdam_soccer
 
-Potsdam soccer is a project with the general goal to make knowledge base from reports. 
-Knowledge base presented as a facts in ASP.
+The goal of potsdam_soccer is to represent text from online soccer tickers in Answer Set Programming (ASP) via the controlled language of Kicktionary, a dictionary of soccer terms that defines lexical units, frames, and hierarchies involved.
 
-Main goals:
+Sub-goals:
 
-- merge two separate tickers of the same game
+- merge information from multiple tickers into a single representation.
 
-Therefore will use ASP for queries like:
+- provide query functionality. For example:
 
-- how many passes there were during the game
-- who win
-- how many red cards
-
-Also because we have different report sources, we compare them and take the best one.
+- how many passes were there during the game?
+- who won?
+- how many red cards were there?
 
 Related links:
 
