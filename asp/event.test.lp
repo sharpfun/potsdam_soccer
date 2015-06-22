@@ -1,4 +1,5 @@
 %
+% --ASP INSTANCE FILE--
 % FOR TESTING
 % Later, this is done by the ticker framework dynamically.
 %
@@ -41,7 +42,7 @@ fluent(bench(P))   :- bench(P).
 init(score(0,T))  	:- team(T).
 init(player(P))   	:- player(P).
 init(bench(P))    	:- bench(P).
-%init(neg(ball(P))) :- player(P).
+init(neg(ball(P))) :- player(P).
 
 
 
@@ -51,61 +52,66 @@ init(bench(P))    	:- bench(P).
 
 
 %%
-%% Here come sample sentences (their asp representation)
+%% Sample Ticker Sentences and their Events.
 %%
 
 %% ticker(Time,Event)
 
-% Ramires completes a fine lofted pass to Remy down field.
+% Ramires completes a fine lofted pass to Remy down-field.
 
 ticker(pass(1),1). 
-passer(1,ramires).
-recipient(1,remy).
+attribute(passer,ramires,1).
+attribute(recipient,remy,1).
 
-% holds(neg(ball(ramires)),Time+1) :- ticker(pass(1),1), passer(1,ramires).
-% holds(ball(remy),Time+1) :- ticker(pass(1),Time), recipient(1,remy).
-
-%holds(neg(ball(PlayerA)),Time+1)    :- ticker(pass(Id),Time), passer(Id,PlayerA).
-%holds(    ball(PlayerB) ,Time+1)    :- ticker(pass(Id),Time), recipient(Id,PlayerB).
+		% Heres how the state would change:
+		% holds(neg(ball(PlayerA)),Time+1)    :- ticker(pass(Id),Time), passer(Id,PlayerA).
+		% holds(    ball(PlayerB) ,Time+1)    :- ticker(pass(Id),Time), recipient(Id,PlayerB).
 
 
 
 % Remy turns, shoots, and scores! Chelsea leads 1-0.
 
-ticker(shoot(2), 2).
-shooter(2,Remy).
+ticker(score(2),2).
+attribute(team,chelsea,2).
+attribute(score,1,0,2).
 
-% holds(score(1,chelsea),Time+1) :- ticker(score(2),Time), team(chelsea,1), score(2,1,0).
-% holds(score(0,arsenal),Time+1) :- ticker(score(2),Time), team(chelsea,2), score(2,1,0).
-
-%holds(score(S1,Team),Time+1) :- ticker(score(Id),Time), team(Team,1), score(Id,S1,S2).
-%holds(score(S2,Team),Time+1) :- ticker(score(Id),Time), team(Team,2), score(Id,S1,S2).
+		% Heres how the state would change:
+		% holds(score(S1,Team),Time+1) :- ticker(score(Id),Time), team(Team,1), score(Id,S1,S2).
+		% holds(score(S2,Team),Time+1) :- ticker(score(Id),Time), team(Team,2), score(Id,S1,S2).
 
 
 
 % Ramsey is substituted for Violand.
 
 ticker(substitute(3),3).
-substituted_player(3,ramsey).
-substitute(3,violand).
+atrribute(substituted_player,ramsey,3).
+attribute(substitute,violand,3).
 
-%holds(neg(player(P)),Time+1)  :- ticker(substitute(Id),Time), subsituted_player(Id,P).
-%holds(bench(P),Time+1)        :- ticker(substitute(Id),Time), subsituted_player(Id,P).
-%holds(player(P),Time+1)       :- ticker(substitute(Id),Time), substitute(Id,P).
-%holds(neg(bench(P)),Time+1)   :- ticker(substitute(Id),Time), substitute(Id,P).
+		% Heres how the state would change:
+		% holds(neg(player(P)),Time+1)  :- ticker(substitute(Id),Time), subsituted_player(Id,P).
+		% holds(bench(P),Time+1)        :- ticker(substitute(Id),Time), subsituted_player(Id,P).
+		% holds(player(P),Time+1)       :- ticker(substitute(Id),Time), substitute(Id,P).
+		% holds(neg(bench(P)),Time+1)   :- ticker(substitute(Id),Time), substitute(Id,P).
 
 
 
 % A fine pass from Violand!
 
-ticker(pass(4), 4).
-passer(4,violand)
+ticker(pass(4),4).
+attribute(passer,violand,4).
 
+		% Heres how the state would change:
+		% holds(neg(ball(PlayerA)),Time+1)    :- ticker(pass(Id),Time), passer(Id,PlayerA).
+		% holds(    ball(PlayerB) ,Time+1)    :- ticker(pass(Id),Time), recipient(Id,PlayerB).
 
 
 % Now Oezil passes the ball up the left side back to Violand.
 
-ticker(pass(5), 5).
-passer(5,oezil)
-recipient(5,violand)	
+ticker(pass(5),5).
+attribute(passer,oezil,5).
+attribute(recipient,violand,5).	
+
+		% Heres how the state would change:
+		% holds(neg(ball(PlayerA)),Time+1)    :- ticker(pass(Id),Time), passer(Id,PlayerA).
+		% holds(    ball(PlayerB) ,Time+1)    :- ticker(pass(Id),Time), recipient(Id,PlayerB).
 

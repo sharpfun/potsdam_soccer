@@ -43,11 +43,11 @@ holds(F,T+1)	:- holds(F,T), contrary(F,FF), not holds(FF,T+1), time(T).
 
 %    PASSER
 
-holds(neg(ball(PlayerA)),Time+1)	:- ticker(pass(Id),Time), passer(Id,PlayerA).
+holds(neg(ball(PlayerA)),Time+1)	:- ticker(pass(Id),Time), attribute(passer,PlayerA,Id).
 
 %    RECIPIENT
 
-holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), recipient(Id,PlayerB).
+holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(recipient,PlayerB,Id).
 
 %    TARGET
 %    SOURCE
@@ -66,8 +66,8 @@ holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), recipient(Id,PlayerB)
 % SCORE
 %    SCORE
 
-holds(score(S1,Team),Time+1)	:- ticker(score(Id),Time), team(Team,1), score(Id,S1,S2).
-holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), score(Id,S1,S2).
+holds(score(S1,Team),Time+1)	:- ticker(score(Id),Time), team(Team,1), attribute(score,S1,S2,Id).
+holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), attribute(score,S1,S2,Id).
 
 %    LEADER
 %    TEAMS
@@ -77,13 +77,13 @@ holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), score(Id,S
 %    COACH
 %    SUBSTITUTED_PLAYER
 
-holds(neg(player(P)),Time+1)	:- ticker(substitute(Id),Time), subsituted_player(Id,P).
-holds(bench(P),Time+1)			:- ticker(substitute(Id),Time), subsituted_player(Id,P).
+holds(neg(player(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
+holds(bench(P),Time+1)			:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
 
 %    SUBSTITUTE
 
-holds(player(P),Time+1)		:- ticker(substitute(Id),Time), substitute(Id,P).
-holds(neg(bench(P)),Time+1)	:- ticker(substitute(Id),Time), substitute(Id,P).
+holds(player(P),Time+1)		:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
+holds(neg(bench(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
 
 %    TEAM
 %    LINEUP
