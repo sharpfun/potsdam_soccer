@@ -2,31 +2,16 @@
 %% State Definitions.
 %%
 
-% [Time] Dependant.
-
-literal(L)		:- fluent(L).
-literal(neg(L)) :- fluent(L).
-
-contrary(F,neg(F))	:- fluent(F).
-contrary(neg(F),F)	:- fluent(F).
+% auxiliary constructs
+complement(F,neg(F))    :- fluent(F).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%
 % Initial State.
-%
-
-holds(F,0)	:- init(F).
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%
-% Holds Property.
-%
+holds(F,0)	:- init(F), complement(F,L).
 
 % Law of Inertia
-
-holds(F,T+1)	:- holds(F,T), contrary(F,FF), not holds(FF,T+1), time(T).
+holds(F,T+1)	:- holds(F,T), complement(F,L), not caused(L,T+1), time(T).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -36,19 +21,10 @@ holds(F,T+1)	:- holds(F,T), contrary(F,FF), not holds(FF,T+1), time(T).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PASS 
-		% James mentioned last time that this is the way Torsten preferred, from 
-		% one of his talks -> makes things more flexible (e.g. when one of them 
-		% is unknown).
-		% A pass event in kicktionary is defined by:
-
 %    PASSER
-
-holds(neg(ball(PlayerA)),Time+1)	:- ticker(pass(Id),Time), attribute(passer,PlayerA,Id).
-
+caused(neg(ball(PlayerA)),Time+1)	:- ticker(pass(Id),Time), attribute(pass(Id),passer,PlayerA).
 %    RECIPIENT
-
-holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(recipient,PlayerB,Id).
-
+caused(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(pass(Id),recipient,PlayerB).
 %    TARGET
 %    SOURCE
 %    DIRECTION
@@ -65,10 +41,8 @@ holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(recipient,P
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SCORE
 %    SCORE
-
-holds(score(S1,Team),Time+1)	:- ticker(score(Id),Time), team(Team,1), attribute(score,S1,S2,Id).
-holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), attribute(score,S1,S2,Id).
-
+caused(score(S1,Team),Time+1)	:- ticker(score(Id),Time), team(Team,1), attribute(score(Id),score,S1,S2).
+caused(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), attribute(score(Id),score,S1,S2).
 %    LEADER
 %    TEAMS
 
@@ -76,18 +50,16 @@ holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), attribute(
 % SUBSTITUTE
 %    COACH
 %    SUBSTITUTED_PLAYER
-
-holds(neg(player(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
-holds(bench(P),Time+1)			:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
-
+caused(neg(player(P)),Time+1)   :- ticker(substitute(Id),Time), attribute(substitute(Id),subsituted_player,P).
+caused(bench(P),Time+1)			:- ticker(substitute(Id),Time), attribute(substitute(Id),subsituted_player,P).
 %    SUBSTITUTE
-
-holds(player(P),Time+1)		:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
-holds(neg(bench(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
-
+caused(player(P),Time+1)		:- ticker(substitute(Id),Time), attribute(substitute(Id),substitute,P).
+caused(neg(bench(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(substitute(Id),substitute,P).
 %    TEAM
 %    LINEUP
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #show holds/2.
+#show ticker/2.
+#show attribute/3.
