@@ -29,6 +29,9 @@ class Tree(object):
         self.tree_id = 0
         self.nodes = []
         self.root = None
+        self.root_pos = None
+        self.root_id = None
+        self.root_lemma = None
         self.lexical_unit = None
         self.object = None # TODO, if necessary
         self.subject = None # TODO, if necessary
@@ -74,6 +77,9 @@ def read_ticker(parsed_ticker, verbose, language):
                 # using "head == 0" so that it works for German or English
                 if cells[9] == "0":
                     tree.root = cells[3]
+                    tree.root_pos = cells[5]
+                    tree.root_id = cells[0]
+                    tree.root_lemma = cells[3]
           
             tree.nodes.append(node)
         
