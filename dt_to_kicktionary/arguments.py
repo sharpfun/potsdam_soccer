@@ -7,6 +7,9 @@ import re
 class Event(object):
     
     def __init__(self):
+        self.ticker = None
+        self.minute = None
+        self.event_id = None
         self.frame = None
         self.text = None
         self.tree = None
@@ -96,7 +99,10 @@ def find_arguments(ticker, verbose):
         # will use tree.lexical unit
         if True: #tree.lexical_unit != None:
             event = Event()
-            event.label = "" #tree.lexical_unit
+            event.ticker = tree.ticker
+            event.minute = tree.minute
+            event.event_id = tree.tree_id
+            event.frame = "" #tree.lexical_unit
             event.tree = tree
             event.text = ""
             # get generic agents and objects
@@ -164,6 +170,8 @@ def main():
     
     for event in events:
         if event.frame != None and event.frame != "":
+            print event.ticker
+            print event.minute
             print event.text
             print event.arguments
             print ""
