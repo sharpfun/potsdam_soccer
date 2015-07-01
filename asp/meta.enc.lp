@@ -23,9 +23,6 @@ holds(F,T+1)    :- caused(F,T), complement(F,L).
 ticker(Id,Frame,Time)                         :- ticker(Id,Src,Frame,Time).
 attribute(Id,Frame,FrameAttribute,FrameValue) :- attribute(Id,Src,Frame,FrameAttribute,FrameValue).
 
-
-
-
 %
 % Event Effects.
 %

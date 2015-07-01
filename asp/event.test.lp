@@ -45,7 +45,6 @@ init(player(P))   	:- player(P).
 init(bench(P))    	:- bench(P).
 %init(neg(ball(P)))  :- player(P).
 
-
 %%
 %% Sample Ticker Sentences and their Events.
 %%
@@ -80,14 +79,6 @@ attribute(4,1,pass,passer,violand).
 ticker(5,1,pass,5).
 attribute(5,1,pass,passer,oezil).
 attribute(5,1,pass,recipient,violand).	
-
-
-
-
-
-
-
-
 
 
 
