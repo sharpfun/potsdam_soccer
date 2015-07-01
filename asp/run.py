@@ -31,7 +31,6 @@ def getFluents(atoms, name):
 
 def main():
     ctr = gringo.Control()
-    ctr.load("event.enc.lp")
     ctr.load("event.test.lp")
     ctr.load("meta.enc.lp")
     ctr.ground([("base", [])])

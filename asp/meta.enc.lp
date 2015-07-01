@@ -1,34 +1,27 @@
 %%
 %% State Definitions.
 %%
-
-% [Time] Dependant.
-
-literal(L)		:- fluent(L).
-literal(neg(L)) :- fluent(L).
-
-contrary(F,neg(F))	:- fluent(F).
-contrary(neg(F),F)	:- fluent(F).
+% auxiliary constructs
+complement(F,neg(F))    :- fluent(F).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%
 % Initial State.
-%
-
-holds(F,0)	:- init(F).
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%
-% Holds Property.
-%
+holds(F,0)	:- init(F), complement(F,L).
 
 % Law of Inertia
+holds(F,T+1)	:- holds(F,T), complement(F,L), not caused(L,T+1), time(T).
 
-holds(F,T+1)	:- holds(F,T), contrary(F,FF), not holds(FF,T+1), time(T).
+% Law of Causal Effects
+holds(F,T+1)    :- caused(F,T), complement(F,L).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% What happens if we have different tickers?
+% - for now, it just maps all messages to the original ticker -
+ticker(Id,Frame,Time)                         :- ticker(Id,Src,Frame,Time).
+attribute(Id,Frame,FrameAttribute,FrameValue) :- attribute(Id,Src,Frame,FrameAttribute,FrameValue).
 
 %
 % Event Effects.
@@ -36,19 +29,10 @@ holds(F,T+1)	:- holds(F,T), contrary(F,FF), not holds(FF,T+1), time(T).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PASS 
-		% James mentioned last time that this is the way Torsten preferred, from 
-		% one of his talks -> makes things more flexible (e.g. when one of them 
-		% is unknown).
-		% A pass event in kicktionary is defined by:
-
 %    PASSER
-
-holds(neg(ball(PlayerA)),Time+1)	:- ticker(pass(Id),Time), attribute(passer,PlayerA,Id).
-
+caused(neg(ball(PlayerA)),Time+1)	:- ticker(Id,pass,Time), attribute(Id,pass,passer,PlayerA).
 %    RECIPIENT
-
-holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(recipient,PlayerB,Id).
-
+caused(    ball(PlayerB) ,Time+1)	:- ticker(Id,pass,Time), attribute(Id,pass,recipient,PlayerB).
 %    TARGET
 %    SOURCE
 %    DIRECTION
@@ -65,29 +49,46 @@ holds(    ball(PlayerB) ,Time+1)	:- ticker(pass(Id),Time), attribute(recipient,P
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SCORE
 %    SCORE
-
-holds(score(S1,Team),Time+1)	:- ticker(score(Id),Time), team(Team,1), attribute(score,S1,S2,Id).
-holds(score(S2,Team),Time+1)	:- ticker(score(Id),Time), team(Team,2), attribute(score,S1,S2,Id).
-
+caused(score(S1,Team),Time+1)	:- ticker(Id,score,Time), team(Team,1), attribute(Id,score,score,S1,S2).
+caused(score(S2,Team),Time+1)	:- ticker(Id,score,Time), team(Team,2), attribute(Id,score,score,S1,S2).
 %    LEADER
 %    TEAMS
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% GOAL
+%    SCORER
+caused(score(S+1,Team),Time+1)      :- ticker(Id,goal,Time), team(Player,Team), holds(score(S,Team),T), attribute(Id,goal,scorer,Player).
+caused(neg(score(S,Team)),Time+1)   :- ticker(Id,goal,Time), team(Player,Team), holds(score(S,Team),T), attribute(Id,goal,scorer,Player).
+%    SCORER_TEAM
+caused(score(S+1,Team),Time+1)      :- ticker(Id,goal,Time), holds(score(S,Team),T), attribute(Id,goal,scorer_team,Team).
+caused(neg(score(S,Team)),Time+1)   :- ticker(Id,goal,Time), holds(score(S,Team),T), attribute(Id,goal,scorer_team,Team).
+%    SHOT
+%    RESULTING_SCORE
+%    SOURCE
+%    PREPARING_EVENT
+%    PREVIOUS_SCORE
+%    PART_OF_BODY
+%    MOVING_BALL
+%    TARGET
+%    GOAL
+%    CONCEDING_TEAM
+%    BALL
+%    PATH
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SUBSTITUTE
 %    COACH
 %    SUBSTITUTED_PLAYER
-
-holds(neg(player(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
-holds(bench(P),Time+1)			:- ticker(substitute(Id),Time), attribute(subsituted_player,P,Id).
-
+caused(neg(player(P)),Time+1)   :- ticker(Id,substitute,Time), attribute(Id,substitute,subsituted_player,P).
+caused(bench(P),Time+1)			    :- ticker(Id,substitute,Time), attribute(Id,substitute,subsituted_player,P).
 %    SUBSTITUTE
-
-holds(player(P),Time+1)		:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
-holds(neg(bench(P)),Time+1)	:- ticker(substitute(Id),Time), attribute(substitute,P,Id).
-
+caused(player(P),Time+1)		    :- ticker(Id,substitute,Time), attribute(Id,substitute,substitute,P).
+caused(neg(bench(P)),Time+1)	  :- ticker(Id,substitute,Time), attribute(Id,substitute,substitute,P).
 %    TEAM
 %    LINEUP
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #show holds/2.
+#show ticker/3.
+#show attribute/4.
