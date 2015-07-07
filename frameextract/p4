@@ -1,0 +1,595 @@
+Offside , Hull City . 
+1 matches: offside n
+ordered set of lexical units:
+[u'offside.n']
+
+Tom Huddlestone ( Hull City ) wins a free kick on the right wing . 
+2 matches: win v
+2 matches: win v
+2 matches: win v
+2 cool matches: free-kick n
+2 matches: wing n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+Foul by Olivier Giroud ( Arsenal ) . 
+3 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Delay in match Francis Coquelin ( Arsenal ) because of an injury . 
+4 matches: match n
+ordered set of lexical units:
+[u'match.n']
+
+Delay over . 
+ordered set of lexical units:
+[]
+
+Foul by Jake Livermore ( Hull City ) . 
+6 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Olivier Giroud ( Arsenal ) wins a free kick in the defensive half . 
+7 matches: win v
+7 matches: win v
+7 matches: win v
+7 cool matches: free-kick n
+7 matches: half n
+7 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Attempt blocked . 
+8 matches: attempt n
+8 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Attempt saved . 
+9 matches: attempt n
+9 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
+Attempt missed . 
+10 matches: attempt n
+10 matches: miss v
+10 matches: miss v
+10 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Offside , Arsenal . 
+11 matches: offside n
+ordered set of lexical units:
+[u'offside.n']
+
+Stephen Quinn ( Hull City ) wins a free kick on the left wing . 
+12 matches: win v
+12 matches: win v
+12 matches: win v
+12 cool matches: free-kick n
+12 matches: wing n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+Foul by Per Mertesacker ( Arsenal ) . 
+13 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Foul by Francis Coquelin ( Arsenal ) . 
+14 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Ahmed Elmohamady ( Hull City ) wins a free kick in the defensive half . 
+15 matches: win v
+15 matches: win v
+15 matches: win v
+15 cool matches: free-kick n
+15 matches: half n
+15 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Attempt missed . 
+16 matches: attempt n
+16 matches: miss v
+16 matches: miss v
+16 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Attempt missed . 
+17 matches: attempt n
+17 matches: miss v
+17 matches: miss v
+17 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Attempt missed . 
+18 matches: attempt n
+18 matches: miss v
+18 matches: miss v
+18 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Alexis Sánchez ( Arsenal ) wins a free kick in the defensive half . 
+19 matches: win v
+19 matches: win v
+19 matches: win v
+19 cool matches: free-kick n
+19 matches: half n
+19 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Foul by Jake Livermore ( Hull City ) . 
+20 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Yellow Card 
+21 matches: yellow n
+ordered set of lexical units:
+[u'yellow.n']
+
+Delay in match Aaron Ramsey ( Arsenal ) because of an injury . 
+22 matches: match n
+ordered set of lexical units:
+[u'match.n']
+
+Delay over . 
+ordered set of lexical units:
+[]
+
+Alexis Sánchez ( Arsenal ) wins a free kick in the attacking half . 
+24 matches: win v
+24 matches: win v
+24 matches: win v
+24 cool matches: free-kick n
+24 matches: attack v
+24 matches: half n
+24 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Jake Livermore ( Hull City ) . 
+25 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Goal 
+26 matches: goal n
+26 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Dame N'Doye ( Hull City ) wins a free kick in the attacking half . 
+27 matches: win v
+27 matches: win v
+27 matches: win v
+27 cool matches: free-kick n
+27 matches: attack v
+27 matches: half n
+27 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Santiago Cazorla ( Arsenal ) . 
+28 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Nacho Monreal ( Arsenal ) wins a free kick in the defensive half . 
+29 matches: win v
+29 matches: win v
+29 matches: win v
+29 cool matches: free-kick n
+29 matches: half n
+29 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Foul by Dame N'Doye ( Hull City ) . 
+30 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Yellow Card 
+31 matches: yellow n
+ordered set of lexical units:
+[u'yellow.n']
+
+Robbie Brady ( Hull City ) wins a free kick in the defensive half . 
+32 matches: win v
+32 matches: win v
+32 matches: win v
+32 cool matches: free-kick n
+32 matches: half n
+32 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Foul by Mesut Özil ( Arsenal ) . 
+33 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Goal 
+34 matches: goal n
+34 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Foul by Olivier Giroud ( Arsenal ) . 
+35 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Tom Huddlestone ( Hull City ) wins a free kick in the attacking half . 
+36 matches: win v
+36 matches: win v
+36 matches: win v
+36 cool matches: free-kick n
+36 matches: attack v
+36 matches: half n
+36 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Attempt blocked . 
+37 matches: attempt n
+37 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Corner , Arsenal . 
+38 matches: corner n
+38 matches: corner n
+ordered set of lexical units:
+[u'corner.n', u'corner.n']
+
+Sone Aluko ( Hull City ) wins a free kick in the attacking half . 
+39 matches: win v
+39 matches: win v
+39 matches: win v
+39 cool matches: free-kick n
+39 matches: attack v
+39 matches: half n
+39 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Laurent Koscielny ( Arsenal ) . 
+40 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Offside , Hull City . 
+41 matches: offside n
+ordered set of lexical units:
+[u'offside.n']
+
+Laurent Koscielny ( Arsenal ) wins a free kick in the defensive half . 
+42 matches: win v
+42 matches: win v
+42 matches: win v
+42 cool matches: free-kick n
+42 matches: half n
+42 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Foul by Dame N'Doye ( Hull City ) . 
+43 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Attempt saved . 
+44 matches: attempt n
+44 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
+Attempt saved . 
+45 matches: attempt n
+45 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
++1' 
+ordered set of lexical units:
+[]
+
++3' 
+ordered set of lexical units:
+[]
+
+Substitution 
+48 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Attempt missed . 
+49 matches: attempt n
+49 matches: miss v
+49 matches: miss v
+49 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Héctor Bellerín ( Arsenal ) wins a free kick in the defensive half . 
+50 matches: win v
+50 matches: win v
+50 matches: win v
+50 cool matches: free-kick n
+50 matches: half n
+50 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Foul by David Meyler ( Hull City ) . 
+51 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Foul by Per Mertesacker ( Arsenal ) . 
+52 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Dame N'Doye ( Hull City ) wins a free kick in the attacking half . 
+53 matches: win v
+53 matches: win v
+53 matches: win v
+53 cool matches: free-kick n
+53 matches: attack v
+53 matches: half n
+53 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Sone Aluko ( Hull City ) . 
+54 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Laurent Koscielny ( Arsenal ) wins a free kick in the defensive half . 
+55 matches: win v
+55 matches: win v
+55 matches: win v
+55 cool matches: free-kick n
+55 matches: half n
+55 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n']
+
+Offside , Hull City . 
+56 matches: offside n
+ordered set of lexical units:
+[u'offside.n']
+
+Attempt missed . 
+57 matches: attempt n
+57 matches: miss v
+57 matches: miss v
+57 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Goal 
+58 matches: goal n
+58 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Stephen Quinn ( Hull City ) wins a free kick in the attacking half . 
+59 matches: win v
+59 matches: win v
+59 matches: win v
+59 cool matches: free-kick n
+59 matches: attack v
+59 matches: half n
+59 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Francis Coquelin ( Arsenal ) . 
+60 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Attempt missed . 
+61 matches: attempt n
+61 matches: miss v
+61 matches: miss v
+61 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Attempt blocked . 
+62 matches: attempt n
+62 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Corner , Arsenal . 
+63 matches: corner n
+63 matches: corner n
+ordered set of lexical units:
+[u'corner.n', u'corner.n']
+
+Attempt missed . 
+64 matches: attempt n
+64 matches: miss v
+64 matches: miss v
+64 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Substitution 
+65 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Substitution 
+66 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Jack Wilshere ( Arsenal ) wins a free kick in the attacking half . 
+67 matches: win v
+67 matches: win v
+67 matches: win v
+67 cool matches: free-kick n
+67 matches: attack v
+67 matches: half n
+67 matches: half n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'half.n', u'half.n', u'free-kick.n', u'attack.v']
+
+Foul by Michael Dawson ( Hull City ) . 
+68 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Delay in match David Meyler ( Hull City ) because of an injury . 
+69 matches: match n
+ordered set of lexical units:
+[u'match.n']
+
+Delay over . 
+ordered set of lexical units:
+[]
+
+Attempt blocked . 
+71 matches: attempt n
+71 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Corner , Arsenal . 
+72 matches: corner n
+72 matches: corner n
+ordered set of lexical units:
+[u'corner.n', u'corner.n']
+
+Attempt saved . 
+73 matches: attempt n
+73 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
+Corner , Arsenal . 
+74 matches: corner n
+74 matches: corner n
+ordered set of lexical units:
+[u'corner.n', u'corner.n']
+
+Substitution 
+75 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Attempt blocked . 
+76 matches: attempt n
+76 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Attempt saved . 
+77 matches: attempt n
+77 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
+Attempt saved . 
+78 matches: attempt n
+78 matches: save v
+ordered set of lexical units:
+[u'attempt.n', u'save.v']
+
+Attempt blocked . 
+79 matches: attempt n
+79 matches: block v
+ordered set of lexical units:
+[u'attempt.n', u'block.v']
+
+Attempt missed . 
+80 matches: attempt n
+80 matches: miss v
+80 matches: miss v
+80 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+Substitution 
+81 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Hand ball by Alexis Sánchez ( Arsenal ) . 
+82 matches: hand n
+82 matches: ball n
+82 matches: ball n
+ordered set of lexical units:
+[u'hand.n', u'ball.n', u'ball.n']
+
+Corner , Arsenal . 
+83 matches: corner n
+83 matches: corner n
+ordered set of lexical units:
+[u'corner.n', u'corner.n']
+
+Nikica Jelavic ( Hull City ) wins a free kick on the right wing . 
+84 matches: win v
+84 matches: win v
+84 matches: win v
+84 cool matches: free-kick n
+84 matches: wing n
+ordered set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+Foul by Francis Coquelin ( Arsenal ) . 
+85 matches: foul n
+ordered set of lexical units:
+[u'foul.n']
+
+Attempt missed . 
+86 matches: attempt n
+86 matches: miss v
+86 matches: miss v
+86 matches: miss v
+ordered set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
++1' 
+ordered set of lexical units:
+[]
+
++2' 
+ordered set of lexical units:
+[]
+
++2' 
+ordered set of lexical units:
+[]
+
++3' 
+ordered set of lexical units:
+[]
+
++4' 
+ordered set of lexical units:
+[]
+
++5' 
+ordered set of lexical units:
+[]
+
