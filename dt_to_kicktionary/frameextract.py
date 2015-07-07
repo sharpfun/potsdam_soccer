@@ -66,6 +66,6 @@ def main():
 
     luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose, luorder)
-
+    
 if __name__ == "__main__":
     main()

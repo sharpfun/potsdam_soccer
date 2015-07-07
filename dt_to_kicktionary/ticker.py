@@ -93,7 +93,7 @@ def read_ticker(parsed_ticker, verbose, language):
                         tree.root_id = cells[0]
                         tree.root_lemma = cells[3]          
                 
-                tree.nodes.append(node)
+                    tree.nodes.append(node)
             
             # sometimes the parsed conll file might have empty lines at the end
             # so need test to make sure we don't add empty trees
