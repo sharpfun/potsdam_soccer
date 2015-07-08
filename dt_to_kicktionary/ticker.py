@@ -50,7 +50,7 @@ def read_ticker(parsed_ticker, verbose, language):
     # open and split the file
     rawsentences = open(parsed_ticker).read().split("\n\n")
     trees = []
-    ticker = re.search(".*/(p[0-9])\.parsed", parsed_ticker)
+    ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
     ticker = ticker.group(1)
     minutes = [0]
     
