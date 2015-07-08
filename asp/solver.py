@@ -8,7 +8,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from somewhere import getASPFactsFromFrames # thats clayton's function
+from asp.aspConversion import to_asp # thats clayton's function
 
 SOLVERESULT = None
 
@@ -66,7 +66,7 @@ def loadScences(ctr):
 
 def solve(frames):
     # Clayton's function for translating frames into asp facts
-    frameFacts = getASPFactsFromFrames(frames)
+    frameFacts = to_asp(frames)
     # initializing the asp controller obj
     ctr = gringo.Control()
     # load the logic prorams into the controller
