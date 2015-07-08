@@ -18,7 +18,7 @@ def main():
     
     srcFile = sys.argv[2]
     with open(srcFile, "r") as fh:
-        matches = re.findall("([+0-9]*)'\s*([^\n]*)", fh.read())
+        matches = re.findall("([\+\s0-9]+\')\s*([^\n\r]*)", fh.read())
         matches.reverse()
         for m in matches:
             mm = m[1]
@@ -27,6 +27,7 @@ def main():
             elif sys.argv[1] == "eng":
                 mm = re.sub(r"([0-9]+):([0-9]+)",r"\1 to \2",mm)
                 mm = mm.replace("min.", "minutes")
+            mm = mm.replace("-", " ")
             mm = re.sub(r"([\.\!\?])$",r" \1",mm)
             
             mm = mm.replace(". ", " .\n")

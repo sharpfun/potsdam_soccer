@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+=======
+asp_potsdam_soccer_notes
+*.conll
+*.lemma
+*.tagged
+*.pyc
+.project
+.pydevproject
+>>>>>>> 5c1b44361b1186dad923cd51eaf286944b8c2abc
