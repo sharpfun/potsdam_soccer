@@ -8,6 +8,8 @@
 
 # TODO: the minute marks should somehow be added to each tree so that it can be used later in the ASP representation
 
+import re
+
 class Node(object):
 
     def __init__(self):
@@ -26,9 +28,14 @@ class Node(object):
 class Tree(object):
 
     def __init__(self):
+        self.ticker = None
+        self.minute = None
         self.tree_id = 0
         self.nodes = []
         self.root = None
+        self.root_pos = None
+        self.root_id = None
+        self.root_lemma = None
         self.lexical_unit = None
         self.object = None # TODO, if necessary
         self.subject = None # TODO, if necessary
@@ -39,47 +46,64 @@ class Tree(object):
 
 def read_ticker(parsed_ticker, verbose, language):
     if verbose: print "Reading ticker..."
-    
+
     # open and split the file
     rawsentences = open(parsed_ticker).read().split("\n\n")
     trees = []
-    ids = 0
+    ticker = re.search(".*/(p[0-9])\.parsed", parsed_ticker)
+    ticker = ticker.group(1)
+    minutes = [0]
     
     for rawsentence in rawsentences:
-    
-        tree = Tree()
-        ids += 1
-        tree.tree_id = ids
-        
         lines = rawsentence.split('\n')
         
-        # English parses don't have "form"
-        # Types are different between English and German
-        # i.e. ROOT vs. --
-        for line in lines:
-        
-            cells = line.split("\t")
-
+        if len(lines) == 1:
+            cells = lines[0].split("\t")
             if len(cells) > 1:
-                node = Node()
+                if cells[5] == "CD":
+                    minutes.pop()
+                    minutes.append(cells[1])
+
+        else:
+            tree = Tree()     
+            tree.minute = minutes[0]
+            tree.ticker = ticker
+            # English parses don't have "form"
+            # Types are different between English and German
+            # i.e. ROOT vs. --
+            for line in lines:
             
-                node.node_id = cells[0]
-                node.word = cells[1]
-                node.lemma = cells[3]
-                node.pos = cells[5]
-                node.form = cells[7]
-                node.head = cells[9]
-                node.type = cells[11]
+                cells = line.split("\t")
+    
+                if len(cells) > 1:
+                    node = Node()
                 
-                # using "head == 0" so that it works for German or English
-                if cells[9] == "0":
-                    tree.root = cells[3]
-          
-            tree.nodes.append(node)
-        
-        # sometimes the parsed conll file might have empty lines at the end
-        # so need test to make sure we don't add empty trees
-        if tree.root != None: trees.append(tree)
+                    node.node_id = cells[0]
+                    node.word = cells[1]
+                    node.lemma = cells[3]
+                    node.pos = cells[5]
+                    node.form = cells[7]
+                    node.head = cells[9]
+                    node.type = cells[11]
+                    
+                    # using "head == 0" so that it works for German or English
+                    if cells[9] == "0":
+                        tree.root = cells[3]
+                        tree.root_pos = cells[5]
+                        tree.root_id = cells[0]
+                        tree.root_lemma = cells[3]          
+                
+                    tree.nodes.append(node)
+            
+            # sometimes the parsed conll file might have empty lines at the end
+            # so need test to make sure we don't add empty trees
+            if tree.root != None: trees.append(tree)
+    
+    # and add IDs
+    ids = len(trees)
+    for tree in trees:
+        ids -= 1
+        tree.tree_id = ids
       
     if verbose:
         roots = []
