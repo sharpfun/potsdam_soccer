@@ -1,0 +1,549 @@
+Reading Kicktionary...
+Read in 599 lexical units
+Reading ticker...
+Ticker trees have these roots: 
+(break,[(2,alexis,SBJ), (0,break,ROOT), (2,towards,ADV), (5,the,NMOD), (3,box,PMOD), (2,but,COORD), (6,drag,CONJ), (9,his,NMOD), (7,shot,OBJ), (7,wide,MNR), (2,.,P), (13,walcott,SBJ), (5,have,NMOD), (13,previously,TMP), (13,fire,VC), (15,wide,PRD), (16,too,AMOD)])  
+(minutes,[(2,four,NMOD), (0,minutes,ROOT), (2,to,NMOD), (3,be,IM), (4,add,VC), (5,on,PRT), (5,at,LOC), (9,kc,NAME), (7,stadium...,PMOD)])  
+(push,[(2,harper,SBJ), (0,push,ROOT), (2,away,ADV), (5,bellerin's,NMOD), (2,strike,OBJ), (5,,,P), (8,wilshere's,NAME), (9,volley,SBJ), (5,be,NMOD), (9,block,VC), (10,and,COORD), (13,alexis,NMOD), (14,smash,SBJ), (11,wide,CONJ)])  
+(come,[(2,substitution:,NAME), (3,walcott,SBJ), (0,come,ROOT), (3,on,PRT), (3,for,ADV), (5,giroud,PMOD)])  
+(keep,[(4,harper,SBJ), (4,just,ADV), (2,about,AMOD), (0,keep,ROOT), (4,out,PRT), (8,cazorla',NMOD), (8,low,NMOD), (4,strike,OBJ), (8,with,NMOD), (12,an,NMOD), (12,outstretched,NMOD), (9,leg,PMOD)])  
+(come,[(2,substitution:,NAME), (3,jelavic,SBJ), (0,come,ROOT), (3,on,PRT), (3,for,ADV), (5,quinn,PMOD)])  
+(feed,[(2,wilshere,SBJ), (0,feed,ROOT), (2,ozil,OBJ), (5,who,SBJ), (3,cross,NMOD), (5,to,ADV), (6,cazorla,PMOD), (5,but,COORD), (11,his,NMOD), (11,close-range,NMOD), (12,volley,SBJ), (8,be,CONJ), (12,hold,VC), (13,by,LGS), (14,harper,PMOD)])  
+(be,[(2,ozil's,NMOD), (3,corner,SBJ), (0,be,ROOT), (3,clear,VC), (3,but,COORD), (7,arsenal,NAME), (5,retain,CONJ), (4,possession,OBJ), (4,deep,MNR), (4,in,LOC), (10,hull's,PMOD), (11,half,NMOD)])  
+(have,[(2,alexis's,NAME), (3,free-kick,SBJ), (10,be,SBJ), (3,block,VC), (4,by,LGS), (7,the,NMOD), (5,wall,PMOD), (7,and,COORD), (8,arsenal,CONJ), (0,have,ROOT), (12,a,NMOD), (10,corner...,OBJ)])  
+(race,[(2,wilshere,NMOD), (0,race,ROOT), (2,past,NMOD), (5,three,NMOD), (3,defender,PMOD), (5,to,NMOD), (6,win,IM), (9,a,NMOD), (7,free-kick,OBJ), (11,right,PMOD), (7,on,ADV), (13,the,NMOD), (11,edge,PMOD), (13,of,NMOD), (16,the,NMOD), (14,box...,PMOD)])  
+(come,[(2,substitution:,NAME), (3,wilshere,SBJ), (0,come,ROOT), (3,on,PRT), (3,for,ADV), (5,ramsey,PMOD)])  
+(come,[(2,substitution:,NAME), (3,robertson,SBJ), (0,come,ROOT), (3,on,PRT), (3,for,ADV), (5,aluko,PMOD)])  
+(football,[(3,more,NMOD), (3,clever,NMOD), (0,football,ROOT), (3,by,NMOD), (4,arsenal,PMOD), (3,,,P), (8,this,NMOD), (2,time,TMP), (11,ramsey,NAME), (11,volley,NAME), (12,giroud',NMOD), (8,flick,TMP), (12,over,NMOD)])  
+(find,[(2,ozil,SBJ), (0,find,ROOT), (2,alexis,OBJ), (2,with,ADV), (7,a,NMOD), (7,clever,NMOD), (4,flick,PMOD), (2,and,COORD), (10,the,NMOD), (11,chilean,SBJ), (8,look,CONJ), (11,for,ADV), (14,the,NMOD), (12,return,PMOD), (2,but,COORD), (17,harper,SBJ), (15,push,CONJ), (17,clear,OPRD)])  
+(cross,[(2,alexis,NMOD), (4,attack,SBJ), (2,bellerin's,OBJ), (0,cross,ROOT), (4,at,LOC), (8,the,NMOD), (8,far,NMOD), (5,post,PMOD), (4,but,COORD), (11,harper,SBJ), (9,scoop,CONJ), (11,up,PRT), (14,his,NMOD), (11,header,OBJ)])  
+(send,[(2,elmohamady,SBJ), (0,send,ROOT), (2,across,DIR), (6,another,NMOD), (6,dangerous,NMOD), (3,delivery,PMOD), (8,which,SBJ), (6,be,NMOD), (8,head,VC), (9,over,PRT), (9,by,LGS), (11,mcshane,PMOD)])  
+(head,[(2,quinn,SBJ), (0,head,ROOT), (4,elmohamady's,NMOD), (2,cross,OBJ), (4,past,NMOD), (5,ospina,PMOD), (2,from,ADV), (9,eight,NMOD), (7,yard,PMOD)])  
+(goal,[(0,goal,ROOT), (1,!,P), (1,quinn,APPO), (1,!,P)])  
+(combine,[(2,ramsey,SBJ), (0,combine,ROOT), (2,with,ADV), (3,cazorla,PMOD), (2,and,COORD), (5,stab,CONJ), (9,a,NMOD), (9,half-volley,NMOD), (6,inch,OBJ), (9,wide,APPO), (10,of,AMOD), (14,the,NMOD), (14,bottom,NAME), (11,corner,PMOD)])  
+(turn,[(2,alexis,SBJ), (0,turn,ROOT), (2,away,PRT), (2,from,ADV), (4,meyler,PMOD), (2,on,ADV), (9,the,NMOD), (9,halfway,NMOD), (6,line,PMOD), (2,and,COORD), (10,clip,CONJ), (2,over,PRT), (2,to,ADV), (13,giroud,PMOD), (2,but,COORD), (17,harper,SBJ), (15,collect,CONJ)])  
+(beat,[(2,bellerin,SBJ), (0,beat,ROOT), (2,brady,OBJ), (2,to,OPRD), (4,get,IM), (5,into,ADV), (8,the,NMOD), (6,box,PMOD), (2,but,COORD), (9,be,CONJ), (10,eventually,TMP), (10,outnumber,VC), (12,and,COORD), (15,hull,NAME), (13,clear,CONJ)])  
+(create,[(2,aluko,SBJ), (0,create,ROOT), (4,a,NMOD), (2,yard,OBJ), (4,of,NMOD), (5,space,PMOD), (4,on,NMOD), (9,the,NMOD), (7,edge,PMOD), (9,of,NMOD), (12,the,NMOD), (10,box,PMOD), (2,but,COORD), (13,slice,CONJ), (16,his,NMOD), (14,effort,OBJ), (14,off,ADV), (17,target,PMOD)])  
+(get,[(2,hull,NAME), (3,city,SBJ), (0,get,ROOT), (3,us,OBJ), (3,back,PRT), (3,underway,MNR), (3,at,LOC), (9,kc,NAME), (7,stadium,PMOD), (3,.,P)])  
+(come,[(0,come,ROOT), (1,on,ADV), (4,you,NMOD), (2,gunners,PMOD), (1,!,P)])  
+(come,[(2,substitution:,NAME), (3,meyler,SBJ), (0,come,ROOT), (3,on,PRT), (3,for,ADV), (5,livermore,PMOD)])  
+(find,[(2,ramsey,SBJ), (0,find,ROOT), (2,alexis,OBJ), (2,with,ADV), (8,an,NMOD), (8,excellent,NMOD), (8,reverse,NMOD), (4,pass,PMOD), (2,and,COORD), (11,the,NMOD), (12,chilean,SBJ), (9,round,CONJ), (12,harper,OBJ), (12,to,PRP), (14,slot,IM), (15,home,OBJ)])  
+(goal,[(0,goal,ROOT), (1,!,P), (1,alexis,DEP), (1,!,P)])  
+(minutes,[(2,two,NMOD), (0,minutes,ROOT), (2,to,NMOD), (3,be,IM), (4,add,VC), (5,on,PRT), (5,at,TMP), (9,the,NMOD), (7,end,PMOD), (9,of,NMOD), (13,the,NMOD), (13,first,NMOD), (10,half...,PMOD)])  
+(thread,[(2,cazorla,SBJ), (0,thread,ROOT), (2,through,ADV), (3,alexis,PMOD), (2,brilliantly,MNR), (2,but,COORD), (8,harper,SBJ), (6,keep,CONJ), (8,out,PRT), (12,his,NMOD), (12,attempt,NMOD), (8,chip,OBJ)])  
+(combine,[(4,ramsey,SBJ), (1,and,COORD), (2,alexis,CONJ), (0,combine,ROOT), (4,to,OPRD), (5,release,IM), (6,ozil,OBJ), (10,whose,NMOD), (10,low,NMOD), (11,strike,SBJ), (6,be,OBJ), (11,hold,VC), (12,by,LGS), (13,harper,PMOD)])  
+(get,[(2,elmohamady,SBJ), (0,get,ROOT), (2,in,ADV), (3,behind,PMOD), (4,and,COORD), (5,square,CONJ), (2,to,ADV), (7,aluko,PMOD), (2,but,COORD), (11,mertesacker,SBJ), (9,be,CONJ), (13,well,AMOD), (11,place,PRD), (13,to,PRP), (14,clear,IM)])  
+(find,[(2,cazorla,SBJ), (0,find,ROOT), (2,ramsey,OBJ), (2,with,ADV), (7,a,NMOD), (7,50-yard,NMOD), (4,pass,PMOD), (2,and,COORD), (10,the,NMOD), (11,welshman,SBJ), (8,send,CONJ), (14,a,NMOD), (14,loop,NMOD), (11,strike,OBJ), (11,into,DIR), (18,the,NMOD), (18,top,NMOD), (15,corner,PMOD)])  
+(goal,[(0,goal,ROOT), (1,!,P), (1,ramsey,DEP), (1,!,P)])  
+(be,[(2,n'doye,SBJ), (0,be,ROOT), (5,the,NMOD), (5,first,NMOD), (2,name,PRD), (2,in,LOC), (8,the,NMOD), (6,book,PMOD), (2,after,TMP), (11,he,SBJ), (9,trip,SUB), (11,monreal,OBJ)])  
+(free-kick,[(2,alexis's,SBJ), (0,free-kick,ROOT), (2,flick,OBJ), (2,off,ADV), (4,dawson,PMOD), (2,and,COORD), (6,sail,CONJ), (7,past,DIR), (11,the,NMOD), (11,strand,NMOD), (8,harper,PMOD), (2,to,PRP), (12,give,IM), (13,arsenal,OBJ), (16,the,NMOD), (13,lead,OBJ)])  
+(goal,[(0,goal,ROOT), (1,!,P), (1,alexis,DEP), (1,!,P)])  
+(win,[(2,ozil,SBJ), (0,win,ROOT), (4,the,NMOD), (2,ball,OBJ), (2,back,ADV), (5,high,AMOD), (5,up,AMOD), (9,the,NMOD), (7,pitch,PMOD), (2,and,COORD), (12,alexis,SBJ), (10,be,CONJ), (12,foul,VC), (13,on,ADV), (16,the,NMOD), (14,edge,PMOD), (16,of,NMOD), (17,hull's,PMOD), (2,box...,P)])  
+(be,[(2,ramsey,SBJ), (0,be,ROOT), (2,back,PRD), (3,on,AMOD), (6,his,NMOD), (4,foot,PMOD), (2,and,COORD), (9,it,SBJ), (7,look,CONJ), (9,like,OBJ), (12,he,SBJ), (10,be,SUB), (12,okay,PRD), (13,to,AMOD), (14,continue,IM)])  
+(there',[(0,there',NMOD), (3,a,NMOD), (1,break,NMOD), (3,in,NMOD), (4,play,PMOD), (3,at,LOC), (8,kc,NAME), (6,stadium,PMOD), (3,while,TMP), (11,ramsey,SBJ), (9,receive,SUB), (11,treatment,OBJ), (11,after,TMP), (13,collide,PMOD), (14,with,ADV), (15,huddlestone,PMOD)])  
+(whip,[(2,brady,SBJ), (0,whip,ROOT), (2,in,LOC), (6,a,NMOD), (6,dangerous,NMOD), (3,cross,PMOD), (2,and,COORD), (9,aluko,SBJ), (7,head,CONJ), (9,back,DIR), (9,across,ADV), (11,goal,PMOD), (9,but,COORD), (15,mertesacker,SBJ), (13,clear,CONJ)])  
+(be,[(2,cazorla,SBJ), (0,be,ROOT), (2,catch,VC), (3,in,LOC), (4,possession,PMOD), (7,30,NMOD), (3,yard,OBJ), (7,out,NMOD), (7,and,COORD), (11,n'doye,NMOD), (9,spots,CONJ), (11,ospina,OBJ), (3,off,ADV), (15,his,NMOD), (13,line,PMOD), (2,but,COORD), (16,smash,CONJ), (17,off,PRT), (17,target,OBJ)])  
+(meet,[(2,quinn,SBJ), (0,meet,ROOT), (4,elmohamady's,SBJ), (2,deflect,OBJ), (4,cross,OBJ), (4,at,LOC), (9,the,NMOD), (9,far,NMOD), (6,post,PMOD), (2,but,COORD), (10,head,CONJ), (13,well,AMOD), (11,wide,OBJ), (13,of,AMOD), (17,the,NMOD), (17,far,NMOD), (14,post,PMOD)])  
+(clear,[(2,coquelin,SBJ), (0,clear,ROOT), (4,the,NMOD), (2,free-kick,OBJ), (4,and,COORD), (7,arsenal,NMOD), (5,break,CONJ), (7,with,NMOD), (8,ozil,PMOD), (11,who,SBJ), (7,return,NMOD), (11,to,ADV), (14,the,NMOD), (12,frenchman,PMOD), (14,but,COORD), (17,hull,SBJ), (15,block,CONJ), (19,his,NMOD), (17,pass,OBJ)])  
+(hull,[(0,hull,ROOT), (1,win,VC), (4,a,NMOD), (2,free-kick,OBJ), (2,on,LOC), (8,the,NMOD), (8,left-hand,NMOD), (5,side,PMOD), (8,of,NMOD), (11,the,NMOD), (9,box,PMOD), (2,after,TMP), (14,mertesacker,SBJ), (12,collide,SUB), (14,with,ADV), (15,quinn...,PMOD)])  
+(clip,[(2,ramsey,SBJ), (0,clip,ROOT), (2,over,DIR), (5,the,NMOD), (3,top,PMOD), (5,to,NMOD), (6,ozil,PMOD), (2,but,COORD), (10,harper,SBJ), (8,collect,CONJ), (13,his,NMOD), (13,clever,NMOD), (10,backheel,OBJ)])  
+(beat,[(3,alexis,SBJ), (3,then,TMP), (0,beat,ROOT), (5,his,NMOD), (3,man,OBJ), (5,to,NMOD), (6,reach,IM), (9,the,NMOD), (7,byline,OBJ), (9,and,COORD), (10,cross,CONJ), (9,to,NMOD), (12,giroud,IM), (15,who,SBJ), (13,volley,OBJ), (15,wide,LOC)])  
+(play,[(2,alexis,SBJ), (0,play,ROOT), (4,a,NMOD), (2,one-two,OBJ), (2,with,ADV), (5,ozil,PMOD), (2,before,TMP), (7,force,PMOD), (8,harper,OBJ), (8,into,ADV), (13,a,NMOD), (13,low,NMOD), (10,save,PMOD), (13,from,NMOD), (16,18,NMOD), (14,yard,PMOD)])  
+(beat,[(2,elmohamady,SBJ), (0,beat,ROOT), (2,monreal,OBJ), (2,and,COORD), (4,float,CONJ), (7,a,NMOD), (5,cross,OBJ), (5,in,DIR), (5,but,COORD), (11,ospina,SBJ), (9,come,CONJ), (11,off,PRT), (14,his,NMOD), (8,line,PMOD), (11,quickly,MNR), (11,to,PRP), (16,claim,IM)])  
+(feed,[(2,ramsey,SBJ), (0,feed,ROOT), (2,bellerin,OBJ), (5,who,SBJ), (3,fizz,NMOD), (5,across,ADV), (6,goal,PMOD), (2,and,COORD), (10,harper,SBJ), (8,have,CONJ), (10,to,OPRD), (11,react,IM), (12,to,PRP), (13,keep,IM), (14,out,PRT), (17,huddlestone's,NAME), (14,deflection,OBJ)])  
+(look,[(2,ramsey,SBJ), (0,look,ROOT), (2,for,ADV), (3,ozil,PMOD), (2,with,ADV), (8,a,NMOD), (8,long,NMOD), (5,ball,PMOD), (8,over,NMOD), (11,the,NMOD), (9,top,PMOD), (11,but,COORD), (14,hull,SBJ), (12,defend,CONJ), (16,the,NMOD), (14,danger,OBJ), (16,and,COORD), (19,harper,NAME), (17,claim,CONJ)])  
+(keep,[(2,arsenal,SBJ), (0,keep,ROOT), (4,the,NMOD), (2,ball,OBJ), (4,for,NMOD), (8,the,NMOD), (8,first,NMOD), (5,minute,PMOD), (8,before,LOC), (11,ramsey,NMOD), (12,flick,NMOD), (9,monreal's,PMOD), (2,cross,OPRD), (15,just,AMOD), (2,wide,PRD)])
+Looking up tree roots in Kicktionary...
+50 matches: break v
+50 matches: break v
+50 matches: box n
+50 matches: shot n
+50 matches: fire v
+50 matches: fire v
+Alexis breaks towards the box but drags his shot wide . Walcott had previously fired wide too 
+set of lexical units:
+[u'break.v', u'break.v', u'box.n', u'shot.n', u'fire.v', u'fire.v']
+
+Four minutes to be added on at KC Stadium... 
+set of lexical units:
+[]
+
+48 matches: push v
+48 matches: strike n
+48 matches: strike n
+48 matches: volley n
+48 matches: block v
+Harper pushes away Bellerin's strike , Wilshere's volley is blocked and Alexis smashes wide 
+set of lexical units:
+[u'push.v', u'strike.n', u'strike.n', u'volley.n', u'block.v']
+
+47 cool matches: come_on.v.v v
+SUBSTITUTION: Walcott comes on for Giroud 
+set of lexical units:
+[u'come_on.v']
+
+46 matches: strike n
+46 matches: strike n
+46 matches: leg n
+Harper just about keeps out Cazorla's low strike with an outstretched leg 
+set of lexical units:
+[u'strike.n', u'strike.n', u'leg.n']
+
+45 cool matches: come_on.v.v v
+SUBSTITUTION: Jelavic comes on for Quinn 
+set of lexical units:
+[u'come_on.v']
+
+44 matches: feed v
+44 matches: cross v
+44 matches: volley n
+44 matches: hold v
+Wilshere feeds Ozil who crosses to Cazorla but his close-range volley is held by Harper 
+set of lexical units:
+[u'feed.v', u'cross.v', u'volley.n', u'hold.v']
+
+43 matches: corner n
+43 matches: corner n
+43 matches: clear v
+43 matches: possession n
+Ozil's corner is cleared but Arsenal retain possession deep in Hull's half 
+set of lexical units:
+[u'corner.n', u'corner.n', u'clear.v', u'possession.n']
+
+42 matches: free-kick n
+42 matches: block v
+42 matches: wall n
+Alexis's free-kick is blocked by the wall and Arsenal have a corner... 
+set of lexical units:
+[u'free-kick.n', u'block.v', u'wall.n']
+
+41 matches: defender n
+41 matches: win v
+41 matches: win v
+41 matches: win v
+41 matches: free-kick n
+Wilshere races past three defenders to win a free-kick right on the edge of the box... 
+set of lexical units:
+[u'defender.n', u'win.v', u'win.v', u'win.v', u'free-kick.n']
+
+40 cool matches: come_on.v.v v
+SUBSTITUTION: Wilshere comes on for Ramsey 
+set of lexical units:
+[u'come_on.v']
+
+39 cool matches: come_on.v.v v
+SUBSTITUTION: Robertson comes on for Aluko 
+set of lexical units:
+[u'come_on.v']
+
+38 matches: volley n
+More clever football by Arsenal , this time Ramsey volleys Giroud's flick over 
+set of lexical units:
+[u'volley.n']
+
+37 matches: find v
+37 matches: push v
+Ozil finds Alexis with a clever flick and the Chilean looks for the return but Harper pushes clear 
+set of lexical units:
+[u'find.v', u'push.v']
+
+36 matches: attack n
+36 matches: attack n
+36 matches: cross v
+36 matches: post n
+36 matches: header n
+Alexis attacks Bellerin's cross at the far post but Harper scoops up his header 
+set of lexical units:
+[u'attack.n', u'attack.n', u'cross.v', u'post.n', u'header.n']
+
+35 matches: head v
+Elmohamady sends across another dangerous delivery which is headed over by McShane 
+set of lexical units:
+[u'head.v']
+
+34 matches: head v
+34 matches: cross n
+Quinn heads Elmohamady's cross past Ospina from eight yards 
+set of lexical units:
+[u'head.v', u'cross.n']
+
+33 matches: goal n
+33 matches: goal n
+Goal ! Quinn ! 
+set of lexical units:
+[u'goal.n', u'goal.n']
+
+32 matches: combine v
+32 matches: half-volley n
+32 matches: corner n
+32 matches: corner n
+Ramsey combines with Cazorla and stabs a half-volley inches wide of the bottom corner 
+set of lexical units:
+[u'combine.v', u'half-volley.n', u'corner.n', u'corner.n']
+
+31 matches: turn v
+31 cool matches: halfway_line.n.n n
+31 matches: collect v
+31 matches: collect v
+31 matches: collect v
+Alexis turns away from Meyler on the halfway line and clips over to Giroud but Harper collects 
+set of lexical units:
+[u'turn.v', u'halfway_line.n', u'collect.v', u'collect.v', u'collect.v']
+
+30 matches: beat v
+30 matches: beat v
+30 matches: beat v
+30 matches: box n
+Bellerin beats Brady to get into the box but is eventually outnumbered and Hull clear 
+set of lexical units:
+[u'beat.v', u'beat.v', u'beat.v', u'box.n']
+
+29 matches: create v
+29 matches: box n
+29 matches: effort n
+Aluko creates a yard of space on the edge of the box but slices his effort off target 
+set of lexical units:
+[u'create.v', u'box.n', u'effort.n']
+
+28 matches: stadium n
+Hull City get us back underway at KC Stadium . 
+set of lexical units:
+[u'stadium.n']
+
+27 cool matches: come_on.v.v v
+COME ON YOU GUNNERS ! 
+set of lexical units:
+[u'come_on.v']
+
+26 cool matches: come_on.v.v v
+SUBSTITUTION: Meyler comes on for Livermore 
+set of lexical units:
+[u'come_on.v']
+
+25 matches: find v
+25 matches: pass n
+25 matches: round v
+Ramsey finds Alexis with an excellent reverse pass and the Chilean rounds Harper to slot home 
+set of lexical units:
+[u'find.v', u'pass.n', u'round.v']
+
+GOAL ! ALEXIS ! 
+set of lexical units:
+[]
+
+Two minutes to be added on at the end of the first half... 
+set of lexical units:
+[]
+
+22 matches: thread v
+22 matches: thread v
+22 matches: chip n
+Cazorla threads through Alexis brilliantly but Harper keeps out his attempted chip 
+set of lexical units:
+[u'thread.v', u'thread.v', u'chip.n']
+
+21 matches: combine v
+21 matches: release v
+21 matches: strike n
+21 matches: strike n
+21 matches: hold v
+Ramsey and Alexis combine to release Ozil whose low strike is held by Harper 
+set of lexical units:
+[u'combine.v', u'release.v', u'strike.n', u'strike.n', u'hold.v']
+
+20 matches: clear v
+Elmohamady gets in behind and squares to Aluko but Mertesacker is well placed to clear 
+set of lexical units:
+[u'clear.v']
+
+19 matches: find v
+19 matches: pass n
+19 matches: strike n
+19 matches: strike n
+19 matches: corner n
+19 matches: corner n
+Cazorla finds Ramsey with a 50-yard pass and the Welshman sends a looping strike into the top corner 
+set of lexical units:
+[u'find.v', u'pass.n', u'strike.n', u'strike.n', u'corner.n', u'corner.n']
+
+GOAL ! RAMSEY ! 
+set of lexical units:
+[]
+
+17 matches: trip v
+N'Doye is the first name in the book after he trips Monreal 
+set of lexical units:
+[u'trip.v']
+
+16 matches: give v
+16 matches: lead n
+Alexis's free-kick flicks off Dawson and sails past the stranded Harper to give Arsenal the lead 
+set of lexical units:
+[u'give.v', u'lead.n']
+
+GOAL ! ALEXIS ! 
+set of lexical units:
+[]
+
+14 matches: win v
+14 matches: win v
+14 matches: win v
+14 matches: ball n
+14 matches: ball n
+14 matches: pitch n
+14 matches: foul v
+Ozil wins the ball back high up the pitch and Alexis is fouled on the edge of Hull's box... 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'ball.n', u'ball.n', u'pitch.n', u'foul.v']
+
+13 matches: foot n
+Ramsey is back on his feet and it looks like he is okay to continue 
+set of lexical units:
+[u'foot.n']
+
+12 matches: break n
+12 matches: break n
+12 matches: stadium n
+12 matches: receive v
+12 matches: receive v
+There's a break in play at KC Stadium while Ramsey receives treatment after colliding with Huddlestone 
+set of lexical units:
+[u'break.n', u'break.n', u'stadium.n', u'receive.v', u'receive.v']
+
+11 matches: cross n
+11 matches: head v
+11 matches: goal n
+11 matches: goal n
+11 matches: clear v
+Brady whips in a dangerous cross and Aluko heads back across goal but Mertesacker clears 
+set of lexical units:
+[u'cross.n', u'head.v', u'goal.n', u'goal.n', u'clear.v']
+
+10 matches: catch v
+10 matches: possession n
+10 matches: line n
+Cazorla is caught in possession 30 yards out and N'Doye spots Ospina off his line but smashes off target 
+set of lexical units:
+[u'catch.v', u'possession.n', u'line.n']
+
+9 matches: meet v
+9 matches: meet v
+9 matches: deflect v
+9 matches: cross n
+9 matches: post n
+9 matches: head v
+9 matches: post n
+Quinn meets Elmohamady's deflected cross at the far post but heads well wide of the far post 
+set of lexical units:
+[u'meet.v', u'meet.v', u'deflect.v', u'cross.n', u'post.n', u'head.v', u'post.n']
+
+8 matches: clear v
+8 matches: free-kick n
+8 matches: break n
+8 matches: break n
+8 matches: block v
+8 matches: pass n
+Coquelin clears the free-kick and Arsenal break with Ozil who returns to the Frenchman but Hull block his pass 
+set of lexical units:
+[u'clear.v', u'free-kick.n', u'break.n', u'break.n', u'block.v', u'pass.n']
+
+7 matches: win v
+7 matches: win v
+7 matches: win v
+7 matches: free-kick n
+7 matches: side n
+7 matches: box n
+Hull win a free-kick on the left-hand side of the box after Mertesacker collides with Quinn... 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'side.n', u'box.n']
+
+6 matches: collect v
+6 matches: collect v
+6 matches: collect v
+Ramsey clips over the top to Ozil but Harper collects his clever backheel 
+set of lexical units:
+[u'collect.v', u'collect.v', u'collect.v']
+
+5 matches: beat v
+5 matches: beat v
+5 matches: beat v
+5 matches: cross n
+5 matches: volley n
+Alexis then beats his man to reach the byline and crosses to Giroud who volleys wide 
+set of lexical units:
+[u'beat.v', u'beat.v', u'beat.v', u'cross.n', u'volley.n']
+
+4 matches: play v
+4 matches: play v
+4 matches: play v
+4 matches: one-two n
+4 matches: save n
+Alexis plays a one-two with Ozil before forcing Harper into a low save from 18 yards 
+set of lexical units:
+[u'play.v', u'play.v', u'play.v', u'one-two.n', u'save.n']
+
+3 matches: beat v
+3 matches: beat v
+3 matches: beat v
+3 matches: cross n
+3 matches: line n
+3 matches: claim v
+Elmohamady beats Monreal and floats a cross in but Ospina comes off his line quickly to claim 
+set of lexical units:
+[u'beat.v', u'beat.v', u'beat.v', u'cross.n', u'line.n', u'claim.v']
+
+2 matches: feed v
+2 matches: goal n
+2 matches: goal n
+2 matches: deflection n
+Ramsey feeds Bellerin who fizzes across goal and Harper has to react to keep out Huddlestone's deflection 
+set of lexical units:
+[u'feed.v', u'goal.n', u'goal.n', u'deflection.n']
+
+1 matches: ball n
+1 matches: ball n
+1 matches: defend v
+Ramsey looks for Ozil with a long ball over the top but Hull defend the danger and Harper claims 
+set of lexical units:
+[u'ball.n', u'ball.n', u'defend.v']
+
+0 matches: ball n
+0 matches: ball n
+0 matches: cross v
+Arsenal keep the ball for the first minute before Ramsey flicks Monreal's cross just wide 
+set of lexical units:
+[u'ball.n', u'ball.n', u'cross.v']
+
+Identifying arguments...
+TICKER : p5
+MINUTE : 85
+Harper pushes away Bellerin's strike , Wilshere's volley is blocked and Alexis smashes wide 
+FRAME:  Shot
+{'SHOOTER': 'Harper'}
+
+TICKER : p5
+MINUTE : 85
+SUBSTITUTION: Walcott comes on for Giroud 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Giroud', 'SUBSTITUTE': 'Walcott'}
+
+TICKER : p5
+MINUTE : 84
+Harper just about keeps out Cazorla's low strike with an outstretched leg 
+FRAME:  Shot
+{'SHOOTER': 'Harper'}
+
+TICKER : p5
+MINUTE : 81
+SUBSTITUTION: Jelavic comes on for Quinn 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Quinn', 'SUBSTITUTE': 'Jelavic'}
+
+TICKER : p5
+MINUTE : 75
+Wilshere feeds Ozil who crosses to Cazorla but his close-range volley is held by Harper 
+FRAME:  Pass
+{'PASSER': 'Wilshere', 'RECIPIENT': 'Cazorla'}
+
+TICKER : p5
+MINUTE : 73
+Ozil's corner is cleared but Arsenal retain possession deep in Hull's half 
+FRAME:  Set_Piece
+{}
+
+TICKER : p5
+MINUTE : 72
+Alexis's free-kick is blocked by the wall and Arsenal have a corner... 
+FRAME:  Set_Piece
+{}
+
+TICKER : p5
+MINUTE : 67
+SUBSTITUTION: Wilshere comes on for Ramsey 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Ramsey', 'SUBSTITUTE': 'Wilshere'}
+
+TICKER : p5
+MINUTE : 65
+SUBSTITUTION: Robertson comes on for Aluko 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Aluko', 'SUBSTITUTE': 'Robertson'}
+
+TICKER : p5
+MINUTE : 61
+Alexis attacks Bellerin's cross at the far post but Harper scoops up his header 
+FRAME:  Pass
+{}
+
+TICKER : p5
+MINUTE : 60
+Elmohamady sends across another dangerous delivery which is headed over by McShane 
+FRAME:  Shot
+{'SHOOTER': 'Elmohamady'}
+
+TICKER : p5
+MINUTE : 57
+Quinn heads Elmohamady's cross past Ospina from eight yards 
+FRAME:  Shot
+{'SHOOTER': 'Quinn'}
+
+TICKER : p5
+MINUTE : 57
+Goal ! Quinn ! 
+FRAME:  Goal
+{'SCORER': 'Quinn'}
+
+TICKER : p5
+MINUTE : 46
+SUBSTITUTION: Meyler comes on for Livermore 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Livermore', 'SUBSTITUTE': 'Meyler'}
+
+TICKER : p5
+MINUTE : 45
+Ramsey finds Alexis with an excellent reverse pass and the Chilean rounds Harper to slot home 
+FRAME:  Pass
+{'PASSER': 'Ramsey'}
+
+TICKER : p5
+MINUTE : 45
+GOAL ! ALEXIS ! 
+FRAME:  Goal
+{'SCORER': 'ALEXIS'}
+
+TICKER : p5
+MINUTE : 41
+Elmohamady gets in behind and squares to Aluko but Mertesacker is well placed to clear 
+FRAME:  Intervene
+{}
+
+TICKER : p5
+MINUTE : 33
+Cazorla finds Ramsey with a 50-yard pass and the Welshman sends a looping strike into the top corner 
+FRAME:  Pass
+{'PASSER': 'Cazorla'}
+
+TICKER : p5
+MINUTE : 33
+GOAL ! RAMSEY ! 
+FRAME:  Goal
+{'SCORER': 'RAMSEY'}
+
+TICKER : p5
+MINUTE : 28
+GOAL ! ALEXIS ! 
+FRAME:  Goal
+{'SCORER': 'ALEXIS'}
+
+TICKER : p5
+MINUTE : 23
+Brady whips in a dangerous cross and Aluko heads back across goal but Mertesacker clears 
+FRAME:  Pass
+{'PASSER': 'Brady'}
+
+TICKER : p5
+MINUTE : 19
+Coquelin clears the free-kick and Arsenal break with Ozil who returns to the Frenchman but Hull block his pass 
+FRAME:  Intervene
+{'INTERVENING_PLAYER': 'Coquelin'}
+

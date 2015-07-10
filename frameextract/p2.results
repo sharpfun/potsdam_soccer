@@ -1,0 +1,1929 @@
+Reading Kicktionary...
+Read in 599 lexical units
+Reading ticker...
+Ticker trees have these roots: 
+(have,[(2,the,NMOD), (3,game,SBJ), (0,have,ROOT), (3,not,ADV), (3,be,VC), (7,extremely,AMOD), (5,attractive,PRD), (3,,,P), (3,but,COORD), (11,it,SBJ), (9,have,CONJ), (11,not,ADV), (11,be,VC), (15,totally,ADV), (13,boring,VC), (15,either,ADV), (3,.,P)])  
+(have,[(2,there,SBJ), (0,have,ROOT), (2,be,VC), (7,a,NMOD), (7,few,NMOD), (7,nice,NMOD), (3,movement,PRD), (7,on,LOC), (10,both,NMOD), (8,side,PMOD), (2,.,P)])  
+(belong,[(2,the,NMOD), (6,control,SBJ), (2,of,NMOD), (5,the,NMOD), (3,game,PMOD), (0,belong,ROOT), (6,to,ADV), (9,the,NMOD), (7,visitor,PMOD), (6,.,P)])  
+(be,[(2,long,NMOD), (5,ball,SBJ), (2,and,COORD), (3,cross,CONJ), (0,be,ROOT), (8,the,NMOD), (8,strong,NMOD), (5,weapon,PRD), (8,of,NMOD), (12,the,NMOD), (12,home,NMOD), (9,team,PMOD), (5,.,P)])  
+(present,[(6,player,SBJ), (1,of,NMOD), (5,the,NMOD), (5,away,NMOD), (2,team,PMOD), (0,present,ROOT), (6,themselves,OBJ), (6,with,ADV), (10,possession,NMOD), (8,football,PMOD), (6,.,P)])  
+(that',[(0,that',ROOT), (3,all,PMOD), (1,for,NMOD), (3,today,PMOD), (1,because,PRP), (7,the,NMOD), (8,game,SBJ), (5,be,SUB), (8,over,PRD), (1,.,P)])  
+(produce,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,produce,ROOT), (10,a,NMOD), (10,stunning,NMOD), (10,solo,NMOD), (6,run,OBJ), (10,from,NMOD), (13,the,NMOD), (11,middle,PMOD), (13,of,NMOD), (16,the,NMOD), (14,pitch,PMOD), (13,,,P), (20,all,NMOD), (20,the,NMOD), (13,way,APPO), (20,to,NMOD), (24,the,NMOD), (24,penalty,NMOD), (21,area,PMOD), (6,.,P)])  
+(unleash,[(2,he,SBJ), (0,unleash,ROOT), (5,a,NMOD), (5,decent,NMOD), (2,strike,OBJ), (7,which,SBJ), (5,go,NMOD), (9,narrowly,AMOD), (7,wide,PRD), (9,of,AMOD), (13,the,NMOD), (13,right,NMOD), (10,post,PMOD), (2,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (3,out,PRD), (4,of,PMOD), (7,the,NMOD), (5,pitch,PMOD), (3,and,COORD), (10,it,SBJ), (8,'s,CONJ), (13,a,NMOD), (13,goal,NMOD), (10,kick,PRD), (13,for,NMOD), (16,hull,NAME), (14,city,PMOD), (3,.,P)])  
+(opportunity,[(3,a,NMOD), (3,big,NMOD), (0,opportunity,ROOT), (3,miss,APPO), (4,by,LGS), (7,theo,NAME), (5,walcott,PMOD), (9,-lrb-,P), (7,arsenal,APPO), (9,-rrb-,P), (3,.,P)])  
+(get,[(2,he,SBJ), (0,get,ROOT), (2,on,ADV), (5,the,NMOD), (3,ball,PMOD), (2,inside,ADV), (8,the,NMOD), (6,box,PMOD), (2,and,COORD), (9,thump,CONJ), (14,a,NMOD), (14,splendid,NMOD), (14,first-time,NMOD), (10,shot,OBJ), (14,on,NMOD), (15,goal,PMOD), (10,,,P), (10,but,COORD), (20,it,SBJ), (18,go,CONJ), (22,narrowly,AMOD), (20,wide,PRD), (22,of,AMOD), (26,the,NMOD), (26,right,NMOD), (23,post,PMOD), (2,.,P)])  
+(receive,[(2,jack,NAME), (6,wilshere,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,receive,ROOT), (9,a,NMOD), (9,good,NMOD), (6,pass,OBJ), (11,just,ADV), (6,outside,TMP), (13,the,NMOD), (11,box,PMOD), (11,,,P), (11,unleash,COORD), (17,a,NMOD), (15,strike,OBJ), (17,from,NMOD), (21,a,NMOD), (21,promising,NMOD), (18,position,PMOD), (15,,,P), (15,but,COORD), (25,the,NMOD), (26,shot,SBJ), (23,be,CONJ), (26,thwart,VC), (27,by,LGS), (30,the,NMOD), (28,defender,PMOD), (6,.,P)])  
+(flag,[(0,flag,ROOT), (1,up,PRT), (1,against,ADV), (8,robbie,NAME), (8,brady,NAME), (8,-lrb-,P), (8,hull,NAME), (3,city,PMOD), (8,-rrb-,P), (1,.,P)])  
+(have,[(2,he,SBJ), (0,have,ROOT), (2,space,OBJ), (3,to,NMOD), (4,move,IM), (5,into,DIR), (6,behind,PMOD), (9,the,NMOD), (7,defence,PMOD), (2,,,P), (2,but,COORD), (13,he,SBJ), (11,go,CONJ), (13,too,TMP), (14,soon,AMOD), (2,.,P)])  
+(will,[(2,we,SBJ), (0,will,ROOT), (2,have,VC), (5,4,NMOD), (3,min.,OBJ), (5,of,NMOD), (8,add,NMOD), (6,time,PMOD), (2,.,P)])  
+(take,[(2,mesut,NAME), (6,ozil,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,take,ROOT), (10,a,NMOD), (10,short,NMOD), (10,corner,NMOD), (6,kick,OBJ), (6,.,P)])  
+(be,[(2,theo,NAME), (6,walcott,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,try,VC), (7,to,OPRD), (8,get,IM), (9,into,DIR), (12,the,NMOD), (10,box,PMOD), (6,.,P)])  
+(send,[(2,he,SBJ), (0,send,ROOT), (5,a,NMOD), (5,low,NMOD), (2,pass,OBJ), (2,,,P), (2,but,COORD), (9,it,SBJ), (7,'s,CONJ), (9,block,VC), (10,and,COORD), (11,clear,CONJ), (2,.,P)])  
+(will,[(2,it,SBJ), (0,will,ROOT), (2,be,VC), (6,a,NMOD), (6,corner,NMOD), (3,kick,PRD), (6,for,NMOD), (7,arsenal,PMOD), (2,.,P)])  
+(be,[(2,the,NMOD), (6,attendance,SBJ), (2,for,NMOD), (5,today's,NMOD), (3,match,PMOD), (0,be,ROOT), (6,23628,PRD), (6,.,P)])  
+(skip,[(2,jack,NAME), (6,wilshere,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,skip,ROOT), (6,past,ADV), (9,his,NMOD), (7,man,OBJ), (6,but,COORD), (10,ca,CONJ), (11,not,ADV), (11,keep,VC), (15,the,NMOD), (13,ball,OBJ), (13,in,LOC-OPRD), (16,play,PMOD), (6,.,P)])  
+(go,[(2,the,NMOD), (3,ball,SBJ), (0,go,ROOT), (3,out-of-play,OBJ), (3,and,COORD), (7,hull,NAME), (8,city,SBJ), (5,will,CONJ), (8,have,VC), (12,a,NMOD), (12,goal,NMOD), (9,kick,OBJ), (3,.,P)])  
+(will,[(2,that,SBJ), (0,will,ROOT), (2,be,VC), (3,all,PRD), (4,from,NMOD), (9,olivier,NAME), (9,giroud,NAME), (9,-lrb-,P), (5,arsenal,PMOD), (9,-rrb-,P), (12,who,SBJ), (9,be,NMOD), (12,be,VC), (13,replace,VC), (14,by,LGS), (18,the,NMOD), (18,fresh,NMOD), (15,legs,PMOD), (18,of,NMOD), (21,theo,NAME), (19,walcott,PMOD), (23,-lrb-,P), (12,arsenal,PRN), (23,-rrb-,P), (2,.,P)])  
+(be,[(2,jack,NAME), (6,wilshere,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,first,PRD), (7,to,AMOD), (10,the,NMOD), (8,rebound,PMOD), (6,but,COORD), (13,his,NMOD), (14,shot,SBJ), (11,be,CONJ), (14,block,VC), (6,.,P)])  
+(wow,[(0,wow,ROOT), (1,,,P), (7,what,OBJ), (5,an,NMOD), (7,escape,PRN), (5,there,LOC), (1,for,COORD), (9,the,NMOD), (7,opposition,PMOD), (1,.,P)])  
+(have,[(4,hector,NAME), (4,bellerin,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,have,ROOT), (9,a,NMOD), (9,golden,NMOD), (6,opportunity,OBJ), (6,as,TMP), (12,he,SBJ), (10,fire,SUB), (12,from,ADV), (16,point,NMOD), (16,blank,NMOD), (13,range,PMOD), (6,.,P)])  
+(be,[(2,his,NMOD), (3,volley,SBJ), (0,be,ROOT), (3,direct,VC), (4,towards,ADV), (7,the,NMOD), (5,middle,PMOD), (7,of,NMOD), (10,the,NMOD), (8,goal,PMOD), (3,,,P), (3,but,COORD), (14,steve,NAME), (19,harper,SBJ), (17,-lrb-,P), (17,hull,NAME), (14,city,APPO), (17,-rrb-,P), (12,be,CONJ), (19,alert,PRD), (19,and,COORD), (21,make,CONJ), (25,an,NMOD), (25,amazing,NMOD), (22,save,OBJ), (3,!,P)])  
+(serve,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,serve,ROOT), (7,in,LOC), (11,a,NMOD), (11,nice,NMOD), (8,cross,PMOD), (7,,,P), (7,but,COORD), (15,the,NMOD), (16,defence,SBJ), (13,clear,CONJ), (18,the,NMOD), (16,danger,OBJ), (7,.,P)])  
+(come,[(2,here,LOC-PRD), (0,come,ROOT), (4,a,NMOD), (2,substitution,SBJ), (2,.,P)])  
+(be,[(2,stephen,NAME), (7,quinn,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,give,VC), (10,a,NMOD), (8,rest,OBJ), (8,as,ADV), (13,he,SBJ), (11,be,SUB), (13,replace,VC), (14,by,LGS), (20,nikica,NAME), (20,jelavic,NAME), (20,-lrb-,P), (20,hull,NAME), (15,city,PMOD), (20,-rrb-,P), (7,.,P)])  
+(take,[(2,mesut,NAME), (6,ozil,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,take,ROOT), (8,the,NMOD), (6,corner,OBJ), (6,but,COORD), (9,fail,CONJ), (10,to,OPRD), (11,find,IM), (12,any,OBJ), (13,of,NMOD), (16,his,NMOD), (14,teammate,PMOD), (6,.,P)])  
+(be,[(2,the,NMOD), (3,defence,SBJ), (0,be,ROOT), (3,alert,PRD), (4,as,AMOD), (7,they,SBJ), (5,clear,SUB), (10,a,NMOD), (10,dangerous,NMOD), (7,cross,OBJ), (10,from,NMOD), (13,mesut,NAME), (11,ozil,PMOD), (15,-lrb-,P), (3,arsenal,PRN), (15,-rrb-,P), (3,.,P)])  
+(will,[(2,arsenal,SBJ), (0,will,ROOT), (2,take,VC), (6,a,NMOD), (6,corner,NMOD), (3,kick,OBJ), (2,.,P)])  
+(seem,[(2,arsenal,SBJ), (0,seem,ROOT), (2,to,OPRD), (3,be,IM), (4,find,VC), (7,their,NMOD), (5,foot,OBJ), (5,as,ADV), (10,they,SBJ), (8,enjoy,SUB), (12,some,NMOD), (10,possession,OBJ), (2,.,P)])  
+(be,[(2,they,SBJ), (0,be,ROOT), (2,wait,VC), (3,for,ADV), (7,the,NMOD), (7,right,NMOD), (8,moment,SBJ), (4,to,SUB), (8,create,IM), (12,new,NMOD), (12,attack,NMOD), (9,opportunity,OBJ), (2,.,P)])  
+(cross,[(3,an,NMOD), (3,unsuccessful,NMOD), (0,cross,ROOT), (3,into,NMOD), (6,the,NMOD), (4,box,PMOD), (6,by,NMOD), (9,andrew,NAME), (7,robertson,PMOD), (12,-lrb-,P), (12,hull,NAME), (3,city,APPO), (12,-rrb-,P), (3,.,P)])  
+(clear,[(3,the,NMOD), (3,opponent's,NMOD), (4,defence,SBJ), (0,clear,ROOT), (6,the,NMOD), (4,ball,OBJ), (6,away,NMOD), (7,to,AMOD), (8,safety,PMOD), (4,.,P)])  
+(be,[(3,a,NMOD), (3,loft,NMOD), (11,cross,SBJ), (3,from,NMOD), (9,andrew,NAME), (9,robertson,NAME), (9,-lrb-,P), (9,hull,NAME), (4,city,PMOD), (9,-rrb-,P), (0,be,ROOT), (11,unsuccessful,PRD), (12,as,AMOD), (16,the,NMOD), (16,opponent's,NMOD), (18,defence,SBJ), (18,quickly,MNR), (13,get,SUB), (20,the,NMOD), (18,ball,OBJ), (18,out,ADV), (21,of,PMOD), (25,the,NMOD), (25,penalty,NMOD), (22,area,PMOD), (11,.,P)])  
+(send,[(2,david,NAME), (7,meyler,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,send,ROOT), (10,a,NMOD), (10,sweet,NMOD), (7,pass,OBJ), (7,into,DIR), (14,the,NMOD), (14,penalty,NMOD), (11,area,PMOD), (7,,,P), (7,but,COORD), (21,one,SBJ), (17,of,NMOD), (20,the,NMOD), (18,defender,PMOD), (16,avert,CONJ), (23,the,NMOD), (21,danger,OBJ), (7,.,P)])  
+(produce,[(2,ahmed,NAME), (7,elmohamady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,produce,ROOT), (10,a,NMOD), (10,lovely,NMOD), (7,ball,OBJ), (7,into,ADV), (14,the,NMOD), (14,penalty,NMOD), (11,area,PMOD), (7,but,COORD), (17,the,NMOD), (18,defender,SBJ), (15,manage,CONJ), (18,to,OPRD), (19,intercept,IM), (18,and,COORD), (23,comfortably,MNR), (21,avert,CONJ), (25,the,NMOD), (23,danger,OBJ), (7,.,P)])  
+(be,[(2,it,SBJ), (0,be,ROOT), (2,unbelievable,PRD), (2,,,P), (8,santi,NAME), (8,cazorla,NAME), (8,-lrb-,P), (10,arsenal,SBJ), (8,-rrb-,P), (2,blow,COORD), (13,a,NMOD), (13,huge,NMOD), (10,opportunity,OBJ), (16,!,P), (16,he,SBJ), (13,be,NMOD), (18,totally,AMOD), (16,unmarked,PRD), (10,and,COORD), (19,fire,CONJ), (23,a,NMOD), (23,first-time,NMOD), (20,shot,OBJ), (23,towards,NMOD), (24,goal,PMOD), (25,from,NMOD), (29,a,NMOD), (29,few,NMOD), (26,yard,PMOD), (20,out,PRT), (20,,,P), (20,but,COORD), (34,steve,NAME), (39,harper,SBJ), (37,-lrb-,P), (37,hull,NAME), (34,city,PRN), (37,-rrb-,P), (32,react,CONJ), (39,superbly,MNR), (39,to,PRP), (41,keep,IM), (44,the,NMOD), (42,ball,OBJ), (42,out,PRT), (2,.,P)])  
+(pick,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,pick,ROOT), (6,up,PRT), (9,a,NMOD), (6,long,OBJ), (6,through,MNR), (10,ball,PMOD), (6,,,P), (6,but,COORD), (15,steve,NAME), (20,harper,SBJ), (18,-lrb-,P), (18,hull,NAME), (15,city,PRN), (18,-rrb-,P), (13,deserve,CONJ), (20,praise,OBJ), (20,for,ADV), (25,a,NMOD), (25,brilliant,NMOD), (22,reaction,PMOD), (25,and,COORD), (26,interception,CONJ), (6,.,P)])  
+(send,[(2,mesut,NAME), (6,ozil,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,send,ROOT), (6,in,LOC), (9,the,NMOD), (7,corner,PMOD), (6,,,P), (6,but,COORD), (13,he,SBJ), (11,fail,CONJ), (13,to,OPRD), (14,find,IM), (17,the,NMOD), (15,head,OBJ), (17,of,NMOD), (18,any,PMOD), (19,of,NMOD), (22,his,NMOD), (20,teamamte,PMOD), (13,,,P), (13,and,COORD), (27,the,NMOD), (27,the,NMOD), (28,defence,SBJ), (24,make,CONJ), (30,a,NMOD), (28,clearance,OBJ), (6,.,P)])  
+(be,[(2,david,NAME), (7,meyler,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,move,VC), (8,again,TMP), (8,okay,MNR), (8,after,TMP), (14,that,NMOD), (14,injury,NMOD), (11,scare,PMOD), (7,.,P)])  
+(take,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,take,ROOT), (10,the,NMOD), (10,result,NMOD), (10,free,NMOD), (6,kick,OBJ), (6,from,ADV), (13,the,NMOD), (11,edge,PMOD), (13,of,NMOD), (16,the,NMOD), (14,box,PMOD), (6,,,P), (6,but,COORD), (20,it,SBJ), (18,be,CONJ), (20,block,VC), (21,by,LGS), (24,the,NMOD), (22,player,PMOD), (24,standing,APPO), (25,in,LOC), (28,the,NMOD), (26,wall,PMOD), (6,,,P), (6,save,ADV), (33,the,NMOD), (33,goalkeeper,NMOD), (30,lot,OBJ), (33,of,NMOD), (34,effort,PMOD), (6,.,P)])  
+(go,[(2,the,NMOD), (3,ball,SBJ), (0,go,ROOT), (3,out-of-play,ADV), (3,.,P)])  
+(have,[(2,arsenal,SBJ), (0,have,ROOT), (2,be,VC), (3,award,VC), (7,a,NMOD), (7,corner,NMOD), (4,kick,OBJ), (2,.,P)])  
+(break,[(0,break,ROOT), (1,in,NMOD), (2,play,PMOD), (3,with,NMOD), (9,david,NAME), (9,meyler,NAME), (9,-lrb-,P), (9,hull,NAME), (4,city,PMOD), (9,-rrb-,P), (9,down,NMOD), (11,injure,AMOD), (1,.,P)])  
+(pull,[(2,a,NMOD), (6,player,SBJ), (2,from,NMOD), (5,hull,NAME), (3,city,PMOD), (0,pull,ROOT), (8,an,NMOD), (6,opponent,OBJ), (6,down,DIR), (6,,,P), (6,make,ADV), (13,the,NMOD), (11,referee,OBJ), (11,blow,OPRD), (16,the,NMOD), (14,whistle,OBJ), (6,.,P)])  
+(earn,[(2,arsenal,SBJ), (0,earn,ROOT), (5,a,NMOD), (5,free,NMOD), (2,kick,OBJ), (7,which,SBJ), (5,can,NMOD), (7,lead,VC), (8,to,ADV), (12,a,NMOD), (12,goal-scoring,NMOD), (9,opportunity,PMOD), (2,.,P)])  
+(burst,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,burst,ROOT), (6,into,ADV), (9,the,NMOD), (7,box,PMOD), (6,,,P), (6,and,COORD), (11,latch,CONJ), (12,on,PRT), (12,to,ADV), (16,a,NMOD), (14,pin-point,PMOD), (12,long,TMP), (12,through,MNR), (18,ball,PMOD), (12,,,P), (12,but,COORD), (21,one,CONJ), (22,of,NMOD), (26,the,NMOD), (26,defender,NMOD), (23,steps,PMOD), (26,in,NMOD), (27,to,PMOD), (28,clear,IM), (31,the,NMOD), (29,ball,OBJ), (31,to,NMOD), (32,safety,PMOD), (6,.,P)])  
+(be,[(2,here,LOC-PRD), (0,be,ROOT), (4,a,NMOD), (2,change,SBJ), (2,.,P)])  
+(be,[(2,aaron,NAME), (6,ramsey,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,go,VC), (7,off,PRT), (6,and,COORD), (11,arsene,NAME), (12,wenger,SBJ), (9,give,CONJ), (16,the,NMOD), (16,last,NMOD), (16,tactical,NMOD), (12,order,OBJ), (12,to,DTV), (19,jack,NAME), (17,wilshere,PMOD), (21,-lrb-,P), (6,arsenal,PRN), (21,-rrb-,P), (6,.,P)])  
+(be,[(2,we,SBJ), (0,be,ROOT), (2,about,VC), (3,to,OPRD), (4,witness,IM), (7,a,NMOD), (5,substitution,OBJ), (2,.,P)])  
+(be,[(2,andrew,NAME), (7,robertson,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,replace,VC), (10,sone,NAME), (8,aluko,OBJ), (13,-lrb-,P), (13,hull,NAME), (7,city,PRN), (13,-rrb-,P), (7,.,P)])  
+(find,[(2,ambitious,NMOD), (11,effort,SBJ), (2,from,NMOD), (5,aaron,NAME), (3,ramsey,PMOD), (7,-lrb-,P), (2,arsenal,APPO), (7,-rrb-,P), (11,as,TMP), (11,he,SBJ), (0,find,ROOT), (11,himself,OBJ), (11,in,LOC-OPRD), (16,a,NMOD), (16,great,NMOD), (13,position,PMOD), (11,after,TMP), (17,collect,PMOD), (21,a,NMOD), (21,precise,NMOD), (18,pass,OBJ), (18,inside,LOC), (25,the,NMOD), (25,penalty,NMOD), (22,area,PMOD), (11,and,COORD), (26,go,CONJ), (27,for,ADV), (28,goal,PMOD), (11,,,P), (11,but,COORD), (34,it,SBJ), (34,never,TMP), (31,trouble,CONJ), (36,the,NMOD), (34,goalkeeper,OBJ), (34,and,COORD), (37,fly,CONJ), (38,well,MNR), (38,over,DIR), (42,the,NMOD), (40,bar,PMOD), (11,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (3,out,PRD), (4,of,PMOD), (7,the,NMOD), (5,pitch,PMOD), (3,and,COORD), (10,it,SBJ), (8,'s,CONJ), (13,a,NMOD), (13,goal,NMOD), (10,kick,PRD), (13,for,NMOD), (16,hull,NAME), (14,city,PMOD), (3,.,P)])  
+(arsenal,[(4,alexis,NAME), (4,sanchez,NAME), (4,-lrb-,P), (0,arsenal,ROOT), (4,-rrb-,P), (4,with,ADV), (9,a,NMOD), (9,teasing,NMOD), (6,cross,PMOD), (9,into,NMOD), (12,the,NMOD), (10,area,PMOD), (4,,,P), (4,but,COORD), (16,steve,NAME), (21,harper,SBJ), (19,-lrb-,P), (19,hull,NAME), (16,city,PRN), (19,-rrb-,P), (14,intercept,CONJ), (23,the,NMOD), (21,ball,OBJ), (4,.,P)])  
+(be,[(3,the,NMOD), (3,result,NMOD), (10,corner,SBJ), (3,from,NMOD), (6,santi,NAME), (4,cazorla,PMOD), (8,-lrb-,P), (6,arsenal,PRN), (8,-rrb-,P), (0,be,ROOT), (10,clear,VC), (11,by,LGS), (14,the,NMOD), (12,defence,PMOD), (10,.,P)])  
+(receive,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,receive,ROOT), (10,a,NMOD), (9,clever,NMOD), (10,chip,NMOD), (6,pass,OBJ), (10,into,NMOD), (14,a,NMOD), (14,promising,NMOD), (11,position,PMOD), (6,.,P)])  
+(be,[(6,nevertheless,ADV), (6,,,P), (5,the,NMOD), (5,opponent's,NMOD), (6,defence,SBJ), (0,be,ROOT), (6,alert,PRD), (6,and,COORD), (8,avert,CONJ), (11,the,NMOD), (9,danger,OBJ), (11,with,NMOD), (15,a,NMOD), (15,brilliant,NMOD), (12,clearance,PMOD), (6,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (3,out-of-play,PRD), (3,,,P), (3,and,COORD), (10,the,NMOD), (9,assistant,NMOD), (10,referee,NMOD), (6,point,CONJ), (10,at,LOC), (14,the,NMOD), (14,corner,NMOD), (11,flag,PMOD), (3,.,P)])  
+(will,[(2,arsenal,SBJ), (0,will,ROOT), (2,take,VC), (3,it,OBJ), (2,.,P)])  
+(be,[(3,the,NMOD), (3,arsenal,NMOD), (4,player,SBJ), (0,be,ROOT), (4,exchange,VC), (8,some,NMOD), (8,short,NMOD), (5,pass,OBJ), (8,to,NMOD), (9,open,IM), (13,the,NMOD), (13,opposition’s,NMOD), (10,defence,OBJ), (10,to,PRP), (14,hit,IM), (15,them,OBJ), (15,swiftly,MNR), (15,on,ADV), (20,the,NMOD), (18,break,PMOD), (4,.,P)])  
+(swing,[(2,ahmed,NAME), (7,elmohamady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,swing,ROOT), (9,the,NMOD), (7,cross,OBJ), (9,over,NMOD), (7,.,P)])  
+(get,[(2,paul,NAME), (7,mcshane,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,get,ROOT), (9,his,NMOD), (7,head,OBJ), (7,to,ADV), (10,it,PMOD), (7,but,COORD), (14,it,SBJ), (12,go,CONJ), (16,just,PMOD), (14,over,DIR), (18,the,NMOD), (16,crossbar,PMOD), (7,.,P)])  
+(be,[(2,stephen,NAME), (7,quinn,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,writhe,VC), (8,in,ADV), (9,pain,PMOD), (7,,,P), (7,and,COORD), (14,play,SBJ), (12,have,CONJ), (14,be,VC), (15,stop,VC), (16,for,ADV), (20,a,NMOD), (20,few,NMOD), (17,moment,PMOD), (7,.,P)])  
+(head,[(2,stephen,NAME), (7,quinn,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,head,ROOT), (9,the,NMOD), (7,ball,OBJ), (9,inside,LOC), (13,the,NMOD), (13,right,NMOD), (10,post,PMOD), (7,after,TMP), (17,a,NMOD), (17,splendid,NMOD), (14,cross,PMOD), (7,.,P)])  
+(make,[(3,this,NMOD), (3,timely,NMOD), (4,header,SBJ), (0,make,ROOT), (7,a,NMOD), (7,wonderful,NMOD), (4,moment,OBJ), (4,.,P)])  
+(make,[(2,aaron,NAME), (6,ramsey,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,make,ROOT), (8,a,NMOD), (6,yard,OBJ), (8,for,NMOD), (9,himself,PMOD), (8,inside,LOC), (13,the,NMOD), (11,box,PMOD), (6,after,TMP), (17,an,NMOD), (17,accurate,NMOD), (14,pass,PMOD), (6,and,COORD), (18,take,CONJ), (21,a,NMOD), (19,shot,OBJ), (23,that,SBJ), (21,go,NMOD), (25,just,AMOD), (23,wide,PRD), (25,of,AMOD), (29,the,NMOD), (29,right,NMOD), (26,post,PMOD), (6,.,P)])  
+(go,[(2,the,NMOD), (3,ball,SBJ), (0,go,ROOT), (3,out-of-play,OBJ), (3,and,COORD), (7,hull,NAME), (8,city,SBJ), (5,will,CONJ), (8,have,VC), (12,a,NMOD), (12,goal,NMOD), (9,kick,OBJ), (3,.,P)])  
+(go,[(2,flag,SBJ), (0,go,ROOT), (2,up,PRT), (2,against,ADV), (9,dame,NAME), (9,n'doye,NAME), (9,-lrb-,P), (9,hull,NAME), (4,city,PMOD), (9,-rrb-,P), (2,.,P)])  
+(blow,[(2,the,NMOD), (3,referee,SBJ), (0,blow,ROOT), (5,the,NMOD), (3,whistle,OBJ), (5,for,NMOD), (6,offside,PMOD), (3,.,P)])  
+(attempt,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,attempt,ROOT), (6,to,OPRD), (7,feed,IM), (10,olivier,NAME), (8,giroud,OBJ), (12,-lrb-,P), (10,arsenal,APPO), (12,-rrb-,P), (8,with,ADV), (17,a,NMOD), (17,chip,NMOD), (14,pass,PMOD), (6,,,P), (6,but,COORD), (21,steve,NAME), (26,harper,SBJ), (24,-lrb-,P), (24,hull,NAME), (21,city,PRN), (24,-rrb-,P), (19,react,CONJ), (26,well,MNR), (26,and,COORD), (28,come,CONJ), (29,off,PRT), (32,his,NMOD), (29,line,OBJ), (32,to,NMOD), (33,intercept,IM), (6,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (3,clear,VC), (4,after,TMP), (7,hector,NAME), (11,bellerin,SBJ), (9,-lrb-,P), (7,arsenal,APPO), (9,-rrb-,P), (5,attempt,SUB), (11,to,OPRD), (12,dribble,IM), (13,past,ADV), (17,an,NMOD), (17,oppose,NMOD), (14,player,PMOD), (3,.,P)])  
+(play,[(4,some,NMOD), (4,great,NMOD), (4,control,NMOD), (0,play,ROOT), (4,and,COORD), (5,pass,CONJ), (4,in,LOC), (9,the,NMOD), (7,middle,PMOD), (9,of,NMOD), (12,the,NMOD), (10,pitch,PMOD), (12,from,NMOD), (13,arsenal,PMOD), (4,.,P)])  
+(end,[(2,a,NMOD), (10,pass,SBJ), (2,by,NMOD), (8,sone,NAME), (8,aluko,NAME), (8,-lrb-,P), (8,hull,NAME), (3,city,PMOD), (8,-rrb-,P), (0,end,ROOT), (10,up,PRT), (10,in,LOC), (15,no,NMOD), (15,man's,NMOD), (12,land,PMOD), (10,,,P), (10,and,COORD), (20,the,NMOD), (20,attack,NMOD), (21,effort,SBJ), (17,come,CONJ), (21,to,ADV), (24,an,NMOD), (22,end,PMOD), (10,.,P)])  
+(plunge,[(2,laurent,NAME), (7,koscielny,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (7,carelessly,ADV), (0,plunge,ROOT), (7,himself,OBJ), (7,under,LOC), (11,the,NMOD), (9,foot,PMOD), (11,of,NMOD), (14,his,NMOD), (12,opponent,PMOD), (7,and,COORD), (15,could,CONJ), (16,not,ADV), (16,expect,VC), (18,to,OPRD), (19,avoid,IM), (20,punishment,OBJ), (7,.,P)])  
+(keep,[(2,this,NMOD), (6,time,TMP), (6,,,P), (5,lee,NAME), (6,mason,SBJ), (0,keep,ROOT), (8,the,NMOD), (6,cards,OBJ), (6,in,LOC), (11,his,NMOD), (9,pocket,PMOD), (6,,,P), (6,but,COORD), (15,he,SBJ), (13,blow,CONJ), (15,for,ADV), (18,the,NMOD), (16,foul,PMOD), (6,.,P)])  
+(tackle,[(2,david,NAME), (7,meyler,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,tackle,ROOT), (9,a,NMOD), (10,bit,AMOD), (7,over-zealously,TMP), (7,.,P)])  
+(blow,[(2,lee,NAME), (3,mason,SBJ), (0,blow,ROOT), (3,for,ADV), (6,a,NMOD), (4,foul,PMOD), (3,.,P)])  
+(make,[(2,sone,NAME), (7,aluko,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,make,ROOT), (9,a,NMOD), (7,yard,OBJ), (7,for,BNF), (10,himself,PMOD), (7,and,COORD), (12,go,CONJ), (13,for,ADV), (14,goal,PMOD), (15,from,NMOD), (18,long,NMOD), (16,range,PMOD), (7,.,P)])  
+(trouble,[(3,it,SBJ), (3,never,TMP), (0,trouble,ROOT), (5,the,NMOD), (3,goalkeeper,OBJ), (3,as,ADV), (8,it,SBJ), (6,fly,SUB), (8,into,DIR), (11,the,NMOD), (9,stand,PMOD), (3,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (3,out,PRD), (4,of,PMOD), (7,the,NMOD), (5,pitch,PMOD), (3,and,COORD), (10,it,SBJ), (8,'s,CONJ), (13,a,NMOD), (13,goal,NMOD), (10,kick,PRD), (13,for,NMOD), (14,arsenal,PMOD), (3,.,P)])  
+(make,[(2,steve,NAME), (3,bruce,SBJ), (0,make,ROOT), (6,a,NMOD), (6,half-time,NMOD), (3,substitution,OBJ), (3,.,P)])  
+(come,[(2,david,NAME), (7,meyler,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,come,ROOT), (7,on,PRT), (7,in,ADV), (9,place,PMOD), (10,of,NMOD), (16,jake,NAME), (16,livermore,NAME), (16,-lrb-,P), (16,hull,NAME), (11,city,PMOD), (16,-rrb-,P), (7,.,P)])  
+(be,[(6,after,TMP), (4,the,NMOD), (4,half-time,NMOD), (1,break,PMOD), (6,we,SBJ), (0,be,ROOT), (6,back,ADV), (6,again,TMP), (6,.,P)])  
+(be,[(2,the,NMOD), (3,player,SBJ), (0,be,ROOT), (3,back,PRD), (4,out,AMOD), (3,on,LOC-PRD), (8,the,NMOD), (6,pitch,PMOD), (3,,,P), (3,and,COORD), (13,the,NMOD), (13,second,NMOD), (14,half,SBJ), (10,be,CONJ), (14,underway,PRD), (3,.,P)])  
+(be,[(2,we,SBJ), (0,be,ROOT), (2,see,VC), (6,a,NMOD), (6,great,NMOD), (3,game,OBJ), (11,so,TMP), (7,far,AMOD), (11,,,P), (11,let's,SBJ), (6,hope,NMOD), (13,the,NMOD), (14,player,SBJ), (11,will,OBJ), (14,be,VC), (15,able,PRD), (16,to,AMOD), (17,sustain,IM), (20,the,NMOD), (18,level,OBJ), (20,of,NMOD), (21,attractiveness,PMOD), (18,and,COORD), (23,keep,CONJ), (24,entertain,OPRD), (27,the,NMOD), (25,fan,OBJ), (25,in,MNR), (32,such,NMOD), (32,a,NMOD), (32,fabulous,NMOD), (28,way,PMOD), (2,.,P)])  
+(dominate,[(3,the,NMOD), (3,visit,NMOD), (4,team,SBJ), (0,dominate,ROOT), (7,the,NMOD), (7,first,NMOD), (4,half,OBJ), (7,in,LOC), (10,most,NMOD), (8,aspect,PMOD), (10,of,NMOD), (13,the,NMOD), (11,game,PMOD), (4,,,P), (4,but,COORD), (17,the,NMOD), (18,host,SBJ), (15,will,CONJ), (18,surely,ADV), (18,attempt,VC), (20,to,OPRD), (21,turn,IM), (24,the,NMOD), (22,situation,OBJ), (22,in,ADV), (27,their,NMOD), (25,favour,PMOD), (4,.,P)])  
+(play,[(3,the,NMOD), (3,home,NMOD), (4,team,SBJ), (0,play,ROOT), (6,long-ball,NMOD), (4,football,OBJ), (4,unlike,LOC), (10,the,NMOD), (10,away,NMOD), (7,side,PMOD), (12,which,SBJ), (10,attempt,NMOD), (12,to,OPRD), (13,hold,IM), (14,onto,ADV), (17,the,NMOD), (15,ball,PMOD), (14,for,TMP), (20,as,AMOD), (18,long,PMOD), (20,as,AMOD), (21,possible,PMOD), (4,.,P)])  
+(have,[(3,the,NMOD), (3,first,NMOD), (7,half,SBJ), (3,of,NMOD), (6,today's,NMOD), (4,match,PMOD), (0,have,ROOT), (7,just,ADV), (7,finish,VC), (7,.,P)])  
+(display,[(4,goal,NAME), (4,!,NAME), (4,aaron,NAME), (8,ramsey,SBJ), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (0,display,ROOT), (10,great,NMOD), (8,vision,OBJ), (8,and,COORD), (11,send,CONJ), (14,a,NMOD), (12,pass,OBJ), (12,to,DIR), (17,alexis,NAME), (15,sanchez,PMOD), (19,-lrb-,P), (17,arsenal,APPO), (19,-rrb-,P), (17,,,P), (23,who,SBJ), (17,show,NMOD), (25,brilliant,NMOD), (23,composure,OBJ), (23,inside,LOC), (28,the,NMOD), (26,box,PMOD), (23,to,PRP), (29,bury,IM), (32,the,NMOD), (30,ball,OBJ), (32,from,NMOD), (35,close,NMOD), (33,range,PMOD), (30,into,ADV), (38,the,NMOD), (36,back,PMOD), (38,of,NMOD), (41,the,NMOD), (39,net,PMOD), (8,.,P)])  
+(be,[(2,the,NMOD), (3,score,SBJ), (0,be,ROOT), (3,0:3,PRD), (3,.,P)])  
+(come,[(2,santi,NAME), (6,cazorla,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,come,ROOT), (6,close,ADV), (7,to,AMOD), (8,scoring,PMOD), (6,.,P)])  
+(connect,[(2,he,SBJ), (0,connect,ROOT), (2,with,ADV), (5,a,NMOD), (3,pass,PMOD), (5,inside,LOC), (8,the,NMOD), (6,box,PMOD), (2,,,P), (2,and,COORD), (13,he,SBJ), (13,perhaps,ADV), (10,should,CONJ), (13,have,VC), (14,do,VC), (15,better,MNR), (16,than,AMOD), (17,direct,PMOD), (20,his,NMOD), (15,shot,OBJ), (22,straight,PMOD), (15,at,LOC), (24,steve,NAME), (27,harper,NMOD), (27,-lrb-,P), (27,hull,NAME), (22,city,PMOD), (27,-rrb-,P), (2,.,P)])  
+(touch,[(4,what,NMOD), (4,a,NMOD), (4,sweet,NMOD), (0,touch,ROOT), (4,by,NMOD), (7,mesut,NAME), (5,ozil,PMOD), (9,-lrb-,P), (7,arsenal,APPO), (9,-rrb-,P), (4,as,TMP), (13,he,SBJ), (11,collect,SUB), (15,a,NMOD), (13,pass,OBJ), (13,deep,MNR), (13,into,DIR), (19,the,NMOD), (17,box,PMOD), (13,,,P), (13,and,COORD), (21,produce,CONJ), (25,a,NMOD), (25,low,NMOD), (22,drive,OBJ), (25,towards,NMOD), (28,the,NMOD), (26,middle,PMOD), (28,of,NMOD), (31,the,NMOD), (29,net,PMOD), (4,.,P)])  
+(pull,[(2,the,NMOD), (3,goalkeeper,SBJ), (0,pull,ROOT), (3,off,PRT), (7,a,NMOD), (7,reflex,NMOD), (3,save,OBJ), (3,and,COORD), (8,deny,CONJ), (11,the,NMOD), (9,attempt,OBJ), (3,!,P)])  
+(be,[(3,an,NMOD), (3,offensive,NMOD), (11,foul,SBJ), (3,by,NMOD), (9,dame,NAME), (9,n'doye,NAME), (9,-lrb-,P), (9,hull,NAME), (4,city,PMOD), (9,-rrb-,P), (0,be,ROOT), (11,see,VC), (12,by,LGS), (15,lee,NAME), (13,mason,PMOD), (17,who,SBJ), (15,do,NMOD), (17,not,ADV), (17,hesitate,VC), (19,to,OPRD), (20,blow,IM), (23,the,NMOD), (21,whistle,OBJ), (11,.,P)])  
+(control,[(2,arsenal,NMOD), (0,control,ROOT), (4,the,NMOD), (2,tempo,OBJ), (4,of,NMOD), (7,the,NMOD), (5,game,PMOD), (2,as,ADV), (10,they,SBJ), (8,be,SUB), (10,exchange,VC), (15,some,NMOD), (15,accurate,NMOD), (15,short,NMOD), (11,pass,OBJ), (2,.,P)])  
+(release,[(2,ahmed,NAME), (7,elmohamady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,release,ROOT), (10,a,NMOD), (10,low,NMOD), (7,pass,OBJ), (10,from,NMOD), (11,just,PMOD), (11,outside,PMOD), (15,the,NMOD), (13,box,PMOD), (7,in,ADV), (18,an,NMOD), (16,attempt,PMOD), (18,to,NMOD), (19,find,IM), (22,his,NMOD), (20,teammate,OBJ), (7,,,P), (7,but,COORD), (30,one,SBJ), (25,of,NMOD), (28,the,NMOD), (26,defender,PMOD), (30,calmly,MNR), (24,avert,CONJ), (32,the,NMOD), (30,threat,OBJ), (7,.,P)])  
+(be,[(2,the,NMOD), (3,game,SBJ), (0,be,ROOT), (3,interrupt,VC), (4,as,ADV), (7,dame,NAME), (12,n'doye,SBJ), (10,-lrb-,P), (10,hull,NAME), (7,city,PRN), (10,-rrb-,P), (5,be,SUB), (12,flag,VC), (13,for,ADV), (14,offside,PMOD), (3,.,P)])  
+(be,[(2,a,NMOD), (10,pass,SBJ), (2,from,NMOD), (5,dame,NAME), (3,n'doye,PMOD), (8,-lrb-,P), (8,hull,NAME), (2,city,APPO), (8,-rrb-,P), (0,be,ROOT), (10,intercept,VC), (11,by,LGS), (14,david,NAME), (12,ospina,PMOD), (16,-lrb-,P), (10,arsenal,PRN), (16,-rrb-,P), (10,and,COORD), (20,the,NMOD), (21,move,SBJ), (18,break,CONJ), (21,down,PRT), (10,.,P)])  
+(take,[(2,santi,NAME), (6,cazorla,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,take,ROOT), (8,the,NMOD), (6,corner,OBJ), (6,and,COORD), (9,send,CONJ), (10,it,OBJ), (10,into,DIR), (15,the,NMOD), (15,penalty,NMOD), (12,area,PMOD), (10,,,P), (10,but,COORD), (20,the,NMOD), (20,opposition's,NMOD), (21,defence,SBJ), (17,be,CONJ), (21,ready,PRD), (21,and,COORD), (23,make,CONJ), (27,a,NMOD), (27,good,NMOD), (24,clearance,OBJ), (6,.,P)])  
+(cazorla,[(2,santi,NAME), (0,cazorla,ROOT), (4,-lrb-,P), (2,arsenal,APPO), (4,-rrb-,P), (2,with,NMOD), (9,a,NMOD), (9,wonderful,NMOD), (6,touch,PMOD), (9,after,TMP), (10,collect,PMOD), (13,a,NMOD), (11,pass,OBJ), (11,inside,LOC), (16,the,NMOD), (14,box,PMOD), (2,.,P)])  
+(steer,[(2,he,SBJ), (0,steer,ROOT), (5,his,NMOD), (5,low,NMOD), (2,drive,OBJ), (5,towards,NMOD), (9,the,NMOD), (9,leave,NMOD), (6,post,PMOD), (2,,,P), (2,but,COORD), (13,the,NMOD), (14,keeper,SBJ), (11,dive,CONJ), (14,low,PRD), (15,to,AMOD), (16,keep,IM), (19,the,NMOD), (17,ball,OBJ), (17,out,PRT), (2,.,P)])  
+(be,[(2,the,NMOD), (3,ball,SBJ), (0,be,ROOT), (7,out-of-play,NMOD), (4,and,COORD), (5,arsenal,CONJ), (3,manage,PRD), (7,to,OPRD), (8,earn,IM), (11,a,NMOD), (9,corner,OBJ), (3,.,P)])  
+(receive,[(2,good,NMOD), (9,clearance,TMP), (9,!,P), (5,aaron,NAME), (9,ramsey,SBJ), (7,-lrb-,P), (5,arsenal,APPO), (7,-rrb-,P), (0,receive,ROOT), (12,a,NMOD), (12,low,NMOD), (9,pass,OBJ), (9,,,P), (9,but,COORD), (16,he,SBJ), (14,do,CONJ), (16,not,ADV), (16,catch,VC), (18,to,OPRD), (19,do,IM), (20,anything,OBJ), (20,before,TMP), (24,quick,MNR), (22,steal,PMOD), (24,from,ADV), (25,one,PMOD), (26,of,NMOD), (29,the,NMOD), (27,defender,PMOD), (9,.,P)])  
+(send,[(2,robbie,NAME), (7,brady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,send,ROOT), (10,a,NMOD), (10,beautiful,NMOD), (7,cross,OBJ), (7,into,DIR), (14,the,NMOD), (14,penalty,NMOD), (11,area,PMOD), (7,.,P)])  
+(manage,[(3,the,NMOD), (3,opposition's,NMOD), (4,defence,SBJ), (0,manage,ROOT), (4,to,OPRD), (5,clear,IM), (8,the,NMOD), (6,ball,OBJ), (8,to,NMOD), (9,safety,PMOD), (4,.,P)])  
+(blow,[(3,a,NMOD), (3,clumsy,NMOD), (13,foul,SBJ), (3,by,NMOD), (8,olivier,NAME), (8,giroud,NAME), (8,-lrb-,P), (4,arsenal,PMOD), (8,-rrb-,P), (8,and,COORD), (12,lee,NAME), (10,mason,CONJ), (0,blow,ROOT), (15,the,NMOD), (13,whistle,OBJ), (13,.,P)])  
+(pass,[(9,goal,SBJ), (9,!,P), (9,!,P), (5,santi,NAME), (9,cazorla,SBJ), (7,-lrb-,P), (5,arsenal,PRN), (7,-rrb-,P), (0,pass,ROOT), (11,the,NMOD), (9,ball,OBJ), (9,to,DIR), (16,aaron,NAME), (16,ramsey,NAME), (16,-lrb-,P), (12,arsenal,PMOD), (16,-rrb-,P), (9,and,COORD), (20,he,SBJ), (18,fire,CONJ), (20,in,LOC), (24,a,NMOD), (24,deflect,NMOD), (21,shot,PMOD), (24,from,NMOD), (27,the,NMOD), (25,edge,PMOD), (27,of,NMOD), (30,the,NMOD), (28,box,PMOD), (9,.,P)])  
+(could,[(2,steve,NAME), (7,harper,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,could,ROOT), (7,not,ADV), (7,do,VC), (9,anything,OBJ), (9,about,ADV), (11,it,PMOD), (7,.,P)])  
+(2,[(0,2,ROOT), (1,.,P)])  
+(play,[(2,robbie,NAME), (7,brady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,play,ROOT), (7,in,LOC), (11,a,NMOD), (11,hopeful,NMOD), (8,cross,PMOD), (7,,,P), (7,but,COORD), (15,it,SBJ), (13,do,CONJ), (15,not,ADV), (15,find,VC), (19,its,NMOD), (17,way,OBJ), (17,to,ADV), (20,any,PMOD), (21,of,NMOD), (25,the,NMOD), (25,attack,NMOD), (22,player,PMOD), (7,.,P)])  
+(be,[(4,the,NMOD), (3,hull,NAME), (4,city,NMOD), (5,player,SBJ), (0,be,ROOT), (5,exchange,VC), (9,some,NMOD), (9,short,NMOD), (6,pass,OBJ), (5,.,P)])  
+(make,[(2,mesut,NAME), (6,ozil,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,make,ROOT), (9,a,NMOD), (9,harsh,NMOD), (6,challenge,OBJ), (6,and,COORD), (12,lee,NAME), (13,mason,SBJ), (10,call,CONJ), (13,for,ADV), (16,a,NMOD), (14,foul,PMOD), (6,.,P)])  
+(card,[(3,a,NMOD), (3,yellow,NMOD), (0,card,ROOT), (3,for,NMOD), (6,a,NMOD), (4,tackle,PMOD), (6,by,NMOD), (9,dame,NAME), (7,n'doye,PMOD), (12,-lrb-,P), (12,hull,NAME), (3,city,APPO), (12,-rrb-,P), (3,.,P)])  
+(do,[(2,lee,NAME), (3,mason,SBJ), (0,do,ROOT), (3,not,ADV), (3,hesitate,VC), (5,at,ADV), (6,all,AMOD), (5,to,PRP), (8,make,IM), (11,this,NMOD), (9,decision,OBJ), (3,.,P)])  
+(be,[(4,the,NMOD), (4,result,NMOD), (4,set,NMOD), (19,piece,SBJ), (4,,,P), (4,send,APPO), (6,into,DIR), (10,the,NMOD), (10,penalty,NMOD), (7,area,PMOD), (6,by,LGS), (16,robbie,NAME), (16,brady,NAME), (16,-lrb-,P), (16,hull,NAME), (11,city,PMOD), (16,-rrb-,P), (4,,,P), (0,be,ROOT), (21,easily,MNR), (19,avert,VC), (21,by,LGS), (22,one,PMOD), (23,of,NMOD), (26,the,NMOD), (24,defender,PMOD), (19,.,P)])  
+(be,[(3,goal,TITLE), (20,!,P), (4,free-kick,SBJ), (0,be,ROOT), (4,fire,VC), (5,in,PRT), (5,by,LGS), (9,alexis,NAME), (7,sanchez,PMOD), (11,-lrb-,P), (9,arsenal,APPO), (11,-rrb-,P), (9,,,P), (20,which,OBJ), (20,one,SBJ), (15,of,NMOD), (19,the,NMOD), (19,opposition,NMOD), (16,player,PMOD), (9,flick,NMOD), (20,on,PRT), (5,,,P), (5,leave,ADV), (25,steve,NAME), (23,harper,OBJ), (28,-lrb-,P), (28,hull,NAME), (23,city,PRN), (28,-rrb-,P), (23,strand,OPRD), (30,,,P), (4,and,COORD), (32,spin,CONJ), (33,into,ADV), (36,the,NMOD), (34,net,PMOD), (4,.,P)])  
+(1,[(0,1,ROOT), (1,.,P)])  
+(be,[(2,tom,NAME), (7,huddlestone,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,APPO), (5,-rrb-,P), (0,be,ROOT), (7,try,VC), (8,to,OPRD), (9,get,IM), (10,to,ADV), (13,the,NMOD), (11,ball,PMOD), (7,but,COORD), (14,hit,CONJ), (17,the,NMOD), (15,legs,OBJ), (17,of,NMOD), (20,the,NMOD), (18,opponent,PMOD), (22,as,AMOD), (15,well,ADV), (7,.,P)])  
+(blow,[(2,lee,NAME), (3,mason,SBJ), (0,blow,ROOT), (5,the,NMOD), (3,whistle,OBJ), (5,for,NMOD), (6,infingement,PMOD), (3,.,P)])  
+(win,[(2,arsenal,SBJ), (0,win,ROOT), (5,a,NMOD), (5,free,NMOD), (2,kick,OBJ), (2,.,P)])  
+(situation,[(3,a,NMOD), (3,promising,NMOD), (0,situation,ROOT), (3,for,NMOD), (7,a,NMOD), (7,direct,NMOD), (4,shot,PMOD), (3,.,P)])  
+(end,[(2,a,NMOD), (9,pass,SBJ), (2,by,NMOD), (5,mesut,NAME), (3,ozil,PMOD), (7,-lrb-,P), (5,arsenal,PRN), (7,-rrb-,P), (0,end,ROOT), (9,up,PRT), (9,in,LOC), (14,no,NMOD), (14,man's,NMOD), (11,land,PMOD), (9,,,P), (9,and,COORD), (19,the,NMOD), (19,attack,NMOD), (20,effort,SBJ), (16,come,CONJ), (20,to,ADV), (23,an,NMOD), (21,end,PMOD), (9,.,P)])  
+(have,[(2,the,NMOD), (3,ball,SBJ), (0,have,ROOT), (3,cross,VC), (6,the,NMOD), (4,sideline,OBJ), (3,.,P)])  
+(be,[(2,hull,NAME), (3,city,SBJ), (0,be,ROOT), (3,take,VC), (6,a,NMOD), (4,throw-in,OBJ), (3,.,P)])  
+(be,[(2,aaron,NAME), (6,ramsey,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,able,PRD), (7,to,AMOD), (8,continue,IM), (9,to,OPRD), (10,play,IM), (6,.,P)])  
+(be,[(2,aaron,NAME), (6,ramsey,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,ask,VC), (7,for,ADV), (10,medical,NMOD), (8,treatment,PMOD), (7,after,TMP), (11,suffer,PMOD), (12,bruise,OBJ), (12,from,ADV), (17,the,NMOD), (17,previous,NMOD), (14,challenge,PMOD), (6,.,P)])  
+(ca,[(2,jake,NAME), (7,livermore,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,ca,ROOT), (7,not,ADV), (7,expect,VC), (9,anything,OBJ), (10,else,NMOD), (10,than,NMOD), (15,a,NMOD), (15,yellow,NMOD), (12,card,PMOD), (15,for,NMOD), (19,his,NMOD), (19,hard,NMOD), (16,tackle,PMOD), (7,.,P)])  
+(be,[(5,and,DEP), (3,a,NMOD), (5,yellow,PRD), (5,it,SBJ), (0,be,ROOT), (5,.,P)])  
+(do,[(2,lee,NAME), (3,mason,SBJ), (0,do,ROOT), (3,not,ADV), (3,think,VC), (5,twice,TMP), (5,to,OPRD), (7,pull,IM), (8,it,OBJ), (8,out,ADV), (10,of,PMOD), (13,his,NMOD), (11,pocket,PMOD), (3,.,P)])  
+(meet,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,meet,ROOT), (9,a,NMOD), (7,cross,OBJ), (9,inside,LOC), (12,the,NMOD), (10,box,PMOD), (7,,,P), (7,but,COORD), (16,his,NMOD), (17,header,SBJ), (14,be,CONJ), (17,block,VC), (18,by,LGS), (22,an,NMOD), (22,oppose,NMOD), (19,player,PMOD), (7,.,P)])  
+(deliver,[(2,tom,NAME), (7,huddlestone,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,deliver,ROOT), (10,a,NMOD), (10,promise,NMOD), (7,cross,OBJ), (7,into,DIR), (13,the,NMOD), (11,box,PMOD), (7,,,P), (7,but,COORD), (21,one,SBJ), (16,of,NMOD), (20,the,NMOD), (20,defend,NMOD), (17,player,PMOD), (15,win,CONJ), (23,the,NMOD), (21,ball,OBJ), (21,and,COORD), (24,avert,CONJ), (27,the,NMOD), (25,threat,OBJ), (7,.,P)])  
+(fail,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,fail,ROOT), (7,to,OPRD), (8,find,IM), (11,the,NMOD), (9,target,OBJ), (7,.,P)])  
+(watch,[(2,the,NMOD), (9,goalkeeper,SBJ), (2,,,P), (2,root,APPO), (4,to,ADV), (7,the,NMOD), (5,spot,PMOD), (2,,,P), (0,watch,ROOT), (9,on,PRT), (9,helplessly,MNR), (9,as,TMP), (14,the,NMOD), (15,volley,SBJ), (12,go,SUB), (17,well,AMOD), (15,wide,PRD), (17,of,AMOD), (21,the,NMOD), (21,right,NMOD), (18,post,PMOD), (9,.,P)])  
+(ride,[(2,the,NMOD), (3,goalkeeper,SBJ), (0,ride,ROOT), (5,his,NMOD), (3,luck,OBJ), (3,there,LOC), (3,.,P)])  
+(go,[(2,the,NMOD), (3,ball,SBJ), (0,go,ROOT), (3,out-of-play,OBJ), (3,and,COORD), (7,arsenal,SBJ), (5,will,CONJ), (7,have,VC), (11,a,NMOD), (11,goal,NMOD), (8,kick,OBJ), (3,.,P)])  
+(squander,[(5,what,PRD), (3,a,NMOD), (13,chance,SBJ), (5,that,SBJ), (3,be,NMOD), (11,!,P), (11,stephen,NAME), (11,quinn,NAME), (11,-lrb-,P), (11,hull,NAME), (5,city,PRD), (11,-rrb-,P), (0,squander,ROOT), (16,a,NMOD), (16,huge,NMOD), (13,opportunity,OBJ), (13,as,TMP), (19,he,SBJ), (17,latch,SUB), (19,on,ADV), (20,to,PMOD), (24,a,NMOD), (24,perfect,NMOD), (21,cross,PMOD), (24,from,NMOD), (27,the,NMOD), (25,side,PMOD), (13,,,P), (13,and,COORD), (29,produce,CONJ), (33,a,NMOD), (33,bullet,NMOD), (30,header,OBJ), (30,from,ADV), (34,around,PMOD), (38,the,NMOD), (38,penalty,NMOD), (35,spot,PMOD), (40,which,SBJ), (38,go,NMOD), (42,well,AMOD), (40,wide,PRD), (42,of,AMOD), (46,the,NMOD), (46,right,NMOD), (43,post,PMOD), (13,!,P)])  
+(attempt,[(2,francis,NAME), (6,coquelin,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,attempt,ROOT), (6,to,OPRD), (7,find,IM), (10,his,NMOD), (8,teammate,OBJ), (8,with,ADV), (14,a,NMOD), (14,final,NMOD), (11,pass,PMOD), (14,from,NMOD), (15,outside,PMOD), (16,of,NMOD), (19,the,NMOD), (17,box,PMOD), (6,,,P), (6,but,COORD), (26,one,SBJ), (22,of,NMOD), (25,the,NMOD), (23,defender,PMOD), (21,clear,CONJ), (28,the,NMOD), (26,ball,OBJ), (28,to,NMOD), (29,safety,PMOD), (6,.,P)])  
+(take,[(2,robbie,NAME), (7,brady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,take,ROOT), (10,the,NMOD), (10,free,NMOD), (7,kick,OBJ), (7,but,COORD), (13,it,SBJ), (11,be,CONJ), (13,clear,VC), (14,by,LGS), (18,the,NMOD), (18,first,NMOD), (15,man,PMOD), (7,.,P)])  
+(make,[(6,per,LOC), (1,mertesacker,PMOD), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,make,ROOT), (8,a,NMOD), (6,foul,OBJ), (6,.,P)])  
+(signal,[(8,at,NMOD), (1,least,PMOD), (8,that's,NMOD), (5,what,SBJ), (3,referee,NMOD), (7,lee,NAME), (5,mason,OBJ), (0,signal,ROOT), (8,.,P)])  
+(be,[(2,hull,NAME), (3,city,SBJ), (0,be,ROOT), (3,give,VC), (6,an,NMOD), (4,advantage,OBJ), (3,.,P)])  
+(have,[(2,they,SBJ), (0,have,ROOT), (5,a,NMOD), (5,free,NMOD), (2,kick,OBJ), (2,.,P)])  
+(allow,[(2,a,NMOD), (6,long,SBJ), (6,through,ADV), (3,ball,PMOD), (6,almost,ADV), (0,allow,ROOT), (8,mesut,NAME), (6,ozil,OBJ), (10,-lrb-,P), (8,arsenal,APPO), (10,-rrb-,P), (6,to,OPRD), (12,get,IM), (13,in,LOC), (17,a,NMOD), (17,good,NMOD), (14,chance,PMOD), (6,,,P), (6,but,COORD), (21,he,SBJ), (19,lose,CONJ), (21,it,OBJ), (21,to,DIR), (23,one,PMOD), (24,of,NMOD), (27,the,NMOD), (25,defender,PMOD), (6,.,P)])  
+(keep,[(3,the,NMOD), (3,arsenal,NMOD), (4,player,SBJ), (0,keep,ROOT), (6,the,NMOD), (4,ball,OBJ), (4,and,COORD), (7,be,CONJ), (8,exchange,VC), (11,a,NMOD), (9,combination,OBJ), (11,of,NMOD), (12,pass,PMOD), (4,.,P)])  
+(be,[(2,they,SBJ), (0,be,ROOT), (2,wait,VC), (3,for,ADV), (8,gap,SBJ), (5,in,LOC), (6,defence,PMOD), (4,to,SUB), (8,open,IM), (9,up,PRT), (2,.,P)])  
+(be,[(2,olivier,NAME), (6,giroud,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,catch,VC), (7,offside,OBJ), (6,!,P)])  
+(connect,[(4,alexis,NAME), (4,sanchez,NAME), (4,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,connect,ROOT), (6,with,ADV), (9,a,NMOD), (7,pass,PMOD), (9,around,LOC), (12,the,NMOD), (10,edge,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (15,,,P), (15,aim,APPO), (17,and,COORD), (18,strike,CONJ), (6,.,P)])  
+(go,[(2,his,NMOD), (3,attempt,SBJ), (0,go,ROOT), (3,in,LOC), (6,the,NMOD), (4,direction,PMOD), (6,of,NMOD), (10,the,NMOD), (10,left-hand,NMOD), (7,post,PMOD), (3,,,P), (3,but,COORD), (14,steve,NAME), (19,harper,SBJ), (17,-lrb-,P), (17,hull,NAME), (14,city,APPO), (17,-rrb-,P), (12,be,CONJ), (19,alert,PRD), (19,and,COORD), (21,do,CONJ), (22,not,ADV), (22,let,VC), (27,the,NMOD), (27,score,NMOD), (24,change,OBJ), (3,.,P)])  
+(swing,[(2,ahmed,NAME), (7,elmohamady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,swing,ROOT), (9,a,NMOD), (7,cross,OBJ), (9,into,NMOD), (12,the,NMOD), (10,box,PMOD), (7,,,P), (7,but,COORD), (14,be,CONJ), (15,far,PRD), (16,too,AMOD), (16,close,AMOD), (16,to,AMOD), (21,david,NAME), (19,ospina,PMOD), (23,-lrb-,P), (21,arsenal,APPO), (23,-rrb-,P), (21,,,P), (27,who,SBJ), (21,smother,NMOD), (29,the,NMOD), (27,ball,OBJ), (7,.,P)])  
+(send,[(2,santi,NAME), (6,cazorla,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,send,ROOT), (9,a,NMOD), (9,low,NMOD), (6,pass,OBJ), (6,from,DIR), (10,outside,PMOD), (13,the,NMOD), (11,box,PMOD), (6,to,DIR), (18,olivier,NAME), (18,giroud,NAME), (18,-lrb-,P), (14,arsenal,PMOD), (18,-rrb-,P), (6,.,P)])  
+(line,[(2,he,SBJ), (0,line,ROOT), (2,up,PRT), (5,a,NMOD), (2,shot,OBJ), (5,,,P), (5,but,COORD), (10,the,NMOD), (10,defence,NMOD), (7,intercept,GAP-PMOD), (2,at,TMP), (14,the,NMOD), (14,last,NMOD), (11,moment,PMOD), (2,.,P)])  
+(produce,[(2,hector,NAME), (6,bellerin,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,produce,ROOT), (8,a,NMOD), (6,cross,OBJ), (8,into,NMOD), (11,the,NMOD), (9,box,PMOD), (6,.,P)])  
+(clear,[(3,the,NMOD), (3,opposition's,NMOD), (4,defence,SBJ), (0,clear,ROOT), (6,the,NMOD), (4,ball,OBJ), (6,to,NMOD), (7,safety,PMOD), (4,.,P)])  
+(bring,[(2,michael,NAME), (7,dawson,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,bring,ROOT), (9,an,NMOD), (7,opponent,OBJ), (7,down,DIR), (7,and,COORD), (13,lee,NAME), (14,mason,SBJ), (11,interrupt,CONJ), (16,the,NMOD), (14,game,OBJ), (7,.,P)])  
+(have,[(2,francis,NAME), (6,coquelin,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,have,ROOT), (6,not,ADV), (6,suffer,VC), (11,any,NMOD), (11,serious,NMOD), (8,injury,OBJ), (13,which,SBJ), (11,would,NMOD), (13,not,ADV), (13,allow,VC), (15,him,OBJ), (15,to,OPRD), (17,stay,IM), (18,on,ADV), (21,the,NMOD), (19,pitch,PMOD), (6,.,P)])  
+(in,[(3,he',PMOD), (1,back,AMOD), (0,in,ROOT), (5,the,NMOD), (3,game,PMOD), (3,now,TMP), (3,.,P)])  
+(be,[(2,francis,NAME), (6,coquelin,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,be,ROOT), (6,writhe,VC), (7,in,ADV), (8,pain,PMOD), (6,.,P)])  
+(call,[(2,the,NMOD), (3,referee,SBJ), (0,call,ROOT), (3,for,ADV), (4,physio,PMOD), (3,,,P), (8,let's,SBJ), (3,see,COORD), (8,whether,OBJ), (11,he,SBJ), (9,will,SUB), (11,be,VC), (12,able,PRD), (13,to,AMOD), (14,go,IM), (15,on,PRT), (3,.,P)])  
+(blow,[(4,olivier,NAME), (4,giroud,NAME), (4,-lrb-,P), (15,arsenal,SBJ), (4,-rrb-,P), (4,with,ADV), (9,an,NMOD), (9,overly-aggressive,NMOD), (6,challenge,PMOD), (4,,,P), (4,and,COORD), (11,referee,CONJ), (14,lee,NAME), (12,mason,APPO), (0,blow,ROOT), (17,his,NMOD), (15,whistle,OBJ), (17,for,NMOD), (20,a,NMOD), (18,foul,PMOD), (15,.,P)])  
+(end,[(2,a,NMOD), (9,pass,SBJ), (2,by,NMOD), (5,francis,NAME), (3,coquelin,PMOD), (7,-lrb-,P), (5,arsenal,PRN), (7,-rrb-,P), (0,end,ROOT), (9,up,PRT), (9,in,LOC), (14,no,NMOD), (14,man's,NMOD), (11,land,PMOD), (9,,,P), (9,and,COORD), (19,the,NMOD), (19,attack,NMOD), (20,effort,SBJ), (16,come,CONJ), (20,to,ADV), (23,an,NMOD), (21,end,PMOD), (9,.,P)])  
+(raise,[(3,the,NMOD), (3,assistant,NMOD), (4,referee,SBJ), (0,raise,ROOT), (6,his,NMOD), (4,flag,OBJ), (4,.,P)])  
+(be,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (9,adjudge,NMOD), (7,offside,PRD), (7,.,P)])  
+(loft,[(2,a,NMOD), (3,fine,SBJ), (0,loft,ROOT), (3,pass,OBJ), (3,into,ADV), (7,the,NMOD), (17,box,SBJ), (7,,,P), (7,send,APPO), (9,by,LGS), (12,nacho,NAME), (10,monreal,PMOD), (14,-lrb-,P), (12,arsenal,APPO), (14,-rrb-,P), (7,,,P), (5,be,PMOD), (17,intercept,VC), (18,by,LGS), (22,the,NMOD), (22,opposition's,NMOD), (19,defence,PMOD), (3,.,P)])  
+(move,[(3,neat,NMOD), (3,pass,NMOD), (0,move,ROOT), (3,from,NMOD), (4,arsenal,PMOD), (3,in,PRP), (6,order,DEP), (6,to,SUB), (8,create,IM), (12,new,NMOD), (12,attack,NMOD), (9,opportunity,OBJ), (3,.,P)])
+Looking up tree roots in Kicktionary...
+168 matches: game n
+The game has n't been extremely attractive , but it has n't been totally boring either . 
+set of lexical units:
+[u'game.n']
+
+167 matches: side n
+There have been a few nice movements on both sides . 
+set of lexical units:
+[u'side.n']
+
+166 matches: control n
+166 matches: game n
+166 matches: visitor n
+The control of the game belonged to the visitors . 
+set of lexical units:
+[u'control.n', u'game.n', u'visitor.n']
+
+165 matches: ball n
+165 matches: ball n
+165 matches: cross n
+165 matches: team n
+Long balls and crosses were the strongest weapons of the home team . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'cross.n', u'team.n']
+
+164 matches: player n
+164 matches: team n
+164 matches: possession n
+Players of the away team presented themselves with possession football . 
+set of lexical units:
+[u'player.n', u'team.n', u'possession.n']
+
+163 matches: game n
+That's all for today because the game is over . 
+set of lexical units:
+[u'game.n']
+
+162 matches: produce v
+162 cool matches: solo_run.n.n n
+162 matches: pitch n
+162 matches: penalty n
+162 cool matches: penalty_area.n.n n
+Alexis Sanchez ( Arsenal ) produces a stunning solo run from the middle of the pitch , all the way to the penalty area . 
+set of lexical units:
+[u'produce.v', u'solo_run.n', u'pitch.n', u'penalty_area.n']
+
+161 matches: unleash v
+161 matches: strike n
+161 matches: strike n
+161 matches: go v
+161 matches: post n
+He unleashes a decent strike which goes narrowly wide of the right post . 
+set of lexical units:
+[u'unleash.v', u'strike.n', u'strike.n', u'go.v', u'post.n']
+
+160 matches: ball n
+160 matches: ball n
+160 matches: pitch n
+160 matches: goal n
+160 matches: goal n
+160 cool matches: goal_kick.n.n n
+The ball is out of the pitch and it 's a goal kick for Hull City . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'pitch.n', u'goal_kick.n']
+
+159 matches: opportunity n
+159 matches: miss v
+159 matches: miss v
+159 matches: miss v
+A big opportunity missed by Theo Walcott ( Arsenal ) . 
+set of lexical units:
+[u'opportunity.n', u'miss.v', u'miss.v', u'miss.v']
+
+158 matches: ball n
+158 matches: ball n
+158 matches: box n
+158 matches: shot n
+158 matches: goal n
+158 matches: goal n
+158 matches: go v
+158 matches: post n
+He got on the ball inside the box and thumped a splendid first-time shot on goal , but it went narrowly wide of the right post . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'box.n', u'shot.n', u'goal.n', u'goal.n', u'go.v', u'post.n']
+
+157 matches: receive v
+157 matches: receive v
+157 matches: pass n
+157 matches: box n
+157 matches: unleash v
+157 matches: strike n
+157 matches: strike n
+157 matches: shot n
+157 matches: defender n
+Jack Wilshere ( Arsenal ) receives a good pass just outside the box , unleashes a strike from a promising position , but the shot is thwarted by the defender . 
+set of lexical units:
+[u'receive.v', u'receive.v', u'pass.n', u'box.n', u'unleash.v', u'strike.n', u'strike.n', u'shot.n', u'defender.n']
+
+Flag up against Robbie Brady ( Hull City ) . 
+set of lexical units:
+[]
+
+155 matches: defence n
+155 matches: go v
+He had space to move into behind the defence , but he went too soon . 
+set of lexical units:
+[u'defence.n', u'go.v']
+
+We will have 4 min. of added time . 
+set of lexical units:
+[]
+
+153 matches: corner n
+153 matches: corner n
+Mesut Ozil ( Arsenal ) takes a short corner kick . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+152 matches: box n
+Theo Walcott ( Arsenal ) is trying to get into the box . 
+set of lexical units:
+[u'box.n']
+
+151 matches: pass n
+151 matches: block v
+151 matches: clear v
+He sends a low pass , but it 's blocked and cleared . 
+set of lexical units:
+[u'pass.n', u'block.v', u'clear.v']
+
+150 matches: corner n
+150 matches: corner n
+It will be a corner kick for Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+149 matches: match n
+The attendance for today's match is 23628 . 
+set of lexical units:
+[u'match.n']
+
+148 matches: ball n
+148 matches: ball n
+Jack Wilshere ( Arsenal ) skips past his man but ca n't keep the ball in play . 
+set of lexical units:
+[u'ball.n', u'ball.n']
+
+147 matches: ball n
+147 matches: ball n
+147 matches: go v
+147 matches: goal n
+147 matches: goal n
+147 cool matches: goal_kick.n.n n
+The ball goes out-of-play and Hull City will have a goal kick . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'go.v', u'goal_kick.n']
+
+That will be all from Olivier Giroud ( Arsenal ) who is being replaced by the fresh legs of Theo Walcott ( Arsenal ) . 
+set of lexical units:
+[]
+
+145 matches: rebound n
+145 matches: rebound n
+145 matches: shot n
+145 matches: block v
+Jack Wilshere ( Arsenal ) is first to the rebound but his shot is blocked . 
+set of lexical units:
+[u'rebound.n', u'rebound.n', u'shot.n', u'block.v']
+
+Wow , what an escape there for the opposition . 
+set of lexical units:
+[]
+
+143 matches: opportunity n
+143 matches: fire v
+143 matches: fire v
+Hector Bellerin ( Arsenal ) had a golden opportunity as he fired from point blank range . 
+set of lexical units:
+[u'opportunity.n', u'fire.v', u'fire.v']
+
+142 matches: volley n
+142 matches: goal n
+142 matches: goal n
+142 matches: save n
+His volley was directed towards the middle of the goal , but Steve Harper ( Hull City ) was alert and made an amazing save ! 
+set of lexical units:
+[u'volley.n', u'goal.n', u'goal.n', u'save.n']
+
+141 matches: cross n
+141 matches: defence n
+Dame N'Doye ( Hull City ) serves in a nice cross , but the defence clear the danger . 
+set of lexical units:
+[u'cross.n', u'defence.n']
+
+140 matches: substitution n
+Here comes a substitution . 
+set of lexical units:
+[u'substitution.n']
+
+139 matches: give v
+Stephen Quinn ( Hull City ) is given a rest as he is replaced by Nikica Jelavic ( Hull City ) . 
+set of lexical units:
+[u'give.v']
+
+138 matches: corner n
+138 matches: corner n
+138 matches: find v
+Mesut Ozil ( Arsenal ) takes the corner but fails to find any of his teammates . 
+set of lexical units:
+[u'corner.n', u'corner.n', u'find.v']
+
+137 matches: defence n
+137 matches: clear v
+137 matches: cross n
+The defence is alert as they clear a dangerous cross from Mesut Ozil ( Arsenal ) . 
+set of lexical units:
+[u'defence.n', u'clear.v', u'cross.n']
+
+136 matches: corner n
+136 matches: corner n
+Arsenal will take a corner kick . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+135 matches: find v
+135 matches: foot n
+135 matches: possession n
+Arsenal seem to be finding their feet as they enjoy some possession . 
+set of lexical units:
+[u'find.v', u'foot.n', u'possession.n']
+
+134 matches: create v
+134 matches: attack v
+134 matches: opportunity n
+They are waiting for the right moment to create new attacking opportunities . 
+set of lexical units:
+[u'create.v', u'attack.v', u'opportunity.n']
+
+133 matches: cross n
+133 matches: box n
+An unsuccessful cross into the box by Andrew Robertson ( Hull City ) . 
+set of lexical units:
+[u'cross.n', u'box.n']
+
+132 matches: defence n
+132 matches: clear v
+132 matches: ball n
+132 matches: ball n
+The opponent's defence clears the ball away to safety . 
+set of lexical units:
+[u'defence.n', u'clear.v', u'ball.n', u'ball.n']
+
+131 matches: cross n
+131 matches: defence n
+131 matches: ball n
+131 matches: ball n
+131 matches: penalty n
+131 cool matches: penalty_area.n.n n
+A lofted cross from Andrew Robertson ( Hull City ) was unsuccessful as the opponent's defence quickly gets the ball out of the penalty area . 
+set of lexical units:
+[u'cross.n', u'defence.n', u'ball.n', u'ball.n', u'penalty_area.n']
+
+130 matches: pass n
+130 matches: penalty n
+130 cool matches: penalty_area.n.n n
+130 matches: defender n
+David Meyler ( Hull City ) sends a sweet pass into the penalty area , but one of the defenders averts the danger . 
+set of lexical units:
+[u'pass.n', u'penalty_area.n', u'defender.n']
+
+129 matches: produce v
+129 matches: ball n
+129 matches: ball n
+129 matches: penalty n
+129 cool matches: penalty_area.n.n n
+129 matches: defender n
+129 matches: intercept v
+Ahmed Elmohamady ( Hull City ) produces a lovely ball into the penalty area but the defender manages to intercept and comfortably averts the danger . 
+set of lexical units:
+[u'produce.v', u'ball.n', u'ball.n', u'penalty_area.n', u'defender.n', u'intercept.v']
+
+128 matches: opportunity n
+128 matches: fire v
+128 matches: fire v
+128 matches: shot n
+128 matches: goal n
+128 matches: goal n
+128 matches: ball n
+128 matches: ball n
+It is unbelievable , Santi Cazorla ( Arsenal ) blows a huge opportunity ! He is totally unmarked and fires a first-time shot towards goal from a few yards out , but Steve Harper ( Hull City ) reacts superbly to keep the ball out . 
+set of lexical units:
+[u'opportunity.n', u'fire.v', u'fire.v', u'shot.n', u'goal.n', u'goal.n', u'ball.n', u'ball.n']
+
+127 matches: pick v
+127 cool matches: pick_up.v.v v
+127 cool matches: pick_up.v.v v
+127 cool matches: through-ball.n.n n
+127 matches: interception n
+Alexis Sanchez ( Arsenal ) picks up a long through ball , but Steve Harper ( Hull City ) deserves praise for a brilliant reaction and interception . 
+set of lexical units:
+[u'pick_up.v', u'pick_up.v', u'through-ball.n', u'interception.n']
+
+126 matches: corner n
+126 matches: corner n
+126 matches: find v
+126 matches: head n
+126 matches: defence n
+126 matches: clearance n
+Mesut Ozil ( Arsenal ) sends in the corner , but he fails to find the head of any of his teamamtes , and the the defence makes a clearance . 
+set of lexical units:
+[u'corner.n', u'corner.n', u'find.v', u'head.n', u'defence.n', u'clearance.n']
+
+David Meyler ( Hull City ) is moving again okay after that injury scare . 
+set of lexical units:
+[]
+
+124 cool matches: free-kick.n.n n
+124 matches: box n
+124 matches: block v
+124 matches: player n
+124 matches: wall n
+124 matches: save v
+124 matches: goalkeeper n
+124 matches: effort n
+Alexis Sanchez ( Arsenal ) takes the resulting free kick from the edge of the box , but it was blocked by the players standing in the wall , saving the goalkeeper lot of effort . 
+set of lexical units:
+[u'free-kick.n', u'box.n', u'block.v', u'player.n', u'wall.n', u'save.v', u'goalkeeper.n', u'effort.n']
+
+123 matches: ball n
+123 matches: ball n
+123 matches: go v
+The ball goes out-of-play . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'go.v']
+
+122 matches: award v
+122 matches: award v
+122 matches: corner n
+122 matches: corner n
+Arsenal have been awarded a corner kick . 
+set of lexical units:
+[u'award.v', u'award.v', u'corner.n', u'corner.n']
+
+121 matches: break n
+121 matches: break n
+Break in play with David Meyler ( Hull City ) down injured . 
+set of lexical units:
+[u'break.n', u'break.n']
+
+120 matches: player n
+120 matches: opponent n
+120 matches: referee n
+120 matches: whistle n
+A player from Hull City pulled an opponent down , making the referee blow the whistle . 
+set of lexical units:
+[u'player.n', u'opponent.n', u'referee.n', u'whistle.n']
+
+119 matches: earn v
+119 cool matches: free-kick.n.n n
+119 matches: lead v
+119 matches: opportunity n
+Arsenal earn a free kick which can lead to a goal-scoring opportunity . 
+set of lexical units:
+[u'earn.v', u'free-kick.n', u'lead.v', u'opportunity.n']
+
+118 matches: box n
+118 cool matches: latch_on.v.v v
+118 cool matches: through-ball.n.n n
+118 matches: defender n
+118 matches: clear v
+118 matches: ball n
+118 matches: ball n
+Alexis Sanchez ( Arsenal ) bursts into the box , and latches on to a pin-point long through ball , but one of the defenders steps in to clear the ball to safety . 
+set of lexical units:
+[u'box.n', u'latch_on.v', u'through-ball.n', u'defender.n', u'clear.v', u'ball.n', u'ball.n']
+
+Here is a change . 
+set of lexical units:
+[]
+
+116 matches: go v
+116 matches: give v
+Aaron Ramsey ( Arsenal ) is going off and Arsene Wenger gives the last tactical orders to Jack Wilshere ( Arsenal ) . 
+set of lexical units:
+[u'go.v', u'give.v']
+
+115 matches: substitution n
+We are about to witness a substitution . 
+set of lexical units:
+[u'substitution.n']
+
+Andrew Robertson ( Hull City ) is replacing Sone Aluko ( Hull City ) . 
+set of lexical units:
+[]
+
+113 matches: effort n
+113 matches: find v
+113 matches: collect v
+113 matches: collect v
+113 matches: collect v
+113 matches: pass n
+113 matches: penalty n
+113 cool matches: penalty_area.n.n n
+113 matches: go v
+113 matches: goal n
+113 matches: goal n
+113 matches: goalkeeper n
+113 matches: bar n
+Ambitious effort from Aaron Ramsey ( Arsenal ) as he finds himself in a great position after collecting a precise pass inside the penalty area and goes for goal , but it never troubles the goalkeeper and flies well over the bar . 
+set of lexical units:
+[u'effort.n', u'find.v', u'collect.v', u'collect.v', u'collect.v', u'pass.n', u'penalty_area.n', u'go.v', u'goal.n', u'goal.n', u'goalkeeper.n', u'bar.n']
+
+112 matches: ball n
+112 matches: ball n
+112 matches: pitch n
+112 matches: goal n
+112 matches: goal n
+112 cool matches: goal_kick.n.n n
+The ball is out of the pitch and it 's a goal kick for Hull City . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'pitch.n', u'goal_kick.n']
+
+111 matches: cross n
+111 matches: area n
+111 matches: intercept v
+111 matches: ball n
+111 matches: ball n
+Alexis Sanchez ( Arsenal ) with a teasing cross into the area , but Steve Harper ( Hull City ) intercepts the ball . 
+set of lexical units:
+[u'cross.n', u'area.n', u'intercept.v', u'ball.n', u'ball.n']
+
+110 matches: corner n
+110 matches: corner n
+110 matches: clear v
+110 matches: defence n
+The resulting corner from Santi Cazorla ( Arsenal ) is cleared by the defence . 
+set of lexical units:
+[u'corner.n', u'corner.n', u'clear.v', u'defence.n']
+
+109 matches: receive v
+109 matches: receive v
+109 matches: chip n
+109 matches: pass n
+Alexis Sanchez ( Arsenal ) receives a clever chip pass into a promising position . 
+set of lexical units:
+[u'receive.v', u'receive.v', u'chip.n', u'pass.n']
+
+108 matches: defence n
+108 matches: clearance n
+Nevertheless , the opponent's defence is alert and averts the danger with a brilliant clearance . 
+set of lexical units:
+[u'defence.n', u'clearance.n']
+
+107 matches: ball n
+107 matches: ball n
+107 cool matches: assistant_referee.n.n n
+107 matches: corner n
+107 matches: corner n
+107 cool matches: corner_flag.n.n n
+The ball is out-of-play , and the assistant referee points at the corner flag . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'assistant_referee.n', u'corner_flag.n']
+
+Arsenal will take it . 
+set of lexical units:
+[]
+
+105 matches: player n
+105 matches: pass n
+105 matches: defence n
+105 matches: hit v
+105 matches: break n
+105 matches: break n
+The Arsenal players are exchanging some short passes to open the opposition’s defence to hit them swiftly on the break . 
+set of lexical units:
+[u'player.n', u'pass.n', u'defence.n', u'hit.v', u'break.n', u'break.n']
+
+104 matches: swing v
+104 matches: cross n
+Ahmed Elmohamady ( Hull City ) swings the cross over . 
+set of lexical units:
+[u'swing.v', u'cross.n']
+
+103 matches: head n
+103 matches: go v
+103 matches: crossbar n
+Paul McShane ( Hull City ) gets his head to it but it goes just over the crossbar . 
+set of lexical units:
+[u'head.n', u'go.v', u'crossbar.n']
+
+102 matches: stop v
+Stephen Quinn ( Hull City ) is writhing in pain , and play has been stopped for a few moments . 
+set of lexical units:
+[u'stop.v']
+
+101 matches: head v
+101 matches: ball n
+101 matches: ball n
+101 matches: post n
+101 matches: cross n
+Stephen Quinn ( Hull City ) heads the ball inside the right post after a splendid cross . 
+set of lexical units:
+[u'head.v', u'ball.n', u'ball.n', u'post.n', u'cross.n']
+
+100 matches: header n
+This timely header makes a wonderful moment . 
+set of lexical units:
+[u'header.n']
+
+99 matches: box n
+99 matches: pass n
+99 matches: shot n
+99 matches: go v
+99 matches: post n
+Aaron Ramsey ( Arsenal ) makes a yard for himself inside the box after an accurate pass and takes a shot that goes just wide of the right post . 
+set of lexical units:
+[u'box.n', u'pass.n', u'shot.n', u'go.v', u'post.n']
+
+98 matches: ball n
+98 matches: ball n
+98 matches: go v
+98 matches: goal n
+98 matches: goal n
+98 cool matches: goal_kick.n.n n
+The ball goes out-of-play and Hull City will have a goal kick . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'go.v', u'goal_kick.n']
+
+97 matches: flag n
+97 matches: go v
+Flag goes up against Dame N'Doye ( Hull City ) . 
+set of lexical units:
+[u'flag.n', u'go.v']
+
+96 matches: referee n
+96 matches: whistle n
+96 matches: offside n
+The referee blows the whistle for offside . 
+set of lexical units:
+[u'referee.n', u'whistle.n', u'offside.n']
+
+95 matches: feed v
+95 matches: chip n
+95 matches: pass n
+95 matches: line n
+95 matches: intercept v
+Alexis Sanchez ( Arsenal ) attempts to feed Olivier Giroud ( Arsenal ) with a chip pass , but Steve Harper ( Hull City ) reacts well and comes off his line to intercept . 
+set of lexical units:
+[u'feed.v', u'chip.n', u'pass.n', u'line.n', u'intercept.v']
+
+94 matches: ball n
+94 matches: ball n
+94 matches: clear v
+94 matches: dribble v
+94 matches: player n
+The ball is cleared after Hector Bellerin ( Arsenal ) attempted to dribble past an opposing player . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'clear.v', u'dribble.v', u'player.n']
+
+93 matches: control v
+93 matches: pass v
+93 matches: pitch n
+Some great controlled play and passing in the middle of the pitch from Arsenal . 
+set of lexical units:
+[u'control.v', u'pass.v', u'pitch.n']
+
+92 matches: pass n
+92 matches: attack v
+92 matches: effort n
+A pass by Sone Aluko ( Hull City ) ends up in no man's land , and the attacking effort comes to an end . 
+set of lexical units:
+[u'pass.n', u'attack.v', u'effort.n']
+
+91 matches: foot n
+91 matches: opponent n
+Laurent Koscielny ( Arsenal ) carelessly plunged himself under the feet of his opponent and could n't expect to avoid punishment . 
+set of lexical units:
+[u'foot.n', u'opponent.n']
+
+90 matches: foul n
+This time , Lee Mason keeps the cards in his pocket , but he blows for the foul . 
+set of lexical units:
+[u'foul.n']
+
+89 matches: tackle v
+David Meyler ( Hull City ) tackles a bit over-zealously . 
+set of lexical units:
+[u'tackle.v']
+
+88 matches: foul n
+Lee Mason blows for a foul . 
+set of lexical units:
+[u'foul.n']
+
+87 matches: go v
+87 matches: goal n
+87 matches: goal n
+Sone Aluko ( Hull City ) makes a yard for himself and goes for goal from long range . 
+set of lexical units:
+[u'go.v', u'goal.n', u'goal.n']
+
+86 matches: goalkeeper n
+It never troubles the goalkeeper as it flies into the stands . 
+set of lexical units:
+[u'goalkeeper.n']
+
+85 matches: ball n
+85 matches: ball n
+85 matches: pitch n
+85 matches: goal n
+85 matches: goal n
+85 cool matches: goal_kick.n.n n
+The ball is out of the pitch and it 's a goal kick for Arsenal . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'pitch.n', u'goal_kick.n']
+
+84 matches: half-time n
+84 matches: substitution n
+Steve Bruce makes a half-time substitution . 
+set of lexical units:
+[u'half-time.n', u'substitution.n']
+
+83 cool matches: come_on.v.v v
+David Meyler ( Hull City ) comes on in place of Jake Livermore ( Hull City ) . 
+set of lexical units:
+[u'come_on.v']
+
+82 matches: half-time n
+82 cool matches: half-time_break.n.n n
+After the half-time break we are back again . 
+set of lexical units:
+[u'half-time_break.n']
+
+81 matches: player n
+81 matches: pitch n
+81 matches: half n
+81 matches: half n
+The players are back out on the pitch , and the second half is underway . 
+set of lexical units:
+[u'player.n', u'pitch.n', u'half.n', u'half.n']
+
+80 matches: game n
+80 matches: player n
+80 matches: fan n
+We are seeing a great game so far , let's hope the players will be able to sustain the level of attractiveness and keep entertaining the fans in such a fabulous way . 
+set of lexical units:
+[u'game.n', u'player.n', u'fan.n']
+
+79 matches: visit v
+79 matches: team n
+79 matches: dominate v
+79 matches: half n
+79 matches: half n
+79 matches: game n
+79 matches: turn v
+The visiting team dominated the first half in most aspects of the game , but the hosts will surely attempt to turn the situation in their favour . 
+set of lexical units:
+[u'visit.v', u'team.n', u'dominate.v', u'half.n', u'half.n', u'game.n', u'turn.v']
+
+78 matches: team n
+78 matches: play v
+78 matches: play v
+78 matches: play v
+78 matches: side n
+78 matches: hold v
+78 matches: ball n
+78 matches: ball n
+The home team plays long-ball football unlike the away side which attempts to hold onto the ball for as long as possible . 
+set of lexical units:
+[u'team.n', u'play.v', u'play.v', u'play.v', u'side.n', u'hold.v', u'ball.n', u'ball.n']
+
+77 matches: half n
+77 matches: half n
+77 matches: match n
+77 matches: finish v
+77 matches: finish v
+The first half of today's match has just finished . 
+set of lexical units:
+[u'half.n', u'half.n', u'match.n', u'finish.v', u'finish.v']
+
+76 matches: goal n
+76 matches: goal n
+76 matches: pass n
+76 matches: show v
+76 matches: box n
+76 matches: ball n
+76 matches: ball n
+76 matches: net n
+Goal ! Aaron Ramsey ( Arsenal ) displays great vision and sends a pass to Alexis Sanchez ( Arsenal ) , who shows brilliant composure inside the box to bury the ball from close range into the back of the net . 
+set of lexical units:
+[u'goal.n', u'goal.n', u'pass.n', u'show.v', u'box.n', u'ball.n', u'ball.n', u'net.n']
+
+75 matches: score n
+The score is 0:3 . 
+set of lexical units:
+[u'score.n']
+
+Santi Cazorla ( Arsenal ) comes close to scoring . 
+set of lexical units:
+[]
+
+73 matches: connect v
+73 matches: pass n
+73 matches: box n
+73 matches: shot n
+He connected with a pass inside the box , and he perhaps should have done better than direct his shot straight at Steve Harper ( Hull City ) . 
+set of lexical units:
+[u'connect.v', u'pass.n', u'box.n', u'shot.n']
+
+72 matches: touch n
+72 matches: collect v
+72 matches: collect v
+72 matches: collect v
+72 matches: pass n
+72 matches: box n
+72 matches: produce v
+72 matches: drive n
+72 matches: net n
+What a sweet touch by Mesut Ozil ( Arsenal ) as he collects a pass deep into the box , and produces a low drive towards the middle of the net . 
+set of lexical units:
+[u'touch.n', u'collect.v', u'collect.v', u'collect.v', u'pass.n', u'box.n', u'produce.v', u'drive.n', u'net.n']
+
+71 matches: goalkeeper n
+71 cool matches: reflex_save.n.n n
+71 matches: deny v
+71 matches: deny v
+71 matches: attempt n
+The goalkeeper pulls off a reflex save and denies the attempt ! 
+set of lexical units:
+[u'goalkeeper.n', u'reflex_save.n', u'deny.v', u'deny.v', u'attempt.n']
+
+70 matches: foul n
+70 matches: whistle n
+An offensive foul by Dame N'Doye ( Hull City ) was seen by Lee Mason who did n't hesitate to blow the whistle . 
+set of lexical units:
+[u'foul.n', u'whistle.n']
+
+69 matches: control v
+69 matches: game n
+69 matches: pass n
+Arsenal control the tempo of the game as they are exchanging some accurate short passes . 
+set of lexical units:
+[u'control.v', u'game.n', u'pass.n']
+
+68 matches: release v
+68 matches: pass n
+68 matches: box n
+68 matches: attempt n
+68 matches: find v
+68 matches: defender n
+Ahmed Elmohamady ( Hull City ) releases a low pass from just outside the box in an attempt to find his teammate , but one of the defenders calmly averts the threat . 
+set of lexical units:
+[u'release.v', u'pass.n', u'box.n', u'attempt.n', u'find.v', u'defender.n']
+
+67 matches: game n
+67 matches: offside n
+The game is interrupted as Dame N'Doye ( Hull City ) is flagged for offside . 
+set of lexical units:
+[u'game.n', u'offside.n']
+
+66 matches: pass n
+66 matches: intercept v
+66 matches: move n
+66 matches: break v
+66 matches: break v
+A pass from Dame N'Doye ( Hull City ) is intercepted by David Ospina ( Arsenal ) and the move breaks down . 
+set of lexical units:
+[u'pass.n', u'intercept.v', u'move.n', u'break.v', u'break.v']
+
+65 matches: corner n
+65 matches: corner n
+65 matches: penalty n
+65 cool matches: penalty_area.n.n n
+65 matches: defence n
+65 matches: clearance n
+Santi Cazorla ( Arsenal ) takes the corner and sends it into the penalty area , but the opposition's defence is ready and makes a good clearance . 
+set of lexical units:
+[u'corner.n', u'corner.n', u'penalty_area.n', u'defence.n', u'clearance.n']
+
+64 matches: touch n
+64 matches: collect v
+64 matches: collect v
+64 matches: collect v
+64 matches: pass n
+64 matches: box n
+Santi Cazorla ( Arsenal ) with a wonderful touch after collecting a pass inside the box . 
+set of lexical units:
+[u'touch.n', u'collect.v', u'collect.v', u'collect.v', u'pass.n', u'box.n']
+
+63 matches: steer v
+63 matches: drive n
+63 matches: post n
+63 matches: keeper n
+63 matches: dive v
+63 matches: dive v
+63 matches: ball n
+63 matches: ball n
+He steers his low drive towards the left post , but the keeper dives low to keep the ball out . 
+set of lexical units:
+[u'steer.v', u'drive.n', u'post.n', u'keeper.n', u'dive.v', u'dive.v', u'ball.n', u'ball.n']
+
+62 matches: ball n
+62 matches: ball n
+62 matches: earn v
+62 matches: corner n
+62 matches: corner n
+The ball is out-of-play and Arsenal manage to earn a corner . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'earn.v', u'corner.n', u'corner.n']
+
+61 matches: clearance n
+61 matches: receive v
+61 matches: receive v
+61 matches: pass n
+61 matches: catch v
+61 matches: steal v
+61 matches: defender n
+Good clearance ! Aaron Ramsey ( Arsenal ) received a low pass , but he did n't catch to do anything before quick stealing from one of the defenders . 
+set of lexical units:
+[u'clearance.n', u'receive.v', u'receive.v', u'pass.n', u'catch.v', u'steal.v', u'defender.n']
+
+60 matches: cross n
+60 matches: penalty n
+60 cool matches: penalty_area.n.n n
+Robbie Brady ( Hull City ) sends a beautiful cross into the penalty area . 
+set of lexical units:
+[u'cross.n', u'penalty_area.n']
+
+59 matches: defence n
+59 matches: clear v
+59 matches: ball n
+59 matches: ball n
+The opposition's defence manages to clear the ball to safety . 
+set of lexical units:
+[u'defence.n', u'clear.v', u'ball.n', u'ball.n']
+
+58 matches: foul n
+58 matches: whistle n
+A clumsy foul by Olivier Giroud ( Arsenal ) and Lee Mason blows the whistle . 
+set of lexical units:
+[u'foul.n', u'whistle.n']
+
+57 matches: goal n
+57 matches: goal n
+57 matches: pass v
+57 matches: ball n
+57 matches: ball n
+57 matches: fire v
+57 matches: fire v
+57 matches: deflect v
+57 matches: shot n
+57 matches: box n
+Goal ! ! Santi Cazorla ( Arsenal ) passes the ball to Aaron Ramsey ( Arsenal ) and he fires in a deflected shot from the edge of the box . 
+set of lexical units:
+[u'goal.n', u'goal.n', u'pass.v', u'ball.n', u'ball.n', u'fire.v', u'fire.v', u'deflect.v', u'shot.n', u'box.n']
+
+Steve Harper ( Hull City ) could n't do anything about it . 
+set of lexical units:
+[]
+
+2 . 
+set of lexical units:
+[]
+
+54 matches: play v
+54 matches: play v
+54 matches: play v
+54 cool matches: play_in.v.v v
+54 matches: cross n
+54 matches: find v
+54 matches: attack v
+54 matches: player n
+Robbie Brady ( Hull City ) plays in a hopeful cross , but it does n't find its way to any of the attacking players . 
+set of lexical units:
+[u'play_in.v', u'cross.n', u'find.v', u'attack.v', u'player.n']
+
+53 matches: player n
+53 matches: pass n
+The Hull City players are exchanging some short passes . 
+set of lexical units:
+[u'player.n', u'pass.n']
+
+52 matches: challenge n
+52 matches: foul n
+Mesut Ozil ( Arsenal ) makes a harsh challenge and Lee Mason calls for a foul . 
+set of lexical units:
+[u'challenge.n', u'foul.n']
+
+51 cool matches: yellow_card.n.n n
+51 matches: tackle n
+A yellow card for a tackle by Dame N'Doye ( Hull City ) . 
+set of lexical units:
+[u'yellow_card.n', u'tackle.n']
+
+Lee Mason does n't hesitate at all to make this decision . 
+set of lexical units:
+[]
+
+49 cool matches: set-piece.n.n n
+49 matches: penalty n
+49 cool matches: penalty_area.n.n n
+49 matches: defender n
+The resulting set piece , sent into the penalty area by Robbie Brady ( Hull City ) , was easily averted by one of the defenders . 
+set of lexical units:
+[u'set-piece.n', u'penalty_area.n', u'defender.n']
+
+48 matches: goal n
+48 matches: goal n
+48 matches: free-kick n
+48 matches: fire v
+48 matches: fire v
+48 matches: player n
+48 matches: flick v
+48 cool matches: flick_on.v.v v
+48 cool matches: flick_on.n.n n
+48 matches: net n
+Goal ! Free-kick is fired in by Alexis Sanchez ( Arsenal ) , which one of the opposition players flicks on , leaving Steve Harper ( Hull City ) stranded , and spins into the net . 
+set of lexical units:
+[u'goal.n', u'goal.n', u'free-kick.n', u'fire.v', u'fire.v', u'player.n', u'flick_on.v', u'flick_on.n', u'net.n']
+
+1 . 
+set of lexical units:
+[]
+
+46 matches: ball n
+46 matches: ball n
+46 matches: hit v
+46 matches: opponent n
+Tom Huddlestone ( Hull City ) was trying to get to the ball but hit the legs of the opponent as well . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'hit.v', u'opponent.n']
+
+45 matches: whistle n
+Lee Mason blows the whistle for infingement . 
+set of lexical units:
+[u'whistle.n']
+
+44 matches: win v
+44 matches: win v
+44 matches: win v
+44 cool matches: free-kick.n.n n
+Arsenal win a free kick . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n']
+
+43 matches: shot n
+A promising situation for a direct shot . 
+set of lexical units:
+[u'shot.n']
+
+42 matches: pass n
+42 matches: attack v
+42 matches: effort n
+A pass by Mesut Ozil ( Arsenal ) ends up in no man's land , and the attacking effort comes to an end . 
+set of lexical units:
+[u'pass.n', u'attack.v', u'effort.n']
+
+41 matches: ball n
+41 matches: ball n
+41 matches: cross v
+The ball has crossed the sideline . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'cross.v']
+
+40 matches: throw-in n
+Hull City are taking a throw-in . 
+set of lexical units:
+[u'throw-in.n']
+
+39 matches: play v
+39 matches: play v
+39 matches: play v
+Aaron Ramsey ( Arsenal ) is able to continue to play . 
+set of lexical units:
+[u'play.v', u'play.v', u'play.v']
+
+38 matches: challenge n
+Aaron Ramsey ( Arsenal ) is asking for medical treatment after suffering bruises from the previous challenge . 
+set of lexical units:
+[u'challenge.n']
+
+37 cool matches: yellow_card.n.n n
+37 matches: tackle n
+Jake Livermore ( Hull City ) ca n't expect anything else than a yellow card for his hard tackle . 
+set of lexical units:
+[u'yellow_card.n', u'tackle.n']
+
+And a yellow it is . 
+set of lexical units:
+[]
+
+Lee Mason does n't think twice to pull it out of his pocket . 
+set of lexical units:
+[]
+
+34 matches: meet v
+34 matches: meet v
+34 matches: cross n
+34 matches: box n
+34 matches: header n
+34 matches: block v
+34 matches: player n
+Dame N'Doye ( Hull City ) meets a cross inside the box , but his header is blocked by an opposing player . 
+set of lexical units:
+[u'meet.v', u'meet.v', u'cross.n', u'box.n', u'header.n', u'block.v', u'player.n']
+
+33 matches: deliver v
+33 matches: cross n
+33 matches: box n
+33 matches: defend v
+33 matches: player n
+33 matches: win v
+33 matches: win v
+33 matches: win v
+33 matches: ball n
+33 matches: ball n
+Tom Huddlestone ( Hull City ) delivers a promising cross into the box , but one of the defending players wins the ball and averts the threat . 
+set of lexical units:
+[u'deliver.v', u'cross.n', u'box.n', u'defend.v', u'player.n', u'win.v', u'win.v', u'win.v', u'ball.n', u'ball.n']
+
+32 matches: find v
+Dame N'Doye ( Hull City ) fails to find the target . 
+set of lexical units:
+[u'find.v']
+
+31 matches: goalkeeper n
+31 matches: volley n
+31 matches: go v
+31 matches: post n
+The goalkeeper , rooted to the spot , watches on helplessly as the volley goes well wide of the right post . 
+set of lexical units:
+[u'goalkeeper.n', u'volley.n', u'go.v', u'post.n']
+
+30 matches: goalkeeper n
+The goalkeeper rode his luck there . 
+set of lexical units:
+[u'goalkeeper.n']
+
+29 matches: ball n
+29 matches: ball n
+29 matches: go v
+29 matches: goal n
+29 matches: goal n
+29 cool matches: goal_kick.n.n n
+The ball goes out-of-play and Arsenal will have a goal kick . 
+set of lexical units:
+[u'ball.n', u'ball.n', u'go.v', u'goal_kick.n']
+
+28 matches: chance n
+28 matches: squander v
+28 matches: opportunity n
+28 cool matches: latch_on.v.v v
+28 matches: cross n
+28 matches: side n
+28 matches: produce v
+28 matches: header n
+28 matches: penalty n
+28 cool matches: penalty_spot.n.n n
+28 matches: go v
+28 matches: post n
+What a chance that is ! Stephen Quinn ( Hull City ) squanders a huge opportunity as he latches on to a perfect cross from the side , and produces a bullet header from around the penalty spot which goes well wide of the right post ! 
+set of lexical units:
+[u'chance.n', u'squander.v', u'opportunity.n', u'latch_on.v', u'cross.n', u'side.n', u'produce.v', u'header.n', u'penalty_spot.n', u'go.v', u'post.n']
+
+27 matches: find v
+27 matches: pass n
+27 matches: box n
+27 matches: defender n
+27 matches: clear v
+27 matches: ball n
+27 matches: ball n
+Francis Coquelin ( Arsenal ) attempts to find his teammate with a final pass from outside of the box , but one of the defenders clears the ball to safety . 
+set of lexical units:
+[u'find.v', u'pass.n', u'box.n', u'defender.n', u'clear.v', u'ball.n', u'ball.n']
+
+26 cool matches: free-kick.n.n n
+26 matches: clear v
+Robbie Brady ( Hull City ) takes the free kick but it is cleared by the first man . 
+set of lexical units:
+[u'free-kick.n', u'clear.v']
+
+25 matches: foul n
+Per Mertesacker ( Arsenal ) makes a foul . 
+set of lexical units:
+[u'foul.n']
+
+At least that's what referee Lee Mason signals . 
+set of lexical units:
+[]
+
+23 matches: give v
+Hull City are given an advantage . 
+set of lexical units:
+[u'give.v']
+
+22 cool matches: free-kick.n.n n
+They have a free kick . 
+set of lexical units:
+[u'free-kick.n']
+
+21 cool matches: through-ball.n.n n
+21 matches: chance n
+21 matches: lose v
+21 matches: lose v
+21 matches: defender n
+A long through ball almost allows Mesut Ozil ( Arsenal ) to get in a good chance , but he loses it to one of the defenders . 
+set of lexical units:
+[u'through-ball.n', u'chance.n', u'lose.v', u'lose.v', u'defender.n']
+
+20 matches: player n
+20 matches: ball n
+20 matches: ball n
+20 matches: combination n
+20 matches: pass n
+The Arsenal players keep the ball and are exchanging a combination of passes . 
+set of lexical units:
+[u'player.n', u'ball.n', u'ball.n', u'combination.n', u'pass.n']
+
+19 matches: defence n
+They are waiting for gaps in defence to open up . 
+set of lexical units:
+[u'defence.n']
+
+18 matches: catch v
+18 matches: offside n
+Olivier Giroud ( Arsenal ) is caught offside ! 
+set of lexical units:
+[u'catch.v', u'offside.n']
+
+17 matches: connect v
+17 matches: pass n
+17 matches: box n
+17 matches: strike v
+Alexis Sanchez ( Arsenal ) connected with a pass around the edge of the box , aimed and struck . 
+set of lexical units:
+[u'connect.v', u'pass.n', u'box.n', u'strike.v']
+
+16 matches: attempt n
+16 matches: go v
+16 matches: post n
+16 matches: score n
+His attempt went in the direction of the left-hand post , but Steve Harper ( Hull City ) was alert and did n't let the score change . 
+set of lexical units:
+[u'attempt.n', u'go.v', u'post.n', u'score.n']
+
+15 matches: swing v
+15 matches: cross n
+15 matches: box n
+15 matches: ball n
+15 matches: ball n
+Ahmed Elmohamady ( Hull City ) swings a cross into the box , but is far too close to David Ospina ( Arsenal ) , who smothers the ball . 
+set of lexical units:
+[u'swing.v', u'cross.n', u'box.n', u'ball.n', u'ball.n']
+
+14 matches: pass n
+14 matches: box n
+Santi Cazorla ( Arsenal ) sends a low pass from outside the box to Olivier Giroud ( Arsenal ) . 
+set of lexical units:
+[u'pass.n', u'box.n']
+
+13 matches: shot n
+13 matches: defence n
+He lines up a shot , but the defence intercepts at the last moment . 
+set of lexical units:
+[u'shot.n', u'defence.n']
+
+12 matches: produce v
+12 matches: cross n
+12 matches: box n
+Hector Bellerin ( Arsenal ) produces a cross into the box . 
+set of lexical units:
+[u'produce.v', u'cross.n', u'box.n']
+
+11 matches: defence n
+11 matches: clear v
+11 matches: ball n
+11 matches: ball n
+The opposition's defence clears the ball to safety . 
+set of lexical units:
+[u'defence.n', u'clear.v', u'ball.n', u'ball.n']
+
+10 matches: opponent n
+10 matches: game n
+Michael Dawson ( Hull City ) brings an opponent down and Lee Mason interrupts the game . 
+set of lexical units:
+[u'opponent.n', u'game.n']
+
+9 matches: pitch n
+Francis Coquelin ( Arsenal ) has n't suffered any serious injury which would n't allow him to stay on the pitch . 
+set of lexical units:
+[u'pitch.n']
+
+8 matches: game n
+He's back in the game now . 
+set of lexical units:
+[u'game.n']
+
+Francis Coquelin ( Arsenal ) is writhing in pain . 
+set of lexical units:
+[]
+
+6 matches: referee n
+6 matches: go v
+The referee calls for physio , let's see whether he will be able to go on . 
+set of lexical units:
+[u'referee.n', u'go.v']
+
+5 matches: challenge n
+5 matches: whistle n
+5 matches: foul n
+Olivier Giroud ( Arsenal ) with an overly-aggressive challenge , and referee Lee Mason blows his whistle for a foul . 
+set of lexical units:
+[u'challenge.n', u'whistle.n', u'foul.n']
+
+4 matches: pass n
+4 matches: attack v
+4 matches: effort n
+A pass by Francis Coquelin ( Arsenal ) ends up in no man's land , and the attacking effort comes to an end . 
+set of lexical units:
+[u'pass.n', u'attack.v', u'effort.n']
+
+3 cool matches: assistant_referee.n.n n
+3 matches: flag n
+The assistant referee raises his flag . 
+set of lexical units:
+[u'assistant_referee.n', u'flag.n']
+
+2 matches: offside n
+Dame N'Doye ( Hull City ) is adjudged offside . 
+set of lexical units:
+[u'offside.n']
+
+1 matches: loft v
+1 matches: pass n
+1 matches: box n
+1 matches: intercept v
+1 matches: defence n
+A fine lofted pass into the box , sent by Nacho Monreal ( Arsenal ) , is intercepted by the opposition's defence . 
+set of lexical units:
+[u'loft.v', u'pass.n', u'box.n', u'intercept.v', u'defence.n']
+
+0 matches: pass v
+0 matches: move n
+0 matches: create v
+0 matches: attack v
+0 matches: opportunity n
+Neat passing move from Arsenal in order to create new attacking opportunities . 
+set of lexical units:
+[u'pass.v', u'move.n', u'create.v', u'attack.v', u'opportunity.n']
+
+Identifying arguments...
+TICKER : p2
+MINUTE : 90.4
+He unleashes a decent strike which goes narrowly wide of the right post . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 90.4
+The ball is out of the pitch and it 's a goal kick for Hull City . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 90.2
+A big opportunity missed by Theo Walcott ( Arsenal ) . 
+FRAME:  Chance
+{'PLAYER': 'Theo Walcott'}
+
+TICKER : p2
+MINUTE : 89
+Mesut Ozil ( Arsenal ) takes a short corner kick . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Mesut Ozil'}
+
+TICKER : p2
+MINUTE : 89
+He sends a low pass , but it 's blocked and cleared . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 89
+It will be a corner kick for Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 88
+The ball goes out-of-play and Hull City will have a goal kick . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 85
+Hector Bellerin ( Arsenal ) had a golden opportunity as he fired from point blank range . 
+FRAME:  Chance
+{'PLAYER': 'Arsenal'}
+
+TICKER : p2
+MINUTE : 83
+Dame N'Doye ( Hull City ) serves in a nice cross , but the defence clear the danger . 
+FRAME:  Pass
+{'PASSER': "Dame N'Doye"}
+
+TICKER : p2
+MINUTE : 81
+Mesut Ozil ( Arsenal ) takes the corner but fails to find any of his teammates . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Mesut Ozil'}
+
+TICKER : p2
+MINUTE : 81
+The defence is alert as they clear a dangerous cross from Mesut Ozil ( Arsenal ) . 
+FRAME:  Intervene
+{}
+
+TICKER : p2
+MINUTE : 81
+Arsenal will take a corner kick . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 80
+An unsuccessful cross into the box by Andrew Robertson ( Hull City ) . 
+FRAME:  Pass
+{'PASSER': 'Andrew Robertson'}
+
+TICKER : p2
+MINUTE : 80
+The opponent's defence clears the ball away to safety . 
+FRAME:  Intervene
+{}
+
+TICKER : p2
+MINUTE : 79
+A lofted cross from Andrew Robertson ( Hull City ) was unsuccessful as the opponent's defence quickly gets the ball out of the penalty area . 
+FRAME:  Pass
+{'PASSER': 'Andrew Robertson'}
+
+TICKER : p2
+MINUTE : 77
+David Meyler ( Hull City ) sends a sweet pass into the penalty area , but one of the defenders averts the danger . 
+FRAME:  Pass
+{'PASSER': 'David Meyler'}
+
+TICKER : p2
+MINUTE : 75
+It is unbelievable , Santi Cazorla ( Arsenal ) blows a huge opportunity ! He is totally unmarked and fires a first-time shot towards goal from a few yards out , but Steve Harper ( Hull City ) reacts superbly to keep the ball out . 
+FRAME:  Chance
+{}
+
+TICKER : p2
+MINUTE : 73
+Mesut Ozil ( Arsenal ) sends in the corner , but he fails to find the head of any of his teamamtes , and the the defence makes a clearance . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Mesut Ozil'}
+
+TICKER : p2
+MINUTE : 73
+David Meyler ( Hull City ) is moving again okay after that injury scare . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 72
+Alexis Sanchez ( Arsenal ) takes the resulting free kick from the edge of the box , but it was blocked by the players standing in the wall , saving the goalkeeper lot of effort . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Alexis Sanchez'}
+
+TICKER : p2
+MINUTE : 70
+Arsenal earn a free kick which can lead to a goal-scoring opportunity . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 65
+Ambitious effort from Aaron Ramsey ( Arsenal ) as he finds himself in a great position after collecting a precise pass inside the penalty area and goes for goal , but it never troubles the goalkeeper and flies well over the bar . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 65
+The ball is out of the pitch and it 's a goal kick for Hull City . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 64
+Alexis Sanchez ( Arsenal ) with a teasing cross into the area , but Steve Harper ( Hull City ) intercepts the ball . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 63
+The resulting corner from Santi Cazorla ( Arsenal ) is cleared by the defence . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 63
+Nevertheless , the opponent's defence is alert and averts the danger with a brilliant clearance . 
+FRAME:  Intervene
+{}
+
+TICKER : p2
+MINUTE : 62
+The Arsenal players are exchanging some short passes to open the opposition’s defence to hit them swiftly on the break . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 60
+Ahmed Elmohamady ( Hull City ) swings the cross over . 
+FRAME:  Pass
+{'PASSER': 'Ahmed Elmohamady'}
+
+TICKER : p2
+MINUTE : 60
+Paul McShane ( Hull City ) gets his head to it but it goes just over the crossbar . 
+FRAME:  Shot
+{'SHOOTER': 'Paul McShane'}
+
+TICKER : p2
+MINUTE : 56
+Stephen Quinn ( Hull City ) heads the ball inside the right post after a splendid cross . 
+FRAME:  Shot
+{'SHOOTER': 'Stephen Quinn'}
+
+TICKER : p2
+MINUTE : 56
+This timely header makes a wonderful moment . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 56
+Aaron Ramsey ( Arsenal ) makes a yard for himself inside the box after an accurate pass and takes a shot that goes just wide of the right post . 
+FRAME:  Pass
+{'PASSER': 'Aaron Ramsey'}
+
+TICKER : p2
+MINUTE : 56
+The ball goes out-of-play and Hull City will have a goal kick . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 51
+Some great controlled play and passing in the middle of the pitch from Arsenal . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 51
+A pass by Sone Aluko ( Hull City ) ends up in no man's land , and the attacking effort comes to an end . 
+FRAME:  Pass
+{'PASSER': 'Sone Aluko'}
+
+TICKER : p2
+MINUTE : 49
+This time , Lee Mason keeps the cards in his pocket , but he blows for the foul . 
+FRAME:  Foul
+{}
+
+TICKER : p2
+MINUTE : 48
+David Meyler ( Hull City ) tackles a bit over-zealously . 
+FRAME:  Challenge
+{'OPPONENT_PLAYER': 'David Meyler'}
+
+TICKER : p2
+MINUTE : 48
+Lee Mason blows for a foul . 
+FRAME:  Foul
+{}
+
+TICKER : p2
+MINUTE : 47
+The ball is out of the pitch and it 's a goal kick for Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 45.1
+Goal ! Aaron Ramsey ( Arsenal ) displays great vision and sends a pass to Alexis Sanchez ( Arsenal ) , who shows brilliant composure inside the box to bury the ball from close range into the back of the net . 
+FRAME:  Goal
+{'SCORER': 'Alexis Sanchez'}
+
+TICKER : p2
+MINUTE : 45
+He connected with a pass inside the box , and he perhaps should have done better than direct his shot straight at Steve Harper ( Hull City ) . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 43
+An offensive foul by Dame N'Doye ( Hull City ) was seen by Lee Mason who did n't hesitate to blow the whistle . 
+FRAME:  Foul
+{}
+
+TICKER : p2
+MINUTE : 41
+Ahmed Elmohamady ( Hull City ) releases a low pass from just outside the box in an attempt to find his teammate , but one of the defenders calmly averts the threat . 
+FRAME:  Pass
+{'PASSER': 'Ahmed Elmohamady'}
+
+TICKER : p2
+MINUTE : 40
+The game is interrupted as Dame N'Doye ( Hull City ) is flagged for offside . 
+FRAME:  Offside
+{}
+
+TICKER : p2
+MINUTE : 38
+A pass from Dame N'Doye ( Hull City ) is intercepted by David Ospina ( Arsenal ) and the move breaks down . 
+FRAME:  Pass
+{'PASSER': 'David Ospina'}
+
+TICKER : p2
+MINUTE : 38
+Santi Cazorla ( Arsenal ) takes the corner and sends it into the penalty area , but the opposition's defence is ready and makes a good clearance . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Santi Cazorla'}
+
+TICKER : p2
+MINUTE : 37
+Good clearance ! Aaron Ramsey ( Arsenal ) received a low pass , but he did n't catch to do anything before quick stealing from one of the defenders . 
+FRAME:  Intervene
+{'INTERVENING_PLAYER': 'Aaron Ramsey'}
+
+TICKER : p2
+MINUTE : 36
+Robbie Brady ( Hull City ) sends a beautiful cross into the penalty area . 
+FRAME:  Pass
+{'PASSER': 'Robbie Brady'}
+
+TICKER : p2
+MINUTE : 36
+The opposition's defence manages to clear the ball to safety . 
+FRAME:  Intervene
+{}
+
+TICKER : p2
+MINUTE : 35
+A clumsy foul by Olivier Giroud ( Arsenal ) and Lee Mason blows the whistle . 
+FRAME:  Foul
+{}
+
+TICKER : p2
+MINUTE : 33
+Goal ! ! Santi Cazorla ( Arsenal ) passes the ball to Aaron Ramsey ( Arsenal ) and he fires in a deflected shot from the edge of the box . 
+FRAME:  Goal
+{'SCORER': 'Aaron Ramsey'}
+
+TICKER : p2
+MINUTE : 33
+Robbie Brady ( Hull City ) plays in a hopeful cross , but it does n't find its way to any of the attacking players . 
+FRAME:  Pass
+{'PASSER': 'Robbie Brady'}
+
+TICKER : p2
+MINUTE : 33
+The Hull City players are exchanging some short passes . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 32
+Mesut Ozil ( Arsenal ) makes a harsh challenge and Lee Mason calls for a foul . 
+FRAME:  Foul
+{'OFFENDER': 'Mesut Ozil'}
+
+TICKER : p2
+MINUTE : 30
+A yellow card for a tackle by Dame N'Doye ( Hull City ) . 
+FRAME:  Sanction
+{'OFFENDER': "Dame N'Doye"}
+
+TICKER : p2
+MINUTE : 30
+Lee Mason does n't hesitate at all to make this decision . 
+FRAME:  Sanction
+{'OFFENDER': 'Lee Mason'}
+
+TICKER : p2
+MINUTE : 30
+The resulting set piece , sent into the penalty area by Robbie Brady ( Hull City ) , was easily averted by one of the defenders . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Robbie Brady'}
+
+TICKER : p2
+MINUTE : 28
+Goal ! Free-kick is fired in by Alexis Sanchez ( Arsenal ) , which one of the opposition players flicks on , leaving Steve Harper ( Hull City ) stranded , and spins into the net . 
+FRAME:  Goal
+{'SCORER': 'Alexis Sanchez'}
+
+TICKER : p2
+MINUTE : 28
+A promising situation for a direct shot . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 27
+A pass by Mesut Ozil ( Arsenal ) ends up in no man's land , and the attacking effort comes to an end . 
+FRAME:  Pass
+{'PASSER': 'Mesut Ozil'}
+
+TICKER : p2
+MINUTE : 23
+Jake Livermore ( Hull City ) ca n't expect anything else than a yellow card for his hard tackle . 
+FRAME:  Sanction
+{}
+
+TICKER : p2
+MINUTE : 23
+And a yellow it is . 
+FRAME:  Sanction
+{}
+
+TICKER : p2
+MINUTE : 23
+Lee Mason does n't think twice to pull it out of his pocket . 
+FRAME:  Sanction
+{'OFFENDER': 'Lee Mason'}
+
+TICKER : p2
+MINUTE : 22
+Tom Huddlestone ( Hull City ) delivers a promising cross into the box , but one of the defending players wins the ball and averts the threat . 
+FRAME:  Pass
+{'PASSER': 'Tom Huddlestone'}
+
+TICKER : p2
+MINUTE : 21
+The ball goes out-of-play and Arsenal will have a goal kick . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 20
+What a chance that is ! Stephen Quinn ( Hull City ) squanders a huge opportunity as he latches on to a perfect cross from the side , and produces a bullet header from around the penalty spot which goes well wide of the right post ! 
+FRAME:  Chance
+{}
+
+TICKER : p2
+MINUTE : 19
+Francis Coquelin ( Arsenal ) attempts to find his teammate with a final pass from outside of the box , but one of the defenders clears the ball to safety . 
+FRAME:  Pass
+{'PASSER': 'Francis Coquelin'}
+
+TICKER : p2
+MINUTE : 19
+Robbie Brady ( Hull City ) takes the free kick but it is cleared by the first man . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Robbie Brady'}
+
+TICKER : p2
+MINUTE : 18
+Per Mertesacker ( Arsenal ) makes a foul . 
+FRAME:  Foul
+{'OFFENDER': 'Arsenal'}
+
+TICKER : p2
+MINUTE : 18
+At least that's what referee Lee Mason signals . 
+FRAME:  Foul
+{}
+
+TICKER : p2
+MINUTE : 18
+They have a free kick . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p2
+MINUTE : 17
+A long through ball almost allows Mesut Ozil ( Arsenal ) to get in a good chance , but he loses it to one of the defenders . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 15
+Olivier Giroud ( Arsenal ) is caught offside ! 
+FRAME:  Offside
+{'OFFENDER': 'Olivier Giroud'}
+
+TICKER : p2
+MINUTE : 13
+Alexis Sanchez ( Arsenal ) connected with a pass around the edge of the box , aimed and struck . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 13
+His attempt went in the direction of the left-hand post , but Steve Harper ( Hull City ) was alert and did n't let the score change . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 13
+Ahmed Elmohamady ( Hull City ) swings a cross into the box , but is far too close to David Ospina ( Arsenal ) , who smothers the ball . 
+FRAME:  Pass
+{'PASSER': 'Ahmed Elmohamady', 'RECIPIENT': 'David Ospina'}
+
+TICKER : p2
+MINUTE : 12
+Santi Cazorla ( Arsenal ) sends a low pass from outside the box to Olivier Giroud ( Arsenal ) . 
+FRAME:  Pass
+{'PASSER': 'Santi Cazorla', 'RECIPIENT': 'Olivier Giroud'}
+
+TICKER : p2
+MINUTE : 12
+He lines up a shot , but the defence intercepts at the last moment . 
+FRAME:  Shot
+{}
+
+TICKER : p2
+MINUTE : 11
+Hector Bellerin ( Arsenal ) produces a cross into the box . 
+FRAME:  Pass
+{'PASSER': 'Hector Bellerin'}
+
+TICKER : p2
+MINUTE : 11
+The opposition's defence clears the ball to safety . 
+FRAME:  Intervene
+{}
+
+TICKER : p2
+MINUTE : 5
+A pass by Francis Coquelin ( Arsenal ) ends up in no man's land , and the attacking effort comes to an end . 
+FRAME:  Pass
+{'PASSER': 'Francis Coquelin'}
+
+TICKER : p2
+MINUTE : 4
+Dame N'Doye ( Hull City ) is adjudged offside . 
+FRAME:  Offside
+{'OFFENDER': "Dame N'Doye"}
+
+TICKER : p2
+MINUTE : 2
+A fine lofted pass into the box , sent by Nacho Monreal ( Arsenal ) , is intercepted by the opposition's defence . 
+FRAME:  Pass
+{}
+
+TICKER : p2
+MINUTE : 2
+Neat passing move from Arsenal in order to create new attacking opportunities . 
+FRAME:  Pass
+{}
+
