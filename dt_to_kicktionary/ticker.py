@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # Reads in a parsed ticker feed in dependency tree conll format
 # And returns a list of Tree objects
@@ -32,6 +33,7 @@ class Tree(object):
         self.minute = None
         self.tree_id = 0
         self.nodes = []
+        self.pos_list = []
         self.root = None
         self.root_pos = None
         self.root_id = None
@@ -48,7 +50,7 @@ def read_ticker(parsed_ticker, verbose, language):
     if verbose: print "Reading ticker..."
 
     # open and split the file
-    rawsentences = open(parsed_ticker).read().split("\n\n")
+    rawsentences = open(parsed_ticker).read().replace("Ö","O").replace("á","a").replace("í","i").replace("é","e").split("\n\n")
     trees = []
     ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
     ticker = ticker.group(1)
@@ -82,6 +84,7 @@ def read_ticker(parsed_ticker, verbose, language):
                     node.word = cells[1]
                     node.lemma = cells[3]
                     node.pos = cells[5]
+                    tree.pos_list.append(cells[5])
                     node.form = cells[7]
                     node.head = cells[9]
                     node.type = cells[11]
