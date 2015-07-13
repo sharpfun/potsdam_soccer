@@ -248,7 +248,10 @@
 
 1	57	_	57	_	CD	_	_	-1	0	_	ROOT	_	_
 
-Goal_1	Quinn	_	quinn	_	NNP	_	_	-1	0	_	ROOT	_	_
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+2	!	_	!	_	.	_	_	-1	1	_	P	_	_
+3	Quinn	_	quinn	_	NNP	_	_	-1	1	_	APPO	_	_
+4	!	_	!	_	.	_	_	-1	1	_	P	_	_
 
 1	56	_	56	_	CD	_	_	-1	0	_	ROOT	_	_
 
@@ -335,14 +338,15 @@ Goal_1	Quinn	_	quinn	_	NNP	_	_	-1	0	_	ROOT	_	_
 5	back	_	back	_	RP	_	_	-1	3	_	PRT	_	_
 6	underway	_	underway	_	RB	_	_	-1	3	_	MNR	_	_
 7	at	_	at	_	IN	_	_	-1	3	_	LOC	_	_
-8	KC	_	kc	_	NNP	_	_	-1	14	_	NAME	_	_
-9	Stadium	_	stadium	_	NNP	_	_	-1	14	_	NAME	_	_
-10	.	_	.	_	.	_	_	-1	14	_	NAME	_	_
-11	COME	_	come	_	NNP	_	_	-1	14	_	NAME	_	_
-12	ON	_	on	_	NNP	_	_	-1	14	_	NAME	_	_
-13	YOU	_	you	_	NNP	_	_	-1	14	_	NAME	_	_
-14	GUNNERS	_	gunners	_	NNP	_	_	-1	7	_	PMOD	_	_
-15	!	_	!	_	.	_	_	-1	3	_	P	_	_
+8	KC	_	kc	_	NNP	_	_	-1	9	_	NAME	_	_
+9	Stadium	_	stadium	_	NNP	_	_	-1	7	_	PMOD	_	_
+10	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	COME	_	come	_	VB	_	_	-1	0	_	ROOT	_	_
+2	ON	_	on	_	IN	_	_	-1	1	_	ADV	_	_
+3	YOU	_	you	_	PRP	_	_	-1	4	_	NMOD	_	_
+4	GUNNERS	_	gunners	_	NNS	_	_	-1	2	_	PMOD	_	_
+5	!	_	!	_	.	_	_	-1	1	_	P	_	_
 
 1	46	_	46	_	CD	_	_	-1	0	_	ROOT	_	_
 

@@ -1,0 +1,2037 @@
+Reading Kicktionary...
+Read in 599 lexical units
+Reading ticker...
+Ticker trees have these roots: 
+(end,[(2,second,NMOD), (3,half,SBJ), (0,end,ROOT), (3,,,P), (6,hull,NAME), (10,city,NMOD), (6,1,NMOD), (10,,,P), (10,arsenal,NMOD), (3,3,TMP), (3,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(leave,[(2,andrew,NAME), (7,robertson,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,APPO), (5,-rrb-,P), (0,leave,ROOT), (9,foot,NMOD), (7,shot,OBJ), (9,from,NMOD), (10,outside,PMOD), (13,the,NMOD), (14,box,SBJ), (11,be,SUB), (14,block,VC), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,david,NAME), (2,meyler,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(foot,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (15,shot,SBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,miss,OBJ), (15,to,ADV), (18,the,NMOD), (16,leave,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,santiago,NAME), (2,cazorla,PMOD), (1,follow,TMP), (8,a,NMOD), (8,fast,NMOD), (5,break,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(foot,[(2,theo,NAME), (6,walcott,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (15,shot,SBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,miss,OBJ), (15,to,ADV), (18,the,NMOD), (16,right,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,hector,NAME), (2,bellerin,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(leave,[(2,jack,NAME), (6,wilshere,SBJ), (4,-lrb-,P), (2,arsenal,APPO), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (16,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,right,NMOD), (9,side,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (6,be,OBJ), (16,block,VC), (6,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,mesut,NAME), (2,özil,PMOD), (1,.,P)])  
+(city,[(4,offside,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(try,[(2,james,NAME), (3,chester,SBJ), (0,try,ROOT), (5,a,DEP), (3,through,OBJ), (5,ball,PMOD), (3,,,P), (3,but,COORD), (10,robbie,NAME), (11,brady,SBJ), (8,be,CONJ), (11,catch,VC), (12,offside,OBJ), (3,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(miss,[(2,michael,NAME), (7,dawson,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (14,header,SBJ), (7,from,NMOD), (10,the,NMOD), (8,centre,PMOD), (10,of,NMOD), (13,the,NMOD), (11,box,PMOD), (0,miss,ROOT), (14,to,ADV), (17,the,NMOD), (15,leave,PMOD), (14,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,tom,NAME), (2,huddlestone,PMOD), (1,follow,TMP), (9,a,NMOD), (9,set,NMOD), (9,piece,NMOD), (5,situation,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,francis,NAME), (2,coquelin,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,nikica,NAME), (7,jelavic,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,on,NMOD), (14,the,NMOD), (14,right,NMOD), (11,wing,PMOD), (7,.,P)])  
+(arsenal,[(3,corner,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(concede,[(0,concede,ROOT), (1,by,LGS), (4,andrew,NAME), (2,robertson,PMOD), (1,.,P)])  
+(ball,[(2,hand,NMOD), (0,ball,ROOT), (2,by,NMOD), (5,alexis,NAME), (3,sanchez,PMOD), (7,-lrb-,P), (5,arsenal,APPO), (7,-rrb-,P), (2,.,P)])  
+(arsenal,[(3,substitution,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(replace,[(2,theo,NAME), (3,walcott,SBJ), (0,replace,ROOT), (5,olivier,NAME), (3,giroud,OBJ), (3,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(leave,[(4,alexis,NAME), (4,sanchez,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (18,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,leave,NMOD), (9,side,PMOD), (12,of,NMOD), (17,the,NMOD), (16,six,NMOD), (17,yard,NMOD), (13,box,PMOD), (6,be,OBJ), (18,close,PRD), (6,,,P), (6,but,COORD), (21,miss,CONJ), (22,to,ADV), (25,the,NMOD), (23,leave,PMOD), (6,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(foot,[(2,jack,NAME), (6,wilshere,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (15,shot,SBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,be,OBJ), (15,block,VC), (7,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(foot,[(2,hector,NAME), (6,bellerin,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (16,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,right,NMOD), (9,side,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (7,be,OBJ), (16,save,VC), (17,in,LOC), (20,the,NMOD), (18,centre,PMOD), (20,of,NMOD), (23,the,NMOD), (21,goal,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,olivier,NAME), (2,giroud,PMOD), (1,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(leave,[(4,santiago,NAME), (4,cazorla,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (6,shot,OBJ), (8,from,NMOD), (9,outside,PMOD), (12,the,NMOD), (13,box,SBJ), (10,be,SUB), (13,save,VC), (14,in,LOC), (17,the,NMOD), (15,centre,PMOD), (17,of,NMOD), (20,the,NMOD), (18,goal,PMOD), (6,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,alexis,NAME), (2,sanchez,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(leave,[(4,olivier,NAME), (4,giroud,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (6,shot,OBJ), (8,from,NMOD), (9,outside,PMOD), (12,the,NMOD), (13,box,SBJ), (10,be,SUB), (13,block,VC), (6,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,jack,NAME), (2,wilshere,PMOD), (1,.,P)])  
+(city,[(4,substitution,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(replace,[(2,nikica,NAME), (3,jelavic,SBJ), (0,replace,ROOT), (5,stephen,NAME), (3,quinn,OBJ), (3,.,P)])  
+(arsenal,[(3,corner,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(concede,[(0,concede,ROOT), (1,by,LGS), (4,michael,NAME), (2,dawson,PMOD), (1,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(foot,[(2,santiago,NAME), (6,cazorla,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (15,shot,SBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,be,OBJ), (15,save,VC), (16,in,LOC), (21,the,NMOD), (21,bottom,NMOD), (21,right,NMOD), (17,corner,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,mesut,NAME), (2,özil,PMOD), (1,.,P)])  
+(arsenal,[(3,corner,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(concede,[(0,concede,ROOT), (1,by,LGS), (4,paul,NAME), (2,mcshane,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(foot,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,VC), (8,from,ADV), (9,outside,PMOD), (12,the,NMOD), (13,box,SBJ), (10,be,SUB), (13,block,VC), (7,.,P)])  
+(delay,[(0,delay,ROOT), (1,over,NMOD), (1,.,P)])  
+(be,[(2,they,SBJ), (0,be,ROOT), (2,ready,PRD), (3,to,AMOD), (4,continue,IM), (2,.,P)])  
+(delay,[(0,delay,ROOT), (1,in,LOC), (2,match,PMOD), (5,david,NAME), (3,meyler,APPO), (8,-lrb-,P), (8,hull,NAME), (3,city,APPO), (8,-rrb-,P), (1,because,PRP), (10,of,DEP), (13,an,NMOD), (10,injury,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,michael,NAME), (7,dawson,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,jack,NAME), (6,wilshere,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,attack,NMOD), (10,half,PMOD), (6,.,P)])  
+(arsenal,[(3,substitution,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(replace,[(2,jack,NAME), (3,wilshere,SBJ), (0,replace,ROOT), (5,aaron,NAME), (3,ramsey,OBJ), (3,.,P)])  
+(city,[(4,substitution,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(replace,[(2,andrew,NAME), (3,robertson,SBJ), (0,replace,ROOT), (5,sone,NAME), (3,aluko,OBJ), (3,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(foot,[(2,aaron,NAME), (6,ramsey,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,OBJ), (8,from,NMOD), (11,the,NMOD), (15,centre,SBJ), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (9,be,PMOD), (15,high,PRD), (16,and,COORD), (17,wide,CONJ), (18,to,AMOD), (21,the,NMOD), (19,right,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,olivier,NAME), (2,giroud,PMOD), (1,.,P)])  
+(arsenal,[(3,corner,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(concede,[(0,concede,ROOT), (1,by,LGS), (4,paul,NAME), (2,mcshane,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(be,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (13,header,SBJ), (6,from,NMOD), (9,the,NMOD), (7,centre,PMOD), (9,of,NMOD), (12,the,NMOD), (10,box,PMOD), (0,be,ROOT), (13,block,VC), (13,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,hector,NAME), (2,bellerin,PMOD), (1,with,ADV), (7,a,NMOD), (5,cross,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(be,[(2,paul,NAME), (7,mcshane,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (14,header,SBJ), (7,from,NMOD), (10,the,NMOD), (8,centre,PMOD), (10,of,NMOD), (13,the,NMOD), (11,box,PMOD), (0,be,ROOT), (17,just,NMOD), (17,a,NMOD), (19,bit,AMOD), (19,too,AMOD), (14,high,PRD), (14,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,ahmed,NAME), (2,elmohamady,PMOD), (1,with,ADV), (7,a,NMOD), (5,cross,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,francis,NAME), (2,coquelin,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,stephen,NAME), (7,quinn,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,attack,NMOD), (11,half,PMOD), (7,.,P)])  
+(goal,[(0,goal,ROOT), (1,!,P), (4,hull,NAME), (8,city,NMOD), (4,1,NMOD), (8,,,P), (8,arsenal,NMOD), (1,3,TMP), (1,.,P)])  
+(header,[(2,stephen,NAME), (7,quinn,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (0,header,ROOT), (7,from,NMOD), (10,the,NMOD), (8,centre,PMOD), (10,of,NMOD), (13,the,NMOD), (11,box,PMOD), (8,to,PMOD), (18,the,NMOD), (18,top,NMOD), (18,right,NMOD), (14,corner,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,ahmed,NAME), (2,elmohamady,PMOD), (1,with,ADV), (7,a,NMOD), (5,cross,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(foot,[(2,aaron,NAME), (6,ramsey,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (15,shot,SBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,be,OBJ), (15,close,PRD), (7,,,P), (7,but,COORD), (18,miss,CONJ), (19,to,ADV), (22,the,NMOD), (20,right,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,santiago,NAME), (2,cazorla,PMOD), (1,.,P)])  
+(city,[(4,offside,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(try,[(2,david,NAME), (3,meyler,SBJ), (0,try,ROOT), (5,a,DEP), (3,through,OBJ), (5,ball,PMOD), (3,,,P), (3,but,COORD), (10,dame,NAME), (11,n'doye,SBJ), (8,be,CONJ), (11,catch,VC), (12,offside,OBJ), (3,.,P)])  
+(win,[(2,laurent,NAME), (6,koscielny,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,sone,NAME), (7,aluko,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,attack,NMOD), (11,half,PMOD), (7,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,per,NAME), (2,mertesacker,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,david,NAME), (7,meyler,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,hector,NAME), (6,bellerin,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(leave,[(2,sone,NAME), (7,aluko,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,APPO), (5,-rrb-,P), (0,leave,ROOT), (9,foot,NMOD), (7,shot,OBJ), (9,from,NMOD), (10,outside,PMOD), (13,the,NMOD), (14,box,SBJ), (11,be,SUB), (16,too,AMOD), (14,high,PRD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,david,NAME), (2,meyler,PMOD), (1,.,P)])  
+(begin,[(2,second,NMOD), (3,half,SBJ), (0,begin,ROOT), (5,hull,NAME), (9,city,NMOD), (5,0,NMOD), (9,,,P), (9,arsenal,NMOD), (3,3,TMP), (3,.,P)])  
+(city,[(4,substitution,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(replace,[(2,david,NAME), (3,meyler,SBJ), (0,replace,ROOT), (5,jake,NAME), (3,livermore,OBJ), (3,.,P)])  
+(end,[(2,first,NMOD), (3,half,SBJ), (0,end,ROOT), (3,,,P), (6,hull,NAME), (10,city,NMOD), (6,0,NMOD), (10,,,P), (10,arsenal,NMOD), (3,3,TMP), (3,.,P)])  
+(goal,[(0,goal,ROOT), (1,!,P), (4,hull,NAME), (8,city,NMOD), (4,0,NMOD), (8,,,P), (8,arsenal,NMOD), (1,3,TMP), (1,.,P)])  
+(foot,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,OBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,to,ADV), (17,the,NMOD), (18,bottom,SBJ), (15,leave,PMOD), (18,corner,OBJ), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,aaron,NAME), (2,ramsey,PMOD), (1,with,ADV), (5,a,PMOD), (1,through,MNR), (7,ball,PMOD), (1,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(foot,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (16,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,leave,NMOD), (9,side,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (7,be,OBJ), (16,save,VC), (17,in,LOC), (20,the,NMOD), (18,centre,PMOD), (20,of,NMOD), (23,the,NMOD), (21,goal,PMOD), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,santiago,NAME), (2,cazorla,PMOD), (1,with,ADV), (5,a,PMOD), (1,through,MNR), (7,ball,PMOD), (1,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(leave,[(4,mesut,NAME), (4,özil,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (16,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,leave,NMOD), (9,side,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (6,be,OBJ), (16,save,VC), (17,in,LOC), (20,the,NMOD), (18,centre,PMOD), (20,of,NMOD), (23,the,NMOD), (21,goal,PMOD), (6,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,alexis,NAME), (2,sanchez,PMOD), (1,with,ADV), (5,a,PMOD), (1,through,MNR), (7,ball,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,dame,NAME), (7,n'doye,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,laurent,NAME), (6,koscielny,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(city,[(4,offside,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(try,[(2,tom,NAME), (3,huddlestone,SBJ), (0,try,ROOT), (5,a,DEP), (3,through,OBJ), (5,ball,PMOD), (3,,,P), (3,but,COORD), (10,dame,NAME), (11,n'doye,SBJ), (8,be,CONJ), (11,catch,VC), (12,offside,OBJ), (3,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,laurent,NAME), (2,koscielny,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,sone,NAME), (7,aluko,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,attack,NMOD), (11,half,PMOD), (7,.,P)])  
+(arsenal,[(3,corner,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(concede,[(0,concede,ROOT), (1,by,LGS), (4,steve,NAME), (2,harper,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(leave,[(4,santiago,NAME), (4,cazorla,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (16,shot,SBJ), (8,from,NMOD), (12,the,NMOD), (12,leave,NMOD), (9,side,PMOD), (12,of,NMOD), (15,the,NMOD), (13,box,PMOD), (6,be,OBJ), (16,block,VC), (6,.,P)])  
+(win,[(2,tom,NAME), (7,huddlestone,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,attack,NMOD), (11,half,PMOD), (7,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,olivier,NAME), (2,giroud,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(goal,[(0,goal,ROOT), (1,!,P), (4,hull,NAME), (8,city,NMOD), (4,0,NMOD), (8,,,P), (8,arsenal,NMOD), (1,2,TMP), (1,.,P)])  
+(foot,[(2,aaron,NAME), (6,ramsey,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,OBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (7,to,ADV), (17,the,NMOD), (18,bottom,SBJ), (15,leave,PMOD), (18,corner,OBJ), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,santiago,NAME), (2,cazorla,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,mesut,NAME), (2,özil,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,robbie,NAME), (7,brady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,defensive,NMOD), (11,half,PMOD), (7,.,P)])  
+(card,[(2,yellow,NMOD), (0,card,ROOT)])  
+(be,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,show,VC), (11,the,NMOD), (11,yellow,NMOD), (8,card,OBJ), (11,for,NMOD), (15,a,NMOD), (15,bad,NMOD), (12,foul,PMOD), (7,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,dame,NAME), (7,n'doye,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,nacho,NAME), (6,monreal,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,santiago,NAME), (2,cazorla,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,dame,NAME), (7,n'doye,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,attack,NMOD), (11,half,PMOD), (7,.,P)])  
+(goal,[(0,goal,ROOT), (1,!,P), (4,hull,NAME), (8,city,NMOD), (4,0,NMOD), (8,,,P), (8,arsenal,NMOD), (1,1,TMP), (1,.,P)])  
+(foot,[(4,alexis,NAME), (4,sanchez,NAME), (4,-lrb-,P), (13,arsenal,SBJ), (4,-rrb-,P), (4,from,ADV), (9,a,NMOD), (9,free,NMOD), (6,kick,PMOD), (9,with,NMOD), (12,a,NMOD), (10,right,PMOD), (0,foot,ROOT), (13,shot,OBJ), (14,to,NMOD), (19,the,NMOD), (19,top,NMOD), (19,right,NMOD), (15,corner,PMOD), (13,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,jake,NAME), (7,livermore,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,attack,NMOD), (10,half,PMOD), (6,.,P)])  
+(delay,[(0,delay,ROOT), (1,over,NMOD), (1,.,P)])  
+(be,[(2,they,SBJ), (0,be,ROOT), (2,ready,PRD), (3,to,AMOD), (4,continue,IM), (2,.,P)])  
+(delay,[(0,delay,ROOT), (1,in,LOC), (2,match,PMOD), (5,aaron,NAME), (3,ramsey,APPO), (7,-lrb-,P), (1,arsenal,APPO), (7,-rrb-,P), (1,because,PRP), (9,of,DEP), (12,an,NMOD), (9,injury,PMOD), (1,.,P)])  
+(card,[(2,yellow,NMOD), (0,card,ROOT)])  
+(be,[(2,jake,NAME), (7,livermore,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,be,ROOT), (7,show,VC), (11,the,NMOD), (11,yellow,NMOD), (8,card,OBJ), (11,for,NMOD), (15,a,NMOD), (15,bad,NMOD), (12,foul,PMOD), (7,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,jake,NAME), (7,livermore,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(win,[(2,alexis,NAME), (6,sanchez,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(miss,[(2,sone,NAME), (7,aluko,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (17,header,SBJ), (7,from,NMOD), (11,the,NMOD), (11,right,NMOD), (8,side,PMOD), (11,of,NMOD), (16,the,NMOD), (15,six,NMOD), (16,yard,NMOD), (12,box,PMOD), (0,miss,ROOT), (17,to,ADV), (20,the,NMOD), (18,leave,PMOD), (17,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,robbie,NAME), (2,brady,PMOD), (1,with,ADV), (7,a,NMOD), (5,cross,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(foot,[(2,dame,NAME), (7,n'doye,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (8,right,SBJ), (0,foot,ROOT), (8,shot,VC), (9,from,ADV), (13,more,DEP), (13,than,DEP), (14,40,NMOD), (10,yard,PMOD), (19,on,LOC), (18,the,NMOD), (18,right,NMOD), (15,wing,PMOD), (14,miss,NMOD), (19,to,ADV), (22,the,NMOD), (20,right,PMOD), (8,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,jake,NAME), (2,livermore,PMOD), (1,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(miss,[(2,stephen,NAME), (7,quinn,NMOD), (5,-lrb-,P), (5,hull,NAME), (7,city,NMOD), (5,-rrb-,P), (14,header,SBJ), (7,from,NMOD), (10,the,NMOD), (8,centre,PMOD), (10,of,NMOD), (13,the,NMOD), (11,box,PMOD), (0,miss,ROOT), (14,to,ADV), (17,the,NMOD), (15,right,PMOD), (14,.,P)])  
+(win,[(2,ahmed,NAME), (7,elmohamady,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,in,LOC), (14,the,NMOD), (14,defensive,NMOD), (11,half,PMOD), (7,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,francis,NAME), (2,coquelin,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,per,NAME), (2,mertesacker,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,stephen,NAME), (7,quinn,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,on,NMOD), (14,the,NMOD), (14,leave,NMOD), (11,wing,PMOD), (7,.,P)])  
+(arsenal,[(3,offside,NMOD), (3,,,P), (0,arsenal,ROOT), (3,.,P)])  
+(try,[(2,laurent,NAME), (3,koscielny,SBJ), (0,try,ROOT), (5,a,DEP), (3,through,OBJ), (5,ball,PMOD), (3,,,P), (3,but,COORD), (10,olivier,NAME), (11,giroud,SBJ), (8,be,CONJ), (11,catch,VC), (12,offside,OBJ), (3,.,P)])  
+(miss,[(2,attempt,SBJ), (0,miss,ROOT), (2,.,P)])  
+(leave,[(4,olivier,NAME), (4,giroud,NAME), (6,-lrb-,P), (6,arsenal,SBJ), (4,-rrb-,P), (0,leave,ROOT), (8,foot,NMOD), (6,shot,OBJ), (8,from,NMOD), (11,the,NMOD), (9,centre,PMOD), (11,of,NMOD), (14,the,NMOD), (12,box,PMOD), (6,miss,OPRD), (15,to,ADV), (18,the,NMOD), (16,leave,PMOD), (6,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,alexis,NAME), (2,sanchez,PMOD), (1,with,ADV), (7,a,NMOD), (5,cross,PMOD), (1,.,P)])  
+(save,[(2,attempt,SBJ), (0,save,ROOT), (2,.,P)])  
+(foot,[(2,alexis,NAME), (6,sanchez,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,VC), (8,from,ADV), (9,outside,PMOD), (12,the,NMOD), (13,box,SBJ), (10,be,SUB), (13,save,VC), (14,in,LOC), (17,the,NMOD), (15,bottom,PMOD), (8,leave,TMP), (18,corner,OBJ), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,mesut,NAME), (2,özil,PMOD), (1,.,P)])  
+(block,[(2,attempt,SBJ), (0,block,ROOT), (2,.,P)])  
+(foot,[(2,santiago,NAME), (6,cazorla,NMOD), (4,-lrb-,P), (6,arsenal,PRN), (4,-rrb-,P), (7,right,SBJ), (0,foot,ROOT), (7,shot,VC), (8,from,ADV), (9,outside,PMOD), (12,the,NMOD), (13,box,SBJ), (10,be,SUB), (13,block,VC), (7,.,P)])  
+(assist,[(0,assist,ROOT), (1,by,LGS), (4,aaron,NAME), (2,ramsey,PMOD), (1,.,P)])  
+(win,[(2,olivier,NAME), (6,giroud,SBJ), (4,-lrb-,P), (2,arsenal,PRN), (4,-rrb-,P), (0,win,ROOT), (9,a,NMOD), (9,free,NMOD), (6,kick,OBJ), (9,in,LOC), (13,the,NMOD), (13,defensive,NMOD), (10,half,PMOD), (6,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (7,jake,NAME), (7,livermore,NAME), (7,-lrb-,P), (7,hull,NAME), (2,city,PMOD), (7,-rrb-,P), (1,.,P)])  
+(delay,[(0,delay,ROOT), (1,over,NMOD), (1,.,P)])  
+(be,[(2,they,SBJ), (0,be,ROOT), (2,ready,PRD), (3,to,AMOD), (4,continue,IM), (2,.,P)])  
+(delay,[(0,delay,ROOT), (1,in,LOC), (2,match,PMOD), (5,francis,NAME), (3,coquelin,APPO), (7,-lrb-,P), (1,arsenal,APPO), (7,-rrb-,P), (1,because,PRP), (9,of,DEP), (12,an,NMOD), (9,injury,PMOD), (1,.,P)])  
+(foul,[(0,foul,ROOT), (1,by,NMOD), (4,olivier,NAME), (2,giroud,PMOD), (6,-lrb-,P), (4,arsenal,APPO), (6,-rrb-,P), (1,.,P)])  
+(win,[(2,tom,NAME), (7,huddlestone,SBJ), (5,-lrb-,P), (5,hull,NAME), (2,city,PRN), (5,-rrb-,P), (0,win,ROOT), (10,a,NMOD), (10,free,NMOD), (7,kick,OBJ), (10,on,NMOD), (14,the,NMOD), (14,right,NMOD), (11,wing,PMOD), (7,.,P)])  
+(city,[(4,offside,NMOD), (4,,,P), (4,hull,NAME), (0,city,ROOT), (4,.,P)])  
+(try,[(2,jake,NAME), (3,livermore,SBJ), (0,try,ROOT), (5,a,DEP), (3,through,OBJ), (5,ball,PMOD), (3,,,P), (3,but,COORD), (10,dame,NAME), (11,n'doye,SBJ), (8,be,CONJ), (11,catch,VC), (12,offside,OBJ), (3,.,P)])
+Looking up tree roots in Kicktionary...
+166 matches: half n
+166 matches: half n
+Second Half ends , Hull City 1 , Arsenal 3 . 
+set of lexical units:
+[u'half.n', u'half.n']
+
+165 matches: attempt n
+165 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+164 matches: shot n
+164 matches: box n
+164 matches: block v
+Andrew Robertson ( Hull City ) left footed shot from outside the box is blocked . 
+set of lexical units:
+[u'shot.n', u'box.n', u'block.v']
+
+Assisted by David Meyler . 
+set of lexical units:
+[]
+
+162 matches: attempt n
+162 matches: miss v
+162 matches: miss v
+162 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+161 matches: shot n
+161 matches: centre n
+161 matches: box n
+161 matches: miss v
+161 matches: miss v
+161 matches: miss v
+Alexis Sanchez ( Arsenal ) right footed shot from the centre of the box misses to the left . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+160 matches: break n
+160 matches: break n
+Assisted by Santiago Cazorla following a fast break . 
+set of lexical units:
+[u'break.n', u'break.n']
+
+159 matches: attempt n
+159 matches: miss v
+159 matches: miss v
+159 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+158 matches: shot n
+158 matches: centre n
+158 matches: box n
+158 matches: miss v
+158 matches: miss v
+158 matches: miss v
+Theo Walcott ( Arsenal ) right footed shot from the centre of the box misses to the right . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+Assisted by Hector Bellerin . 
+set of lexical units:
+[]
+
+156 matches: attempt n
+156 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+155 matches: shot n
+155 matches: side n
+155 matches: box n
+155 matches: block v
+Jack Wilshere ( Arsenal ) left footed shot from the right side of the box is blocked . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'block.v']
+
+Assisted by Mesut Ozil . 
+set of lexical units:
+[]
+
+153 matches: offside n
+Offside , Hull City . 
+set of lexical units:
+[u'offside.n']
+
+152 cool matches: through-ball.n.n n
+152 matches: catch v
+152 matches: offside n
+James Chester tries a through ball , but Robbie Brady is caught offside . 
+set of lexical units:
+[u'through-ball.n', u'catch.v', u'offside.n']
+
+151 matches: attempt n
+151 matches: miss v
+151 matches: miss v
+151 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+150 matches: header n
+150 matches: centre n
+150 matches: box n
+150 matches: miss v
+150 matches: miss v
+150 matches: miss v
+Michael Dawson ( Hull City ) header from the centre of the box misses to the left . 
+set of lexical units:
+[u'header.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+149 cool matches: set-piece.n.n n
+Assisted by Tom Huddlestone following a set piece situation . 
+set of lexical units:
+[u'set-piece.n']
+
+148 matches: foul n
+Foul by Francis Coquelin ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+147 matches: win v
+147 matches: win v
+147 matches: win v
+147 cool matches: free-kick.n.n n
+147 matches: wing n
+Nikica Jelavic ( Hull City ) wins a free kick on the right wing . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+146 matches: corner n
+146 matches: corner n
+Corner , Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+145 matches: concede v
+145 matches: concede v
+Conceded by Andrew Robertson . 
+set of lexical units:
+[u'concede.v', u'concede.v']
+
+144 matches: hand n
+144 matches: ball n
+144 matches: ball n
+Hand ball by Alexis Sanchez ( Arsenal ) . 
+set of lexical units:
+[u'hand.n', u'ball.n', u'ball.n']
+
+143 matches: substitution n
+Substitution , Arsenal . 
+set of lexical units:
+[u'substitution.n']
+
+Theo Walcott replaces Olivier Giroud . 
+set of lexical units:
+[]
+
+141 matches: attempt n
+141 matches: miss v
+141 matches: miss v
+141 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+140 matches: shot n
+140 matches: side n
+140 matches: box n
+140 matches: miss v
+140 matches: miss v
+140 matches: miss v
+Alexis Sanchez ( Arsenal ) left footed shot from the left side of the six yard box is close , but misses to the left . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+139 matches: attempt n
+139 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+138 matches: shot n
+138 matches: centre n
+138 matches: box n
+138 matches: block v
+Jack Wilshere ( Arsenal ) right footed shot from the centre of the box is blocked . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'block.v']
+
+137 matches: attempt n
+137 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+136 matches: shot n
+136 matches: side n
+136 matches: box n
+136 matches: save v
+136 matches: centre n
+136 matches: goal n
+136 matches: goal n
+Hector Bellerin ( Arsenal ) right footed shot from the right side of the box is saved in the centre of the goal . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'save.v', u'centre.n', u'goal.n', u'goal.n']
+
+Assisted by Olivier Giroud . 
+set of lexical units:
+[]
+
+134 matches: attempt n
+134 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+133 matches: shot n
+133 matches: box n
+133 matches: save v
+133 matches: centre n
+133 matches: goal n
+133 matches: goal n
+Santiago Cazorla ( Arsenal ) left footed shot from outside the box is saved in the centre of the goal . 
+set of lexical units:
+[u'shot.n', u'box.n', u'save.v', u'centre.n', u'goal.n', u'goal.n']
+
+Assisted by Alexis Sanchez . 
+set of lexical units:
+[]
+
+131 matches: attempt n
+131 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+130 matches: shot n
+130 matches: box n
+130 matches: block v
+Olivier Giroud ( Arsenal ) left footed shot from outside the box is blocked . 
+set of lexical units:
+[u'shot.n', u'box.n', u'block.v']
+
+Assisted by Jack Wilshere . 
+set of lexical units:
+[]
+
+128 matches: substitution n
+Substitution , Hull City . 
+set of lexical units:
+[u'substitution.n']
+
+Nikica Jelavic replaces Stephen Quinn . 
+set of lexical units:
+[]
+
+126 matches: corner n
+126 matches: corner n
+Corner , Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+125 matches: concede v
+125 matches: concede v
+Conceded by Michael Dawson . 
+set of lexical units:
+[u'concede.v', u'concede.v']
+
+124 matches: attempt n
+124 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+123 matches: shot n
+123 matches: centre n
+123 matches: box n
+123 matches: save v
+123 matches: corner n
+123 matches: corner n
+Santiago Cazorla ( Arsenal ) right footed shot from the centre of the box is saved in the bottom right corner . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'save.v', u'corner.n', u'corner.n']
+
+Assisted by Mesut Ozil . 
+set of lexical units:
+[]
+
+121 matches: corner n
+121 matches: corner n
+Corner , Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+120 matches: concede v
+120 matches: concede v
+Conceded by Paul McShane . 
+set of lexical units:
+[u'concede.v', u'concede.v']
+
+119 matches: attempt n
+119 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+118 matches: box n
+118 matches: block v
+Alexis Sanchez ( Arsenal ) right footed shot from outside the box is blocked . 
+set of lexical units:
+[u'box.n', u'block.v']
+
+Delay over . 
+set of lexical units:
+[]
+
+They are ready to continue . 
+set of lexical units:
+[]
+
+115 matches: match n
+Delay in match David Meyler ( Hull City ) because of an injury . 
+set of lexical units:
+[u'match.n']
+
+114 matches: foul n
+Foul by Michael Dawson ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+113 matches: win v
+113 matches: win v
+113 matches: win v
+113 cool matches: free-kick.n.n n
+113 matches: attack v
+113 matches: half n
+113 matches: half n
+Jack Wilshere ( Arsenal ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+112 matches: substitution n
+Substitution , Arsenal . 
+set of lexical units:
+[u'substitution.n']
+
+Jack Wilshere replaces Aaron Ramsey . 
+set of lexical units:
+[]
+
+110 matches: substitution n
+Substitution , Hull City . 
+set of lexical units:
+[u'substitution.n']
+
+Andrew Robertson replaces Sone Aluko . 
+set of lexical units:
+[]
+
+108 matches: attempt n
+108 matches: miss v
+108 matches: miss v
+108 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+107 matches: shot n
+107 matches: centre n
+107 matches: box n
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box is high and wide to the right . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n']
+
+Assisted by Olivier Giroud . 
+set of lexical units:
+[]
+
+105 matches: corner n
+105 matches: corner n
+Corner , Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+104 matches: concede v
+104 matches: concede v
+Conceded by Paul McShane . 
+set of lexical units:
+[u'concede.v', u'concede.v']
+
+103 matches: attempt n
+103 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+102 matches: header n
+102 matches: centre n
+102 matches: box n
+102 matches: block v
+Alexis Sanchez ( Arsenal ) header from the centre of the box is blocked . 
+set of lexical units:
+[u'header.n', u'centre.n', u'box.n', u'block.v']
+
+101 matches: cross n
+Assisted by Hector Bellerin with a cross . 
+set of lexical units:
+[u'cross.n']
+
+100 matches: attempt n
+100 matches: miss v
+100 matches: miss v
+100 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+99 matches: header n
+99 matches: centre n
+99 matches: box n
+Paul McShane ( Hull City ) header from the centre of the box is just a bit too high . 
+set of lexical units:
+[u'header.n', u'centre.n', u'box.n']
+
+98 matches: cross n
+Assisted by Ahmed Elmohamady with a cross . 
+set of lexical units:
+[u'cross.n']
+
+97 matches: foul n
+Foul by Francis Coquelin ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+96 matches: win v
+96 matches: win v
+96 matches: win v
+96 cool matches: free-kick.n.n n
+96 matches: attack v
+96 matches: half n
+96 matches: half n
+Stephen Quinn ( Hull City ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+95 matches: goal n
+95 matches: goal n
+Goal ! Hull City 1 , Arsenal 3 . 
+set of lexical units:
+[u'goal.n', u'goal.n']
+
+94 matches: header n
+94 matches: centre n
+94 matches: box n
+94 matches: corner n
+94 matches: corner n
+Stephen Quinn ( Hull City ) header from the centre of the box to the top right corner . 
+set of lexical units:
+[u'header.n', u'centre.n', u'box.n', u'corner.n', u'corner.n']
+
+93 matches: cross n
+Assisted by Ahmed Elmohamady with a cross . 
+set of lexical units:
+[u'cross.n']
+
+92 matches: attempt n
+92 matches: miss v
+92 matches: miss v
+92 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+91 matches: shot n
+91 matches: centre n
+91 matches: box n
+91 matches: miss v
+91 matches: miss v
+91 matches: miss v
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box is close , but misses to the right . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+Assisted by Santiago Cazorla . 
+set of lexical units:
+[]
+
+89 matches: offside n
+Offside , Hull City . 
+set of lexical units:
+[u'offside.n']
+
+88 cool matches: through-ball.n.n n
+88 matches: catch v
+88 matches: offside n
+David Meyler tries a through ball , but Dame N'Doye is caught offside . 
+set of lexical units:
+[u'through-ball.n', u'catch.v', u'offside.n']
+
+87 matches: win v
+87 matches: win v
+87 matches: win v
+87 cool matches: free-kick.n.n n
+87 matches: half n
+87 matches: half n
+Laurent Koscielny ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+86 matches: foul n
+Foul by Sone Aluko ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+85 matches: win v
+85 matches: win v
+85 matches: win v
+85 cool matches: free-kick.n.n n
+85 matches: attack v
+85 matches: half n
+85 matches: half n
+Dame N'Doye ( Hull City ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+84 matches: foul n
+Foul by Per Mertesacker ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+83 matches: foul n
+Foul by David Meyler ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+82 matches: win v
+82 matches: win v
+82 matches: win v
+82 cool matches: free-kick.n.n n
+82 matches: half n
+82 matches: half n
+Hector Bellerin ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+81 matches: attempt n
+81 matches: miss v
+81 matches: miss v
+81 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+80 matches: shot n
+80 matches: box n
+Sone Aluko ( Hull City ) left footed shot from outside the box is too high . 
+set of lexical units:
+[u'shot.n', u'box.n']
+
+Assisted by David Meyler . 
+set of lexical units:
+[]
+
+78 matches: half n
+78 matches: half n
+Second Half begins Hull City 0 , Arsenal 3 . 
+set of lexical units:
+[u'half.n', u'half.n']
+
+77 matches: substitution n
+Substitution , Hull City . 
+set of lexical units:
+[u'substitution.n']
+
+David Meyler replaces Jake Livermore . 
+set of lexical units:
+[]
+
+75 matches: half n
+75 matches: half n
+First Half ends , Hull City 0 , Arsenal 3 . 
+set of lexical units:
+[u'half.n', u'half.n']
+
+74 matches: goal n
+74 matches: goal n
+Goal ! Hull City 0 , Arsenal 3 . 
+set of lexical units:
+[u'goal.n', u'goal.n']
+
+73 matches: shot n
+73 matches: centre n
+73 matches: box n
+73 matches: corner n
+73 matches: corner n
+Alexis Sanchez ( Arsenal ) right footed shot from the centre of the box to the bottom left corner . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'corner.n', u'corner.n']
+
+72 cool matches: through-ball.n.n n
+Assisted by Aaron Ramsey with a through ball . 
+set of lexical units:
+[u'through-ball.n']
+
+71 matches: attempt n
+71 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+70 matches: shot n
+70 matches: side n
+70 matches: box n
+70 matches: save v
+70 matches: centre n
+70 matches: goal n
+70 matches: goal n
+Alexis Sanchez ( Arsenal ) right footed shot from the left side of the box is saved in the centre of the goal . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'save.v', u'centre.n', u'goal.n', u'goal.n']
+
+69 cool matches: through-ball.n.n n
+Assisted by Santiago Cazorla with a through ball . 
+set of lexical units:
+[u'through-ball.n']
+
+68 matches: attempt n
+68 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+67 matches: shot n
+67 matches: side n
+67 matches: box n
+67 matches: save v
+67 matches: centre n
+67 matches: goal n
+67 matches: goal n
+Mesut Ozil ( Arsenal ) left footed shot from the left side of the box is saved in the centre of the goal . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'save.v', u'centre.n', u'goal.n', u'goal.n']
+
+66 cool matches: through-ball.n.n n
+Assisted by Alexis Sanchez with a through ball . 
+set of lexical units:
+[u'through-ball.n']
+
+65 matches: foul n
+Foul by Dame N'Doye ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+64 matches: win v
+64 matches: win v
+64 matches: win v
+64 cool matches: free-kick.n.n n
+64 matches: half n
+64 matches: half n
+Laurent Koscielny ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+63 matches: offside n
+Offside , Hull City . 
+set of lexical units:
+[u'offside.n']
+
+62 cool matches: through-ball.n.n n
+62 matches: catch v
+62 matches: offside n
+Tom Huddlestone tries a through ball , but Dame N'Doye is caught offside . 
+set of lexical units:
+[u'through-ball.n', u'catch.v', u'offside.n']
+
+61 matches: foul n
+Foul by Laurent Koscielny ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+60 matches: win v
+60 matches: win v
+60 matches: win v
+60 cool matches: free-kick.n.n n
+60 matches: attack v
+60 matches: half n
+60 matches: half n
+Sone Aluko ( Hull City ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+59 matches: corner n
+59 matches: corner n
+Corner , Arsenal . 
+set of lexical units:
+[u'corner.n', u'corner.n']
+
+58 matches: concede v
+58 matches: concede v
+Conceded by Steve Harper . 
+set of lexical units:
+[u'concede.v', u'concede.v']
+
+57 matches: attempt n
+57 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+56 matches: shot n
+56 matches: side n
+56 matches: box n
+56 matches: block v
+Santiago Cazorla ( Arsenal ) left footed shot from the left side of the box is blocked . 
+set of lexical units:
+[u'shot.n', u'side.n', u'box.n', u'block.v']
+
+55 matches: win v
+55 matches: win v
+55 matches: win v
+55 cool matches: free-kick.n.n n
+55 matches: attack v
+55 matches: half n
+55 matches: half n
+Tom Huddlestone ( Hull City ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+54 matches: foul n
+Foul by Olivier Giroud ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+53 matches: goal n
+53 matches: goal n
+Goal ! Hull City 0 , Arsenal 2 . 
+set of lexical units:
+[u'goal.n', u'goal.n']
+
+52 matches: shot n
+52 matches: centre n
+52 matches: box n
+52 matches: corner n
+52 matches: corner n
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box to the bottom left corner . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'corner.n', u'corner.n']
+
+Assisted by Santiago Cazorla . 
+set of lexical units:
+[]
+
+50 matches: foul n
+Foul by Mesut Ozil ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+49 matches: win v
+49 matches: win v
+49 matches: win v
+49 cool matches: free-kick.n.n n
+49 matches: half n
+49 matches: half n
+Robbie Brady ( Hull City ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+48 matches: yellow n
+48 cool matches: yellow_card.n.n n
+Yellow Card 
+set of lexical units:
+[u'yellow_card.n']
+
+47 matches: show v
+47 cool matches: yellow_card.n.n n
+47 matches: foul n
+Dame N'Doye ( Hull City ) is shown the yellow card for a bad foul . 
+set of lexical units:
+[u'show.v', u'yellow_card.n', u'foul.n']
+
+46 matches: foul n
+Foul by Dame N'Doye ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+45 matches: win v
+45 matches: win v
+45 matches: win v
+45 cool matches: free-kick.n.n n
+45 matches: half n
+45 matches: half n
+Nacho Monreal ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+44 matches: foul n
+Foul by Santiago Cazorla ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+43 matches: win v
+43 matches: win v
+43 matches: win v
+43 cool matches: free-kick.n.n n
+43 matches: attack v
+43 matches: half n
+43 matches: half n
+Dame N'Doye ( Hull City ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+42 matches: goal n
+42 matches: goal n
+Goal ! Hull City 0 , Arsenal 1 . 
+set of lexical units:
+[u'goal.n', u'goal.n']
+
+41 cool matches: free-kick.n.n n
+41 matches: shot n
+41 matches: corner n
+41 matches: corner n
+Alexis Sanchez ( Arsenal ) from a free kick with a right footed shot to the top right corner . 
+set of lexical units:
+[u'free-kick.n', u'shot.n', u'corner.n', u'corner.n']
+
+40 matches: foul n
+Foul by Jake Livermore ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+39 matches: win v
+39 matches: win v
+39 matches: win v
+39 cool matches: free-kick.n.n n
+39 matches: attack v
+39 matches: half n
+39 matches: half n
+Alexis Sanchez ( Arsenal ) wins a free kick in the attacking half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'attack.v', u'half.n', u'half.n']
+
+Delay over . 
+set of lexical units:
+[]
+
+They are ready to continue . 
+set of lexical units:
+[]
+
+36 matches: match n
+Delay in match Aaron Ramsey ( Arsenal ) because of an injury . 
+set of lexical units:
+[u'match.n']
+
+35 matches: yellow n
+35 cool matches: yellow_card.n.n n
+Yellow Card 
+set of lexical units:
+[u'yellow_card.n']
+
+34 matches: show v
+34 cool matches: yellow_card.n.n n
+34 matches: foul n
+Jake Livermore ( Hull City ) is shown the yellow card for a bad foul . 
+set of lexical units:
+[u'show.v', u'yellow_card.n', u'foul.n']
+
+33 matches: foul n
+Foul by Jake Livermore ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+32 matches: win v
+32 matches: win v
+32 matches: win v
+32 cool matches: free-kick.n.n n
+32 matches: half n
+32 matches: half n
+Alexis Sanchez ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+31 matches: attempt n
+31 matches: miss v
+31 matches: miss v
+31 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+30 matches: header n
+30 matches: side n
+30 matches: box n
+30 matches: miss v
+30 matches: miss v
+30 matches: miss v
+Sone Aluko ( Hull City ) header from the right side of the six yard box misses to the left . 
+set of lexical units:
+[u'header.n', u'side.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+29 matches: cross n
+Assisted by Robbie Brady with a cross . 
+set of lexical units:
+[u'cross.n']
+
+28 matches: attempt n
+28 matches: miss v
+28 matches: miss v
+28 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+27 matches: wing n
+27 matches: miss v
+27 matches: miss v
+27 matches: miss v
+Dame N'Doye ( Hull City ) right footed shot from more than 40 yards on the right wing misses to the right . 
+set of lexical units:
+[u'wing.n', u'miss.v', u'miss.v', u'miss.v']
+
+Assisted by Jake Livermore . 
+set of lexical units:
+[]
+
+25 matches: attempt n
+25 matches: miss v
+25 matches: miss v
+25 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+24 matches: header n
+24 matches: centre n
+24 matches: box n
+24 matches: miss v
+24 matches: miss v
+24 matches: miss v
+Stephen Quinn ( Hull City ) header from the centre of the box misses to the right . 
+set of lexical units:
+[u'header.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+23 matches: win v
+23 matches: win v
+23 matches: win v
+23 cool matches: free-kick.n.n n
+23 matches: half n
+23 matches: half n
+Ahmed Elmohamady ( Hull City ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+22 matches: foul n
+Foul by Francis Coquelin ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+21 matches: foul n
+Foul by Per Mertesacker ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+20 matches: win v
+20 matches: win v
+20 matches: win v
+20 cool matches: free-kick.n.n n
+20 matches: wing n
+Stephen Quinn ( Hull City ) wins a free kick on the left wing . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+19 matches: offside n
+Offside , Arsenal . 
+set of lexical units:
+[u'offside.n']
+
+18 cool matches: through-ball.n.n n
+18 matches: catch v
+18 matches: offside n
+Laurent Koscielny tries a through ball , but Olivier Giroud is caught offside . 
+set of lexical units:
+[u'through-ball.n', u'catch.v', u'offside.n']
+
+17 matches: attempt n
+17 matches: miss v
+17 matches: miss v
+17 matches: miss v
+Attempt missed . 
+set of lexical units:
+[u'attempt.n', u'miss.v', u'miss.v', u'miss.v']
+
+16 matches: shot n
+16 matches: centre n
+16 matches: box n
+16 matches: miss v
+16 matches: miss v
+16 matches: miss v
+Olivier Giroud ( Arsenal ) left footed shot from the centre of the box misses to the left . 
+set of lexical units:
+[u'shot.n', u'centre.n', u'box.n', u'miss.v', u'miss.v', u'miss.v']
+
+15 matches: cross n
+Assisted by Alexis Sanchez with a cross . 
+set of lexical units:
+[u'cross.n']
+
+14 matches: attempt n
+14 matches: save v
+Attempt saved . 
+set of lexical units:
+[u'attempt.n', u'save.v']
+
+13 matches: box n
+13 matches: save v
+13 matches: corner n
+13 matches: corner n
+Alexis Sanchez ( Arsenal ) right footed shot from outside the box is saved in the bottom left corner . 
+set of lexical units:
+[u'box.n', u'save.v', u'corner.n', u'corner.n']
+
+Assisted by Mesut Ozil . 
+set of lexical units:
+[]
+
+11 matches: attempt n
+11 matches: block v
+Attempt blocked . 
+set of lexical units:
+[u'attempt.n', u'block.v']
+
+10 matches: box n
+10 matches: block v
+Santiago Cazorla ( Arsenal ) right footed shot from outside the box is blocked . 
+set of lexical units:
+[u'box.n', u'block.v']
+
+Assisted by Aaron Ramsey . 
+set of lexical units:
+[]
+
+8 matches: win v
+8 matches: win v
+8 matches: win v
+8 cool matches: free-kick.n.n n
+8 matches: half n
+8 matches: half n
+Olivier Giroud ( Arsenal ) wins a free kick in the defensive half . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'half.n', u'half.n']
+
+7 matches: foul n
+Foul by Jake Livermore ( Hull City ) . 
+set of lexical units:
+[u'foul.n']
+
+Delay over . 
+set of lexical units:
+[]
+
+They are ready to continue . 
+set of lexical units:
+[]
+
+4 matches: match n
+Delay in match Francis Coquelin ( Arsenal ) because of an injury . 
+set of lexical units:
+[u'match.n']
+
+3 matches: foul n
+Foul by Olivier Giroud ( Arsenal ) . 
+set of lexical units:
+[u'foul.n']
+
+2 matches: win v
+2 matches: win v
+2 matches: win v
+2 cool matches: free-kick.n.n n
+2 matches: wing n
+Tom Huddlestone ( Hull City ) wins a free kick on the right wing . 
+set of lexical units:
+[u'win.v', u'win.v', u'win.v', u'free-kick.n', u'wing.n']
+
+1 matches: offside n
+Offside , Hull City . 
+set of lexical units:
+[u'offside.n']
+
+0 cool matches: through-ball.n.n n
+0 matches: catch v
+0 matches: offside n
+Jake Livermore tries a through ball , but Dame N'Doye is caught offside . 
+set of lexical units:
+[u'through-ball.n', u'catch.v', u'offside.n']
+
+Identifying arguments...
+TICKER : p4
+MINUTE : 90.4
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.4
+Andrew Robertson ( Hull City ) left footed shot from outside the box is blocked . 
+FRAME:  Shot
+{'SHOOTER': 'Andrew Robertson'}
+
+TICKER : p4
+MINUTE : 90.4
+Assisted by David Meyler . 
+FRAME:  Pass
+{'PASSER': 'David Meyler'}
+
+TICKER : p4
+MINUTE : 90.3
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.3
+Alexis Sanchez ( Arsenal ) right footed shot from the centre of the box misses to the left . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.3
+Assisted by Santiago Cazorla following a fast break . 
+FRAME:  Pass
+{'PASSER': 'Santiago Cazorla'}
+
+TICKER : p4
+MINUTE : 90.2
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.2
+Theo Walcott ( Arsenal ) right footed shot from the centre of the box misses to the right . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.2
+Assisted by Hector Bellerin . 
+FRAME:  Pass
+{'PASSER': 'Hector Bellerin'}
+
+TICKER : p4
+MINUTE : 90.2
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90.2
+Jack Wilshere ( Arsenal ) left footed shot from the right side of the box is blocked . 
+FRAME:  Shot
+{'SHOOTER': 'Jack Wilshere'}
+
+TICKER : p4
+MINUTE : 90.2
+Assisted by Mesut Ozil . 
+FRAME:  Pass
+{'PASSER': 'Mesut Ozil'}
+
+TICKER : p4
+MINUTE : 90.1
+Offside , Hull City . 
+FRAME:  Offside
+{}
+
+TICKER : p4
+MINUTE : 90.1
+James Chester tries a through ball , but Robbie Brady is caught offside . 
+FRAME:  Pass
+{'PASSER': 'James Chester'}
+
+TICKER : p4
+MINUTE : 90
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90
+Michael Dawson ( Hull City ) header from the centre of the box misses to the left . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 90
+Assisted by Tom Huddlestone following a set piece situation . 
+FRAME:  Pass
+{'PASSER': 'Tom Huddlestone'}
+
+TICKER : p4
+MINUTE : 89
+Foul by Francis Coquelin ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Francis Coquelin'}
+
+TICKER : p4
+MINUTE : 88
+Corner , Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p4
+MINUTE : 86
+Theo Walcott replaces Olivier Giroud . 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Olivier Giroud', 'SUBSTITUTE': 'Theo Walcott'}
+
+TICKER : p4
+MINUTE : 85
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 85
+Alexis Sanchez ( Arsenal ) left footed shot from the left side of the six yard box is close , but misses to the left . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 85
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 85
+Jack Wilshere ( Arsenal ) right footed shot from the centre of the box is blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 85
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 85
+Hector Bellerin ( Arsenal ) right footed shot from the right side of the box is saved in the centre of the goal . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 85
+Assisted by Olivier Giroud . 
+FRAME:  Pass
+{'PASSER': 'Olivier Giroud'}
+
+TICKER : p4
+MINUTE : 84
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 84
+Santiago Cazorla ( Arsenal ) left footed shot from outside the box is saved in the centre of the goal . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 84
+Assisted by Alexis Sanchez . 
+FRAME:  Pass
+{'PASSER': 'Alexis Sanchez'}
+
+TICKER : p4
+MINUTE : 83
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 83
+Olivier Giroud ( Arsenal ) left footed shot from outside the box is blocked . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 83
+Assisted by Jack Wilshere . 
+FRAME:  Pass
+{'PASSER': 'Jack Wilshere'}
+
+TICKER : p4
+MINUTE : 81
+Nikica Jelavic replaces Stephen Quinn . 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Stephen Quinn', 'SUBSTITUTE': 'Nikica Jelavic'}
+
+TICKER : p4
+MINUTE : 81
+Corner , Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p4
+MINUTE : 75
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 75
+Santiago Cazorla ( Arsenal ) right footed shot from the centre of the box is saved in the bottom right corner . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 75
+Assisted by Mesut Ozil . 
+FRAME:  Pass
+{'PASSER': 'Mesut Ozil'}
+
+TICKER : p4
+MINUTE : 72
+Corner , Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p4
+MINUTE : 72
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 72
+Alexis Sanchez ( Arsenal ) right footed shot from outside the box is blocked . 
+FRAME:  Intervene
+{}
+
+TICKER : p4
+MINUTE : 70
+Foul by Michael Dawson ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'Michael Dawson'}
+
+TICKER : p4
+MINUTE : 68
+Jack Wilshere replaces Aaron Ramsey . 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Aaron Ramsey', 'SUBSTITUTE': 'Jack Wilshere'}
+
+TICKER : p4
+MINUTE : 65
+Andrew Robertson replaces Sone Aluko . 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Sone Aluko', 'SUBSTITUTE': 'Andrew Robertson'}
+
+TICKER : p4
+MINUTE : 64
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 64
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box is high and wide to the right . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 64
+Assisted by Olivier Giroud . 
+FRAME:  Pass
+{'PASSER': 'Olivier Giroud'}
+
+TICKER : p4
+MINUTE : 62
+Corner , Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p4
+MINUTE : 61
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 61
+Alexis Sanchez ( Arsenal ) header from the centre of the box is blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 61
+Assisted by Hector Bellerin with a cross . 
+FRAME:  Pass
+{'PASSER': 'Hector Bellerin'}
+
+TICKER : p4
+MINUTE : 60
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 60
+Paul McShane ( Hull City ) header from the centre of the box is just a bit too high . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 60
+Assisted by Ahmed Elmohamady with a cross . 
+FRAME:  Pass
+{'PASSER': 'Ahmed Elmohamady'}
+
+TICKER : p4
+MINUTE : 58
+Foul by Francis Coquelin ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Francis Coquelin'}
+
+TICKER : p4
+MINUTE : 56
+Goal ! Hull City 1 , Arsenal 3 . 
+FRAME:  Goal
+{}
+
+TICKER : p4
+MINUTE : 56
+Stephen Quinn ( Hull City ) header from the centre of the box to the top right corner . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 56
+Assisted by Ahmed Elmohamady with a cross . 
+FRAME:  Pass
+{'PASSER': 'Ahmed Elmohamady'}
+
+TICKER : p4
+MINUTE : 56
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 56
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box is close , but misses to the right . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 56
+Assisted by Santiago Cazorla . 
+FRAME:  Pass
+{'PASSER': 'Santiago Cazorla'}
+
+TICKER : p4
+MINUTE : 54
+Offside , Hull City . 
+FRAME:  Offside
+{}
+
+TICKER : p4
+MINUTE : 54
+David Meyler tries a through ball , but Dame N'Doye is caught offside . 
+FRAME:  Pass
+{'PASSER': 'David Meyler'}
+
+TICKER : p4
+MINUTE : 49
+Foul by Sone Aluko ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'Sone Aluko'}
+
+TICKER : p4
+MINUTE : 49
+Foul by Per Mertesacker ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Per Mertesacker'}
+
+TICKER : p4
+MINUTE : 48
+Foul by David Meyler ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'David Meyler'}
+
+TICKER : p4
+MINUTE : 46
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 46
+Sone Aluko ( Hull City ) left footed shot from outside the box is too high . 
+FRAME:  Shot
+{'SHOOTER': 'Sone Aluko'}
+
+TICKER : p4
+MINUTE : 46
+Assisted by David Meyler . 
+FRAME:  Pass
+{'PASSER': 'David Meyler'}
+
+TICKER : p4
+MINUTE : 45
+David Meyler replaces Jake Livermore . 
+FRAME:  Substitute
+{'SUBSTITUTED_PLAYER': 'Jake Livermore', 'SUBSTITUTE': 'David Meyler'}
+
+TICKER : p4
+MINUTE : 45.1
+Goal ! Hull City 0 , Arsenal 3 . 
+FRAME:  Goal
+{}
+
+TICKER : p4
+MINUTE : 45.1
+Alexis Sanchez ( Arsenal ) right footed shot from the centre of the box to the bottom left corner . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 45.1
+Assisted by Aaron Ramsey with a through ball . 
+FRAME:  Pass
+{'PASSER': 'Aaron Ramsey'}
+
+TICKER : p4
+MINUTE : 45
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 45
+Alexis Sanchez ( Arsenal ) right footed shot from the left side of the box is saved in the centre of the goal . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 45
+Assisted by Santiago Cazorla with a through ball . 
+FRAME:  Pass
+{'PASSER': 'Santiago Cazorla'}
+
+TICKER : p4
+MINUTE : 44
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 44
+Mesut Ozil ( Arsenal ) left footed shot from the left side of the box is saved in the centre of the goal . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 44
+Assisted by Alexis Sanchez with a through ball . 
+FRAME:  Pass
+{'PASSER': 'Alexis Sanchez'}
+
+TICKER : p4
+MINUTE : 43
+Foul by Dame N'Doye ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': "Dame N'Doye"}
+
+TICKER : p4
+MINUTE : 39
+Offside , Hull City . 
+FRAME:  Offside
+{}
+
+TICKER : p4
+MINUTE : 39
+Tom Huddlestone tries a through ball , but Dame N'Doye is caught offside . 
+FRAME:  Pass
+{'PASSER': 'Tom Huddlestone'}
+
+TICKER : p4
+MINUTE : 39
+Foul by Laurent Koscielny ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Laurent Koscielny'}
+
+TICKER : p4
+MINUTE : 37
+Corner , Arsenal . 
+FRAME:  Set_Piece
+{}
+
+TICKER : p4
+MINUTE : 37
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 37
+Santiago Cazorla ( Arsenal ) left footed shot from the left side of the box is blocked . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 35
+Foul by Olivier Giroud ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Olivier Giroud'}
+
+TICKER : p4
+MINUTE : 33
+Goal ! Hull City 0 , Arsenal 2 . 
+FRAME:  Goal
+{}
+
+TICKER : p4
+MINUTE : 33
+Aaron Ramsey ( Arsenal ) right footed shot from the centre of the box to the bottom left corner . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 33
+Assisted by Santiago Cazorla . 
+FRAME:  Pass
+{'PASSER': 'Santiago Cazorla'}
+
+TICKER : p4
+MINUTE : 31
+Foul by Mesut Ozil ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Mesut Ozil'}
+
+TICKER : p4
+MINUTE : 30
+Yellow Card 
+FRAME:  Sanction
+{}
+
+TICKER : p4
+MINUTE : 30
+Dame N'Doye ( Hull City ) is shown the yellow card for a bad foul . 
+FRAME:  Sanction
+{}
+
+TICKER : p4
+MINUTE : 30
+Foul by Dame N'Doye ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': "Dame N'Doye"}
+
+TICKER : p4
+MINUTE : 29
+Foul by Santiago Cazorla ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Santiago Cazorla'}
+
+TICKER : p4
+MINUTE : 28
+Goal ! Hull City 0 , Arsenal 1 . 
+FRAME:  Goal
+{}
+
+TICKER : p4
+MINUTE : 28
+Alexis Sanchez ( Arsenal ) from a free kick with a right footed shot to the top right corner . 
+FRAME:  Set_Piece
+{'EXECUTING_PLAYER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 27
+Foul by Jake Livermore ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'Jake Livermore'}
+
+TICKER : p4
+MINUTE : 23
+Yellow Card 
+FRAME:  Sanction
+{}
+
+TICKER : p4
+MINUTE : 23
+Jake Livermore ( Hull City ) is shown the yellow card for a bad foul . 
+FRAME:  Sanction
+{}
+
+TICKER : p4
+MINUTE : 23
+Foul by Jake Livermore ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'Jake Livermore'}
+
+TICKER : p4
+MINUTE : 23
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 23
+Sone Aluko ( Hull City ) header from the right side of the six yard box misses to the left . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 23
+Assisted by Robbie Brady with a cross . 
+FRAME:  Pass
+{'PASSER': 'Robbie Brady'}
+
+TICKER : p4
+MINUTE : 21
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 21
+Assisted by Jake Livermore . 
+FRAME:  Pass
+{'PASSER': 'Jake Livermore'}
+
+TICKER : p4
+MINUTE : 20
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 20
+Stephen Quinn ( Hull City ) header from the centre of the box misses to the right . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 19
+Foul by Francis Coquelin ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Francis Coquelin'}
+
+TICKER : p4
+MINUTE : 17
+Foul by Per Mertesacker ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Per Mertesacker'}
+
+TICKER : p4
+MINUTE : 14
+Offside , Arsenal . 
+FRAME:  Offside
+{}
+
+TICKER : p4
+MINUTE : 14
+Laurent Koscielny tries a through ball , but Olivier Giroud is caught offside . 
+FRAME:  Pass
+{'PASSER': 'Laurent Koscielny'}
+
+TICKER : p4
+MINUTE : 14
+Attempt missed . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 14
+Olivier Giroud ( Arsenal ) left footed shot from the centre of the box misses to the left . 
+FRAME:  Shot
+{'SHOOTER': 'Arsenal'}
+
+TICKER : p4
+MINUTE : 14
+Assisted by Alexis Sanchez with a cross . 
+FRAME:  Pass
+{'PASSER': 'Alexis Sanchez'}
+
+TICKER : p4
+MINUTE : 13
+Attempt saved . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 13
+Alexis Sanchez ( Arsenal ) right footed shot from outside the box is saved in the bottom left corner . 
+FRAME:  Intervene
+{}
+
+TICKER : p4
+MINUTE : 13
+Assisted by Mesut Ozil . 
+FRAME:  Pass
+{'PASSER': 'Mesut Ozil'}
+
+TICKER : p4
+MINUTE : 11
+Attempt blocked . 
+FRAME:  Shot
+{}
+
+TICKER : p4
+MINUTE : 11
+Santiago Cazorla ( Arsenal ) right footed shot from outside the box is blocked . 
+FRAME:  Intervene
+{}
+
+TICKER : p4
+MINUTE : 11
+Assisted by Aaron Ramsey . 
+FRAME:  Pass
+{'PASSER': 'Aaron Ramsey'}
+
+TICKER : p4
+MINUTE : 9
+Foul by Jake Livermore ( Hull City ) . 
+FRAME:  Foul
+{'OFFENDER': 'Jake Livermore'}
+
+TICKER : p4
+MINUTE : 8
+Delay over . 
+FRAME:  Foul
+{}
+
+TICKER : p4
+MINUTE : 8
+They are ready to continue . 
+FRAME:  Foul
+{}
+
+TICKER : p4
+MINUTE : 7
+Foul by Olivier Giroud ( Arsenal ) . 
+FRAME:  Foul
+{'OFFENDER': 'Olivier Giroud'}
+
+TICKER : p4
+MINUTE : 3
+Offside , Hull City . 
+FRAME:  Offside
+{}
+
+TICKER : p4
+MINUTE : 3
+Jake Livermore tries a through ball , but Dame N'Doye is caught offside . 
+FRAME:  Pass
+{'PASSER': 'Jake Livermore'}
+
