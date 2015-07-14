@@ -10,15 +10,17 @@
 import gringo
 from asp.aspConversion import to_asp # thats clayton's function
 
-SOLVERESULT = None
+SOLVERESULT = []
 
 # TODO: replace print by storing informations
 def onModel(model):
     # this function is just a ref call - so we use the global SOLVERESULT 
     # for storing the result of the onModel function
     global SOLVERESULT
-    
     atoms = model.atoms(Model.ATOMS)
+    SOLVERESULT = atoms
+
+def printStates(atoms):
     events = getFluents(atoms, "ticker")
     states = getFluents(atoms, "holds" )
     attributes = getFluents(atoms, "attribute")
@@ -32,6 +34,9 @@ def onModel(model):
         print "[s] "
         for s in states[time]:
             print "     {}".format(s)
+
+def convertToFrames(atoms):
+    return [toFrame(atom) for atom in atoms]
 
 def getFluents(atoms, name):
     if name == "holds":
@@ -64,7 +69,9 @@ def loadScences(ctr):
     for scene in scenes:
         ctr.load("asp/scenes/{}.lp".format(scene))
 
-def solve(frames):
+def solve(frames, question=""):
+    global SOLVERESULT
+    
     # Clayton's function for translating frames into asp facts
     frameFacts = to_asp(frames)
     # initializing the asp controller obj
@@ -76,3 +83,5 @@ def solve(frames):
     ctr.ground([("base", [])])
     # solve it, while on finding a model, the function onModel is called
     ret = ctr.solve([], onModel)
+
+    return convertToFrames(SOLVERESULT)
