@@ -1472,6 +1472,12 @@ FRAME:  Chance
 {'PLAYER': 'Arsenal'}
 
 TICKER : p2
+MINUTE : 85
+His volley was directed towards the middle of the goal , but Steve Harper ( Hull City ) was alert and made an amazing save ! 
+FRAME:  Goal
+{}
+
+TICKER : p2
 MINUTE : 83
 Dame N'Doye ( Hull City ) serves in a nice cross , but the defence clear the danger . 
 FRAME:  Pass
@@ -1653,6 +1659,12 @@ FRAME:  Foul
 
 TICKER : p2
 MINUTE : 47
+Sone Aluko ( Hull City ) makes a yard for himself and goes for goal from long range . 
+FRAME:  Goal
+{'SCORER': 'Sone Aluko'}
+
+TICKER : p2
+MINUTE : 47
 The ball is out of the pitch and it 's a goal kick for Arsenal . 
 FRAME:  Set_Piece
 {}
@@ -1731,6 +1743,18 @@ FRAME:  Goal
 
 TICKER : p2
 MINUTE : 33
+Steve Harper ( Hull City ) could n't do anything about it . 
+FRAME:  Goal
+{}
+
+TICKER : p2
+MINUTE : 33
+2 . 
+FRAME:  Goal
+{}
+
+TICKER : p2
+MINUTE : 33
 Robbie Brady ( Hull City ) plays in a hopeful cross , but it does n't find its way to any of the attacking players . 
 FRAME:  Pass
 {'PASSER': 'Robbie Brady'}
@@ -1770,6 +1794,12 @@ MINUTE : 28
 Goal ! Free-kick is fired in by Alexis Sanchez ( Arsenal ) , which one of the opposition players flicks on , leaving Steve Harper ( Hull City ) stranded , and spins into the net . 
 FRAME:  Goal
 {'SCORER': 'Alexis Sanchez'}
+
+TICKER : p2
+MINUTE : 28
+1 . 
+FRAME:  Goal
+{}
 
 TICKER : p2
 MINUTE : 28
@@ -1927,3 +1957,7 @@ Neat passing move from Arsenal in order to create new attacking opportunities .
 FRAME:  Pass
 {}
 
+NUMBER OF SENTENCES: 169
+NUMBER OF LUS IDENTIFIED: 169
+NUMBER OF FRAMES IDENTIFIED: 89
+NUMBER OF FRAMES WITH ARGUMENTS: 42

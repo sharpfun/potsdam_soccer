@@ -547,3 +547,13 @@ Coquelin clears the free-kick and Arsenal break with Ozil who returns to the Fre
 FRAME:  Intervene
 {'INTERVENING_PLAYER': 'Coquelin'}
 
+TICKER : p5
+MINUTE : 11
+Ramsey feeds Bellerin who fizzes across goal and Harper has to react to keep out Huddlestone's deflection 
+FRAME:  Goal
+{'SCORER': 'Ramsey'}
+
+NUMBER OF SENTENCES: 51
+NUMBER OF LUS IDENTIFIED: 51
+NUMBER OF FRAMES IDENTIFIED: 23
+NUMBER OF FRAMES WITH ARGUMENTS: 19

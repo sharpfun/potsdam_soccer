@@ -1302,6 +1302,12 @@ FRAME:  Pass
 {}
 
 TICKER : p3
+MINUTE : 89
+It 's all Arsenal at the moment as they continue to put the Hull defence under plenty of pressure , and , despite being two goals behind and in desperate need of a late push , the hosts have almost every available body camped behind the ball . 
+FRAME:  Goal
+{}
+
+TICKER : p3
 MINUTE : 85
 Great chance for Arsenal ! 
 FRAME:  Chance
@@ -1380,6 +1386,12 @@ FRAME:  Goal
 {}
 
 TICKER : p3
+MINUTE : 56
+Hull have pulled one back ! 
+FRAME:  Goal
+{'SCORER': 'Hull'}
+
+TICKER : p3
 MINUTE : 55
 Great chance for Ramsey ! The Welshman pushes forward before playing a quick one-two with Sanchez on the edge of the Hull penalty area , but he ends up sending his toe-poked strike just wide of the near post . 
 FRAME:  Chance
@@ -1454,6 +1466,12 @@ FRAME:  Goal
 TICKER : p3
 MINUTE : 33
 Goal ! 
+FRAME:  Goal
+{}
+
+TICKER : p3
+MINUTE : 33
+It 's 2-0 ! 
 FRAME:  Goal
 {}
 
@@ -1547,3 +1565,7 @@ Arsenal patiently pass the ball around midway inside their own half of the pitch
 FRAME:  Set_Piece
 {'EXECUTING_PLAYER': 'Arsenal'}
 
+NUMBER OF SENTENCES: 126
+NUMBER OF LUS IDENTIFIED: 126
+NUMBER OF FRAMES IDENTIFIED: 46
+NUMBER OF FRAMES WITH ARGUMENTS: 25

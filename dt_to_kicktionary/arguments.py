@@ -139,6 +139,8 @@ def find_frame(lu):
     elif lu.startswith("yellow"): return "Sanction"
     elif lu.startswith("red"): return "Sanction"
     
+    elif lu.startswith("goal."): return "Goal"
+    
     else: return None
         
 def find_arguments(ticker, possible_lus, verbose):
@@ -175,9 +177,9 @@ def find_arguments(ticker, possible_lus, verbose):
             if tree.root_lemma == "cross": event.frame = "Pass"
             if tree.root_lemma == "pass": event.frame = "Pass"
             if tree.root_lemma == "foul": event.frame = "Foul"
-            if re.search("goal\skick", event.text) : event.frame = "Set_Piece" # to make sure goal kicks are not mixed with goals
             if tree.root_lemma == "goal" and len(tree.nodes) > 1: event.frame = "Goal"
             if tree.nodes[0].lemma == "goal": event.frame = "Goal"
+            if re.search("goal\skick", event.text) : event.frame = "Set_Piece" # to make sure goal kicks are not mixed with goals
             if event.text.startswith("SUBSTITUTION") : event.frame = "Substitute"
             if event.text.startswith("BOOKING") : event.frame = "Sanction"
 
@@ -295,13 +297,18 @@ def main():
     events = find_arguments(ticker, ticker_with_lus, verbose)
     
     if verbose:
+        count_frames = 0
+        count_complete_frames = 0
         for event in events:
             if event.frame != None and event.frame != "":
+                count_frames += 1
                 print "TICKER :", event.ticker
                 print "MINUTE :", event.minute
                 print event.text
                 print "FRAME: ", event.frame
                 print event.arguments
+                if len(event.arguments) > 0:
+                    count_complete_frames += 1
                 print ""
             else:
                 pass
@@ -315,6 +322,10 @@ def main():
                 if event.inanimate_obj: print "INANIMATE OBJ :", event.inanimate_obj
                 print ""
             """
+        print "NUMBER OF SENTENCES:", len(ticker)
+        print "NUMBER OF LUS IDENTIFIED:", len(ticker_with_lus)
+        print "NUMBER OF FRAMES IDENTIFIED:", count_frames
+        print "NUMBER OF FRAMES WITH ARGUMENTS:", count_complete_frames
 
 if __name__ == "__main__":
     main()
