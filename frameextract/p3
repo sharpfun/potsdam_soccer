@@ -1,0 +1,747 @@
+And we're off ! 
+ordered set of lexical units:
+[]
+
+Arsenal get us underway , attacking from left to right . 
+2 matches: attack v
+ordered set of lexical units:
+[u'attack.v']
+
+Monreal breaks down the left flank before curling a very dangerous low cross towards the near post , where it meets the outstretched foot of Ramsey . 
+3 matches: break v
+3 matches: break v
+3 matches: flank n
+3 matches: curl v
+3 matches: curl v
+3 matches: curl v
+3 matches: cross n
+3 matches: post n
+3 matches: meet v
+3 matches: meet v
+3 matches: foot n
+ordered set of lexical units:
+[u'cross.n', u'break.v', u'break.v', u'flank.n', u'curl.v', u'curl.v', u'curl.v', u'post.n', u'meet.v', u'meet.v', u'foot.n']
+
+Arsenal patiently pass the ball around midway inside their own half of the pitch before Coquelin tries to send a long pass into the feet of Giroud , but it's poorly hit and flies past the striker before bouncing out of play for a goal kick . 
+4 matches: pass v
+4 matches: ball n
+4 matches: ball n
+4 matches: half n
+4 matches: half n
+4 matches: pitch n
+4 matches: pass n
+4 matches: foot n
+4 matches: hit v
+4 matches: striker n
+4 matches: bounce v
+4 matches: goal n
+4 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n', u'pass.v', u'half.n', u'half.n', u'pass.n', u'ball.n', u'ball.n', u'pitch.n', u'foot.n', u'hit.v', u'striker.n', u'bounce.v']
+
+Hull are finally able to string a few passes together before Harper tries to find El Mohamady with a long kick forward , but it ends up bouncing over the head of the Egyptian before going out for a throw in midway inside the Arsenal half of the pitch . 
+5 matches: pass n
+5 matches: find v
+5 matches: bounce v
+5 matches: head n
+5 matches: go v
+5 matches: throw n
+5 matches: pitch n
+ordered set of lexical units:
+[u'pass.n', u'find.v', u'bounce.v', u'head.n', u'go.v', u'throw.n', u'pitch.n']
+
+Hull are awarded a free kick just inside the Arsenal half of the pitch after a poor challenge from Giroud , and it's thumped towards the edge of the penalty area . 
+6 matches: award v
+6 matches: award v
+6 cool matches: free-kick n
+6 matches: pitch n
+6 matches: challenge n
+6 matches: penalty n
+6 matches: area n
+ordered set of lexical units:
+[u'award.v', u'award.v', u'free-kick.n', u'pitch.n', u'challenge.n', u'penalty.n', u'area.n']
+
+After a few moments receiving medical attention on the sideline , Coquelin jogs back onto the pitch and is able to rejoin the action . 
+7 matches: receive v
+7 matches: receive v
+7 matches: pitch n
+ordered set of lexical units:
+[u'receive.v', u'receive.v', u'pitch.n']
+
+Almost a terrible mistake by Huddlestone ! 
+8 matches: mistake n
+ordered set of lexical units:
+[u'mistake.n']
+
+Bellerin twists and turns on the right flank before beating Brady and firing a cross into the heart of the Hull penalty area , where it deflects off the aforementioned midfielder before flying into the hands of Harper . 
+9 matches: turn v
+9 matches: flank n
+9 matches: beat v
+9 matches: beat v
+9 matches: beat v
+9 matches: fire v
+9 matches: fire v
+9 matches: cross n
+9 matches: penalty n
+9 matches: area n
+9 matches: deflect v
+9 matches: midfielder n
+ordered set of lexical units:
+[u'cross.n', u'turn.v', u'flank.n', u'beat.v', u'beat.v', u'beat.v', u'fire.v', u'fire.v', u'penalty.n', u'area.n', u'deflect.v', u'midfielder.n']
+
+Bellerin and Cazorla link up well just outside of the Hull penalty area before the latter sends the ball into the feet of Giroud , who is camped deep inside to box . 
+10 matches: penalty n
+10 matches: area n
+10 matches: ball n
+10 matches: ball n
+10 matches: foot n
+10 matches: box n
+ordered set of lexical units:
+[u'penalty.n', u'area.n', u'ball.n', u'ball.n', u'foot.n', u'box.n']
+
+El Mohamady uses his pace well to beat Monreal near the corner flag on the right wing before curling a looping cross towards the edge of the six yard box , but it's sent slightly too near to Ospina , who comfortably collects the ball . 
+11 matches: beat v
+11 matches: beat v
+11 matches: beat v
+11 matches: corner n
+11 matches: corner n
+11 matches: flag n
+11 matches: wing n
+11 matches: curl v
+11 matches: curl v
+11 matches: curl v
+11 matches: cross n
+11 matches: box n
+11 matches: collect v
+11 matches: collect v
+11 matches: collect v
+11 matches: ball n
+11 matches: ball n
+ordered set of lexical units:
+[u'flag.n', u'cross.n', u'beat.v', u'beat.v', u'beat.v', u'corner.n', u'corner.n', u'wing.n', u'curl.v', u'curl.v', u'curl.v', u'box.n', u'collect.v', u'collect.v', u'collect.v', u'ball.n', u'ball.n']
+
+Great strike by Sanchez ! 
+12 matches: strike n
+12 matches: strike n
+ordered set of lexical units:
+[u'strike.n', u'strike.n']
+
+The Chilean sprints through a sea of Hull players before firing a wonderful low shot from just outside of the penalty area that Harper does well to parry away with a strong diving save . 
+13 matches: sprint v
+13 matches: player n
+13 matches: fire v
+13 matches: fire v
+13 matches: shot n
+13 matches: penalty n
+13 matches: area n
+13 matches: parry v
+13 matches: dive v
+13 matches: dive v
+13 matches: save n
+ordered set of lexical units:
+[u'shot.n', u'sprint.v', u'player.n', u'fire.v', u'fire.v', u'penalty.n', u'area.n', u'parry.v', u'dive.v', u'dive.v', u'save.n']
+
+Ozil makes a good run behind the Hull defensive line to reach a lofted forward pass , but he's unable to find a red and white shirt with his attempted back heel , which is cut out comfortably by Dawson . 
+14 matches: line n
+14 matches: pass n
+14 matches: find v
+14 matches: shirt n
+14 cool matches: back-heel n
+14 cool matches: back-heel v
+14 matches: heel n
+ordered set of lexical units:
+[u'pass.n', u'line.n', u'find.v', u'shirt.n', u'back-heel.n', u'back-heel.v', u'heel.n']
+
+Mertesacker charges into Quinn and brings the midfielder crashing to the ground with a hefty shoulder barge , resulting in a free kick for Hull in a very dangerous position on the left flank . 
+15 matches: midfielder n
+15 matches: crash v
+15 cool matches: free-kick n
+15 matches: flank n
+ordered set of lexical units:
+[u'midfielder.n', u'crash.v', u'free-kick.n', u'flank.n']
+
+The resulting set piece is swung into the heart of the penalty area , where it can only find the head of Coquelin , who then quickly tees up Ozil . 
+16 cool matches: set-piece n
+16 matches: swing v
+16 matches: penalty n
+16 matches: area n
+16 matches: find v
+16 matches: head n
+ordered set of lexical units:
+[u'set-piece.n', u'swing.v', u'penalty.n', u'area.n', u'find.v', u'head.n']
+
+El Mohamady does well to push down the right wing before sending a deep cross towards Quinn , who gets up high but can only send his headed effort looping several yards wide of the far post . 
+17 matches: push v
+17 matches: wing n
+17 matches: cross n
+17 matches: effort n
+17 matches: post n
+ordered set of lexical units:
+[u'cross.n', u'effort.n', u'push.v', u'wing.n', u'post.n']
+
+Audacious effort from N'Doye ! 
+18 matches: effort n
+ordered set of lexical units:
+[u'effort.n']
+
+The Senegalese striker spots Ospina off his line and decides to try and beat him from 40 yards out , but his strike is poorly hit and ends up flying comfortably wide of its intended target . 
+19 matches: striker n
+19 matches: line n
+19 matches: beat v
+19 matches: beat v
+19 matches: beat v
+19 matches: strike n
+19 matches: strike n
+19 matches: hit v
+ordered set of lexical units:
+[u'striker.n', u'line.n', u'beat.v', u'beat.v', u'beat.v', u'strike.n', u'strike.n', u'hit.v']
+
+What a chance for Aluko ! 
+20 matches: chance n
+ordered set of lexical units:
+[u'chance.n']
+
+Brady picks up the ball on the left flank and whips an excellent cross towards the back post , but the Nigerian striker , who is in a wonderful position on the edge of the six yard box , ends up sending his header down into the ground and away from goal . 
+21 matches: pick v
+21 matches: ball n
+21 matches: ball n
+21 matches: flank n
+21 matches: cross n
+21 matches: post n
+21 matches: striker n
+21 matches: box n
+21 matches: header n
+21 matches: goal n
+21 matches: goal n
+ordered set of lexical units:
+[u'cross.n', u'goal.n', u'goal.n', u'header.n', u'pick.v', u'ball.n', u'ball.n', u'flank.n', u'post.n', u'striker.n', u'box.n']
+
+Yellow CardJake Livermore 
+22 matches: yellow n
+ordered set of lexical units:
+[u'yellow.n']
+
+Ramsey and Huddlestone clash after a poor first touch from the Hull midfielder sees him lunge into the Welshman , leaving the latter on the floor in serious pain . 
+23 matches: touch n
+23 matches: midfielder n
+ordered set of lexical units:
+[u'touch.n', u'midfielder.n']
+
+Ramsey hobbles off the pitch to receive further medical treatment , but it looks as if he's going to be able to continue after a few moments on the sideline . 
+24 matches: pitch n
+24 matches: receive v
+24 matches: receive v
+24 matches: go v
+ordered set of lexical units:
+[u'pitch.n', u'receive.v', u'receive.v', u'go.v']
+
+Huddlestone is caught napping in a dangerous position inside the Hull half of the pitch , allowing Sanchez to dart forward before being tripped over by Livermore just a few yards outside of the penalty area . 
+25 matches: catch v
+25 matches: pitch n
+25 matches: trip v
+25 matches: penalty n
+25 matches: area n
+ordered set of lexical units:
+[u'catch.v', u'pitch.n', u'trip.v', u'penalty.n', u'area.n']
+
+Goal Alexis Sánchez 
+26 matches: goal n
+26 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Yellow CardDame Ndoye 
+27 matches: yellow n
+ordered set of lexical units:
+[u'yellow.n']
+
+Hull look far more determined since going behind , but they're finding it incredibly difficult to break down Arsenal's resolute defence , despite their best efforts . 
+28 matches: go v
+28 matches: find v
+28 matches: break v
+28 matches: break v
+28 matches: defence n
+28 matches: effort n
+ordered set of lexical units:
+[u'effort.n', u'go.v', u'find.v', u'break.v', u'break.v', u'defence.n']
+
+Goal Aaron Ramsey 
+29 matches: goal n
+29 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Assist Santi Cazorla 
+30 matches: assist n
+ordered set of lexical units:
+[u'assist.n']
+
+Once again , El Mohamady does well to dart down the right wing before sending in a low cross that finds its way to Livermore on the edge of the penalty area , but the former Tottenham midfielder spends far too long on the ball and is dispossessed comfortably , allowing Arsenal to break away quickly . 
+31 matches: wing n
+31 matches: cross n
+31 matches: find v
+31 matches: penalty n
+31 matches: area n
+31 matches: midfielder n
+31 matches: ball n
+31 matches: ball n
+31 matches: dispossess v
+31 matches: break v
+31 matches: break v
+ordered set of lexical units:
+[u'cross.n', u'wing.n', u'find.v', u'penalty.n', u'area.n', u'midfielder.n', u'ball.n', u'ball.n', u'dispossess.v', u'break.v', u'break.v']
+
+Cazorla breaks through the middle of two Hull defenders before firing a great low shot that Harper is forced to tip round the near post . 
+32 matches: break v
+32 matches: break v
+32 matches: defender n
+32 matches: fire v
+32 matches: fire v
+32 matches: shot n
+32 matches: tip v
+32 matches: post n
+ordered set of lexical units:
+[u'shot.n', u'break.v', u'break.v', u'defender.n', u'fire.v', u'fire.v', u'tip.v', u'post.n']
+
+Hull immediately break away on a quick counter attack , with N'Doye skipping past Bellerin with ease before darting down the left flank . 
+33 matches: break v
+33 matches: break v
+33 matches: attack n
+33 matches: attack n
+33 matches: flank n
+ordered set of lexical units:
+[u'break.v', u'break.v', u'attack.n', u'attack.n', u'flank.n']
+
+Aluko is brought down by Koscielny , resulting in a free kick for Hull just inside the Arsenal half of the pitch . 
+34 cool matches: free-kick n
+34 matches: pitch n
+ordered set of lexical units:
+[u'free-kick.n', u'pitch.n']
+
+El Mohamady sprints down the right wing before sending yet another dangerous low cross into the heart of the Arsenal penalty area , but it's just about dealt with by the Gunners' defence , who have been put under an incredible amount of pressure over the last few minutes . 
+35 matches: sprint v
+35 matches: wing n
+35 matches: cross n
+35 matches: penalty n
+35 matches: area n
+35 matches: defence n
+ordered set of lexical units:
+[u'cross.n', u'sprint.v', u'wing.n', u'penalty.n', u'area.n', u'defence.n']
+
+A lovely series of passes from Arsenal ends with Ozil on the edge of the penalty area after playing a wonderful one two with Sanchez , and the German then unleashes a great low shot that Harper does well to stop with a strong diving save at the near post . 
+36 matches: pass n
+36 matches: penalty n
+36 matches: area n
+36 matches: play v
+36 matches: play v
+36 matches: play v
+36 matches: unleash v
+36 matches: shot n
+36 matches: stop v
+36 matches: dive v
+36 matches: dive v
+36 matches: save n
+36 matches: post n
+ordered set of lexical units:
+[u'shot.n', u'pass.n', u'penalty.n', u'area.n', u'play.v', u'play.v', u'play.v', u'unleash.v', u'stop.v', u'dive.v', u'dive.v', u'save.n', u'post.n']
+
+Cazorla sends yet another excellent pass through the middle of the Hull defence and into the path of Sanchez , but Harper does extremely well to rush out and save the Chilean's toe poked shot with a one handed save . 
+37 matches: pass n
+37 matches: defence n
+37 matches: save v
+37 matches: toe n
+37 cool matches: toe-poke n
+37 cool matches: toe-poke v
+37 matches: poke v
+37 matches: shot n
+37 matches: save n
+ordered set of lexical units:
+[u'shot.n', u'pass.n', u'defence.n', u'save.v', u'toe.n', u'toe-poke.n', u'toe-poke.v', u'poke.v', u'save.n']
+
+The fourth official has indicated that there will be two minutes of added time . 
+ordered set of lexical units:
+[]
+
++ 1' 
+ordered set of lexical units:
+[]
+
++ 1' 
+ordered set of lexical units:
+[]
+
+And we're underway once again ! 
+ordered set of lexical units:
+[]
+
+Substitution Jake Livermore David Meyler 
+42 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Hull immediately push forward , with Meyler getting involved in the action straight away before teeing up Aluko , but the Nigerian striker ends up firing his 25 yard strike comfortably over the top of the crossbar . 
+43 matches: push v
+43 matches: striker n
+43 matches: fire v
+43 matches: fire v
+43 matches: strike n
+43 matches: strike n
+43 matches: crossbar n
+ordered set of lexical units:
+[u'push.v', u'striker.n', u'fire.v', u'fire.v', u'strike.n', u'strike.n', u'crossbar.n']
+
+It's been a rather scrappy start to the second half , with both sides committing several poor challenges in the middle of the pitch as the two teams battle for possession . 
+44 matches: half n
+44 matches: half n
+44 matches: side n
+44 matches: challenge n
+44 matches: pitch n
+44 matches: team n
+44 matches: possession n
+ordered set of lexical units:
+[u'half.n', u'half.n', u'side.n', u'challenge.n', u'pitch.n', u'team.n', u'possession.n']
+
+Arsenal patiently pass the ball around in the middle of the pitch , and they do n't seem to be in any particular hurry to push forward as they look to keep hold of their three goal lead . 
+45 matches: pass v
+45 matches: ball n
+45 matches: ball n
+45 matches: pitch n
+45 matches: push v
+45 matches: goal n
+45 matches: goal n
+45 matches: lead n
+ordered set of lexical units:
+[u'goal.n', u'goal.n', u'pass.v', u'ball.n', u'ball.n', u'pitch.n', u'push.v', u'lead.n']
+
+Bellerin skips past Brady on the right flank before cutting into the penalty area , but Quinn does well to dart across the box and dispossess the Spaniard before he can get a cross away . 
+46 matches: flank n
+46 matches: penalty n
+46 matches: area n
+46 matches: box n
+46 matches: dispossess v
+46 matches: cross n
+ordered set of lexical units:
+[u'cross.n', u'flank.n', u'penalty.n', u'area.n', u'box.n', u'dispossess.v']
+
+Sanchez spins on the halfway line before sending an absolutely excellent lofted pass through the middle of the Hull defence and into the path of Giroud , but Harper does well to read the flight of the ball and quickly sprints out to cut out the danger . 
+47 matches: line n
+47 matches: loft v
+47 matches: pass v
+47 matches: defence n
+47 matches: ball n
+47 matches: ball n
+47 matches: sprint v
+ordered set of lexical units:
+[u'pass.v', u'line.n', u'loft.v', u'defence.n', u'ball.n', u'ball.n', u'sprint.v']
+
+Great chance for Ramsey ! 
+48 matches: chance n
+ordered set of lexical units:
+[u'chance.n']
+
+The Welshman pushes forward before playing a quick one two with Sanchez on the edge of the Hull penalty area , but he ends up sending his toe poked strike just wide of the near post . 
+49 matches: push v
+49 matches: play v
+49 matches: play v
+49 matches: play v
+49 matches: penalty n
+49 matches: area n
+49 matches: toe n
+49 cool matches: toe-poke n
+49 cool matches: toe-poke v
+49 matches: poke v
+49 matches: strike n
+49 matches: strike n
+49 matches: post n
+ordered set of lexical units:
+[u'push.v', u'play.v', u'play.v', u'play.v', u'penalty.n', u'area.n', u'toe.n', u'toe-poke.n', u'toe-poke.v', u'poke.v', u'strike.n', u'strike.n', u'post.n']
+
+Goal Stephen Quinn 
+50 matches: goal n
+50 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n']
+
+Assist Ahmed El Mohamady 
+51 matches: assist n
+ordered set of lexical units:
+[u'assist.n']
+
+The Hull fans are in fine voice as the hosts push forward once again , and there seems to be a feeling of belief around the KC Stadium thanks to that wonderfully worked goal . 
+52 matches: fan n
+52 matches: push v
+52 matches: stadium n
+52 matches: goal n
+52 matches: goal n
+ordered set of lexical units:
+[u'goal.n', u'goal.n', u'fan.n', u'push.v', u'stadium.n']
+
+Coquelin flies into the back of Quinn and ends up accidentally standing on the Irishman's ankle , leaving the Hull midfielder in serious discomfort and the hosts not best pleased with the Frenchman . 
+53 matches: midfielder n
+ordered set of lexical units:
+[u'midfielder.n']
+
+McShane goes close ! 
+54 matches: go v
+ordered set of lexical units:
+[u'go.v']
+
+Again , El Mohamady fires a brilliant curling cross into the middle of the Arsenal penalty area , where it finds the head of the aforementioned defender , but his effort ends up flying just a few yards over the top of the crossbar . 
+55 matches: fire v
+55 matches: fire v
+55 matches: cross n
+55 matches: penalty n
+55 matches: area n
+55 matches: find v
+55 matches: head n
+55 matches: defender n
+55 matches: effort n
+55 matches: crossbar n
+ordered set of lexical units:
+[u'cross.n', u'effort.n', u'fire.v', u'fire.v', u'penalty.n', u'area.n', u'find.v', u'head.n', u'defender.n', u'crossbar.n']
+
+Arsenal are finally able to bring a period of Hull dominance to an end , with Giroud and Cazorla linking up wonderfully well on the edge of the hosts' penalty area before McShane is just about able to poke the ball out of play for a corner . 
+56 matches: period n
+56 matches: dominance n
+56 matches: penalty n
+56 matches: area n
+56 matches: poke v
+56 matches: ball n
+56 matches: ball n
+56 matches: corner n
+56 matches: corner n
+ordered set of lexical units:
+[u'period.n', u'dominance.n', u'penalty.n', u'area.n', u'poke.v', u'ball.n', u'ball.n', u'corner.n', u'corner.n']
+
+The resulting set piece is flung into the heart of the penalty area , where it finds Mertesacker . 
+57 cool matches: set-piece n
+57 matches: penalty n
+57 matches: area n
+57 matches: find v
+ordered set of lexical units:
+[u'set-piece.n', u'penalty.n', u'area.n', u'find.v']
+
+Excellent play by Arsenal ! 
+ordered set of lexical units:
+[]
+
+Ozil breaks forward before teeing up Sanchez , who darts down the left flank before unleashing a cross cum shot that Harper punches away from danger with a strong fist . 
+59 matches: break v
+59 matches: break v
+59 matches: flank n
+59 matches: unleash v
+59 matches: cross n
+59 matches: punch n
+ordered set of lexical units:
+[u'cross.n', u'break.v', u'break.v', u'flank.n', u'unleash.v', u'punch.n']
+
+Hull have decided to make their second change of the evening , with Robertson coming on to take the place of Aluko as the hosts switch to a more attack minded back four . 
+60 matches: attack n
+60 matches: attack n
+ordered set of lexical units:
+[u'attack.n', u'attack.n']
+
+Substitution Sone Aluko Andrew Robertson 
+61 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Robertson is immediately involved in the action as he tries to find Brady , who has moved into a more advanced position , but the substitutes' pass is poor and rolls harmlessly out of play a throw in near the halfway line . 
+62 matches: find v
+62 matches: pass n
+62 matches: throw n
+62 matches: line n
+ordered set of lexical units:
+[u'pass.n', u'find.v', u'throw.n', u'line.n']
+
+Substitution Aaron Ramsey Jack Wilshere 
+63 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Great play by Wilshere ! 
+ordered set of lexical units:
+[]
+
+The substitute immediately charges forward on an excellent run , twisting and turning through a sea of Hull players before being brought down on the edge of the penalty area , resulting in a free kick for the visitors in a very dangerous position . 
+65 matches: substitute n
+65 matches: turn v
+65 matches: player n
+65 matches: penalty n
+65 matches: area n
+65 cool matches: free-kick n
+65 matches: visitor n
+ordered set of lexical units:
+[u'substitute.n', u'turn.v', u'player.n', u'penalty.n', u'area.n', u'free-kick.n', u'visitor.n']
+
+The game is briefly stopped as Meyler receives medical attention at the other end of the pitch . 
+66 matches: game n
+66 matches: stop v
+66 matches: receive v
+66 matches: receive v
+66 matches: pitch n
+ordered set of lexical units:
+[u'game.n', u'stop.v', u'receive.v', u'receive.v', u'pitch.n']
+
+Sanchez steps up and fires a curling shot from the resulting set piece , but this time it takes a deflection that sends it safely away from goal and out for a corner . 
+67 matches: fire v
+67 matches: fire v
+67 matches: shot n
+67 cool matches: set-piece n
+67 matches: deflection n
+67 matches: goal n
+67 matches: goal n
+67 matches: corner n
+67 matches: corner n
+ordered set of lexical units:
+[u'shot.n', u'goal.n', u'goal.n', u'fire.v', u'fire.v', u'set-piece.n', u'deflection.n', u'corner.n', u'corner.n']
+
+The corner is flung towards the near post where it almost finds Mertesacker , but it's comfortably cleared away by a strong header from Robertson . 
+68 matches: corner n
+68 matches: corner n
+68 matches: post n
+68 matches: find v
+68 matches: clear v
+68 matches: header n
+ordered set of lexical units:
+[u'header.n', u'clear.v', u'corner.n', u'corner.n', u'post.n', u'find.v']
+
+Ospina unleashes a huge kick that flies over the top of the Hull defence and into the path of Sanchez , but Harper does extremely well to dart out and collect the ball before thumping it away from danger . 
+69 matches: unleash v
+69 matches: defence n
+69 matches: collect v
+69 matches: collect v
+69 matches: collect v
+69 matches: ball n
+69 matches: ball n
+ordered set of lexical units:
+[u'unleash.v', u'defence.n', u'collect.v', u'collect.v', u'collect.v', u'ball.n', u'ball.n']
+
+Lovely play by Arsenal ! 
+ordered set of lexical units:
+[]
+
+The visitors exchange a series of intricate passes inside the Hull penalty area before Ozil cuts the ball back to Cazorla , but the Spaniard's first time low volleyed shot from close range is stopped well by Harper . 
+71 matches: visitor n
+71 matches: pass n
+71 matches: penalty n
+71 matches: area n
+71 matches: ball n
+71 matches: ball n
+71 matches: volley v
+71 matches: shot n
+71 matches: stop v
+ordered set of lexical units:
+[u'shot.n', u'pass.n', u'visitor.n', u'penalty.n', u'area.n', u'ball.n', u'ball.n', u'volley.v', u'stop.v']
+
+El Mohamady chips a wonderful pass into the path of Meyler , who is completely unmarked on the right hand side of the Arsenal penalty area , but the Irishman's cut back towards N'Doye is poorly hit and can only find Mertesacker near the penalty spot . 
+72 matches: chip v
+72 matches: pass n
+72 matches: hand n
+72 matches: side n
+72 matches: penalty n
+72 matches: area n
+72 matches: hit v
+72 matches: find v
+72 matches: penalty n
+ordered set of lexical units:
+[u'pass.n', u'chip.v', u'hand.n', u'side.n', u'penalty.n', u'area.n', u'hit.v', u'find.v', u'penalty.n']
+
+Hull put the Arsenal defence under plenty of pressure , with Brady being presented with three opportunities to fire a cross into the visitors' penalty area , but each one is dealt with extremely well by the Gunners , who hold firm against the hosts' onslaught . 
+73 matches: defence n
+73 matches: opportunity n
+73 matches: fire v
+73 matches: fire v
+73 matches: cross n
+73 matches: penalty n
+73 matches: area n
+73 matches: hold v
+ordered set of lexical units:
+[u'cross.n', u'defence.n', u'opportunity.n', u'fire.v', u'fire.v', u'penalty.n', u'area.n', u'hold.v']
+
+Substitution Stephen Quinn Nikica Jelavic 
+74 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Cazorla finds Ozil in plenty of space on the left wing , and the German then sends in a low cross towards that near post that is deflected out of play for a corner . 
+75 matches: find v
+75 matches: wing n
+75 matches: cross n
+75 matches: post n
+75 matches: deflect v
+75 matches: corner n
+75 matches: corner n
+ordered set of lexical units:
+[u'cross.n', u'find.v', u'wing.n', u'post.n', u'deflect.v', u'corner.n', u'corner.n']
+
+Arsenal patiently pass the ball around on the edge of the Hull penalty area , with Sanchez and Cazorla both eyeing up potential shots . 
+76 matches: pass v
+76 matches: ball n
+76 matches: ball n
+76 matches: penalty n
+76 matches: area n
+76 matches: shot n
+ordered set of lexical units:
+[u'shot.n', u'pass.v', u'ball.n', u'ball.n', u'penalty.n', u'area.n']
+
+Great chance for Arsenal ! 
+77 matches: chance n
+ordered set of lexical units:
+[u'chance.n']
+
+Bellerin fires in an excellent shot from the right hand side of the penalty area that is parried into the path of Wilshere , but he sees his close range shot blocked on the line by Chester . 
+78 matches: fire v
+78 matches: fire v
+78 matches: shot n
+78 matches: hand n
+78 matches: side n
+78 matches: penalty n
+78 matches: area n
+78 matches: parry v
+78 matches: shot n
+78 matches: block v
+78 matches: line n
+ordered set of lexical units:
+[u'shot.n', u'shot.n', u'block.v', u'fire.v', u'fire.v', u'hand.n', u'side.n', u'penalty.n', u'area.n', u'parry.v', u'line.n']
+
+Substitution Olivier Giroud Theo Walcott 
+79 matches: substitution n
+ordered set of lexical units:
+[u'substitution.n']
+
+Wilshere embarks on a great run down the right flank , beating Meyler with ease before being nudged over from behind by the Irishman just inside the Hull penalty area . 
+80 matches: flank n
+80 matches: beat v
+80 matches: beat v
+80 matches: beat v
+80 matches: penalty n
+80 matches: area n
+ordered set of lexical units:
+[u'flank.n', u'beat.v', u'beat.v', u'beat.v', u'penalty.n', u'area.n']
+
+It's all Arsenal at the moment as they continue to put the Hull defence under plenty of pressure , and , despite being two goals behind and in desperate need of a late push , the hosts have almost every available body camped behind the ball . 
+81 matches: defence n
+81 matches: goal n
+81 matches: goal n
+81 matches: ball n
+81 matches: ball n
+ordered set of lexical units:
+[u'goal.n', u'goal.n', u'defence.n', u'ball.n', u'ball.n']
+
+The fourth official has indicated that there will be four minutes of added time . 
+ordered set of lexical units:
+[]
+
++ 1' 
+ordered set of lexical units:
+[]
+
++ 2' 
+ordered set of lexical units:
+[]
+
++ 4' 
+ordered set of lexical units:
+[]
+
