@@ -3,6 +3,7 @@
 from frameextract import *
 from ticker import *
 import re
+import string
 
 class Event(object):
     
@@ -151,7 +152,7 @@ def to_asp(events, write=True):
         # Ticker_ID? 
         # Event_ID?
     team_one = "arsenal"
-    team_two = "hull city"
+    team_two = "hull_city"
     playerdata_one = [('A','Red'),('B','Red'),('C','Red'),('D','Red'),('E','Red'),('F','Red'),('G','Red'),('H','Red'),('I','Red'),('J','Red'),('K','Red')]
     benchdata_one = [('L','Red'),('M','Red'),('N','Red'),('O','Red'),('P','Red'),('Q','Red'),('R','Red'),('S','Red'),('T','Red')]
     playerdata_two = [('AA','Blue'),('BB','Blue'),('CC','Blue'),('DD','Blue'),('EE','Blue'),('FF','Blue'),('GG','Blue'),('HH','Blue'),('II','Blue'),('JJ','Blue'),('KK','Blue')]
@@ -215,12 +216,12 @@ def to_asp(events, write=True):
         b = i.minute
         c = i.text.split()
         d = i.arguments
-        e = i.event_id
-        f = i.frame
-        asp.append( 'ticker(%s,%s,%s,%s).' % (e,b,f.lower(),a) )
+        e = int(i.event_id)
+        f = i.frame.lower()
+        asp.append( 'ticker(%s,%s,%s,%s).' % (e,b,f,a) )
 
         for j in i.arguments:
-            asp.append( 'attribute(%s,%s,%s,%s,%s).' % (e,b,f.lower(),j.lower(),i.arguments[j].lower()) )
+            asp.append( 'attribute(%s,%s,%s,%s,%s).' % (e,b,f,j.lower(),i.arguments[j].replace(' ','_').lower()) )
 
     if write == True:
         f = open('../data/game_instance.lp','w+')
