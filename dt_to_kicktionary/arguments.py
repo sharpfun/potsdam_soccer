@@ -299,6 +299,7 @@ def main():
     if verbose:
         count_frames = 0
         count_complete_frames = 0
+        count_lus = 0
         for event in events:
             if event.frame != None and event.frame != "":
                 count_frames += 1
@@ -322,8 +323,12 @@ def main():
                 if event.inanimate_obj: print "INANIMATE OBJ :", event.inanimate_obj
                 print ""
             """
+        for item in ticker_with_lus:
+            if len(item.lexical_units) > 0:
+                count_lus += 1                
+        
         print "NUMBER OF SENTENCES:", len(ticker)
-        print "NUMBER OF LUS IDENTIFIED:", len(ticker_with_lus)
+        print "NUMBER OF LUS IDENTIFIED:", count_lus
         print "NUMBER OF FRAMES IDENTIFIED:", count_frames
         print "NUMBER OF FRAMES WITH ARGUMENTS:", count_complete_frames
 
