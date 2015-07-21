@@ -31,11 +31,12 @@ holds(F,T+1)    :- caused(F,T), complement(F,L).
 %                            Src1 := #min{ Src : ticker(_,Src,_,_) }.
 timeline(Id,1,Frame,Time) :- ticker(Id,1,Frame,Time).
 
-% if we find some new frame in some other ticker that is plus or minus 1 second,
+range(1). range(2). range(3).
+% if we find some new frame in some other ticker that is plus or minus range(R) minutes,
 % we insert the informations into the main ticker 
-timeline(Id,Src,Frame,Time) :-  ticker(Id,Src,Frame,Time), Src > 1, 
-                                timeline(Id,S1,F1,Time-100), Frame != F1,
-                                timeline(Id,S2,F2,Time+100), Frame != F2.
+timeline(Id,Src,Frame,Time) :-  ticker(Id,Src,Frame,Time), Src > 1,
+                                timeline(Id,S1,F1,Time-(R*100)) : range(R), Frame != F1;
+                                timeline(Id,S2,F2,Time+(R*100)) : range(R), Frame != F2.
 
 % move attributes of the events we have in the timeline
 attr(Id,Src,Frame,FAttr,FVal) :- timeline(Id,Src,Frame,Time),
