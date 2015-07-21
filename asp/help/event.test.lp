@@ -48,12 +48,12 @@ init(bench(P))    	:- bench(P).
 %%
 %% Sample Ticker Sentences and their Events.
 %%
-%% ticker(Event,Time)
+%% ticker(ID,Source,Frame,Time)
 %% attribute(Event,Frame,Value)
 
 % Ramires completes a fine lofted pass to Remy down-field.
 
-ticker(1,1,pass,1).
+ticker(1,1,2,pass,1).
 attribute(1,1,pass,passer,ramires).
 attribute(1,1,pass,recipient,remy).
 
