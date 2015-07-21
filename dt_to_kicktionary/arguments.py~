@@ -2,6 +2,7 @@
 
 from frameextract import *
 from ticker import *
+from aspConversion import to_asp
 import re
 
 class Event(object):

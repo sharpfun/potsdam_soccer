@@ -166,7 +166,7 @@ def main():
 
     kicktionary = read_kicktionary(options.kicktionary, verbose, language)
     ticker = read_ticker(options.ticker, verbose, language)
-	#verbnet = read_verbnet(options.verbnet)
+    # verbnet = read_verbnet(options.verbnet)
     
     possible_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
     #order_lu(possible_lus, options.luorder)
