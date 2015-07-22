@@ -46,3 +46,4 @@ def read_verbnet(verbnet_folder, verbose, language):
     if verbose: print "Read in " + str(len(verbnet)) + " verbs"   
        
     return verbnet
+

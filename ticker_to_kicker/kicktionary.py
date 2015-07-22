@@ -57,3 +57,4 @@ def read_kicktionary(kicktionary_xml, verbose, language):
     if verbose: print "Read in " + str(len(kicktionary)) + " lexical units"    
         
     return kicktionary
+

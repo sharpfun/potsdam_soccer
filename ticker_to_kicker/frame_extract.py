@@ -158,7 +158,7 @@ def main():
     parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
     ## will need to add verbnet XML file(s) at some point, maybe a complete folder
     parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
-    parser.add_option("--luorder", dest="luorder", help="location of folder with lexical unit order file", default="../data/luorder")
+    parser.add_option("--luorder", dest="luorder", help="location of folder with lexical unit order file", default="../data/lu_order")
     (options, args) = parser.parse_args()
 
     verbose = options.verbose
@@ -178,11 +178,9 @@ def main():
     for plu in possible_lus:
         print plu.sentence()
         print plu.lexical_units
-
-    luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
-    ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose, luorder)
     
     #do_asp_facts(possible_lus, options.ticker+".lp")
 
 if __name__ == "__main__":
     main()
+

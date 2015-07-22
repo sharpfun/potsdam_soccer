@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-import sys
-from game_instance_meta import *
+from meta_scrape import meta_scrape
 import string
 
 # TODO: get updated output from James (some things may be really different, nah?)
@@ -87,7 +86,7 @@ def to_asp(events, write=True, display=True):
             asp.append( 'attribute(%s,%s,%s,%s,%s).' % (e,b,f,j.lower(),i.arguments[j].replace(' ','_').lower()) )
 
     if write == True:
-        f = open('game_instance.lp','w+')
+        f = open('../data/game_instance.lp','w+')
         for item in asp:
             f.write(item + '\n')
         f.close()
@@ -97,3 +96,4 @@ def to_asp(events, write=True, display=True):
 			print i
     
 	return asp
+

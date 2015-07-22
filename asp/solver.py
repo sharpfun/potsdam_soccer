@@ -1,14 +1,8 @@
 #!/usr/bin/python
-#
-# author:
-# 
-# date: 
-# description:
-#
 
 # for using the program one need to install the gringo python lib
 import gringo
-from asp.aspConversion import to_asp # thats clayton's function
+from kicker_to_asp.asp_conversion import to_asp # thats clayton's function
 
 SOLVERESULT = []
 
@@ -67,7 +61,7 @@ def loadScences(ctr):
     # load each sence into the controler
     # that path is choosen from the root of the project
     for scene in scenes:
-        ctr.load("asp/scenes/{}.lp".format(scene))
+        ctr.load("../asp/scenes/{}.lp".format(scene))
 
 def solve(frames, question=""):
     global SOLVERESULT
@@ -77,7 +71,7 @@ def solve(frames, question=""):
     # initializing the asp controller obj
     ctr = gringo.Control()
     # load the logic prorams into the controller
-    ctr.load("meta.enc.lp")
+    ctr.load("support/meta.enc.lp")
     loadScences(ctr)
     # ground the lp
     ctr.ground([("base", [])])
@@ -85,3 +79,4 @@ def solve(frames, question=""):
     ret = ctr.solve([], onModel)
 
     return convertToFrames(SOLVERESULT)
+

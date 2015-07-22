@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from frameextract import *
+from frame_extract import *
 from ticker import *
 import re
 
@@ -265,8 +265,7 @@ def find_arguments(ticker, possible_lus, verbose):
                     scorer = re.search("Goal\s([A-z\']+(\s[A-z\']+)?)", event.text, re.UNICODE)
                     if scorer: event.arguments["SCORER"] = scorer.group(1)
                 elif event.agent != None: event.arguments["SCORER"] = event.agent
-                
-            
+                         
             events.append(event)
     # return a list of events with arguments identified
     return events

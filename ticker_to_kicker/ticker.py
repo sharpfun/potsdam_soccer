@@ -115,3 +115,4 @@ def read_ticker(parsed_ticker, verbose, language):
         print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
     
     return trees
+
