@@ -4,8 +4,8 @@
 # 1. Look up roots in Kicktionary.
 # 2. Look up root-object pairs in Kicktionary.
 # 3. Look up roots in Verbnet via Verbnet frame in Kicktionary.
-#       This means: Can we match the tree root to a Verbnet verb, get it's 
-#       Verbnet frame, and then match *this* frame to Kicktionary? In this way, 
+#       This means: Can we match the tree root to a Verbnet verb, get it's
+#       Verbnet frame, and then match *this* frame to Kicktionary? In this way,
 #       we have an *indirect* root-->kictionary relation VIA the frame.
 # 4. Look up roots via frame siblings in Kicktionary.
 #       This means: Can we mateh the tree root to a Verbnet verb, iterate over
@@ -59,39 +59,13 @@ def lookup(kicktionary, verbnet, ticker, verbose):
                     if vb.lemma == tree.root:
                         possibleLUs = [lu for lu in kicktionary if lu.lemma == vb.frame]
                         if len(possibleLUs) >= 1:
-                            if len(possibleLUs) == 1: 
+                            if len(possibleLUs) == 1:
                                 tree.lexical_unit = possibleLUs[0]
                                 if verbose: print "Tree " + str(tree.tree_id) + " root matches Kicktionary lexical unit (via Verbnet frame): " + tree.lexical_unit.lemma
-                            else: 
+                            else:
                                 pass # <-- how to determine??
-                        else: 
-                            pass # <-- what next?? 
-    
+                        else:
+                            pass # <-- what next??
+
     return ticker
-
-def main():
-    parser = optparse.OptionParser()
-    parser.add_option("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="../data/kicktionary.xml")
-    parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p2.parsed")
-    parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=True)
-    parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
-    ## will need to add verbnet XML file(s) at some point, maybe a complete folder
-    parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
-    (options, args) = parser.parse_args()
-
-    verbose = options.verbose
-    language = options.language
-    
-    #raw_input()
-    ticker = read_ticker(options.ticker, verbose, language)
-    #raw_input()
-    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
-    #raw_input()
-    verbnet = read_verbnet(options.verbnet, verbose, language)
-
-    matches = lookup(kicktionary, verbnet, ticker, verbose)
-    #print matches
-
-if __name__ == "__main__":
-    main()
 

@@ -33,9 +33,9 @@ def main():
 	kicktionary = read_kicktionary(options.kicktionary, verbose, language)
 	#verbnet = read_verbnet(options.verbnet)
 	ticker = read_ticker(options.ticker, verbose, language)
+	#ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
 	#luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
-	ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
-	events = find_arguments(ticker, ticker_with_lus, verbose)
+	events = find_arguments(ticker, verbose)
 	asp = to_asp(events)
 
     #for event in events:

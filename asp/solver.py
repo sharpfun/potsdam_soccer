@@ -8,7 +8,7 @@ SOLVERESULT = []
 
 # TODO: replace print by storing informations
 def onModel(model):
-    # this function is just a ref call - so we use the global SOLVERESULT 
+    # this function is just a ref call - so we use the global SOLVERESULT
     # for storing the result of the onModel function
     global SOLVERESULT
     atoms = model.atoms(Model.ATOMS)
@@ -53,9 +53,9 @@ def getFluents(atoms, name):
         return [atom.args() for atom in atoms if atom.name() == name and len(atom.args()) == 4]
 
 def loadScences(ctr):
-    scenes = [  "actors", "chance", "competition", "field", "foul", 
+    scenes = [  "actors", "chance", "competition", "field", "foul",
                 "goal", "lineup", "match", "mixup", "motion", "move",
-                "one_on_one", "pass", "shot", "state_of_match", 
+                "one_on_one", "pass", "shot", "state_of_match",
                 "substitution"
     ]
     # load each sence into the controler
@@ -65,7 +65,7 @@ def loadScences(ctr):
 
 def solve(frames, question=""):
     global SOLVERESULT
-    
+
     # Clayton's function for translating frames into asp facts
     frameFacts = to_asp(frames)
     # initializing the asp controller obj
@@ -79,4 +79,3 @@ def solve(frames, question=""):
     ret = ctr.solve([], onModel)
 
     return convertToFrames(SOLVERESULT)
-

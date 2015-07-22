@@ -14,7 +14,7 @@ class Verb(object):
         self.frame = None
 
 
-# TODO: read in possible arguments for each lexical unit (?).      
+# TODO: read in possible arguments for each lexical unit (?).
 #class Argument(object):
 #
 #    def __init__(self):
@@ -24,7 +24,7 @@ class Verb(object):
 
 def read_verbnet(verbnet_folder, verbose, language):
     if verbose: print "Reading Verbnet..."
-   
+
     verbnet = []
     for filename in os.listdir(verbnet_folder):
         soup = BeautifulSoup(open(verbnet_folder + "/" + filename), "xml")
@@ -33,7 +33,7 @@ def read_verbnet(verbnet_folder, verbose, language):
         frame_raw = soup("VNCLASS")[0]["ID"]
         sep = '-'
         frame = frame_raw.split(sep, 1)[0]
-   
+
         for item in verb:
             vb = Verb()
             vb.lemma = item["name"]
@@ -42,8 +42,8 @@ def read_verbnet(verbnet_folder, verbose, language):
             verbnet.append(vb)
 
         #print "(%s, Frame: %s)" % (vb.lemma, vb.frame)
-  
-    if verbose: print "Read in " + str(len(verbnet)) + " verbs"   
-       
+
+    if verbose: print "Read in " + str(len(verbnet)) + " verbs"
+
     return verbnet
 
