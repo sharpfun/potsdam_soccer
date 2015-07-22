@@ -1,8 +1,8 @@
 #const maxScore=20.
 score(0..maxScore).
 time(0,0).
-team(Arsenal, 1).
-team(Hull City, 2).
+team(Arsenal,1).
+team(Hull City,2).
 player(Bellerin_H.,Arsenal).
 player(Cazorla_S.,Arsenal).
 player(Coquelin_F.,Arsenal).

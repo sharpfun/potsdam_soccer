@@ -2,6 +2,7 @@
 
 from meta_scrape import meta_scrape
 import string
+import re
 
 def to_asp(events, write=True, display=True):
 	team_one, team_two, player_data, bench_data = meta_scrape()
@@ -53,13 +54,16 @@ def to_asp(events, write=True, display=True):
     ## DYNAMIC ACTION!!!
 	for i in events:
 		a = i.ticker
-		# TODO: add second argument to represent second time unit.
-		b = i.minute
+		# Expand time argument.
+		b = str(i.minute)
 		c = i.text.split()
 		d = i.arguments
 		e = int(i.event_id)
 		f = i.frame.lower()
 		asp.append( 'ticker(%s,%s,%s,%s).' % (e,b,f,a) )
+
+		# Operations on Time variable.
+		#		
 
         for j in i.arguments:
             asp.append( 'attribute(%s,%s,%s,%s,%s).' % (e,b,f,j.lower(),i.arguments[j].replace(' ','_').lower()) )

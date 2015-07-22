@@ -71,7 +71,7 @@ def solve(frames, question=""):
     # initializing the asp controller obj
     ctr = gringo.Control()
     # load the logic prorams into the controller
-    ctr.load("support/meta.enc.lp")
+    ctr.load("meta.enc.lp")
     loadScences(ctr)
     # ground the lp
     ctr.ground([("base", [])])
