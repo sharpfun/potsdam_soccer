@@ -44,7 +44,44 @@ class Tree(object):
 
     def __str__(self):
         return "({},{})".format(self.root, self.nodes)
+    
+def build_tree(lines, ticker):
+    tree = Tree()     
+    tree.minute = minutes[0]
+    tree.ticker = ticker
+    # English parses don't have "form"
+    # Types are different between English and German
+    # i.e. ROOT vs. --
+    for line in lines:
+            
+        cells = line.split("\t")
+    
+        if len(cells) > 1:
+            node = Node()
+                
+            node.node_id = cells[0]
+            node.word = cells[1]
+            node.lemma = cells[3]
+            node.pos = cells[5]
+            tree.pos_list.append(cells[5])
+            node.form = cells[7]
+            node.head = cells[9]
+            node.type = cells[11]
+                    
+            # using "head == 0" so that it works for German or English
+            if cells[9] == "0":
+                tree.root = cells[3]
+                tree.root_pos = cells[5]
+                tree.root_id = cells[0]
+                tree.root_lemma = cells[3]          
+                
+        tree.nodes.append(node)
+            
+    # sometimes the parsed conll file might have empty lines at the end
+    # so need test to make sure we don't add empty trees
+    if tree.root != None: return tree
 
+minutes = [0]
 
 def read_ticker(parsed_ticker, verbose, language):
     if verbose: print "Reading ticker..."
@@ -54,9 +91,14 @@ def read_ticker(parsed_ticker, verbose, language):
     trees = []
     ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
     ticker = ticker.group(1)
-    minutes = [0]
+    
     
     for rawsentence in rawsentences:
+        # check for sentences that should be split - conjunctions or "who" with finite verbs on each side
+        to_split = re.search("VBZ(\n|.)*(\n).*(and|but|who)(\n|.)*VBZ", rawsentence)
+        print rawsentence
+        print "===================="
+        
         lines = rawsentence.split('\n')
         
         if len(lines) == 1:
@@ -65,42 +107,14 @@ def read_ticker(parsed_ticker, verbose, language):
                 if cells[5] == "CD":
                     minutes.pop()
                     minutes.append(cells[1])
+                    
+        elif to_split != None:
+            split = re.sub("(.*VBZ)(\n|.)*(\n)(.*)(and|but|who)(\n|.)*(VBZ.*)", "\1\2\3\n\4\5\6\7", rawsentence)
+            print split
 
         else:
-            tree = Tree()     
-            tree.minute = minutes[0]
-            tree.ticker = ticker
-            # English parses don't have "form"
-            # Types are different between English and German
-            # i.e. ROOT vs. --
-            for line in lines:
-            
-                cells = line.split("\t")
-    
-                if len(cells) > 1:
-                    node = Node()
-                
-                    node.node_id = cells[0]
-                    node.word = cells[1]
-                    node.lemma = cells[3]
-                    node.pos = cells[5]
-                    tree.pos_list.append(cells[5])
-                    node.form = cells[7]
-                    node.head = cells[9]
-                    node.type = cells[11]
-                    
-                    # using "head == 0" so that it works for German or English
-                    if cells[9] == "0":
-                        tree.root = cells[3]
-                        tree.root_pos = cells[5]
-                        tree.root_id = cells[0]
-                        tree.root_lemma = cells[3]          
-                
-                tree.nodes.append(node)
-            
-            # sometimes the parsed conll file might have empty lines at the end
-            # so need test to make sure we don't add empty trees
-            if tree.root != None: trees.append(tree)
+            trees.append(build_tree(lines, ticker))
+
     
     # and add IDs
     ids = len(trees)

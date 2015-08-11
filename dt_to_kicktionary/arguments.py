@@ -103,47 +103,25 @@ def get_inanimate_object(node, tree):
                 obj = obj + " " + next_node(node, tree).word
         return obj
     
-def find_frame(lu):
+def find_frame(lu, kictionary):
     # mapping of lexical units to frames
-    if lu.startswith("shot"): return "Shot"
-    elif lu.startswith("effort"): return "Shot"
-    elif lu.startswith("attempt"): return "Shot"
-    elif lu.startswith("head"): return "Shot"
-    # did not map to "Shot_Supports as most examples were direct shots
-    elif lu.startswith("unleash"): return "Shot"
-    elif lu.startswith("strike"): return "Shot"
-    
-    elif lu.startswith("pass"): return "Pass"
-    elif lu.startswith("cross"): return "Pass"
-    elif lu.startswith("through-ball"): return "Pass"
-    
-    elif lu.startswith("intercept"): return "Intercept"
-    
-    elif lu.startswith("offside"): return "Offside"
-    
-    elif lu.startswith("foul"): return "Foul"
-    
-    elif lu.startswith("clear"): return "Intervene"
-    elif lu.startswith("block"): return "Intervene"
-    elif lu.startswith("save"): return "Intervene"    
-    
-    elif lu.startswith("free-kick"): return "Set_Piece"
-    elif lu.startswith("corner"): return "Set_Piece"
-    elif lu.startswith("set-piece"): return "Set_Piece"
-    
-    elif lu.startswith("tackle"): return "Challenge"
-    
-    elif lu.startswith("opportunity"): return "Chance"
-    elif lu.startswith("chance"): return "Chance"
-    
-    elif lu.startswith("yellow"): return "Sanction"
-    elif lu.startswith("red"): return "Sanction"
-    
-    elif lu.startswith("goal."): return "Goal"
-    
-    else: return None
+    frame_mapping = {}
+    for unit in kictionary:
+        frame_mapping[unit.lu_id] = unit.frame
         
-def find_arguments(ticker, possible_lus, verbose):
+    relevant_frames = ("Shot", "Pass", "Intercept", "Offside", "Foul", "Intervene", "Set_Piece", "Challenge", "Chance", "Sanction", "Goal")
+    
+    #print (frame_mapping["pass.v"] in relevant_frames)
+    
+    if lu.startswith("head"): return "Shot"
+    # did not map to "Shot_Supports as most examples were direct shots
+    elif lu in frame_mapping:
+        if frame_mapping[lu] in relevant_frames:
+            return frame_mapping[lu]
+        else:
+            return None
+        
+def find_arguments(ticker, possible_lus, kicktionary, verbose):
     if verbose: print "Identifying arguments..."
     
     events = []
@@ -185,8 +163,8 @@ def find_arguments(ticker, possible_lus, verbose):
 
             
             # otherwise look at lexical units passed from frameextract and get frames from there, looking at first and second lus
-            if event.frame == None: event.frame = find_frame(lu0)
-            if event.frame == None and lu1: event.frame = find_frame(lu1)                
+            if event.frame == None: event.frame = find_frame(lu0, kicktionary)
+            if event.frame == None and lu1: event.frame = find_frame(lu1, kicktionary)                
             
             if event.frame == "Substitute":
                 if event.agent != None: event.arguments["SUBSTITUTE"] = event.agent
@@ -276,7 +254,7 @@ def main():
     import optparse
     parser = optparse.OptionParser()
     parser.add_option("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="../data/kicktionary.xml")
-    parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p4.parsed")
+    parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p5.parsed")
     parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
     parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
     ## will need to add verbnet XML file(s) at some point, maybe a complete folder
@@ -294,7 +272,7 @@ def main():
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
       
-    events = find_arguments(ticker, ticker_with_lus, verbose)
+    events = find_arguments(ticker, ticker_with_lus, kicktionary, verbose)
     
     if verbose:
         count_frames = 0
