@@ -4,11 +4,6 @@
 # Reads in a parsed ticker feed in dependency tree conll format
 # And returns a list of Tree objects
 
-# TODO: clean up tokenization for input files (punctuation, contractions like "couldn't"...)
-# as they are leading to incorrect readings of part of speech
-
-# TODO: the minute marks should somehow be added to each tree so that it can be used later in the ASP representation
-
 import re
 
 class Node(object):
