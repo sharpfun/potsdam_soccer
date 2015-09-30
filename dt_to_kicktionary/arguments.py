@@ -246,9 +246,9 @@ def find_arguments(ticker, possible_lus, kicktionary, verbose):
                 
             
             events.append(event)
-    # return a list of events with arguments identified    
+    # return a list of events with arguments identified
     return events
-        
+
 # for testing
 def main():
     import optparse
@@ -267,7 +267,7 @@ def main():
         
     kicktionary = read_kicktionary(options.kicktionary, verbose, language)
     ticker = read_ticker(options.ticker, verbose, language)
-    # verbnet = read_verbnet(options.verbnet)
+#    verbnet = read_verbnet(options.verbnet)
 
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
@@ -312,7 +312,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
-    
-    
