@@ -2,7 +2,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from kicker_to_asp.asp_conversion import to_asp, to_frame
+from asp_conversion import to_asp, to_frame
 
 SOLVERESULT = []
 
