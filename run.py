@@ -5,8 +5,10 @@
 import optparse
 import sys
 
-import extracting
-import reasoning
+import extracting.kicktionary
+import extracting.ticker
+import extracting.arguments
+import reasoning.solver
 
 def main():
     parser = optparse.OptionParser()
@@ -24,6 +26,7 @@ def main():
 
     # Reads in a kicktionary xml file and returns a list of lexical unit objects
     kicktionary = extracting.kicktionary.read_kicktionary(options.kicktionary, verbose, language)
+
     #verbnet = read_verbnet(options.verbnet)
     
     # Reads in a parsed ticker feed in dependency tree conll format and returns a list of tree objects
@@ -41,7 +44,6 @@ def main():
     
     # What we want to do with the result?
     # asp -> whatever...
-    
 
 if __name__ == "__main__":
     main()
