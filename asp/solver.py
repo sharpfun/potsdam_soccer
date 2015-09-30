@@ -2,7 +2,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from kicker_to_asp.asp_conversion import to_asp # thats clayton's function
+from kicker_to_asp.asp_conversion import to_asp, to_frame
 
 SOLVERESULT = []
 
@@ -30,7 +30,7 @@ def printStates(atoms):
             print "     {}".format(s)
 
 def convertToFrames(atoms):
-    return [toFrame(atom) for atom in atoms]
+    return [to_frame(atom) for atom in atoms]
 
 def getFluents(atoms, name):
     if name == "holds":

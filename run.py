@@ -5,6 +5,8 @@
 import optparse
 import sys
 
+import ticker_to_kicker
+import dt_to_kicktionary
 import asp
 
 def main():
@@ -20,14 +22,24 @@ def main():
 
     verbose = options.verbose
     language = options.language
-
-    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
+    
+    # Reads in a kicktionary xml file and returns a list of lexical unit objects
+    kicktionary = ticker_to_kicker.kicktionary.read_kicktionary(options.kicktionary, verbose, language)
     #verbnet = read_verbnet(options.verbnet)
-    ticker = read_ticker(options.ticker, verbose, language)
+    
+    # Reads in a parsed ticker feed in dependency tree conll format and returns a list of tree objects
+    ticker = ticker_to_kicker.ticker.read_ticker(options.ticker, verbose, language)
     #ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
-    events = find_arguments(ticker, verbose)
+    
+    # Iteration over all objects in the ticker list and returns a list of event objects, ready for translation to asp
+    events = dt_to_kicktionary.arguments.find_arguments(ticker, verbose)
+    
+    # converts each event object into asp format
+    # then resolves event issues, processes.
     asp = asp.solver.solve(events)
+    
+    
 
 
 
