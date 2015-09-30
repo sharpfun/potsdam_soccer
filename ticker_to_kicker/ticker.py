@@ -15,7 +15,7 @@ class Node(object):
         self.pos = None
         self.head = None
         self.type = None
-    
+
     def __str__(self):
         return "({},{},{})".format(self.head, self.lemma, self.type)
     __repr__ = __str__
@@ -50,10 +50,10 @@ def read_ticker(parsed_ticker, verbose, language):
     ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
     ticker = ticker.group(1)
     minutes = [0]
-    
+
     for rawsentence in rawsentences:
         lines = rawsentence.split('\n')
-        
+
         if len(lines) == 1:
             cells = lines[0].split("\t")
             if len(cells) > 1:
@@ -62,19 +62,19 @@ def read_ticker(parsed_ticker, verbose, language):
                     minutes.append(cells[1])
 
         else:
-            tree = Tree()     
+            tree = Tree()
             tree.minute = minutes[0]
             tree.ticker = ticker
             # English parses don't have "form"
             # Types are different between English and German
             # i.e. ROOT vs. --
             for line in lines:
-            
+
                 cells = line.split("\t")
-    
+
                 if len(cells) > 1:
                     node = Node()
-                
+
                     node.node_id = cells[0]
                     node.word = cells[1]
                     node.lemma = cells[3]
@@ -83,30 +83,31 @@ def read_ticker(parsed_ticker, verbose, language):
                     node.form = cells[7]
                     node.head = cells[9]
                     node.type = cells[11]
-                    
+
                     # using "head == 0" so that it works for German or English
                     if cells[9] == "0":
                         tree.root = cells[3]
                         tree.root_pos = cells[5]
                         tree.root_id = cells[0]
-                        tree.root_lemma = cells[3]          
-                
+                        tree.root_lemma = cells[3]
+
                     tree.nodes.append(node)
-            
+
             # sometimes the parsed conll file might have empty lines at the end
             # so need test to make sure we don't add empty trees
             if tree.root != None: trees.append(tree)
-    
+
     # and add IDs
     ids = len(trees)
     for tree in trees:
         ids -= 1
         tree.tree_id = ids
-      
+
     if verbose:
         roots = []
         for tree in trees:
             roots.append(tree.root)
         print "Ticker trees have these roots: \n" + "  \n".join(map(str,trees))
-    
+
     return trees
+

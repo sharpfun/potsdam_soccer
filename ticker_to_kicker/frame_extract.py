@@ -15,7 +15,7 @@ from verbnet import *
 from sys import stdin
 import sys
 
-reload(sys)  
+reload(sys)
 sys.setdefaultencoding('utf8')
 
 class PossibleLU(object):
@@ -32,7 +32,7 @@ class PossibleLU(object):
 
 def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
     if verbose: print "Looking up tree roots in Kicktionary..."
-    
+
     res = []
 
     for tree in ticker:
@@ -54,10 +54,10 @@ def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
                             while len(found_lus) > 0 and found_lus[-1] == prev_node_lu:
                                 found_lus.pop()
                         found_lus.append(lu.lu_id);
-                        if verbose: 
+                        if verbose:
                             print str(tree.tree_id) + " cool matches: " + lu.lu_id + "." + lu.wordclass + " " + lu.wordclass
                         is_lu_found = True
-            
+
             # usual one word lexical unit search
             if is_lu_found == False:
                 for lu in kicktionary:
@@ -67,7 +67,7 @@ def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
                             found_lus.append(lu.lemma+"."+lu.wordclass);
                             if verbose: print str(tree.tree_id) + " matches: " + lu.lemma + " " + lu.wordclass
             prev_node = node
-        
+
         plu = PossibleLU()
         plu.tree = tree
         plu.lexical_units = found_lus
@@ -94,7 +94,7 @@ def remove_duplicate_sequent_lus(possible_lus):
 def do_asp_facts(possible_lus, output_file):
     f = open(output_file,'w')
     output_prefix = output_file.split("/")[-1]
-    
+
     for plu in possible_lus:
         if len(plu.lexical_units) == 0: continue
         print plu.sentence()
@@ -116,11 +116,11 @@ def do_asp_facts(possible_lus, output_file):
                 print ""
                 break
             lexical_units_range_and_main_lexical_unit = group_lus_indexes.split(":")
-            
+
             if len(lexical_units_range_and_main_lexical_unit) == 2:
                 lexical_units_range_split = lexical_units_range_and_main_lexical_unit[0].split("-")
                 lexical_units_range = range(
-                    int(lexical_units_range_split[0]), 
+                    int(lexical_units_range_split[0]),
                     int(lexical_units_range_split[1])+1)
                 main_lexical_unit = int(lexical_units_range_and_main_lexical_unit[1])
             else:
@@ -148,44 +148,3 @@ def order_lu(possible_lus, luorder_file):
     for plu in possible_lus:
         plu.lexical_units = sorted(plu.lexical_units, key=lambda x: not(x in luorder) and 1 or -luorder.index(x))
 
-
-def main():
-    import optparse
-    parser = optparse.OptionParser()
-    parser.add_option("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="../data/kicktionary.xml")
-    parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p2_kamil.parsed")
-    parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
-    parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
-    ## will need to add verbnet XML file(s) at some point, maybe a complete folder
-    parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
-    parser.add_option("--luorder", dest="luorder", help="location of folder with lexical unit order file", default="../data/luorder")
-    (options, args) = parser.parse_args()
-
-    verbose = options.verbose
-    language = options.language
-
-    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
-    ticker = read_ticker(options.ticker, verbose, language)
-    # verbnet = read_verbnet(options.verbnet)
-    
-    possible_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
-    #order_lu(possible_lus, options.luorder)
-
-    remove_duplicate_sequent_lus(possible_lus)
-
-    order_lu(possible_lus, options.luorder)
-
-    for plu in possible_lus:
-        print plu.sentence()
-        print plu.lexical_units
-
-<<<<<<< HEAD
-    luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
-    ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose, luorder)
-    
-=======
-    #do_asp_facts(possible_lus, options.ticker+".lp")
-
->>>>>>> 5c1b44361b1186dad923cd51eaf286944b8c2abc
-if __name__ == "__main__":
-    main()

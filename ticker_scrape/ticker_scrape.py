@@ -1,16 +1,8 @@
 #!/usr/bin/python
-#
-# author:
-# 
-# date: 
-# description:
-#
+
 import re
 import sys
 
-# Procedures
-
-# Main
 def main():
     if len(sys.argv) != 3:
         print "Usage: extract.py <lang>[ger|eng] <src>"
@@ -39,3 +31,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
