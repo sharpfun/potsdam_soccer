@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
-# Master Script For Testing #
+# Master Script For Running #
 
 import optparse
 import sys
 
+import ticker_to_kicker
+import dt_to_kicktionary
 import asp
 
 def main():
@@ -21,15 +23,13 @@ def main():
     verbose = options.verbose
     language = options.language
 
+	ticker = read_ticker(options.ticker, verbose, language)
     kicktionary = read_kicktionary(options.kicktionary, verbose, language)
     #verbnet = read_verbnet(options.verbnet)
-    ticker = read_ticker(options.ticker, verbose, language)
     #ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     events = find_arguments(ticker, verbose)
     asp = asp.solver.solve(events)
-
-
 
 if __name__ == "__main__":
     main()
