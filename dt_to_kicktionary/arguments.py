@@ -265,25 +265,14 @@ def main():
     verbose = options.verbose
     language = options.language
         
-<<<<<<< HEAD
-#    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
-=======
     kicktionary = read_kicktionary(options.kicktionary, verbose, language)
->>>>>>> 21e3e914bf3ee1541088f1751fca2af3f4bddb23
     ticker = read_ticker(options.ticker, verbose, language)
 #    verbnet = read_verbnet(options.verbnet)
 
-<<<<<<< HEAD
- #   luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
- #   ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose, luorder)
-    
-    events = find_arguments(ticker, verbose)
-=======
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
       
     events = find_arguments(ticker, ticker_with_lus, kicktionary, verbose)
->>>>>>> 21e3e914bf3ee1541088f1751fca2af3f4bddb23
     
     if verbose:
         count_frames = 0
