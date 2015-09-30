@@ -5,14 +5,8 @@
 import optparse
 import sys
 
-<<<<<<< HEAD
 import extracting
 import reasoning
-=======
-import ticker_to_kicker
-import dt_to_kicktionary
-import asp
->>>>>>> 1d4a1536e2969e96c9b5c08ee811d3564ba7c4d8
 
 def main():
     parser = optparse.OptionParser()
@@ -27,7 +21,6 @@ def main():
 
     verbose = options.verbose
     language = options.language
-<<<<<<< HEAD
     
     # Reads in a kicktionary xml file and returns a list of lexical unit objects
     kicktionary = extracting.kicktionary.read_kicktionary(options.kicktionary, verbose, language)
@@ -35,12 +28,7 @@ def main():
     
     # Reads in a parsed ticker feed in dependency tree conll format and returns a list of tree objects
     ticker = extracting.ticker.read_ticker(options.ticker, verbose, language)
-=======
 
-	ticker = read_ticker(options.ticker, verbose, language)
-    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
-    #verbnet = read_verbnet(options.verbnet)
->>>>>>> 1d4a1536e2969e96c9b5c08ee811d3564ba7c4d8
     #ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     
