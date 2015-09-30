@@ -5,10 +5,10 @@ def meta_scrape(filepath = False):
 	## To be scraped dynamically from source, e.g.:
 	## http://www.flashscore.com/match/WnVNPAX3/#lineups;1
 	## Following is hard-coded for now.
-	team_one = "Arsenal"
-	team_two = "Hull City"
-	player_data = [("Bellerin_H.","Arsenal"),("Cazorla_S.","Arsenal"),("Coquelin_F.","Arsenal"),("Giroud_O.","Arsenal"),("Koscielny_L.","Arsenal"),("Mertesacker_P.","Arsenal"),("Monreal_N.","Arsenal"),("Ospina_D.","Arsenal"),("Ozil_M.","Arsenal"),("Ramsey_A.","Arsenal"),("Sanchez_A.","Arsenal"),('Aluko_S.','Hull_City'),('Brady_R.','Hull_City'),('Chester_J.','Hull_City'),('Dawson_M.','Hull_City'),('Elmohamady_A.','Hull_City'),('Harper_S.','Hull_City'),('Huddlestone_T.','Hull_City'),('Livermore_J.','Hull_City'),('McShane_P.','Hull_City'),('N\'Doye_D.','Hull_City'),('Quinn_S.','Hull_City')]
-	bench_data = [('Flamini_M.','Arsenal'),('Gibbs_K.','Arsenal'),('Gabriel','Arsenal'),('Rosicky_T.','Arsenal'),('Szczesny_W.','Arsenal'),('Walcott_T.','Arsenal'),('Wilshere_J.','Arsenal'),('Bruce_A.','Hull_City'),('Hernandez_A.','Hull_City'),('Jelavic_N.','Hull_City'),('McGregor_A.','Hull_City'),('Meyler_D.','Hull_City'),('Robertson_A.','Hull_City'),('Rosenior_L.','Hull_City')]
+	team_one = "arsenal"
+	team_two = "hull_city"
+	player_data = [("bellerin_h","arsenal"),("cazorla_s","arsenal"),("coquelin_f","arsenal"),("giroud_o","arsenal"),("koscielny_l","arsenal"),("mertesacker_p","arsenal"),("monreal_n","arsenal"),("ospina_d","arsenal"),("ozil_m","arsenal"),("ramsey_a","arsenal"),("sanchez_a","arsenal"),('aluko_s','hull_city'),('brady_r','hull_city'),('chester_j','hull_city'),('dawson_m','hull_sity'),('elmohamady_a','hull_city'),('harper_s','hull_city'),('huddlestone_t','hull_city'),('livermore_j','hull_city'),('mcshane_p','hull_city'),('ndoye_d','hull_city'),('quinn_s','hull_city')]
+	bench_data = [('flamini_m','arsenal'),('gibbs_k','arsenal'),('gabriel','arsenal'),('rosicky_t','arsenal'),('szczesny_w','arsenal'),('walcott_t','arsenal'),('wilshere_j','arsenal'),('bruce_a','hull_city'),('hernandez_a','hull_city'),('jelavic_n','hull_city'),('mcgregor_a','hull_city'),('meyler_d','hull_city'),('robertson_a','hull_city'),('rosenior_l','hull_city')]
 
 	return team_one, team_two, player_data, bench_data
 
