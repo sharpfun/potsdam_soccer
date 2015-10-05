@@ -77,8 +77,9 @@ def to_asp(events, write=False, display=False):
                 f.write(item + '\n')
 
     if display:
-        for i in asp:
-            print i
+        print "\n".join(asp)
     
-    return asp
+    return "\n".join(asp)
 
+def to_frame(atoms):
+    return [str(atom) for atom in atoms]

@@ -5,8 +5,12 @@
 import optparse
 import sys
 
-import extracting
-import reasoning
+import extracting.kicktionary
+import extracting.ticker
+import extracting.arguments
+import extracting.frameextract
+import reasoning.solver
+import reasoning.asp_conversion
 
 def main():
     parser = optparse.OptionParser()
@@ -29,15 +33,18 @@ def main():
     # Reads in a parsed ticker feed in dependency tree conll format and returns a list of tree objects
     ticker = extracting.ticker.read_ticker(options.ticker, verbose, language)
 
-    #ticker_with_lus = kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
+    ticker_with_lus = extracting.frameextract.kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
     #luorder = [line.rstrip('\n') for line in open(options.luorder).readlines()]
     
     # Iteration over all objects in the ticker list and returns a list of event objects, ready for translation to asp
-    events = extracting.arguments.find_arguments(ticker, verbose)
+    events = extracting.arguments.find_arguments(ticker, ticker_with_lus, kicktionary, verbose)
+
+    print events
+    #print reasoning.asp_conversion.to_asp(events)
     
     # converts each event object into asp format
     # then resolves event issues, processes.
-    asp = reasoning.solver.solve(events)
+    ##asp = reasoning.solver.solve(events)
     
     # What we want to do with the result?
     # asp -> whatever...
