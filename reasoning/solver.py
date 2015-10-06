@@ -10,7 +10,7 @@ def onModel(model):
     # this function is just a ref call - so we use the global SOLVERESULT
     # for storing the result of the onModel function
     global SOLVERESULT
-    atoms = model.atoms(Model.ATOMS)
+    atoms = model.atoms(gringo.Model.ATOMS)
     SOLVERESULT = atoms
 
 def printStates(atoms):
@@ -73,6 +73,7 @@ def solve(frames, question=""):
     ctr.load("reasoning/meta.enc.lp")
     loadScences(ctr)
     # ground the lp
+    ctr.add("base", [], frameFacts)
     ctr.ground([("base", [])])
     # solve it, while on finding a model, the function onModel is called
     ret = ctr.solve([], onModel)
