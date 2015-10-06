@@ -1365,161 +1365,6 @@
 2	Stephen	_	stephen	_	NNP	_	_	-1	3	_	NAME	_	_
 3	Quinn	_	quinn	_	NNP	_	_	-1	0	_	ROOT	_	_
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-1	Goal!	_	goal!	_	NNP	_	_	-1	2	_	NAME	_	_
-2	Hull	_	hull	_	NNP	_	_	-1	3	_	SBJ	_	_
-3	have	_	have	_	VBP	_	_	-1	0	_	ROOT	_	_
-4	pulled	_	pull	_	VBN	_	_	-1	3	_	VC	_	_
-5	one	_	one	_	CD	_	_	-1	6	_	NMOD	_	_
-6	back!	_	back!	_	NN	_	_	-1	4	_	OBJ	_	_
-7	El	_	el	_	NNP	_	_	-1	8	_	NAME	_	_
-8	Mohamady	_	mohamady	_	NNP	_	_	-1	9	_	SBJ	_	_
-9	picks	_	pick	_	VBZ	_	_	-1	6	_	NMOD	_	_
-10	up	_	up	_	RP	_	_	-1	9	_	PRT	_	_
-11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
-12	ball	_	ball	_	NN	_	_	-1	9	_	OBJ	_	_
-13	in	_	in	_	IN	_	_	-1	9	_	MNR	_	_
-14	acres	_	acres	_	NNS	_	_	-1	13	_	PMOD	_	_
-15	of	_	of	_	IN	_	_	-1	14	_	NMOD	_	_
-16	space	_	space	_	NN	_	_	-1	17	_	NMOD	_	_
-17	30	_	30	_	CD	_	_	-1	18	_	NMOD	_	_
-18	yards	_	yard	_	NNS	_	_	-1	15	_	PMOD	_	_
-19	away	_	away	_	RB	_	_	-1	18	_	NMOD	_	_
-20	from	_	from	_	IN	_	_	-1	19	_	AMOD	_	_
-21	goal	_	goal	_	NN	_	_	-1	20	_	PMOD	_	_
-22	and	_	and	_	CC	_	_	-1	9	_	COORD	_	_
-23	sends	_	send	_	VBZ	_	_	-1	22	_	CONJ	_	_
-24	a	_	a	_	DT	_	_	-1	27	_	NMOD	_	_
-25	briliant	_	briliant	_	JJ	_	_	-1	27	_	NMOD	_	_
-26	curling	_	curling	_	NN	_	_	-1	27	_	NMOD	_	_
-27	cross	_	cross	_	NN	_	_	-1	23	_	OBJ	_	_
-28	into	_	into	_	IN	_	_	-1	23	_	DIR	_	_
-29	the	_	the	_	DT	_	_	-1	30	_	NMOD	_	_
-30	heart	_	heart	_	NN	_	_	-1	28	_	PMOD	_	_
-31	of	_	of	_	IN	_	_	-1	30	_	NMOD	_	_
-32	the	_	the	_	DT	_	_	-1	35	_	NMOD	_	_
-33	Arsenal	_	arsenal	_	JJ	_	_	-1	34	_	NMOD	_	_
-34	penalty	_	penalty	_	NN	_	_	-1	35	_	NMOD	_	_
-35	area,	_	area,	_	NN	_	_	-1	31	_	PMOD	_	_
-36	where	_	where	_	WRB	_	_	-1	38	_	LOC	_	_
-37	Quinn	_	quinn	_	NNP	_	_	-1	38	_	SBJ	_	_
-38	fires	_	fire	_	VBZ	_	_	-1	35	_	NMOD	_	_
-39	an	_	an	_	DT	_	_	-1	41	_	NMOD	_	_
-40	excellent	_	excellent	_	JJ	_	_	-1	41	_	NMOD	_	_
-41	header	_	header	_	NN	_	_	-1	38	_	OBJ	_	_
-42	past	_	past	_	IN	_	_	-1	41	_	NMOD	_	_
-43	the	_	the	_	DT	_	_	-1	45	_	NMOD	_	_
-44	outstretched	_	outstretched	_	JJ	_	_	-1	45	_	NMOD	_	_
-45	hands	_	hands	_	NNS	_	_	-1	42	_	PMOD	_	_
-46	of	_	of	_	IN	_	_	-1	45	_	NMOD	_	_
-47	Ospina	_	ospina	_	NNP	_	_	-1	46	_	PMOD	_	_
-48	and	_	and	_	CC	_	_	-1	42	_	COORD	_	_
-49	into	_	into	_	IN	_	_	-1	48	_	CONJ	_	_
-50	the	_	the	_	DT	_	_	-1	53	_	NMOD	_	_
-51	top	_	top	_	JJ	_	_	-1	53	_	NMOD	_	_
-52	right-hand	_	right-hand	_	NN	_	_	-1	53	_	NMOD	_	_
-53	corner	_	corner	_	NN	_	_	-1	49	_	PMOD	_	_
-54	of	_	of	_	IN	_	_	-1	53	_	NMOD	_	_
-55	the	_	the	_	DT	_	_	-1	58	_	NMOD	_	_
-56	net.	_	net.	_	JJ	_	_	-1	58	_	NMOD	_	_
-57	Game	_	game	_	NN	_	_	-1	58	_	NMOD	_	_
-58	on!	_	on!	_	NN	_	_	-1	54	_	PMOD	_	_
-
-1	55'	_	55'	_	CD	_	_	-1	0	_	ROOT	_	_
-
-1	Great	_	great	_	JJ	_	_	-1	2	_	NMOD	_	_
-2	chance	_	chance	_	NN	_	_	-1	7	_	SBJ	_	_
-3	for	_	for	_	IN	_	_	-1	2	_	NMOD	_	_
-4	Ramsey!	_	ramsey!	_	NNP	_	_	-1	6	_	NAME	_	_
-5	The	_	the	_	DT	_	_	-1	6	_	NMOD	_	_
-6	Welshman	_	welshman	_	NNP	_	_	-1	3	_	PMOD	_	_
-7	pushes	_	push	_	VBZ	_	_	-1	0	_	ROOT	_	_
-8	forward	_	forward	_	RB	_	_	-1	7	_	DIR	_	_
-9	before	_	before	_	IN	_	_	-1	7	_	TMP	_	_
-10	playing	_	play	_	VBG	_	_	-1	9	_	PMOD	_	_
-11	a	_	a	_	DT	_	_	-1	13	_	NMOD	_	_
-12	quick	_	quick	_	JJ	_	_	-1	13	_	NMOD	_	_
-13	one-two	_	one-two	_	NN	_	_	-1	10	_	OBJ	_	_
-14	with	_	with	_	IN	_	_	-1	10	_	ADV	_	_
-15	Sanchez	_	sanchez	_	NNP	_	_	-1	14	_	PMOD	_	_
-16	on	_	on	_	IN	_	_	-1	10	_	ADV	_	_
-17	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
-18	edge	_	edge	_	NN	_	_	-1	16	_	PMOD	_	_
-19	of	_	of	_	IN	_	_	-1	18	_	NMOD	_	_
-20	the	_	the	_	DT	_	_	-1	23	_	NMOD	_	_
-21	Hull	_	hull	_	NNP	_	_	-1	23	_	NMOD	_	_
-22	penalty	_	penalty	_	NN	_	_	-1	23	_	NMOD	_	_
-23	area,	_	area,	_	NN	_	_	-1	19	_	PMOD	_	_
-24	but	_	but	_	CC	_	_	-1	7	_	COORD	_	_
-25	he	_	he	_	PRP	_	_	-1	26	_	SBJ	_	_
-26	ends	_	end	_	VBZ	_	_	-1	24	_	CONJ	_	_
-27	up	_	up	_	RP	_	_	-1	26	_	PRT	_	_
-28	sending	_	send	_	VBG	_	_	-1	26	_	ADV	_	_
-29	his	_	his	_	PRP$	_	_	-1	31	_	NMOD	_	_
-30	toe-poked	_	toe-poked	_	VBN	_	_	-1	31	_	NMOD	_	_
-31	strike	_	strike	_	NN	_	_	-1	28	_	OBJ	_	_
-32	just	_	just	_	RB	_	_	-1	33	_	AMOD	_	_
-33	wide	_	wide	_	JJ	_	_	-1	31	_	APPO	_	_
-34	of	_	of	_	IN	_	_	-1	33	_	AMOD	_	_
-35	the	_	the	_	DT	_	_	-1	37	_	NMOD	_	_
-36	near	_	near	_	JJ	_	_	-1	37	_	NMOD	_	_
-37	post.	_	post.	_	NN	_	_	-1	34	_	PMOD	_	_
-
-1	54'	_	54'	_	CD	_	_	-1	0	_	ROOT	_	_
-=======
-1	Goal	_	goal	_	NN	_	_	-1	3	_	TITLE	_	_
-2	!	_	!	_	.	_	_	-1	11	_	P	_	_
-3	Hull	_	hull	_	NNP	_	_	-1	4	_	SBJ	_	_
-4	have	_	have	_	VBP	_	_	-1	0	_	ROOT	_	_
-5	pulled	_	pull	_	VBN	_	_	-1	4	_	VC	_	_
-6	one	_	one	_	CD	_	_	-1	5	_	OBJ	_	_
-7	back	_	back	_	RB	_	_	-1	5	_	DIR	_	_
-8	!	_	!	_	.	_	_	-1	4	_	P	_	_
-9	El	_	el	_	NNP	_	_	-1	10	_	NAME	_	_
-10	Mohamady	_	mohamady	_	NNP	_	_	-1	11	_	SBJ	_	_
-11	picks	_	pick	_	VBZ	_	_	-1	4	_	COORD	_	_
-12	up	_	up	_	RP	_	_	-1	11	_	PRT	_	_
-13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
-14	ball	_	ball	_	NN	_	_	-1	11	_	OBJ	_	_
-15	in	_	in	_	IN	_	_	-1	11	_	MNR	_	_
-16	acres	_	acres	_	NNS	_	_	-1	15	_	PMOD	_	_
-17	of	_	of	_	IN	_	_	-1	16	_	NMOD	_	_
-18	space	_	space	_	NN	_	_	-1	19	_	NMOD	_	_
-19	30	_	30	_	CD	_	_	-1	20	_	NMOD	_	_
-20	yards	_	yard	_	NNS	_	_	-1	17	_	PMOD	_	_
-21	away	_	away	_	RB	_	_	-1	20	_	NMOD	_	_
-22	from	_	from	_	IN	_	_	-1	21	_	AMOD	_	_
-23	goal	_	goal	_	NN	_	_	-1	22	_	PMOD	_	_
-24	and	_	and	_	CC	_	_	-1	11	_	COORD	_	_
-25	sends	_	send	_	VBZ	_	_	-1	24	_	CONJ	_	_
-26	a	_	a	_	DT	_	_	-1	29	_	NMOD	_	_
-27	briliant	_	briliant	_	JJ	_	_	-1	29	_	NMOD	_	_
-28	curling	_	curling	_	NN	_	_	-1	29	_	NMOD	_	_
-29	cross	_	cross	_	NN	_	_	-1	25	_	OBJ	_	_
-30	into	_	into	_	IN	_	_	-1	25	_	DIR	_	_
-31	the	_	the	_	DT	_	_	-1	32	_	NMOD	_	_
-32	heart	_	heart	_	NN	_	_	-1	30	_	PMOD	_	_
-33	of	_	of	_	IN	_	_	-1	32	_	NMOD	_	_
-34	the	_	the	_	DT	_	_	-1	37	_	NMOD	_	_
-35	Arsenal	_	arsenal	_	JJ	_	_	-1	37	_	NMOD	_	_
-36	penalty	_	penalty	_	NN	_	_	-1	37	_	NMOD	_	_
-37	area	_	area	_	NN	_	_	-1	33	_	PMOD	_	_
-38	,	_	,	_	,	_	_	-1	37	_	P	_	_
-39	where	_	where	_	WRB	_	_	-1	41	_	LOC	_	_
-40	Quinn	_	quinn	_	NNP	_	_	-1	41	_	SBJ	_	_
-41	fires	_	fire	_	VBZ	_	_	-1	37	_	NMOD	_	_
-42	an	_	an	_	DT	_	_	-1	44	_	NMOD	_	_
-43	excellent	_	excellent	_	JJ	_	_	-1	44	_	NMOD	_	_
-44	header	_	header	_	NN	_	_	-1	41	_	OBJ	_	_
-45	past	_	past	_	IN	_	_	-1	44	_	NMOD	_	_
-46	the	_	the	_	DT	_	_	-1	48	_	NMOD	_	_
-47	outstretched	_	outstretched	_	JJ	_	_	-1	48	_	NMOD	_	_
-48	hands	_	hands	_	NNS	_	_	-1	45	_	PMOD	_	_
-=======
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
 1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
 2	!	_	!	_	.	_	_	-1	1	_	P	_	_
 
@@ -1578,10 +1423,6 @@
 46	top	_	top	_	JJ	_	_	-1	48	_	NMOD	_	_
 47	right-hand	_	right-hand	_	NN	_	_	-1	48	_	NMOD	_	_
 48	corner	_	corner	_	NN	_	_	-1	44	_	PMOD	_	_
-<<<<<<< HEAD
->>>>>>> 21e3e914bf3ee1541088f1751fca2af3f4bddb23
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
 49	of	_	of	_	IN	_	_	-1	48	_	NMOD	_	_
 50	the	_	the	_	DT	_	_	-1	51	_	NMOD	_	_
 51	net	_	net	_	NN	_	_	-1	49	_	PMOD	_	_
@@ -2498,159 +2339,6 @@
 2	Aaron	_	aaron	_	NNP	_	_	-1	3	_	NMOD	_	_
 3	Ramsey	_	ramsey	_	NNP	_	_	-1	0	_	ROOT	_	_
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-1	Goal!	_	goal!	_	NNP	_	_	-1	4	_	NAME	_	_
-2	It's	_	it'	_	NNP	_	_	-1	4	_	NAME	_	_
-3	2-0!	_	2-0!	_	CD	_	_	-1	4	_	NMOD	_	_
-4	Cazorla	_	cazorla	_	NNP	_	_	-1	5	_	SBJ	_	_
-5	receives	_	receive	_	VBZ	_	_	-1	0	_	ROOT	_	_
-6	the	_	the	_	DT	_	_	-1	7	_	NMOD	_	_
-7	ball	_	ball	_	NN	_	_	-1	5	_	OBJ	_	_
-8	on	_	on	_	IN	_	_	-1	5	_	ADV	_	_
-9	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
-10	halfway	_	halfway	_	NN	_	_	-1	11	_	NMOD	_	_
-11	line	_	line	_	NN	_	_	-1	8	_	PMOD	_	_
-12	and	_	and	_	CC	_	_	-1	5	_	COORD	_	_
-13	sends	_	send	_	VBZ	_	_	-1	12	_	CONJ	_	_
-14	an	_	an	_	DT	_	_	-1	18	_	NMOD	_	_
-15	absolutely	_	absolutely	_	RB	_	_	-1	16	_	AMOD	_	_
-16	wonderful	_	wonderful	_	JJ	_	_	-1	18	_	NMOD	_	_
-17	lofted	_	loft	_	VBD	_	_	-1	18	_	NMOD	_	_
-18	pass	_	pass	_	NN	_	_	-1	13	_	OBJ	_	_
-19	right	_	right	_	RB	_	_	-1	20	_	PMOD	_	_
-20	into	_	into	_	IN	_	_	-1	13	_	TMP	_	_
-21	the	_	the	_	DT	_	_	-1	22	_	NMOD	_	_
-22	feet	_	foot	_	NNS	_	_	-1	20	_	PMOD	_	_
-23	of	_	of	_	IN	_	_	-1	22	_	NMOD	_	_
-24	Ramsey,	_	ramsey,	_	NNP	_	_	-1	23	_	PMOD	_	_
-25	who	_	who	_	WP	_	_	-1	26	_	SBJ	_	_
-26	spins	_	spin	_	VBZ	_	_	-1	22	_	NMOD	_	_
-27	round	_	round	_	VBP	_	_	-1	26	_	OBJ	_	_
-28	Brady	_	brady	_	NNP	_	_	-1	27	_	OBJ	_	_
-29	on	_	on	_	IN	_	_	-1	26	_	ADV	_	_
-30	the	_	the	_	DT	_	_	-1	31	_	NMOD	_	_
-31	edge	_	edge	_	NN	_	_	-1	29	_	PMOD	_	_
-32	of	_	of	_	IN	_	_	-1	31	_	NMOD	_	_
-33	the	_	the	_	DT	_	_	-1	36	_	NMOD	_	_
-34	Hull	_	hull	_	NNP	_	_	-1	36	_	NMOD	_	_
-35	penalty	_	penalty	_	NN	_	_	-1	36	_	NMOD	_	_
-36	area	_	area	_	NN	_	_	-1	32	_	PMOD	_	_
-37	before	_	before	_	IN	_	_	-1	31	_	TMP	_	_
-38	sending	_	send	_	VBG	_	_	-1	37	_	PMOD	_	_
-39	a	_	a	_	DT	_	_	-1	41	_	NMOD	_	_
-40	deflected	_	deflect	_	VBN	_	_	-1	41	_	NMOD	_	_
-41	shot	_	shot	_	NN	_	_	-1	38	_	OBJ	_	_
-42	off	_	off	_	IN	_	_	-1	38	_	ADV	_	_
-43	the	_	the	_	DT	_	_	-1	44	_	NMOD	_	_
-44	foot	_	foot	_	NN	_	_	-1	42	_	PMOD	_	_
-45	of	_	of	_	IN	_	_	-1	44	_	NMOD	_	_
-46	the	_	the	_	DT	_	_	-1	47	_	NMOD	_	_
-47	defender	_	defender	_	NN	_	_	-1	45	_	PMOD	_	_
-48	and	_	and	_	CC	_	_	-1	42	_	COORD	_	_
-49	into	_	into	_	IN	_	_	-1	48	_	CONJ	_	_
-50	the	_	the	_	DT	_	_	-1	53	_	NMOD	_	_
-51	top	_	top	_	JJ	_	_	-1	53	_	NMOD	_	_
-52	left-hand	_	left-hand	_	NN	_	_	-1	53	_	NMOD	_	_
-53	corner	_	corner	_	NN	_	_	-1	49	_	PMOD	_	_
-54	of	_	of	_	IN	_	_	-1	53	_	NMOD	_	_
-55	the	_	the	_	DT	_	_	-1	56	_	NMOD	_	_
-56	net.	_	net.	_	NN	_	_	-1	54	_	PMOD	_	_
-
-1	32'	_	32'	_	CD	_	_	-1	0	_	ROOT	_	_
-
-1	Hull	_	hull	_	JJ	_	_	-1	2	_	NMOD	_	_
-2	look	_	look	_	NN	_	_	-1	0	_	ROOT	_	_
-3	far	_	far	_	RB	_	_	-1	5	_	ADV	_	_
-4	more	_	more	_	RBR	_	_	-1	3	_	AMOD	_	_
-5	determined	_	determine	_	VBN	_	_	-1	2	_	APPO	_	_
-6	since	_	since	_	IN	_	_	-1	5	_	AMOD	_	_
-7	going	_	go	_	VBG	_	_	-1	6	_	PMOD	_	_
-8	behind,	_	behind,	_	NN	_	_	-1	7	_	VC	_	_
-9	but	_	but	_	CC	_	_	-1	7	_	COORD	_	_
-10	they're	_	they're	_	NN	_	_	-1	11	_	NMOD	_	_
-11	finding	_	find	_	VBG	_	_	-1	9	_	CONJ	_	_
-12	it	_	it	_	PRP	_	_	-1	11	_	OBJ	_	_
-13	incredibly	_	incredibly	_	RB	_	_	-1	14	_	AMOD	_	_
-14	difficult	_	difficult	_	JJ	_	_	-1	11	_	OPRD	_	_
-15	to	_	to	_	TO	_	_	-1	14	_	AMOD	_	_
-16	break	_	break	_	VB	_	_	-1	15	_	IM	_	_
-17	down	_	down	_	RP	_	_	-1	16	_	PRT	_	_
-18	Arsenal's	_	arsenal's	_	NNP	_	_	-1	16	_	OBJ	_	_
-19	resolute	_	resolute	_	VB	_	_	-1	16	_	OPRD	_	_
-20	defence,	_	defence,	_	NN	_	_	-1	19	_	OBJ	_	_
-21	despite	_	despite	_	IN	_	_	-1	19	_	ADV	_	_
-22	their	_	their	_	PRP$	_	_	-1	24	_	NMOD	_	_
-23	best	_	best	_	JJS	_	_	-1	24	_	NMOD	_	_
-24	efforts.	_	efforts.	_	NN	_	_	-1	21	_	PMOD	_	_
-
-1	30'	_	30'	_	CD	_	_	-1	0	_	ROOT	_	_
-=======
-1	Goal	_	goal	_	NN	_	_	-1	7	_	TITLE	_	_
-2	!	_	!	_	.	_	_	-1	4	_	P	_	_
-3	It	_	it	_	PRP	_	_	-1	4	_	SBJ	_	_
-4	's	_	's	_	VBZ	_	_	-1	1	_	NMOD	_	_
-5	2-0	_	2-0	_	CD	_	_	-1	4	_	PRD	_	_
-6	!	_	!	_	.	_	_	-1	4	_	P	_	_
-7	Cazorla	_	cazorla	_	NNP	_	_	-1	8	_	SBJ	_	_
-8	receives	_	receive	_	VBZ	_	_	-1	0	_	ROOT	_	_
-9	the	_	the	_	DT	_	_	-1	10	_	NMOD	_	_
-10	ball	_	ball	_	NN	_	_	-1	8	_	OBJ	_	_
-11	on	_	on	_	IN	_	_	-1	8	_	ADV	_	_
-12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
-13	halfway	_	halfway	_	NN	_	_	-1	14	_	NMOD	_	_
-14	line	_	line	_	NN	_	_	-1	11	_	PMOD	_	_
-15	and	_	and	_	CC	_	_	-1	8	_	COORD	_	_
-16	sends	_	send	_	VBZ	_	_	-1	15	_	CONJ	_	_
-17	an	_	an	_	DT	_	_	-1	21	_	NMOD	_	_
-18	absolutely	_	absolutely	_	RB	_	_	-1	19	_	AMOD	_	_
-19	wonderful	_	wonderful	_	JJ	_	_	-1	21	_	NMOD	_	_
-20	lofted	_	loft	_	VBD	_	_	-1	21	_	NMOD	_	_
-21	pass	_	pass	_	NN	_	_	-1	16	_	OBJ	_	_
-22	right	_	right	_	RB	_	_	-1	23	_	PMOD	_	_
-23	into	_	into	_	IN	_	_	-1	16	_	TMP	_	_
-24	the	_	the	_	DT	_	_	-1	25	_	NMOD	_	_
-25	feet	_	foot	_	NNS	_	_	-1	23	_	PMOD	_	_
-26	of	_	of	_	IN	_	_	-1	25	_	NMOD	_	_
-27	Ramsey	_	ramsey	_	NNP	_	_	-1	26	_	PMOD	_	_
-28	,	_	,	_	,	_	_	-1	27	_	P	_	_
-29	who	_	who	_	WP	_	_	-1	30	_	SBJ	_	_
-30	spins	_	spin	_	VBZ	_	_	-1	27	_	NMOD	_	_
-31	round	_	round	_	RP	_	_	-1	30	_	ADV	_	_
-32	Brady	_	brady	_	NNP	_	_	-1	30	_	OBJ	_	_
-33	on	_	on	_	IN	_	_	-1	30	_	ADV	_	_
-34	the	_	the	_	DT	_	_	-1	35	_	NMOD	_	_
-35	edge	_	edge	_	NN	_	_	-1	33	_	PMOD	_	_
-36	of	_	of	_	IN	_	_	-1	35	_	NMOD	_	_
-37	the	_	the	_	DT	_	_	-1	40	_	NMOD	_	_
-38	Hull	_	hull	_	NNP	_	_	-1	40	_	NMOD	_	_
-39	penalty	_	penalty	_	NN	_	_	-1	40	_	NMOD	_	_
-40	area	_	area	_	NN	_	_	-1	36	_	PMOD	_	_
-41	before	_	before	_	IN	_	_	-1	30	_	TMP	_	_
-42	sending	_	send	_	VBG	_	_	-1	41	_	PMOD	_	_
-43	a	_	a	_	DT	_	_	-1	45	_	NMOD	_	_
-44	deflected	_	deflect	_	VBN	_	_	-1	45	_	NMOD	_	_
-45	shot	_	shot	_	NN	_	_	-1	42	_	OBJ	_	_
-46	off	_	off	_	IN	_	_	-1	42	_	ADV	_	_
-47	the	_	the	_	DT	_	_	-1	48	_	NMOD	_	_
-48	foot	_	foot	_	NN	_	_	-1	46	_	PMOD	_	_
-49	of	_	of	_	IN	_	_	-1	48	_	NMOD	_	_
-50	the	_	the	_	DT	_	_	-1	51	_	NMOD	_	_
-51	defender	_	defender	_	NN	_	_	-1	49	_	PMOD	_	_
-52	and	_	and	_	CC	_	_	-1	46	_	COORD	_	_
-53	into	_	into	_	IN	_	_	-1	52	_	CONJ	_	_
-54	the	_	the	_	DT	_	_	-1	57	_	NMOD	_	_
-55	top	_	top	_	JJ	_	_	-1	57	_	NMOD	_	_
-56	left-hand	_	left-hand	_	NN	_	_	-1	57	_	NMOD	_	_
-57	corner	_	corner	_	NN	_	_	-1	53	_	PMOD	_	_
-58	of	_	of	_	IN	_	_	-1	57	_	NMOD	_	_
-59	the	_	the	_	DT	_	_	-1	60	_	NMOD	_	_
-60	net	_	net	_	NN	_	_	-1	58	_	PMOD	_	_
-61	.	_	.	_	.	_	_	-1	8	_	P	_	_
-=======
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
 1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
 2	!	_	!	_	.	_	_	-1	1	_	P	_	_
 
@@ -2714,10 +2402,6 @@
 53	the	_	the	_	DT	_	_	-1	54	_	NMOD	_	_
 54	net	_	net	_	NN	_	_	-1	52	_	PMOD	_	_
 55	.	_	.	_	.	_	_	-1	2	_	P	_	_
-<<<<<<< HEAD
->>>>>>> 21e3e914bf3ee1541088f1751fca2af3f4bddb23
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
 
 1	32	_	32	_	CD	_	_	-1	0	_	ROOT	_	_
 
@@ -3803,23 +3487,6 @@
 2	we're	_	we're	_	VB	_	_	-1	0	_	ROOT	_	_
 3	off	_	off	_	RP	_	_	-1	2	_	PRT	_	_
 4	!	_	!	_	.	_	_	-1	2	_	P	_	_
-<<<<<<< HEAD
-<<<<<<< HEAD
-5	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
-6	get	_	get	_	VB	_	_	-1	0	_	ROOT	_	_
-7	us	_	us	_	PRP	_	_	-1	6	_	OBJ	_	_
-8	underway	_	underway	_	NN	_	_	-1	6	_	VC	_	_
-9	,	_	,	_	,	_	_	-1	6	_	P	_	_
-10	attacking	_	attack	_	VBG	_	_	-1	6	_	ADV	_	_
-11	from	_	from	_	IN	_	_	-1	10	_	DIR	_	_
-12	left	_	leave	_	VBN	_	_	-1	11	_	PMOD	_	_
-13	to	_	to	_	TO	_	_	-1	11	_	PMOD	_	_
-14	right	_	right	_	JJ	_	_	-1	13	_	PMOD	_	_
-15	.	_	.	_	.	_	_	-1	6	_	P	_	_
->>>>>>> d828dc0c15fbf645c39b6de066fa5a5d4584addd
-=======
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
 
 1	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	SBJ	_	_
 2	get	_	get	_	VB	_	_	-1	0	_	ROOT	_	_
@@ -3832,8 +3499,5 @@
 9	to	_	to	_	TO	_	_	-1	7	_	PMOD	_	_
 10	right	_	right	_	JJ	_	_	-1	9	_	PMOD	_	_
 11	.	_	.	_	.	_	_	-1	2	_	P	_	_
-<<<<<<< HEAD
->>>>>>> 21e3e914bf3ee1541088f1751fca2af3f4bddb23
-=======
->>>>>>> 9bc8f27f537a778179de4f62a574d56c0192c4d2
+
 

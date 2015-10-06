@@ -6,8 +6,11 @@ import re
 
 def to_asp(events, write=False, display=False):
     def conv(x):
-        return x.lower().replace(".", "")
-    
+        if x:
+            return x.lower().replace(".", "").replace(" ", "_")
+        else:
+            return "none"
+
     team_one, team_two, player_data, bench_data = meta_scrape()
 
     asp = []
@@ -19,16 +22,16 @@ def to_asp(events, write=False, display=False):
                     ))
 
     # Teams --> FROM METADATA
-    asp.extend((    'team(%s,1).' % team_one,
-                    'team(%s,2).' % team_two
+    asp.extend((    'team({},1).'.format(team_one),
+                    'team({},2).'.format(team_two)
                     ))
 
     # Players & Their Teams: Team One --> FROM METADATA
     for p,t in player_data:
-        asp.append( 'player(%s,%s).' % (conv(p),conv(t)) )
+        asp.append( 'player({},{}).'.format(conv(p),conv(t)))
 
     for b,t in bench_data:
-        asp.append( 'bench(%s,%s).' % (conv(b),conv(t)) )
+        asp.append( 'bench({},{}).'.format(conv(b),conv(t)))
 
     ## FOR EASE OF USE DOWN THE ROAD... ##
     asp.extend((    'player(P) :- player(P,T).',
@@ -53,32 +56,41 @@ def to_asp(events, write=False, display=False):
                     ))
 
     ####################
-
+    noneCtr = 0
     ## DYNAMIC ACTION!!!
-    for i in events:
-        a = i.ticker
-        # Expand time argument.
-        b = str(i.minute)
-        c = i.text.split()
-        d = i.arguments
-        e = int(i.event_id)
-        f = i.frame.lower()
-        asp.append( 'ticker(%s,%s,%s,%s).' % (e,b,f,a) )
+    for event in events:
+        tickerId = int(event.event_id)
+        tickerSrc = conv(event.ticker)
+        # convert time argument.
+        time = map(int,re.findall(r"\d+",str(event.minute)))
+        aspTime = time[0]*100
+        if len(time) == 2:
+            aspTime += time[1]
+        tickerFrame = conv(event.frame)
+
+        asp.append('ticker({},{},{},{}).'.format(
+            tickerId,tickerSrc,tickerFrame,aspTime))
 
         # Operations on Time variable.
         #
-        for j in i.arguments:
-            asp.append( 'attribute(%s,%s,%s,%s,%s).' % (e,b,f,j.lower(),i.arguments[j].replace(' ','_').lower()) )
-    
-    
+        for arg,argval in event.arguments.iteritems():
+            asp.append('attribute({},{},{},{},{}).'.format(
+                tickerId,tickerSrc,tickerFrame,
+                conv(arg), conv(argval)))
+
+        if tickerFrame == "none":
+            noneCtr += 1
+
+    #print "Nones:", noneCtr
+    #print "ratio:", float(noneCtr)/len(events)
+    #raw_input()
+
     if write:
         with open('game_instance.lp','w+') as f:
-            for item in asp:
-                f.write(item + '\n')
-
+            f.write("\n".join(asp))
     if display:
         print "\n".join(asp)
-    
+
     return "\n".join(asp)
 
 def to_frame(atoms):

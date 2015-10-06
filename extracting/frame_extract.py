@@ -30,6 +30,9 @@ class PossibleLU(object):
             s = s + node.word + " "
         return s
 
+    def __repr__(self):
+        return "{" + ",".join(self.lexical_units) + "}"
+
 def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
     if verbose: print "Looking up tree roots in Kicktionary..."
 

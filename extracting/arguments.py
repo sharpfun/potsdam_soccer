@@ -17,6 +17,12 @@ class Event(object):
         self.animate_obj = None
         self.inanimate_obj = None
         self.arguments = {}
+
+    def __str__(self):
+        return "Event(id={},frame={},time={})".format(
+            self.event_id,self.frame,self.minute)
+
+    __repr__ = __str__
         
 def previous_node(node, tree):
     for n in tree.nodes:
@@ -128,8 +134,9 @@ def find_arguments(ticker, possible_lus, kicktionary, verbose):
     
     for item in possible_lus:
         tree = item.tree
+        lu0, lu1 = None, None
+        
         if item.lexical_units: lu0 = item.lexical_units[0]
-        lu1 = None
         if len(item.lexical_units) > 1: lu1 = item.lexical_units[1]
         if True: #tree.lexical_unit != None:
             event = Event()
@@ -163,7 +170,7 @@ def find_arguments(ticker, possible_lus, kicktionary, verbose):
 
             
             # otherwise look at lexical units passed from frameextract and get frames from there, looking at first and second lus
-            if event.frame == None: event.frame = find_frame(lu0, kicktionary)
+            if event.frame == None and lu0: event.frame = find_frame(lu0, kicktionary)
             if event.frame == None and lu1: event.frame = find_frame(lu1, kicktionary)                
             
             if event.frame == "Substitute":

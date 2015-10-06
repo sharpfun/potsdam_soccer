@@ -17,7 +17,8 @@ class Node(object):
         self.type = None
 
     def __str__(self):
-        return "({},{},{})".format(self.head, self.lemma, self.type)
+        return "n({},{},{})".format(self.head, self.lemma, self.type)
+    
     __repr__ = __str__
 
 
@@ -38,7 +39,9 @@ class Tree(object):
         self.subject = None # TODO, if necessary
 
     def __str__(self):
-        return "({},{})".format(self.root, self.nodes)
+        return "t({},{})".format(self.root, self.nodes)
+
+    __repr__ = __str__
 
 
 def read_ticker(parsed_ticker, verbose, language):
