@@ -163,7 +163,7 @@ def find_arguments(ticker, possible_lus, kicktionary, verbose):
 
             
             # otherwise look at lexical units passed from frameextract and get frames from there, looking at first and second lus
-            if event.frame == None: event.frame = find_frame(lu0, kicktionary)
+            if event.frame == None and lu0: event.frame = find_frame(lu0, kicktionary)
             if event.frame == None and lu1: event.frame = find_frame(lu1, kicktionary)                
             
             if event.frame == "Substitute":
@@ -255,7 +255,7 @@ def main():
     parser = optparse.OptionParser()
     parser.add_option("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="../data/kicktionary.xml")
     parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p5.parsed")
-    parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
+    parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=True)
     parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
     ## will need to add verbnet XML file(s) at some point, maybe a complete folder
     parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
