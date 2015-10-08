@@ -20,6 +20,12 @@ class Event(object):
         self.inanimate_obj = None
         self.arguments = {}
 
+    def __str__(self):
+        return "Event(id={},frame={},time={})".format(
+            self.event_id,self.frame,self.minute)
+
+    __repr__ = __str__
+        
 def previous_node(node, tree):
     for n in tree.nodes:
         if int(n.node_id) == int(node.node_id) - 1:
@@ -145,8 +151,12 @@ def find_arguments(ticker, verbose):
     
     events = []
     
-    for tree in ticker:
-        # will use tree.lexical unit
+    for item in possible_lus:
+        tree = item.tree
+        lu0, lu1 = None, None
+        
+        if item.lexical_units: lu0 = item.lexical_units[0]
+        if len(item.lexical_units) > 1: lu1 = item.lexical_units[1]
         if True: #tree.lexical_unit != None:
             event = Event()
             event.ticker = tree.ticker
@@ -175,6 +185,16 @@ def find_arguments(ticker, verbose):
             if tree.root_lemma == "assist": event.frame = "Pass"
             if tree.root_lemma == "pass": event.frame = "Pass"
             if tree.root_lemma == "foul": event.frame = "Foul"
+            if tree.root_lemma == "goal" and len(tree.nodes) > 1: event.frame = "Goal"
+            if tree.nodes[0].lemma == "goal": event.frame = "Goal"
+            if re.search("goal\skick", event.text) : event.frame = "Set_Piece" # to make sure goal kicks are not mixed with goals
+            if event.text.startswith("SUBSTITUTION") : event.frame = "Substitute"
+            if event.text.startswith("BOOKING") : event.frame = "Sanction"
+
+            
+            # otherwise look at lexical units passed from frameextract and get frames from there, looking at first and second lus
+            if event.frame == None and lu0: event.frame = find_frame(lu0, kicktionary)
+            if event.frame == None and lu1: event.frame = find_frame(lu1, kicktionary)                
             
             if event.frame == "Substitute":
                 if event.agent != None: event.arguments["SUBSTITUTE"] = event.agent
@@ -190,6 +210,31 @@ def find_arguments(ticker, verbose):
                 if event.animate_obj != None: event.arguments["OFFENDED_PLAYER"] = event.animate_obj
             
             events.append(event)
+    # return a list of events with arguments identified    
+    return events
+        
+# for testing
+def main():
+    import optparse
+    parser = optparse.OptionParser()
+    parser.add_option("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="../data/kicktionary.xml")
+    parser.add_option("--ticker", dest="ticker", help="location of parsed ticker conll file", default="../data/p5.parsed")
+    parser.add_option("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
+    parser.add_option("--language", dest="language", help="language of tickers (en or de)", default="en")
+    ## will need to add verbnet XML file(s) at some point, maybe a complete folder
+    parser.add_option("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="../data/verbnet")
+    parser.add_option("--luorder", dest="luorder", help="location of folder with lexical unit order file", default="../data/luorder")
+    (options, args) = parser.parse_args()
+
+    verbose = options.verbose
+    language = options.language
+        
+    kicktionary = read_kicktionary(options.kicktionary, verbose, language)
+    ticker = read_ticker(options.ticker, verbose, language)
+    # verbnet = read_verbnet(options.verbnet)
 
     return events
 
+if __name__ == "__main__":
+    main()
+ 

@@ -6,7 +6,6 @@ from asp_conversion import to_asp
 
 SOLVERESULT = []
 
-# TODO: replace print by storing informations
 def onModel(model):
     # this function is just a ref call - so we use the global SOLVERESULT
     # for storing the result of the onModel function
@@ -30,7 +29,7 @@ def printStates(atoms):
             print "     {}".format(s)
 
 def convertToFrames(atoms):
-    return [str(atom) for atom in atoms]
+    return to_frame(atoms)
 
 def getFluents(atoms, name):
     if name == "holds":
@@ -61,19 +60,20 @@ def loadScences(ctr):
     # load each sence into the controler
     # that path is choosen from the root of the project
     for scene in scenes:
-        ctr.load("./reasoning/scenes/{}.lp".format(scene))
+        ctr.load("reasoning/scenes/{}.lp".format(scene))
 
 def solve(frames, question=""):
     global SOLVERESULT
 
-    # Clayton's function for translating frames into asp facts
+    # function for translating frames into asp facts
     frameFacts = to_asp(frames)
     # initializing the asp controller obj
     ctr = gringo.Control()
     # load the logic prorams into the controller
-    ctr.load("./reasoning/meta.enc.lp")
+    ctr.load("reasoning/meta.enc.lp")
     loadScences(ctr)
     # ground the lp
+    ctr.add("base", [], frameFacts)
     ctr.ground([("base", [])])
     # solve it, while on finding a model, the function onModel is called
     ret = ctr.solve([], onModel)
