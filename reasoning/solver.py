@@ -2,7 +2,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from asp_conversion import to_asp, to_frame
+from asp_conversion import to_asp
 
 SOLVERESULT = []
 
@@ -11,7 +11,7 @@ def onModel(model):
     # this function is just a ref call - so we use the global SOLVERESULT
     # for storing the result of the onModel function
     global SOLVERESULT
-    atoms = model.atoms(Model.ATOMS)
+    atoms = model.atoms(gringo.Model.ATOMS)
     SOLVERESULT = atoms
 
 def printStates(atoms):
@@ -30,7 +30,7 @@ def printStates(atoms):
             print "     {}".format(s)
 
 def convertToFrames(atoms):
-    return [to_frame(atom) for atom in atoms]
+    return [str(atom) for atom in atoms]
 
 def getFluents(atoms, name):
     if name == "holds":
@@ -61,7 +61,7 @@ def loadScences(ctr):
     # load each sence into the controler
     # that path is choosen from the root of the project
     for scene in scenes:
-        ctr.load("../asp/scenes/{}.lp".format(scene))
+        ctr.load("./reasoning/scenes/{}.lp".format(scene))
 
 def solve(frames, question=""):
     global SOLVERESULT
@@ -71,7 +71,7 @@ def solve(frames, question=""):
     # initializing the asp controller obj
     ctr = gringo.Control()
     # load the logic prorams into the controller
-    ctr.load("meta.enc.lp")
+    ctr.load("./reasoning/meta.enc.lp")
     loadScences(ctr)
     # ground the lp
     ctr.ground([("base", [])])
