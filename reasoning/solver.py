@@ -2,7 +2,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from asp_conversion import to_asp, to_frame
+from asp_conversion import to_asp, to_frames
 
 SOLVERESULT = []
 
@@ -29,7 +29,7 @@ def printStates(atoms):
             print "     {}".format(s)
 
 def convertToFrames(atoms):
-    return to_frame(atoms)
+    return to_frames(atoms)
 
 def getFluents(atoms, name):
     if name == "holds":

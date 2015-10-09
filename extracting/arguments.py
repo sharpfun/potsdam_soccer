@@ -22,8 +22,8 @@ class Event(object):
         self.arguments = {}
 
     def __str__(self):
-        return "Event(id={},frame={},time={})".format(
-            self.event_id,self.frame,self.minute)
+        return "{}: {}".format(
+            self.minute,self.frame) + "".join("\n\t{}: {}".format(k,v) for k,v in self.arguments.iteritems())
 
     __repr__ = __str__
         

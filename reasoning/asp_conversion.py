@@ -4,6 +4,8 @@ from meta_scrape import meta_scrape
 import string
 import re
 
+import extracting.arguments
+
 def to_asp(events, write=False, display=False):
     def conv(x):
         if x:
@@ -93,5 +95,14 @@ def to_asp(events, write=False, display=False):
 
     return "\n".join(asp)
 
-def to_frame(atoms):
-    return [str(atom) for atom in atoms]
+def to_frames(atoms):
+    events = []
+    for (time,frame) in sorted([atom.args() for atom in atoms if atom.name() == "timeline"], key=lambda x: x[0]):
+        e = extracting.arguments.Event()
+        e.minute = "{}'+{}'".format(time/100, time%100)
+        e.frame  = frame
+        for _,_,arg,argval in (atom.args() for atom in atoms if atom.name() == "timeline_attr" and atom.args()[0] == time and atom.args()[1] == frame):
+            e.arguments[arg] = argval
+        events.append(e)
+    
+    return events
