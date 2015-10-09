@@ -35,3 +35,6 @@ timeline(Id,Frame,Time) :-  ticker(Id,_,Frame,Time),
 % move attributes of the events we have in the timeline
 timeline_attr(Id,Frame,FAttr,FVal) :- timeline(Id,Frame,Time),
                              attribute(Id,_,Frame,FAttr,FVal).
+
+
+

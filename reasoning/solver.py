@@ -2,7 +2,7 @@
 
 # for using the program one need to install the gringo python lib
 import gringo
-from asp_conversion import to_asp
+from asp_conversion import to_asp, to_frame
 
 SOLVERESULT = []
 
@@ -11,7 +11,7 @@ def onModel(model):
     # for storing the result of the onModel function
     global SOLVERESULT
     atoms = model.atoms(gringo.Model.ATOMS)
-    SOLVERESULT = atoms
+    SOLVERESULT = atoms		
 
 def printStates(atoms):
     events = getFluents(atoms, "ticker")
@@ -51,7 +51,7 @@ def getFluents(atoms, name):
     elif name == "attribute":
         return [atom.args() for atom in atoms if atom.name() == name and len(atom.args()) == 4]
 
-def loadScences(ctr):
+def loadScences(ctr):	
     scenes = [  "actors", "chance", "competition", "field", "foul",
                 "goal", "lineup", "match", "mixup", "motion", "move",
                 "one_on_one", "pass", "shot", "state_of_match",

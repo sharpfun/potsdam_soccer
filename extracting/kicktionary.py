@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 
-# Reads in the kicktionary xml file and returns a list of LexicalUnit objects
+## kicktionary.py
+## Reads in Kicktionary xml file and returns list of LexicalUnit objects.
+##
 
 from bs4 import BeautifulSoup
+
 
 class LexicalUnit(object):
 
@@ -24,20 +27,16 @@ class LexicalUnit(object):
 	__repr__ = __str__
 
 
-# TODO: read in possible arguments for each lexical unit (?)
-#class Argument(object):
-#
-#    def __init__(self):
-#        self.name = None
-#        self.type = None
-
 def read_kicktionary(kicktionary_xml, verbose, language):
 	if verbose: print "Reading Kicktionary..."
 	
+	# Define list of LexicalUnit objects.
 	kicktionary = []
+
+	# Scrape information from Kicktionary xml file and populate LexicalUnit
+	# object information.
 	soup = BeautifulSoup(open(kicktionary_xml), "xml")
 	lus = soup("LEXICAL-UNIT")
-
 	for item in lus:
 		lu = LexicalUnit()
 		lu.lemma = item.string
@@ -48,7 +47,6 @@ def read_kicktionary(kicktionary_xml, verbose, language):
 		lu.wordclass = item["wordclass"]
 		lu.super_scenario = item["super-scenario"]
 		lu.synset = item["synset"]
-		#lu.frynset = item["frynset"]
 		lu.arguments = []
 		if language == lu.lang: kicktionary.append(lu)
 

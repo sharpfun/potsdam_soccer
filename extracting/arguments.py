@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 
+## arguments.py
+##
+
 from frame_extract import *
 from ticker import *
 import re
@@ -320,6 +323,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-    
-    
-   

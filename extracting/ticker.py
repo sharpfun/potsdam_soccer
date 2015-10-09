@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Reads in a parsed ticker feed in dependency tree conll format
-# And returns a list of Tree objects
+## ticker.py
+## Reads in a parsed ticker feed in dependency tree conll format, converts this
+## information to tree format, and returns a list of ticker Tree objects.
+##
 
 import re
+
 
 class Node(object):
 
@@ -35,8 +38,8 @@ class Tree(object):
         self.root_id = None
         self.root_lemma = None
         self.lexical_unit = None
-        self.object = None # TODO, if necessary
-        self.subject = None # TODO, if necessary
+        self.object = None
+        self.subject = None
 
     def __str__(self):
         return "t({},{})".format(self.root, self.nodes)
@@ -47,8 +50,12 @@ class Tree(object):
 def read_ticker(parsed_ticker, verbose, language):
     if verbose: print "Reading ticker..."
 
-    # open and split the file
-    rawsentences = open(parsed_ticker).read().replace("Ö","O").replace("á","a").replace("í","i").replace("é","e").split("\n\n")
+    # Read in a parsed ticker and populate ticker Tree objects.
+    rawsentences = open(parsed_ticker).read().replace("Ö","O")	\
+				                             .replace("á","a")	\
+										     .replace("í","i")	\
+											 .replace("é","e")	\
+											 .split("\n\n")
     trees = []
     ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
     ticker = ticker.group(1)
@@ -68,9 +75,9 @@ def read_ticker(parsed_ticker, verbose, language):
             tree = Tree()
             tree.minute = minutes[0]
             tree.ticker = ticker
-            # English parses don't have "form"
-            # Types are different between English and German
-            # i.e. ROOT vs. --
+            # NOTE: English parses don't have "form."
+            # 		Types are different between English and German,
+            # 		i.e. ROOT vs. --
             for line in lines:
 
                 cells = line.split("\t")
@@ -87,7 +94,7 @@ def read_ticker(parsed_ticker, verbose, language):
                     node.head = cells[9]
                     node.type = cells[11]
 
-                    # using "head == 0" so that it works for German or English
+                    # Using "head == 0" so it works for German *or* English.
                     if cells[9] == "0":
                         tree.root = cells[3]
                         tree.root_pos = cells[5]
@@ -96,11 +103,11 @@ def read_ticker(parsed_ticker, verbose, language):
 
                     tree.nodes.append(node)
 
-            # sometimes the parsed conll file might have empty lines at the end
-            # so need test to make sure we don't add empty trees
+            # The parsed conll file might have empty lines at the end, so need 
+			# to test to make sure we don't add empty tree objects.
             if tree.root != None: trees.append(tree)
 
-    # and add IDs
+    # Propogate tree_id attribute.
     ids = len(trees)
     for tree in trees:
         ids -= 1

@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+## tickerscrape.py
+## Scrapes lines from a ticker.
+##
+
 import re
 import sys
 

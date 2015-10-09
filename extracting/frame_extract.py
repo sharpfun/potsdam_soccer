@@ -1,22 +1,26 @@
 #!/usr/bin/env python
 
-# Main script for identifying Kicktionary (and Verbnet) frames for ticker sentences
-# 1. First look up only roots in Kicktionary directly
-# 2. Then look up roots and objects
-# 3. Then look up roots in Verbnet
-# 4. With Verbnet frames, look up in Kicktionary again
+## frame_extract.py
+## Identifies Kicktionary/Verbnet LexicalUnit matches from ticker Tree objects.
+## 1. First look up only roots in Kicktionary directly
+## 2. Then try roots and objects
+## 3. Then try roots in Verbnet and with these roots' corresponding Verbnet 
+##      frames, try to match back to Kicktionary.
+##
 
 from __future__ import division
-from bs4 import BeautifulSoup
-import nltk, copy, collections, xml.sax
-from kicktionary import *
-from ticker import *
-from verbnet import *
-from sys import stdin
 import sys
+
+import nltk, copy, collections, xml.sax
+from bs4 import BeautifulSoup
+
+from kicktionary import *
+from verbnet import *
+from ticker import *
 
 reload(sys)
 sys.setdefaultencoding('utf8')
+
 
 class PossibleLU(object):
 
@@ -33,17 +37,19 @@ class PossibleLU(object):
     def __repr__(self):
         return "{" + ",".join(self.lexical_units) + "}"
 
+
 def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
     if verbose: print "Looking up tree roots in Kicktionary..."
 
     res = []
 
     for tree in ticker:
+        # Initialize list of Kicktionary LexicalUnit matches for current ticker.
         found_lus = []
         prev_node = None
         for node in tree.nodes:
             is_lu_found = False
-            # searching for lexical units like free-kick or kick-off
+            # Search for lexical units like 'free-kick' or 'kick-off'.
             if prev_node != None:
                 prev_node_type = None
                 if prev_node.pos.startswith('VB'):
@@ -51,24 +57,25 @@ def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
                 elif prev_node.pos.startswith('NN'):
                     prev_node_type = 'n'
                 for lu in kicktionary:
-                    if lu.lu_id.replace("_","-").startswith(prev_node.lemma+"-"+node.lemma+"."):
-                        if prev_node_type != None:
+                    if lu.lu_id.replace("_","-").startswith(prev_node.lemma + "-" + node.lemma + "."):
+                        if prev_node_type != None: 
                             prev_node_lu = prev_node.lemma + "." + prev_node_type
                             while len(found_lus) > 0 and found_lus[-1] == prev_node_lu:
                                 found_lus.pop()
-                        found_lus.append(lu.lu_id);
+                        # Add lu_id to list of found_lus for current ticker.
+                        found_lus.append(lu.lu_id)
                         if verbose:
                             print str(tree.tree_id) + " cool matches: " + lu.lu_id + "." + lu.wordclass + " " + lu.wordclass
                         is_lu_found = True
 
-            # usual one word lexical unit search
+            # Search for LexicalUnit of basic type.
             if is_lu_found == False:
                 for lu in kicktionary:
                     if node.lemma == lu.lemma:
-                        if ((lu.wordclass == 'v' and node.pos.startswith("VB")) or
-                            (lu.wordclass == 'n' and node.pos.startswith('NN'))):
+                        if ((lu.wordclass == 'v' and node.pos.startswith("VB")) or (lu.wordclass == 'n' and node.pos.startswith('NN'))):
+                            # Add to list of found_lus for current ticker.
                             found_lus.append(lu.lemma+"."+lu.wordclass);
-                            if verbose: print str(tree.tree_id) + " matches: " + lu.lemma + " " + lu.wordclass
+                            if verbose: print str(tree.tree_id) + " matches: " + lu.lemma + " " + lu.wordclass    
             prev_node = node
 
         plu = PossibleLU()
@@ -82,8 +89,9 @@ def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
             print ""
 
         res.append(plu)
-    ## TODO: find when the tree root matches more than one Kicktionary lexical unit
-    ## and somehow disambiguate
+
+    ## TODO: find when the tree root matches more than one Kicktionary lexical 
+    ## unit and somehow disambiguate
     return res
 
 def remove_duplicate_sequent_lus(possible_lus):
@@ -106,11 +114,9 @@ def do_asp_facts(possible_lus, output_file):
             s += str(i)+". "+plu.lexical_units[i]+"   "
         print s
 
-        print "type priority with sentence split, for example '0-5:3;6-8:6' or just '3':"
-        lu_priority = stdin.readline().strip()
+        print "Type priority with sentence split, such as '0-5:3;6-8:6' or '3'."
+        lu_priority = sys.stdin.readline().strip()
         group_index = 0
-
-
 
         for group_lus_indexes in lu_priority.split(";"):
             if len(group_lus_indexes)==0:
@@ -132,7 +138,7 @@ def do_asp_facts(possible_lus, output_file):
 
             for k in lexical_units_range:
                 s = ""
-                s += 'lu("'+output_prefix+"_"+str(plu.tree.tree_id)+'_'+str(group_index)+'","'
+                s += 'lu("'+output_prefix + "_" + str(plu.tree.tree_id) + '_' + str(group_index) + '","'
                 s += plu.lexical_units[k]+'",'
                 s += str(1 if k == main_lexical_unit else 0)+').'
                 print s
