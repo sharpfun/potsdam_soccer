@@ -15,7 +15,7 @@ import reasoning.asp_conversion
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="data/kicktionary.xml")
-    parser.add_argument("--tickers", dest="tickers", help="location of parsed ticker conll file", default="data/parsed/p5.parsed", nargs="*")
+    parser.add_argument("--tickers", dest="tickers", help="location of parsed ticker conll file", default=['data/parsed/p5.parsed'], nargs="*")
     parser.add_argument("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
     parser.add_argument("--language", dest="language", help="language of tickers (en or de)", default="en")
     ## will need to add verbnet XML file(s) at some point, maybe a complete folder
@@ -47,16 +47,16 @@ def main():
         events.extend(extracting.arguments.find_arguments(ticker, ticker_with_lus, kicktionary, verbose))
 
     #print events
-    print [e.minute for e in events]
+    #print [e.minute for e in events]
 
     #print reasoning.asp_conversion.to_asp(events)
 
     # converts each event object into asp format
     # then resolves event issues, processes.
     asp = reasoning.solver.solve(events)
-
+    
     # What we want to do with the result?
-    print "\n".join(asp)
+    print "\n".join(map(str,asp))
 
 
 if __name__ == "__main__":

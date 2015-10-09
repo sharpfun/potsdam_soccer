@@ -24,14 +24,29 @@ holds(F,T+1)    :- caused(F,T), complement(F,L).
 % Source is an identifier
 % Each of the tickers has the same certainty
 %
-numberOfTickers(X) :- X = #count {Src : ticker(_,Src,_,_)}.
+counter(Time,Frame,N) :- ticker(_,_,Frame,Time),
+                         Frame != none, 
+                         N = #count { Src : ticker(_,Src,Frame,Time) }.
+{ maxCounter(Time,Frame,N) : counter(Time,Frame,N) } = 1 :- counter(Time,_,_).
+:- maxCounter(Time,Frame,N), counter(Time,Frame2,M), M > N.
 
 %
-timeline(Id,Frame,Time) :-  ticker(Id,_,Frame,Time),
-                            Frame != none, % thats not nice...
-                            numberOfTickers(N),
-                            N/2 <= {ticker(Id,Src,Frame,Time)}.
+timeline(Time,Frame) :-  ticker(_,_,Frame,Time), maxCounter(Time,Frame,N).
+                            
 
 % move attributes of the events we have in the timeline
-timeline_attr(Id,Frame,FAttr,FVal) :- timeline(Id,Frame,Time),
-                             attribute(Id,_,Frame,FAttr,FVal).
+timeline_attr(Time,Frame,FAttr,FVal) :- timeline(Time,Frame), 
+                                        ticker(Id,Src,Frame,Time), 
+                                        attribute(Id,_,Frame,FAttr,FVal).
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
+                             
