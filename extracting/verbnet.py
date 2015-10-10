@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ## verbnet.py
-## Reads in Verbnet xml files and returns list of Verb objects.
+## Reads in Verbnet xml files and returns list of LexicalUnit objects.
 ##
 
 import os

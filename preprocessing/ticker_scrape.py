@@ -1,16 +1,21 @@
 #!/usr/bin/python
 
 ## tickerscrape.py
-## Scrapes lines from a ticker.
+## Scrapes lines from a ticker. In the future, will be integrated into overall 
+## system and then passed to parser.
+##
+## Usage: extract.py <lang>[ger|eng] <src> <outputname>
 ##
 
-import re
 import sys
+import re
 
 def main():
-    if len(sys.argv) != 3:
-        print "Usage: extract.py <lang>[ger|eng] <src>"
+    if len(sys.argv) != 4:
+        print "Usage: extract.py <lang>[ger|eng] <src> <outputname>"
         return 1
+
+    outfile = open("scraped/%s" % sys.argv[3], "w")
     
     srcFile = sys.argv[2]
     with open(srcFile, "r") as fh:
@@ -31,7 +36,9 @@ def main():
             mm = mm.replace("? ", " ?\n")
             mm = mm.replace(", ", " , ")
             
-            print mm
+            outfile.write(mm + "\n")
+    
+    outfile.close()
 
 if __name__ == "__main__":
     main()
