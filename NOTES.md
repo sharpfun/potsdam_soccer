@@ -7,3 +7,5 @@
 - assumption: ticker parses p{2-5} are talking about the same game
   - how to combine them into one output
   
+  -
+  
