@@ -163,7 +163,7 @@ def find_arguments(ticker, possible_lus, kicktionary, verbose):
 
             
             # otherwise look at lexical units passed from frameextract and get frames from there, looking at first and second lus
-            if event.frame == None: event.frame = find_frame(lu0, kicktionary)
+            if event.frame == None and lu0: event.frame = find_frame(lu0, kicktionary)
             if event.frame == None and lu1: event.frame = find_frame(lu1, kicktionary)                
             
             if event.frame == "Substitute":
