@@ -38,7 +38,6 @@ def main():
         # Get list of LexicalUnit objects.
         kicktionary = extracting.kicktionary.read_kicktionary(args.kicktionary, verbose, language)
 
-		# TODO: incorporate Verbnet into frame_extract.py
         # Get list of Verbnet objects.
         verbnet = extracting.verbnet.read_verbnet(args.verbnet, verbose, language)
 
@@ -46,10 +45,11 @@ def main():
         # NOTE: The ticker scraping and parsing is part of pre-processing and is not done within this program.
         ticker = extracting.ticker.read_ticker(ticker, verbose, language)
 
+		# TODO: incorporate Verbnet into frame_extract.py
         # TODO: INJECT INFORMATION WHERE THERE ARE EMPTY SETS.
         # Reads in a ticker Tree object and returns a list of sets of possible LexicalUnits, 
         # each set corresponding to one sentence in the ticker.
-        ticker_with_lus = extracting.frame_extract.kicktionary_lookup_possible_lu(kicktionary, ticker, verbose)
+        ticker_with_lus = extracting.frame_extract.kicktionary_lookup_possible_lu(kicktionary, verbnet, ticker, verbose)
                 
         # Iterate over all sets of possible LexicalUnits in the list of ticker 
 		# sentences and return a selection of event objects for each sentence, 

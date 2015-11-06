@@ -38,7 +38,7 @@ class PossibleLU(object):
         return "{" + ",".join(self.lexical_units) + "}"
 
 
-def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
+def kicktionary_lookup_possible_lu(kicktionary, verbnet, ticker, verbose):
     if verbose: print "Looking up tree roots in Kicktionary..."
 
     res = []
@@ -77,6 +77,16 @@ def kicktionary_lookup_possible_lu(kicktionary, ticker, verbose):
                             found_lus.append(lu.lemma+"."+lu.wordclass);
                             if verbose: print str(tree.tree_id) + " matches: " + lu.lemma + " " + lu.wordclass    
             prev_node = node
+#                        else:
+#
+#                            # Search in Verbnet
+#                            for vb in verbnet:
+#                                if vb.lemma == tree.root:
+#                                    possibleLUs = [lu for lu in #kicktionary if lu.lemma == vb.frame]
+#                                    if len(possibleLUs) >= 1:
+#                                        if len(possibleLUs) == 1:
+#                                            tree.lexical_unit = possibleLUs[0]
+#                                            if verbose: print "Tree " #+ str(tree.tree_id) + " root matches Kicktionary lexical unit (via #Verbnet frame): " + tree.lexical_unit.lemma
 
         plu = PossibleLU()
         plu.tree = tree
