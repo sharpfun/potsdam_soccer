@@ -1,0 +1,1978 @@
+1	90.5	_	90.5	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Second	_	second	_	JJ	_	_	-1	2	_	NMOD	_	_
+2	Half	_	half	_	NN	_	_	-1	3	_	SBJ	_	_
+3	ends	_	end	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	,	_	,	_	,	_	_	-1	3	_	P	_	_
+5	Hull	_	hull	_	NNP	_	_	-1	6	_	NAME	_	_
+6	City	_	city	_	NNP	_	_	-1	10	_	NMOD	_	_
+7	1	_	1	_	CD	_	_	-1	6	_	NMOD	_	_
+8	,	_	,	_	,	_	_	-1	10	_	P	_	_
+9	Arsenal	_	arsenal	_	NNP	_	_	-1	10	_	NMOD	_	_
+10	3	_	3	_	CD	_	_	-1	3	_	TMP	_	_
+11	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	90.4	_	90.4	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Andrew	_	andrew	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Robertson	_	robertson	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	APPO	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	footed	_	foot	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	shot	_	shot	_	NN	_	_	-1	7	_	OBJ	_	_
+10	from	_	from	_	IN	_	_	-1	9	_	NMOD	_	_
+11	outside	_	outside	_	IN	_	_	-1	10	_	PMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	14	_	SBJ	_	_
+14	is	_	be	_	VBZ	_	_	-1	11	_	SUB	_	_
+15	blocked	_	block	_	VBN	_	_	-1	14	_	VC	_	_
+16	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	David	_	david	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Meyler	_	meyler	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	90.3	_	90.3	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	15	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	misses	_	miss	_	VBZ	_	_	-1	7	_	OBJ	_	_
+16	to	_	to	_	TO	_	_	-1	15	_	ADV	_	_
+17	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
+18	left	_	leave	_	NN	_	_	-1	16	_	PMOD	_	_
+19	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Cazorla	_	cazorla	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	following	_	follow	_	VBG	_	_	-1	1	_	TMP	_	_
+6	a	_	a	_	DT	_	_	-1	8	_	NMOD	_	_
+7	fast	_	fast	_	JJ	_	_	-1	8	_	NMOD	_	_
+8	break	_	break	_	NN	_	_	-1	5	_	PMOD	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	90.2	_	90.2	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Theo	_	theo	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Walcott	_	walcott	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	15	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	misses	_	miss	_	VBZ	_	_	-1	7	_	OBJ	_	_
+16	to	_	to	_	TO	_	_	-1	15	_	ADV	_	_
+17	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
+18	right	_	right	_	NN	_	_	-1	16	_	PMOD	_	_
+19	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Héctor	_	héctor	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Bellerín	_	bellerín	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	90.2	_	90.2	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Jack	_	jack	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Wilshere	_	wilshere	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	APPO	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	VBD	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	16	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	right	_	right	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	15	_	NMOD	_	_
+15	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+16	is	_	be	_	VBZ	_	_	-1	6	_	OBJ	_	_
+17	blocked	_	block	_	VBN	_	_	-1	16	_	VC	_	_
+18	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Mesut	_	mesut	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Özil	_	özil	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	90.1	_	90.1	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Offside	_	offside	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	James	_	james	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Chester	_	chester	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	tries	_	try	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	a	_	a	_	DT	_	_	-1	5	_	DEP	_	_
+5	through	_	through	_	IN	_	_	-1	3	_	OBJ	_	_
+6	ball	_	ball	_	NN	_	_	-1	5	_	PMOD	_	_
+7	,	_	,	_	,	_	_	-1	3	_	P	_	_
+8	but	_	but	_	CC	_	_	-1	3	_	COORD	_	_
+9	Robbie	_	robbie	_	NNP	_	_	-1	10	_	NAME	_	_
+10	Brady	_	brady	_	NNP	_	_	-1	11	_	SBJ	_	_
+11	is	_	be	_	VBZ	_	_	-1	8	_	CONJ	_	_
+12	caught	_	catch	_	VBN	_	_	-1	11	_	VC	_	_
+13	offside	_	offside	_	NN	_	_	-1	12	_	OBJ	_	_
+14	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	90	_	90	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Michael	_	michael	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Dawson	_	dawson	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	header	_	header	_	NN	_	_	-1	14	_	SBJ	_	_
+8	from	_	from	_	IN	_	_	-1	7	_	NMOD	_	_
+9	the	_	the	_	DT	_	_	-1	10	_	NMOD	_	_
+10	centre	_	centre	_	NN	_	_	-1	8	_	PMOD	_	_
+11	of	_	of	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	11	_	PMOD	_	_
+14	misses	_	miss	_	VBZ	_	_	-1	0	_	ROOT	_	_
+15	to	_	to	_	TO	_	_	-1	14	_	ADV	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	left	_	leave	_	NN	_	_	-1	15	_	PMOD	_	_
+18	.	_	.	_	.	_	_	-1	14	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Tom	_	tom	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Huddlestone	_	huddlestone	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	following	_	follow	_	VBG	_	_	-1	1	_	TMP	_	_
+6	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+7	set	_	set	_	VBN	_	_	-1	9	_	NMOD	_	_
+8	piece	_	piece	_	NN	_	_	-1	9	_	NMOD	_	_
+9	situation	_	situation	_	NN	_	_	-1	5	_	PMOD	_	_
+10	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	89	_	89	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Francis	_	francis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Coquelin	_	coquelin	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	89	_	89	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Nikica	_	nikica	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Jelavic	_	jelavic	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	on	_	on	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	right	_	right	_	JJ	_	_	-1	14	_	NMOD	_	_
+14	wing	_	wing	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	88	_	88	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Corner	_	corner	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Conceded	_	concede	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Andrew	_	andrew	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Robertson	_	robertson	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	86	_	86	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Hand	_	hand	_	NNP	_	_	-1	2	_	NMOD	_	_
+2	ball	_	ball	_	NN	_	_	-1	0	_	ROOT	_	_
+3	by	_	by	_	IN	_	_	-1	2	_	NMOD	_	_
+4	Alexis	_	alexis	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Sánchez	_	sánchez	_	NNP	_	_	-1	3	_	PMOD	_	_
+6	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	5	_	APPO	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	86	_	86	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Theo	_	theo	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Walcott	_	walcott	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	replaces	_	replace	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Olivier	_	olivier	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Giroud	_	giroud	_	NNP	_	_	-1	3	_	OBJ	_	_
+6	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	85	_	85	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	VBD	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	18	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	left	_	leave	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+15	six	_	six	_	CD	_	_	-1	16	_	NMOD	_	_
+16	yard	_	yard	_	NN	_	_	-1	17	_	NMOD	_	_
+17	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+18	is	_	be	_	VBZ	_	_	-1	6	_	OBJ	_	_
+19	close	_	close	_	JJ	_	_	-1	18	_	PRD	_	_
+20	,	_	,	_	,	_	_	-1	6	_	P	_	_
+21	but	_	but	_	CC	_	_	-1	6	_	COORD	_	_
+22	misses	_	miss	_	VBZ	_	_	-1	21	_	CONJ	_	_
+23	to	_	to	_	TO	_	_	-1	22	_	ADV	_	_
+24	the	_	the	_	DT	_	_	-1	25	_	NMOD	_	_
+25	left	_	leave	_	NN	_	_	-1	23	_	PMOD	_	_
+26	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	85	_	85	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Jack	_	jack	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Wilshere	_	wilshere	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	15	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	is	_	be	_	VBZ	_	_	-1	7	_	OBJ	_	_
+16	blocked	_	block	_	VBN	_	_	-1	15	_	VC	_	_
+17	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	85	_	85	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Héctor	_	héctor	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Bellerín	_	bellerín	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	16	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	right	_	right	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	15	_	NMOD	_	_
+15	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+16	is	_	be	_	VBZ	_	_	-1	7	_	OBJ	_	_
+17	saved	_	save	_	VBN	_	_	-1	16	_	VC	_	_
+18	in	_	in	_	IN	_	_	-1	17	_	LOC	_	_
+19	the	_	the	_	DT	_	_	-1	20	_	NMOD	_	_
+20	centre	_	centre	_	NN	_	_	-1	18	_	PMOD	_	_
+21	of	_	of	_	IN	_	_	-1	20	_	NMOD	_	_
+22	the	_	the	_	DT	_	_	-1	23	_	NMOD	_	_
+23	goal	_	goal	_	NN	_	_	-1	21	_	PMOD	_	_
+24	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Giroud	_	giroud	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	84	_	84	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Cazorla	_	cazorla	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	JJ	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	6	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	outside	_	outside	_	IN	_	_	-1	9	_	PMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	13	_	SBJ	_	_
+13	is	_	be	_	VBZ	_	_	-1	10	_	SUB	_	_
+14	saved	_	save	_	VBN	_	_	-1	13	_	VC	_	_
+15	in	_	in	_	IN	_	_	-1	14	_	LOC	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	centre	_	centre	_	NN	_	_	-1	15	_	PMOD	_	_
+18	of	_	of	_	IN	_	_	-1	17	_	NMOD	_	_
+19	the	_	the	_	DT	_	_	-1	20	_	NMOD	_	_
+20	goal	_	goal	_	NN	_	_	-1	18	_	PMOD	_	_
+21	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Alexis	_	alexis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Sánchez	_	sánchez	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	83	_	83	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Giroud	_	giroud	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	JJ	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	6	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	outside	_	outside	_	IN	_	_	-1	9	_	PMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	13	_	SBJ	_	_
+13	is	_	be	_	VBZ	_	_	-1	10	_	SUB	_	_
+14	blocked	_	block	_	VBN	_	_	-1	13	_	VC	_	_
+15	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Jack	_	jack	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Wilshere	_	wilshere	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	81	_	81	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	Nikica	_	nikica	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Jelavic	_	jelavic	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	replaces	_	replace	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Stephen	_	stephen	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Quinn	_	quinn	_	NNP	_	_	-1	3	_	OBJ	_	_
+6	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	81	_	81	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Corner	_	corner	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Conceded	_	concede	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Michael	_	michael	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Dawson	_	dawson	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	75	_	75	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Santiago	_	santiago	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Cazorla	_	cazorla	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	15	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	is	_	be	_	VBZ	_	_	-1	7	_	OBJ	_	_
+16	saved	_	save	_	VBN	_	_	-1	15	_	VC	_	_
+17	in	_	in	_	IN	_	_	-1	16	_	LOC	_	_
+18	the	_	the	_	DT	_	_	-1	21	_	NMOD	_	_
+19	bottom	_	bottom	_	NN	_	_	-1	21	_	NMOD	_	_
+20	right	_	right	_	JJ	_	_	-1	21	_	NMOD	_	_
+21	corner	_	corner	_	NN	_	_	-1	17	_	PMOD	_	_
+22	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Mesut	_	mesut	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Özil	_	özil	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	72	_	72	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Corner	_	corner	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Conceded	_	concede	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Paul	_	paul	_	NNP	_	_	-1	4	_	NAME	_	_
+4	McShane	_	mcshane	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	72	_	72	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	VBN	_	_	-1	7	_	VC	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	ADV	_	_
+10	outside	_	outside	_	IN	_	_	-1	9	_	PMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	13	_	SBJ	_	_
+13	is	_	be	_	VBZ	_	_	-1	10	_	SUB	_	_
+14	blocked	_	block	_	VBN	_	_	-1	13	_	VC	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	71	_	71	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	over	_	over	_	RB	_	_	-1	1	_	NMOD	_	_
+3	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	They	_	they	_	PRP	_	_	-1	2	_	SBJ	_	_
+2	are	_	be	_	VBP	_	_	-1	0	_	ROOT	_	_
+3	ready	_	ready	_	JJ	_	_	-1	2	_	PRD	_	_
+4	to	_	to	_	TO	_	_	-1	3	_	AMOD	_	_
+5	continue	_	continue	_	VB	_	_	-1	4	_	IM	_	_
+6	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	70	_	70	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	in	_	in	_	IN	_	_	-1	1	_	LOC	_	_
+3	match	_	match	_	NN	_	_	-1	2	_	PMOD	_	_
+4	David	_	david	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Meyler	_	meyler	_	NNP	_	_	-1	3	_	APPO	_	_
+6	(	_	-lrb-	_	(	_	_	-1	8	_	P	_	_
+7	Hull	_	hull	_	NNP	_	_	-1	8	_	NAME	_	_
+8	City	_	city	_	NNP	_	_	-1	3	_	APPO	_	_
+9	)	_	-rrb-	_	)	_	_	-1	8	_	P	_	_
+10	because	_	because	_	IN	_	_	-1	1	_	PRP	_	_
+11	of	_	of	_	IN	_	_	-1	10	_	DEP	_	_
+12	an	_	an	_	DT	_	_	-1	13	_	NMOD	_	_
+13	injury	_	injury	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	70	_	70	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Michael	_	michael	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Dawson	_	dawson	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	70	_	70	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Jack	_	jack	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Wilshere	_	wilshere	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	attacking	_	attack	_	VBG	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	68	_	68	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Jack	_	jack	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Wilshere	_	wilshere	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	replaces	_	replace	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Aaron	_	aaron	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Ramsey	_	ramsey	_	NNP	_	_	-1	3	_	OBJ	_	_
+6	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	65	_	65	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	Andrew	_	andrew	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Robertson	_	robertson	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	replaces	_	replace	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Sone	_	sone	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Aluko	_	aluko	_	NNP	_	_	-1	3	_	OBJ	_	_
+6	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	64	_	64	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Aaron	_	aaron	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Ramsey	_	ramsey	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	7	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	15	_	SBJ	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	is	_	be	_	VBZ	_	_	-1	9	_	PMOD	_	_
+16	high	_	high	_	JJ	_	_	-1	15	_	PRD	_	_
+17	and	_	and	_	CC	_	_	-1	16	_	COORD	_	_
+18	wide	_	wide	_	JJ	_	_	-1	17	_	CONJ	_	_
+19	to	_	to	_	TO	_	_	-1	18	_	AMOD	_	_
+20	the	_	the	_	DT	_	_	-1	21	_	NMOD	_	_
+21	right	_	right	_	NN	_	_	-1	19	_	PMOD	_	_
+22	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Giroud	_	giroud	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	62	_	62	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Corner	_	corner	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Conceded	_	concede	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Paul	_	paul	_	NNP	_	_	-1	4	_	NAME	_	_
+4	McShane	_	mcshane	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	61	_	61	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	header	_	header	_	NN	_	_	-1	13	_	SBJ	_	_
+7	from	_	from	_	IN	_	_	-1	6	_	NMOD	_	_
+8	the	_	the	_	DT	_	_	-1	9	_	NMOD	_	_
+9	centre	_	centre	_	NN	_	_	-1	7	_	PMOD	_	_
+10	of	_	of	_	IN	_	_	-1	9	_	NMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	10	_	PMOD	_	_
+13	is	_	be	_	VBZ	_	_	-1	0	_	ROOT	_	_
+14	blocked	_	block	_	VBN	_	_	-1	13	_	VC	_	_
+15	.	_	.	_	.	_	_	-1	13	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Héctor	_	héctor	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Bellerín	_	bellerín	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	7	_	NMOD	_	_
+7	cross	_	cross	_	NN	_	_	-1	5	_	PMOD	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	60	_	60	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Paul	_	paul	_	NNP	_	_	-1	2	_	NAME	_	_
+2	McShane	_	mcshane	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	header	_	header	_	NN	_	_	-1	14	_	SBJ	_	_
+8	from	_	from	_	IN	_	_	-1	7	_	NMOD	_	_
+9	the	_	the	_	DT	_	_	-1	10	_	NMOD	_	_
+10	centre	_	centre	_	NN	_	_	-1	8	_	PMOD	_	_
+11	of	_	of	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	11	_	PMOD	_	_
+14	is	_	be	_	VBZ	_	_	-1	0	_	ROOT	_	_
+15	just	_	just	_	RB	_	_	-1	17	_	NMOD	_	_
+16	a	_	a	_	DT	_	_	-1	17	_	NMOD	_	_
+17	bit	_	bit	_	NN	_	_	-1	19	_	AMOD	_	_
+18	too	_	too	_	RB	_	_	-1	19	_	AMOD	_	_
+19	high	_	high	_	JJ	_	_	-1	14	_	PRD	_	_
+20	.	_	.	_	.	_	_	-1	14	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Ahmed	_	ahmed	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Elmohamady	_	elmohamady	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	7	_	NMOD	_	_
+7	cross	_	cross	_	NN	_	_	-1	5	_	PMOD	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	58	_	58	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Francis	_	francis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Coquelin	_	coquelin	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	58	_	58	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Stephen	_	stephen	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Quinn	_	quinn	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	attacking	_	attack	_	VBG	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	56	_	56	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+2	!	_	!	_	.	_	_	-1	1	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	8	_	NMOD	_	_
+5	1	_	1	_	CD	_	_	-1	4	_	NMOD	_	_
+6	,	_	,	_	,	_	_	-1	8	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	8	_	NMOD	_	_
+8	3	_	3	_	CD	_	_	-1	1	_	TMP	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	Stephen	_	stephen	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Quinn	_	quinn	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	header	_	header	_	NN	_	_	-1	0	_	ROOT	_	_
+8	from	_	from	_	IN	_	_	-1	7	_	NMOD	_	_
+9	the	_	the	_	DT	_	_	-1	10	_	NMOD	_	_
+10	centre	_	centre	_	NN	_	_	-1	8	_	PMOD	_	_
+11	of	_	of	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	11	_	PMOD	_	_
+14	to	_	to	_	TO	_	_	-1	8	_	PMOD	_	_
+15	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
+16	top	_	top	_	JJ	_	_	-1	18	_	NMOD	_	_
+17	right	_	right	_	JJ	_	_	-1	18	_	NMOD	_	_
+18	corner	_	corner	_	NN	_	_	-1	14	_	PMOD	_	_
+19	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Ahmed	_	ahmed	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Elmohamady	_	elmohamady	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	7	_	NMOD	_	_
+7	cross	_	cross	_	NN	_	_	-1	5	_	PMOD	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	56	_	56	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Aaron	_	aaron	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Ramsey	_	ramsey	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	15	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	is	_	be	_	VBZ	_	_	-1	7	_	OBJ	_	_
+16	close	_	close	_	JJ	_	_	-1	15	_	PRD	_	_
+17	,	_	,	_	,	_	_	-1	7	_	P	_	_
+18	but	_	but	_	CC	_	_	-1	7	_	COORD	_	_
+19	misses	_	miss	_	VBZ	_	_	-1	18	_	CONJ	_	_
+20	to	_	to	_	TO	_	_	-1	19	_	ADV	_	_
+21	the	_	the	_	DT	_	_	-1	22	_	NMOD	_	_
+22	right	_	right	_	NN	_	_	-1	20	_	PMOD	_	_
+23	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Cazorla	_	cazorla	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	54	_	54	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Offside	_	offside	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	David	_	david	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Meyler	_	meyler	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	tries	_	try	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	a	_	a	_	DT	_	_	-1	5	_	DEP	_	_
+5	through	_	through	_	IN	_	_	-1	3	_	OBJ	_	_
+6	ball	_	ball	_	NN	_	_	-1	5	_	PMOD	_	_
+7	,	_	,	_	,	_	_	-1	3	_	P	_	_
+8	but	_	but	_	CC	_	_	-1	3	_	COORD	_	_
+9	Dame	_	dame	_	NNP	_	_	-1	10	_	NAME	_	_
+10	N'Doye	_	n'doye	_	NNP	_	_	-1	11	_	SBJ	_	_
+11	is	_	be	_	VBZ	_	_	-1	8	_	CONJ	_	_
+12	caught	_	catch	_	VBN	_	_	-1	11	_	VC	_	_
+13	offside	_	offside	_	NN	_	_	-1	12	_	OBJ	_	_
+14	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	49	_	49	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Laurent	_	laurent	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Koscielny	_	koscielny	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	49	_	49	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Sone	_	sone	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Aluko	_	aluko	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	49	_	49	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Dame	_	dame	_	NNP	_	_	-1	2	_	NAME	_	_
+2	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	attacking	_	attack	_	VBG	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	49	_	49	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Per	_	per	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Mertesacker	_	mertesacker	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	48	_	48	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	David	_	david	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Meyler	_	meyler	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	48	_	48	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Héctor	_	héctor	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Bellerín	_	bellerín	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	46	_	46	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Sone	_	sone	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Aluko	_	aluko	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	APPO	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	footed	_	foot	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	shot	_	shot	_	NN	_	_	-1	7	_	OBJ	_	_
+10	from	_	from	_	IN	_	_	-1	9	_	NMOD	_	_
+11	outside	_	outside	_	IN	_	_	-1	10	_	PMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	14	_	SBJ	_	_
+14	is	_	be	_	VBZ	_	_	-1	11	_	SUB	_	_
+15	too	_	too	_	RB	_	_	-1	16	_	AMOD	_	_
+16	high	_	high	_	JJ	_	_	-1	14	_	PRD	_	_
+17	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	David	_	david	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Meyler	_	meyler	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	Second	_	second	_	JJ	_	_	-1	2	_	NMOD	_	_
+2	Half	_	half	_	NN	_	_	-1	3	_	SBJ	_	_
+3	begins	_	begin	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	9	_	NMOD	_	_
+6	0	_	0	_	CD	_	_	-1	5	_	NMOD	_	_
+7	,	_	,	_	,	_	_	-1	9	_	P	_	_
+8	Arsenal	_	arsenal	_	NNP	_	_	-1	9	_	NMOD	_	_
+9	3	_	3	_	CD	_	_	-1	3	_	TMP	_	_
+10	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	45	_	45	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Substitution	_	substitution	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	David	_	david	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Meyler	_	meyler	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	replaces	_	replace	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	Jake	_	jake	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Livermore	_	livermore	_	NNP	_	_	-1	3	_	OBJ	_	_
+6	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	45.3	_	45.3	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	First	_	first	_	JJ	_	_	-1	2	_	NMOD	_	_
+2	Half	_	half	_	NN	_	_	-1	3	_	SBJ	_	_
+3	ends	_	end	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	,	_	,	_	,	_	_	-1	3	_	P	_	_
+5	Hull	_	hull	_	NNP	_	_	-1	6	_	NAME	_	_
+6	City	_	city	_	NNP	_	_	-1	10	_	NMOD	_	_
+7	0	_	0	_	CD	_	_	-1	6	_	NMOD	_	_
+8	,	_	,	_	,	_	_	-1	10	_	P	_	_
+9	Arsenal	_	arsenal	_	NNP	_	_	-1	10	_	NMOD	_	_
+10	3	_	3	_	CD	_	_	-1	3	_	TMP	_	_
+11	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	45.1	_	45.1	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+2	!	_	!	_	.	_	_	-1	1	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	8	_	NMOD	_	_
+5	0	_	0	_	CD	_	_	-1	4	_	NMOD	_	_
+6	,	_	,	_	,	_	_	-1	8	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	8	_	NMOD	_	_
+8	3	_	3	_	CD	_	_	-1	1	_	TMP	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	7	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	to	_	to	_	TO	_	_	-1	7	_	ADV	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	bottom	_	bottom	_	NN	_	_	-1	18	_	SBJ	_	_
+18	left	_	leave	_	VBD	_	_	-1	15	_	PMOD	_	_
+19	corner	_	corner	_	NN	_	_	-1	18	_	OBJ	_	_
+20	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Aaron	_	aaron	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Ramsey	_	ramsey	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	5	_	PMOD	_	_
+7	through	_	through	_	IN	_	_	-1	1	_	MNR	_	_
+8	ball	_	ball	_	NN	_	_	-1	7	_	PMOD	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	45	_	45	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	16	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	left	_	leave	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	15	_	NMOD	_	_
+15	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+16	is	_	be	_	VBZ	_	_	-1	7	_	OBJ	_	_
+17	saved	_	save	_	VBN	_	_	-1	16	_	VC	_	_
+18	in	_	in	_	IN	_	_	-1	17	_	LOC	_	_
+19	the	_	the	_	DT	_	_	-1	20	_	NMOD	_	_
+20	centre	_	centre	_	NN	_	_	-1	18	_	PMOD	_	_
+21	of	_	of	_	IN	_	_	-1	20	_	NMOD	_	_
+22	the	_	the	_	DT	_	_	-1	23	_	NMOD	_	_
+23	goal	_	goal	_	NN	_	_	-1	21	_	PMOD	_	_
+24	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Cazorla	_	cazorla	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	5	_	PMOD	_	_
+7	through	_	through	_	IN	_	_	-1	1	_	MNR	_	_
+8	ball	_	ball	_	NN	_	_	-1	7	_	PMOD	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	44	_	44	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Mesut	_	mesut	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Özil	_	özil	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	VBD	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	16	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	left	_	leave	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	15	_	NMOD	_	_
+15	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+16	is	_	be	_	VBZ	_	_	-1	6	_	OBJ	_	_
+17	saved	_	save	_	VBN	_	_	-1	16	_	VC	_	_
+18	in	_	in	_	IN	_	_	-1	17	_	LOC	_	_
+19	the	_	the	_	DT	_	_	-1	20	_	NMOD	_	_
+20	centre	_	centre	_	NN	_	_	-1	18	_	PMOD	_	_
+21	of	_	of	_	IN	_	_	-1	20	_	NMOD	_	_
+22	the	_	the	_	DT	_	_	-1	23	_	NMOD	_	_
+23	goal	_	goal	_	NN	_	_	-1	21	_	PMOD	_	_
+24	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Alexis	_	alexis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Sánchez	_	sánchez	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	5	_	PMOD	_	_
+7	through	_	through	_	IN	_	_	-1	1	_	MNR	_	_
+8	ball	_	ball	_	NN	_	_	-1	7	_	PMOD	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	43	_	43	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Dame	_	dame	_	NNP	_	_	-1	7	_	NAME	_	_
+4	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	43	_	43	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Laurent	_	laurent	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Koscielny	_	koscielny	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	39	_	39	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Offside	_	offside	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	Tom	_	tom	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Huddlestone	_	huddlestone	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	tries	_	try	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	a	_	a	_	DT	_	_	-1	5	_	DEP	_	_
+5	through	_	through	_	IN	_	_	-1	3	_	OBJ	_	_
+6	ball	_	ball	_	NN	_	_	-1	5	_	PMOD	_	_
+7	,	_	,	_	,	_	_	-1	3	_	P	_	_
+8	but	_	but	_	CC	_	_	-1	3	_	COORD	_	_
+9	Dame	_	dame	_	NNP	_	_	-1	10	_	NAME	_	_
+10	N'Doye	_	n'doye	_	NNP	_	_	-1	11	_	SBJ	_	_
+11	is	_	be	_	VBZ	_	_	-1	8	_	CONJ	_	_
+12	caught	_	catch	_	VBN	_	_	-1	11	_	VC	_	_
+13	offside	_	offside	_	NN	_	_	-1	12	_	OBJ	_	_
+14	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	39	_	39	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Laurent	_	laurent	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Koscielny	_	koscielny	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	39	_	39	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Sone	_	sone	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Aluko	_	aluko	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	attacking	_	attack	_	VBG	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	37	_	37	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Corner	_	corner	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Conceded	_	concede	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Steve	_	steve	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Harper	_	harper	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	37	_	37	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Cazorla	_	cazorla	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	VBD	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	16	_	SBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+11	left	_	leave	_	JJ	_	_	-1	12	_	NMOD	_	_
+12	side	_	side	_	NN	_	_	-1	9	_	PMOD	_	_
+13	of	_	of	_	IN	_	_	-1	12	_	NMOD	_	_
+14	the	_	the	_	DT	_	_	-1	15	_	NMOD	_	_
+15	box	_	box	_	NN	_	_	-1	13	_	PMOD	_	_
+16	is	_	be	_	VBZ	_	_	-1	6	_	OBJ	_	_
+17	blocked	_	block	_	VBN	_	_	-1	16	_	VC	_	_
+18	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	35	_	35	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Tom	_	tom	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Huddlestone	_	huddlestone	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	attacking	_	attack	_	VBG	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	35	_	35	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Giroud	_	giroud	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	33	_	33	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+2	!	_	!	_	.	_	_	-1	1	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	8	_	NMOD	_	_
+5	0	_	0	_	CD	_	_	-1	4	_	NMOD	_	_
+6	,	_	,	_	,	_	_	-1	8	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	8	_	NMOD	_	_
+8	2	_	2	_	CD	_	_	-1	1	_	TMP	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	Aaron	_	aaron	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Ramsey	_	ramsey	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	NN	_	_	-1	7	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	to	_	to	_	TO	_	_	-1	7	_	ADV	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	bottom	_	bottom	_	NN	_	_	-1	18	_	SBJ	_	_
+18	left	_	leave	_	VBD	_	_	-1	15	_	PMOD	_	_
+19	corner	_	corner	_	NN	_	_	-1	18	_	OBJ	_	_
+20	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Cazorla	_	cazorla	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	31	_	31	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Mesut	_	mesut	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Özil	_	özil	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	31	_	31	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Robbie	_	robbie	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Brady	_	brady	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	defensive	_	defensive	_	JJ	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	30	_	30	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Yellow	_	yellow	_	NNP	_	_	-1	2	_	NMOD	_	_
+2	Card	_	card	_	NNP	_	_	-1	0	_	ROOT	_	_
+
+1	Dame	_	dame	_	NNP	_	_	-1	2	_	NAME	_	_
+2	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	is	_	be	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	shown	_	show	_	VBN	_	_	-1	7	_	VC	_	_
+9	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+10	yellow	_	yellow	_	JJ	_	_	-1	11	_	NMOD	_	_
+11	card	_	card	_	NN	_	_	-1	8	_	OBJ	_	_
+12	for	_	for	_	IN	_	_	-1	11	_	NMOD	_	_
+13	a	_	a	_	DT	_	_	-1	15	_	NMOD	_	_
+14	bad	_	bad	_	JJ	_	_	-1	15	_	NMOD	_	_
+15	foul	_	foul	_	NN	_	_	-1	12	_	PMOD	_	_
+16	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	30	_	30	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Dame	_	dame	_	NNP	_	_	-1	7	_	NAME	_	_
+4	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	30	_	30	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Nacho	_	nacho	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Monreal	_	monreal	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	29	_	29	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Santiago	_	santiago	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Cazorla	_	cazorla	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	29	_	29	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Dame	_	dame	_	NNP	_	_	-1	2	_	NAME	_	_
+2	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	attacking	_	attack	_	VBG	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	28	_	28	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+
+1	Goal	_	goal	_	NN	_	_	-1	0	_	ROOT	_	_
+2	!	_	!	_	.	_	_	-1	1	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	8	_	NMOD	_	_
+5	0	_	0	_	CD	_	_	-1	4	_	NMOD	_	_
+6	,	_	,	_	,	_	_	-1	8	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	8	_	NMOD	_	_
+8	1	_	1	_	CD	_	_	-1	1	_	TMP	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	13	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	from	_	from	_	IN	_	_	-1	4	_	ADV	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	PMOD	_	_
+10	with	_	with	_	IN	_	_	-1	9	_	NMOD	_	_
+11	a	_	a	_	DT	_	_	-1	12	_	NMOD	_	_
+12	right	_	right	_	NN	_	_	-1	10	_	PMOD	_	_
+13	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+14	shot	_	shot	_	NN	_	_	-1	13	_	OBJ	_	_
+15	to	_	to	_	TO	_	_	-1	14	_	NMOD	_	_
+16	the	_	the	_	DT	_	_	-1	19	_	NMOD	_	_
+17	top	_	top	_	JJ	_	_	-1	19	_	NMOD	_	_
+18	right	_	right	_	JJ	_	_	-1	19	_	NMOD	_	_
+19	corner	_	corner	_	NN	_	_	-1	15	_	PMOD	_	_
+20	.	_	.	_	.	_	_	-1	13	_	P	_	_
+
+1	27	_	27	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Jake	_	jake	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Livermore	_	livermore	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	27	_	27	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	attacking	_	attack	_	VBG	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	26	_	26	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	over	_	over	_	RB	_	_	-1	1	_	NMOD	_	_
+3	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	They	_	they	_	PRP	_	_	-1	2	_	SBJ	_	_
+2	are	_	be	_	VBP	_	_	-1	0	_	ROOT	_	_
+3	ready	_	ready	_	JJ	_	_	-1	2	_	PRD	_	_
+4	to	_	to	_	TO	_	_	-1	3	_	AMOD	_	_
+5	continue	_	continue	_	VB	_	_	-1	4	_	IM	_	_
+6	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	24	_	24	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	in	_	in	_	IN	_	_	-1	1	_	LOC	_	_
+3	match	_	match	_	NN	_	_	-1	2	_	PMOD	_	_
+4	Aaron	_	aaron	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Ramsey	_	ramsey	_	NNP	_	_	-1	3	_	APPO	_	_
+6	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	1	_	APPO	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	because	_	because	_	IN	_	_	-1	1	_	PRP	_	_
+10	of	_	of	_	IN	_	_	-1	9	_	DEP	_	_
+11	an	_	an	_	DT	_	_	-1	12	_	NMOD	_	_
+12	injury	_	injury	_	NN	_	_	-1	9	_	PMOD	_	_
+13	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	23	_	23	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Yellow	_	yellow	_	NNP	_	_	-1	2	_	NMOD	_	_
+2	Card	_	card	_	NNP	_	_	-1	0	_	ROOT	_	_
+
+1	Jake	_	jake	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Livermore	_	livermore	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	is	_	be	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	shown	_	show	_	VBN	_	_	-1	7	_	VC	_	_
+9	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+10	yellow	_	yellow	_	JJ	_	_	-1	11	_	NMOD	_	_
+11	card	_	card	_	NN	_	_	-1	8	_	OBJ	_	_
+12	for	_	for	_	IN	_	_	-1	11	_	NMOD	_	_
+13	a	_	a	_	DT	_	_	-1	15	_	NMOD	_	_
+14	bad	_	bad	_	JJ	_	_	-1	15	_	NMOD	_	_
+15	foul	_	foul	_	NN	_	_	-1	12	_	PMOD	_	_
+16	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	23	_	23	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Jake	_	jake	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Livermore	_	livermore	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	23	_	23	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	23	_	23	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Sone	_	sone	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Aluko	_	aluko	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	header	_	header	_	NN	_	_	-1	17	_	SBJ	_	_
+8	from	_	from	_	IN	_	_	-1	7	_	NMOD	_	_
+9	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+10	right	_	right	_	JJ	_	_	-1	11	_	NMOD	_	_
+11	side	_	side	_	NN	_	_	-1	8	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	16	_	NMOD	_	_
+14	six	_	six	_	CD	_	_	-1	15	_	NMOD	_	_
+15	yard	_	yard	_	NN	_	_	-1	16	_	NMOD	_	_
+16	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+17	misses	_	miss	_	VBZ	_	_	-1	0	_	ROOT	_	_
+18	to	_	to	_	TO	_	_	-1	17	_	ADV	_	_
+19	the	_	the	_	DT	_	_	-1	20	_	NMOD	_	_
+20	left	_	leave	_	NN	_	_	-1	18	_	PMOD	_	_
+21	.	_	.	_	.	_	_	-1	17	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Robbie	_	robbie	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Brady	_	brady	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	7	_	NMOD	_	_
+7	cross	_	cross	_	NN	_	_	-1	5	_	PMOD	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	21	_	21	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Dame	_	dame	_	NNP	_	_	-1	2	_	NAME	_	_
+2	N'Doye	_	n'doye	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	right	_	right	_	NN	_	_	-1	8	_	SBJ	_	_
+8	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+9	shot	_	shot	_	VBN	_	_	-1	8	_	VC	_	_
+10	from	_	from	_	IN	_	_	-1	9	_	ADV	_	_
+11	more	_	more	_	RBR	_	_	-1	13	_	DEP	_	_
+12	than	_	than	_	IN	_	_	-1	13	_	DEP	_	_
+13	40	_	40	_	CD	_	_	-1	14	_	NMOD	_	_
+14	yards	_	yard	_	NNS	_	_	-1	10	_	PMOD	_	_
+15	on	_	on	_	IN	_	_	-1	19	_	LOC	_	_
+16	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
+17	right	_	right	_	JJ	_	_	-1	18	_	NMOD	_	_
+18	wing	_	wing	_	NN	_	_	-1	15	_	PMOD	_	_
+19	misses	_	miss	_	VBZ	_	_	-1	14	_	NMOD	_	_
+20	to	_	to	_	TO	_	_	-1	19	_	ADV	_	_
+21	the	_	the	_	DT	_	_	-1	22	_	NMOD	_	_
+22	right	_	right	_	NN	_	_	-1	20	_	PMOD	_	_
+23	.	_	.	_	.	_	_	-1	8	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Jake	_	jake	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Livermore	_	livermore	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	20	_	20	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Stephen	_	stephen	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Quinn	_	quinn	_	NNP	_	_	-1	7	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	7	_	NMOD	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	header	_	header	_	NN	_	_	-1	14	_	SBJ	_	_
+8	from	_	from	_	IN	_	_	-1	7	_	NMOD	_	_
+9	the	_	the	_	DT	_	_	-1	10	_	NMOD	_	_
+10	centre	_	centre	_	NN	_	_	-1	8	_	PMOD	_	_
+11	of	_	of	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+13	box	_	box	_	NN	_	_	-1	11	_	PMOD	_	_
+14	misses	_	miss	_	VBZ	_	_	-1	0	_	ROOT	_	_
+15	to	_	to	_	TO	_	_	-1	14	_	ADV	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	right	_	right	_	NN	_	_	-1	15	_	PMOD	_	_
+18	.	_	.	_	.	_	_	-1	14	_	P	_	_
+
+1	19	_	19	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Ahmed	_	ahmed	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Elmohamady	_	elmohamady	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	in	_	in	_	IN	_	_	-1	10	_	LOC	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	defensive	_	defensive	_	JJ	_	_	-1	14	_	NMOD	_	_
+14	half	_	half	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	19	_	19	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Francis	_	francis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Coquelin	_	coquelin	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	17	_	17	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Per	_	per	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Mertesacker	_	mertesacker	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	17	_	17	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Stephen	_	stephen	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Quinn	_	quinn	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	on	_	on	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	left	_	leave	_	JJ	_	_	-1	14	_	NMOD	_	_
+14	wing	_	wing	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	14	_	14	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Offside	_	offside	_	NNP	_	_	-1	3	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	3	_	P	_	_
+3	Arsenal	_	arsenal	_	NNP	_	_	-1	0	_	ROOT	_	_
+4	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	Laurent	_	laurent	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Koscielny	_	koscielny	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	tries	_	try	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	a	_	a	_	DT	_	_	-1	5	_	DEP	_	_
+5	through	_	through	_	IN	_	_	-1	3	_	OBJ	_	_
+6	ball	_	ball	_	NN	_	_	-1	5	_	PMOD	_	_
+7	,	_	,	_	,	_	_	-1	3	_	P	_	_
+8	but	_	but	_	CC	_	_	-1	3	_	COORD	_	_
+9	Olivier	_	olivier	_	NNP	_	_	-1	10	_	NAME	_	_
+10	Giroud	_	giroud	_	NNP	_	_	-1	11	_	SBJ	_	_
+11	is	_	be	_	VBZ	_	_	-1	8	_	CONJ	_	_
+12	caught	_	catch	_	VBN	_	_	-1	11	_	VC	_	_
+13	offside	_	offside	_	NN	_	_	-1	12	_	OBJ	_	_
+14	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+1	14	_	14	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	missed	_	miss	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+2	Giroud	_	giroud	_	NNP	_	_	-1	4	_	NAME	_	_
+3	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	SBJ	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	left	_	leave	_	VBD	_	_	-1	0	_	ROOT	_	_
+7	footed	_	foot	_	VBD	_	_	-1	8	_	NMOD	_	_
+8	shot	_	shot	_	NN	_	_	-1	6	_	OBJ	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	NMOD	_	_
+10	the	_	the	_	DT	_	_	-1	11	_	NMOD	_	_
+11	centre	_	centre	_	NN	_	_	-1	9	_	PMOD	_	_
+12	of	_	of	_	IN	_	_	-1	11	_	NMOD	_	_
+13	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+14	box	_	box	_	NN	_	_	-1	12	_	PMOD	_	_
+15	misses	_	miss	_	VBZ	_	_	-1	6	_	OPRD	_	_
+16	to	_	to	_	TO	_	_	-1	15	_	ADV	_	_
+17	the	_	the	_	DT	_	_	-1	18	_	NMOD	_	_
+18	left	_	leave	_	NN	_	_	-1	16	_	PMOD	_	_
+19	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Alexis	_	alexis	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Sánchez	_	sánchez	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	with	_	with	_	IN	_	_	-1	1	_	ADV	_	_
+6	a	_	a	_	DT	_	_	-1	7	_	NMOD	_	_
+7	cross	_	cross	_	NN	_	_	-1	5	_	PMOD	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	13	_	13	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	saved	_	save	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Alexis	_	alexis	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Sánchez	_	sánchez	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	VBN	_	_	-1	7	_	VC	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	ADV	_	_
+10	outside	_	outside	_	IN	_	_	-1	9	_	PMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	13	_	SBJ	_	_
+13	is	_	be	_	VBZ	_	_	-1	10	_	SUB	_	_
+14	saved	_	save	_	VBN	_	_	-1	13	_	VC	_	_
+15	in	_	in	_	IN	_	_	-1	14	_	LOC	_	_
+16	the	_	the	_	DT	_	_	-1	17	_	NMOD	_	_
+17	bottom	_	bottom	_	NN	_	_	-1	15	_	PMOD	_	_
+18	left	_	leave	_	VBD	_	_	-1	8	_	TMP	_	_
+19	corner	_	corner	_	NN	_	_	-1	18	_	OBJ	_	_
+20	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Mesut	_	mesut	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Özil	_	özil	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	11	_	11	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Attempt	_	attempt	_	NN	_	_	-1	2	_	SBJ	_	_
+2	blocked	_	block	_	VBD	_	_	-1	0	_	ROOT	_	_
+3	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	Santiago	_	santiago	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Cazorla	_	cazorla	_	NNP	_	_	-1	6	_	NMOD	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	6	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	right	_	right	_	NN	_	_	-1	7	_	SBJ	_	_
+7	footed	_	foot	_	VBD	_	_	-1	0	_	ROOT	_	_
+8	shot	_	shot	_	VBN	_	_	-1	7	_	VC	_	_
+9	from	_	from	_	IN	_	_	-1	8	_	ADV	_	_
+10	outside	_	outside	_	IN	_	_	-1	9	_	PMOD	_	_
+11	the	_	the	_	DT	_	_	-1	12	_	NMOD	_	_
+12	box	_	box	_	NN	_	_	-1	13	_	SBJ	_	_
+13	is	_	be	_	VBZ	_	_	-1	10	_	SUB	_	_
+14	blocked	_	block	_	VBN	_	_	-1	13	_	VC	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	Assisted	_	assist	_	VBN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	LGS	_	_
+3	Aaron	_	aaron	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Ramsey	_	ramsey	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	9	_	9	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Olivier	_	olivier	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Giroud	_	giroud	_	NNP	_	_	-1	6	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	4	_	P	_	_
+4	Arsenal	_	arsenal	_	NNP	_	_	-1	2	_	PRN	_	_
+5	)	_	-rrb-	_	)	_	_	-1	4	_	P	_	_
+6	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+7	a	_	a	_	DT	_	_	-1	9	_	NMOD	_	_
+8	free	_	free	_	JJ	_	_	-1	9	_	NMOD	_	_
+9	kick	_	kick	_	NN	_	_	-1	6	_	OBJ	_	_
+10	in	_	in	_	IN	_	_	-1	9	_	LOC	_	_
+11	the	_	the	_	DT	_	_	-1	13	_	NMOD	_	_
+12	defensive	_	defensive	_	JJ	_	_	-1	13	_	NMOD	_	_
+13	half	_	half	_	NN	_	_	-1	10	_	PMOD	_	_
+14	.	_	.	_	.	_	_	-1	6	_	P	_	_
+
+1	9	_	9	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Jake	_	jake	_	NNP	_	_	-1	7	_	NAME	_	_
+4	Livermore	_	livermore	_	NNP	_	_	-1	7	_	NAME	_	_
+5	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+6	Hull	_	hull	_	NNP	_	_	-1	7	_	NAME	_	_
+7	City	_	city	_	NNP	_	_	-1	2	_	PMOD	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	8	_	8	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	over	_	over	_	RB	_	_	-1	1	_	NMOD	_	_
+3	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	They	_	they	_	PRP	_	_	-1	2	_	SBJ	_	_
+2	are	_	be	_	VBP	_	_	-1	0	_	ROOT	_	_
+3	ready	_	ready	_	JJ	_	_	-1	2	_	PRD	_	_
+4	to	_	to	_	TO	_	_	-1	3	_	AMOD	_	_
+5	continue	_	continue	_	VB	_	_	-1	4	_	IM	_	_
+6	.	_	.	_	.	_	_	-1	2	_	P	_	_
+
+1	8	_	8	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Delay	_	delay	_	NN	_	_	-1	0	_	ROOT	_	_
+2	in	_	in	_	IN	_	_	-1	1	_	LOC	_	_
+3	match	_	match	_	NN	_	_	-1	2	_	PMOD	_	_
+4	Francis	_	francis	_	NNP	_	_	-1	5	_	NAME	_	_
+5	Coquelin	_	coquelin	_	NNP	_	_	-1	3	_	APPO	_	_
+6	(	_	-lrb-	_	(	_	_	-1	7	_	P	_	_
+7	Arsenal	_	arsenal	_	NNP	_	_	-1	1	_	APPO	_	_
+8	)	_	-rrb-	_	)	_	_	-1	7	_	P	_	_
+9	because	_	because	_	IN	_	_	-1	1	_	PRP	_	_
+10	of	_	of	_	IN	_	_	-1	9	_	DEP	_	_
+11	an	_	an	_	DT	_	_	-1	12	_	NMOD	_	_
+12	injury	_	injury	_	NN	_	_	-1	9	_	PMOD	_	_
+13	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	7	_	7	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Foul	_	foul	_	NN	_	_	-1	0	_	ROOT	_	_
+2	by	_	by	_	IN	_	_	-1	1	_	NMOD	_	_
+3	Olivier	_	olivier	_	NNP	_	_	-1	4	_	NAME	_	_
+4	Giroud	_	giroud	_	NNP	_	_	-1	2	_	PMOD	_	_
+5	(	_	-lrb-	_	(	_	_	-1	6	_	P	_	_
+6	Arsenal	_	arsenal	_	NNP	_	_	-1	4	_	APPO	_	_
+7	)	_	-rrb-	_	)	_	_	-1	6	_	P	_	_
+8	.	_	.	_	.	_	_	-1	1	_	P	_	_
+
+1	7	_	7	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Tom	_	tom	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Huddlestone	_	huddlestone	_	NNP	_	_	-1	7	_	SBJ	_	_
+3	(	_	-lrb-	_	(	_	_	-1	5	_	P	_	_
+4	Hull	_	hull	_	NNP	_	_	-1	5	_	NAME	_	_
+5	City	_	city	_	NNP	_	_	-1	2	_	PRN	_	_
+6	)	_	-rrb-	_	)	_	_	-1	5	_	P	_	_
+7	wins	_	win	_	VBZ	_	_	-1	0	_	ROOT	_	_
+8	a	_	a	_	DT	_	_	-1	10	_	NMOD	_	_
+9	free	_	free	_	JJ	_	_	-1	10	_	NMOD	_	_
+10	kick	_	kick	_	NN	_	_	-1	7	_	OBJ	_	_
+11	on	_	on	_	IN	_	_	-1	10	_	NMOD	_	_
+12	the	_	the	_	DT	_	_	-1	14	_	NMOD	_	_
+13	right	_	right	_	JJ	_	_	-1	14	_	NMOD	_	_
+14	wing	_	wing	_	NN	_	_	-1	11	_	PMOD	_	_
+15	.	_	.	_	.	_	_	-1	7	_	P	_	_
+
+1	3	_	3	_	CD	_	_	-1	0	_	ROOT	_	_
+
+1	Offside	_	offside	_	NNP	_	_	-1	4	_	NMOD	_	_
+2	,	_	,	_	,	_	_	-1	4	_	P	_	_
+3	Hull	_	hull	_	NNP	_	_	-1	4	_	NAME	_	_
+4	City	_	city	_	NNP	_	_	-1	0	_	ROOT	_	_
+5	.	_	.	_	.	_	_	-1	4	_	P	_	_
+
+1	Jake	_	jake	_	NNP	_	_	-1	2	_	NAME	_	_
+2	Livermore	_	livermore	_	NNP	_	_	-1	3	_	SBJ	_	_
+3	tries	_	try	_	VBZ	_	_	-1	0	_	ROOT	_	_
+4	a	_	a	_	DT	_	_	-1	5	_	DEP	_	_
+5	through	_	through	_	IN	_	_	-1	3	_	OBJ	_	_
+6	ball	_	ball	_	NN	_	_	-1	5	_	PMOD	_	_
+7	,	_	,	_	,	_	_	-1	3	_	P	_	_
+8	but	_	but	_	CC	_	_	-1	3	_	COORD	_	_
+9	Dame	_	dame	_	NNP	_	_	-1	10	_	NAME	_	_
+10	N'Doye	_	n'doye	_	NNP	_	_	-1	11	_	SBJ	_	_
+11	is	_	be	_	VBZ	_	_	-1	8	_	CONJ	_	_
+12	caught	_	catch	_	VBN	_	_	-1	11	_	VC	_	_
+13	offside	_	offside	_	NN	_	_	-1	12	_	OBJ	_	_
+14	.	_	.	_	.	_	_	-1	3	_	P	_	_
+
+

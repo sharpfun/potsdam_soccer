@@ -1,7 +1,10 @@
-asp_potsdam_soccer_notes
 *.conll
 *.lemma
 *.tagged
 *.pyc
+*~
+.Rhistory
 .project
 .pydevproject
+*.bak
+
