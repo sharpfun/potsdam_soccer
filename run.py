@@ -116,7 +116,8 @@ def main():
     asp = reasoning.solver.solve(events)
     
     # What we want to do with the result?
-    print "\n".join(map(str,asp))
+    with open(join(output_folder_path, "result.txt"), "w") as text_file:
+        text_file.write("\n".join(map(str, asp)))
 
 if __name__ == "__main__":
     main()
