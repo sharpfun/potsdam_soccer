@@ -1,0 +1,906 @@
+The first half has just begun . 
+1 matches: half n
+1 matches: half n
+
+The Arsenal players will kick-off . 
+2 matches: player n
+
+Neat passing move from Arsenal in order to create new attacking opportunities . 
+3 matches: pass v
+3 matches: move n
+3 matches: create v
+3 matches: attack v
+3 matches: opportunity n
+
+A fine lofted pass into the box , sent by Nacho Monreal (Arsenal) , is intercepted by the opposition's defence . 
+4 matches: loft v
+4 matches: pass n
+4 matches: box n
+4 matches: intercept v
+4 matches: defence n
+
+The assistant referee raises his flag . 
+5 matches: referee n
+5 matches: flag n
+
+Dame N'Doye (Hull City) is adjudged offside . 
+6 matches: offside n
+
+A pass by Francis Coquelin (Arsenal) ends up in no man's land , and the attacking effort comes to an end . 
+7 matches: pass n
+7 matches: attack v
+7 matches: effort n
+
+Olivier Giroud (Arsenal) with an overly-aggressive challenge , and referee Lee Mason blows his whistle for a foul . 
+8 matches: challenge n
+8 matches: whistle n
+8 matches: foul n
+
+Francis Coquelin (Arsenal) is writhing in pain . 
+
+The referee calls for physio , let's see whether he will be able to go on . 
+10 matches: referee n
+10 matches: go v
+
+Francis Coquelin (Arsenal) hasn't suffered any serious injury which wouldn't allow him to stay on the pitch . 
+11 matches: pitch n
+
+He's back in the game now . 
+12 matches: game n
+
+Michael Dawson (Hull City) brings an opponent down and Lee Mason interrupts the game . 
+13 matches: opponent n
+13 matches: game n
+
+Hector Bellerin (Arsenal) produces a cross into the box . 
+14 matches: produce v
+14 matches: cross n
+14 matches: box n
+
+The opposition's defence clears the ball to safety . 
+15 matches: defence n
+15 matches: clear v
+15 matches: ball n
+15 matches: ball n
+
+Santi Cazorla (Arsenal) sends a low pass from outside the box to Olivier Giroud (Arsenal) . 
+16 matches: pass n
+16 matches: box n
+
+He lines up a shot , but the defence intercepts at the last moment . 
+17 matches: shot n
+17 matches: defence n
+
+Ahmed Elmohamady (Hull City) swings a cross into the box , but is far too close to David Ospina (Arsenal) , who smothers the ball . 
+18 matches: swing v
+18 matches: cross n
+18 matches: box n
+18 matches: ball n
+18 matches: ball n
+
+Alexis Sanchez (Arsenal) connected with a pass around the edge of the box , aimed and struck . 
+19 matches: connect v
+19 matches: pass n
+19 matches: box n
+19 matches: strike v
+
+His attempt went in the direction of the left-hand post , but Steve Harper (Hull City) was alert and didn't let the score change . 
+20 matches: attempt n
+20 matches: go v
+20 matches: post n
+20 matches: score n
+
+Olivier Giroud (Arsenal) is caught offside ! 
+21 matches: catch v
+21 matches: offside n
+
+The Arsenal players keep the ball and are exchanging a combination of passes . 
+22 matches: player n
+22 matches: ball n
+22 matches: ball n
+22 matches: combination n
+22 matches: pass n
+
+They are waiting for gaps in defence to open up . 
+23 matches: defence n
+
+A long through ball almost allows Mesut Ozil (Arsenal) to get in a good chance , but he loses it to one of the defenders . 
+24 matches: ball n
+24 matches: ball n
+24 matches: chance n
+24 matches: lose v
+24 matches: lose v
+24 matches: defender n
+
+Per Mertesacker (Arsenal) makes a foul . 
+25 matches: foul n
+
+At least that's what referee Lee Mason signals . 
+
+Hull City are given an advantage . 
+27 matches: give v
+
+They have a free kick . 
+
+Robbie Brady (Hull City) takes the free kick but it is cleared by the first man . 
+29 matches: clear v
+
+Francis Coquelin (Arsenal) attempts to find his teammate with a final pass from outside of the box , but one of the defenders clears the ball to safety . 
+30 matches: find v
+30 matches: pass n
+30 matches: box n
+30 matches: defender n
+30 matches: clear v
+30 matches: ball n
+30 matches: ball n
+
+What a chance that is ! 
+31 matches: chance n
+
+Stephen Quinn (Hull City) squanders a huge opportunity as he latches on to a perfect cross from the side , and produces a bullet header from around the penalty spot which goes well wide of the right post ! 
+32 matches: squander v
+32 matches: opportunity n
+32 matches: cross n
+32 matches: side n
+32 matches: produce v
+32 matches: header n
+32 matches: penalty n
+32 matches: go v
+32 matches: post n
+
+Dame N'Doye (Hull City) fails to find the target . 
+33 matches: find v
+
+The goalkeeper , rooted to the spot , watches on helplessly as the volley goes well wide of the right post . 
+34 matches: goalkeeper n
+34 matches: volley n
+34 matches: go v
+34 matches: post n
+
+The goalkeeper rode his luck there . 
+35 matches: goalkeeper n
+
+The ball goes out-of-play and Arsenal will have a goal kick . 
+36 matches: ball n
+36 matches: ball n
+36 matches: go v
+36 matches: goal n
+36 matches: goal n
+
+Tom Huddlestone (Hull City) delivers a promising cross into the box , but one of the defending players wins the ball and averts the threat . 
+37 matches: deliver v
+37 matches: cross n
+37 matches: box n
+37 matches: defend v
+37 matches: player n
+37 matches: win v
+37 matches: win v
+37 matches: win v
+37 matches: ball n
+37 matches: ball n
+
+Dame N'Doye (Hull City) meets a cross inside the box , but his header is blocked by an opposing player . 
+38 matches: meet v
+38 matches: meet v
+38 matches: cross n
+38 matches: box n
+38 matches: header n
+38 matches: block v
+38 matches: player n
+
+Jake Livermore (Hull City) can't expect anything else than a yellow card for his hard tackle . 
+39 matches: tackle n
+
+And a yellow it is . 
+
+Lee Mason doesn't think twice to pull it out of his pocket . 
+
+Aaron Ramsey (Arsenal) is asking for medical treatment after suffering bruises from the previous challenge . 
+42 matches: challenge n
+
+Aaron Ramsey (Arsenal) is able to continue to play . 
+43 matches: play v
+43 matches: play v
+43 matches: play v
+
+A pass by Mesut Ozil (Arsenal) ends up in no man's land , and the attacking effort comes to an end . 
+44 matches: pass n
+44 matches: attack v
+44 matches: effort n
+
+The ball has crossed the sideline . 
+45 matches: ball n
+45 matches: ball n
+45 matches: cross v
+
+Hull City are taking a throw-in . 
+46 matches: throw-in n
+
+Tom Huddlestone (Hull City) was trying to get to the ball but hit the legs of the opponent as well . 
+47 matches: ball n
+47 matches: ball n
+47 matches: hit v
+47 matches: opponent n
+
+Lee Mason blows the whistle for infingement . 
+48 matches: whistle n
+
+Arsenal win a free kick . 
+49 matches: win v
+49 matches: win v
+49 matches: win v
+
+A promising situation for a direct shot . 
+50 matches: shot n
+
+Goal ! 
+51 matches: goal n
+51 matches: goal n
+
+Free-kick is fired in by Alexis Sanchez (Arsenal) , which one of the opposition players flicks on , leaving Steve Harper (Hull City) stranded , and spins into the net . 
+52 matches: fire v
+52 matches: fire v
+52 matches: player n
+52 matches: flick v
+52 matches: net n
+
+0 to 1 . 
+
+The resulting set piece , sent into the penalty area by Robbie Brady (Hull City) , was easily averted by one of the defenders . 
+54 matches: penalty n
+54 matches: area n
+54 matches: defender n
+
+A yellow card for a tackle by Dame N'Doye (Hull City) . 
+55 matches: tackle n
+
+Lee Mason doesn't hesitate at all to make this decision . 
+
+Mesut Ozil (Arsenal) makes a harsh challenge and Lee Mason calls for a foul . 
+57 matches: challenge n
+57 matches: foul n
+
+The Hull City players are exchanging some short passes . 
+58 matches: player n
+58 matches: pass n
+
+Robbie Brady (Hull City) plays in a hopeful cross , but it doesn't find its way to any of the attacking players . 
+59 matches: play v
+59 matches: play v
+59 matches: play v
+59 matches: cross n
+59 matches: find v
+59 matches: attack v
+59 matches: player n
+
+Goal! ! 
+
+Santi Cazorla (Arsenal) passes the ball to Aaron Ramsey (Arsenal) and he fires in a deflected shot from the edge of the box . 
+61 matches: pass v
+61 matches: ball n
+61 matches: ball n
+61 matches: fire v
+61 matches: fire v
+61 matches: deflect v
+61 matches: shot n
+61 matches: box n
+
+Steve Harper (Hull City) couldn't do anything about it . 
+
+0 to 2 . 
+
+A clumsy foul by Olivier Giroud (Arsenal) and Lee Mason blows the whistle . 
+64 matches: foul n
+64 matches: whistle n
+
+Robbie Brady (Hull City) sends a beautiful cross into the penalty area . 
+65 matches: cross n
+65 matches: penalty n
+65 matches: area n
+
+The opposition's defence manages to clear the ball to safety . 
+66 matches: defence n
+66 matches: clear v
+66 matches: ball n
+66 matches: ball n
+
+Good clearance ! 
+67 matches: clearance n
+
+Aaron Ramsey (Arsenal) received a low pass , but he didn't catch to do anything before quick stealing from one of the defenders . 
+68 matches: receive v
+68 matches: receive v
+68 matches: pass n
+68 matches: steal v
+68 matches: defender n
+
+Santi Cazorla (Arsenal) with a wonderful touch after collecting a pass inside the box . 
+69 matches: touch n
+69 matches: collect v
+69 matches: collect v
+69 matches: collect v
+69 matches: pass n
+69 matches: box n
+
+He steers his low drive towards the left post , but the keeper dives low to keep the ball out . 
+70 matches: steer v
+70 matches: drive n
+70 matches: post n
+70 matches: keeper n
+70 matches: dive v
+70 matches: dive v
+70 matches: ball n
+70 matches: ball n
+
+The ball is out-of-play and Arsenal manage to earn a corner . 
+71 matches: ball n
+71 matches: ball n
+71 matches: earn v
+71 matches: corner n
+71 matches: corner n
+
+Santi Cazorla (Arsenal) takes the corner and sends it into the penalty area , but the opposition's defence is ready and makes a good clearance . 
+72 matches: corner n
+72 matches: corner n
+72 matches: penalty n
+72 matches: area n
+72 matches: defence n
+72 matches: clearance n
+
+A pass from Dame N'Doye (Hull City) is intercepted by David Ospina (Arsenal) and the move breaks down . 
+73 matches: pass n
+73 matches: intercept v
+73 matches: move n
+73 matches: break v
+73 matches: break v
+
+The game is interrupted as Dame N'Doye (Hull City) is flagged for offside . 
+74 matches: game n
+74 matches: offside n
+
+Ahmed Elmohamady (Hull City) releases a low pass from just outside the box in an attempt to find his teammate , but one of the defenders calmly averts the threat . 
+75 matches: release v
+75 matches: pass n
+75 matches: box n
+75 matches: attempt n
+75 matches: find v
+75 matches: defender n
+
+Arsenal control the tempo of the game as they are exchanging some accurate short passes . 
+76 matches: control v
+76 matches: game n
+76 matches: pass n
+
+An offensive foul by Dame N'Doye (Hull City) was seen by Lee Mason who didn't hesitate to blow the whistle . 
+77 matches: foul n
+77 matches: whistle n
+
+What a sweet touch by Mesut Ozil (Arsenal) as he collects a pass deep into the box , and produces a low drive towards the middle of the net . 
+78 matches: touch n
+78 matches: collect v
+78 matches: collect v
+78 matches: collect v
+78 matches: pass n
+78 matches: box n
+78 matches: produce v
+78 matches: drive n
+78 matches: net n
+
+The goalkeeper pulls off a reflex save and denies the attempt ! 
+79 matches: goalkeeper n
+79 matches: save n
+79 matches: deny v
+79 matches: deny v
+79 matches: attempt n
+
+Santi Cazorla (Arsenal) comes close to scoring . 
+
+He connected with a pass inside the box , and he perhaps should have done better than direct his shot straight at Steve Harper (Hull City) . 
+81 matches: connect v
+81 matches: pass n
+81 matches: box n
+81 matches: shot n
+
+Goal ! 
+82 matches: goal n
+82 matches: goal n
+
+Aaron Ramsey (Arsenal) displays great vision and sends a pass to Alexis Sanchez (Arsenal) , who shows brilliant composure inside the box to bury the ball from close range into the back of the net . 
+83 matches: pass n
+83 matches: show v
+83 matches: box n
+83 matches: ball n
+83 matches: ball n
+83 matches: net n
+
+The score is 0 to 3 . 
+84 matches: score n
+
+The first half of today's match has just finished . 
+85 matches: half n
+85 matches: half n
+85 matches: match n
+85 matches: finish v
+85 matches: finish v
+
+We are seeing a great game so far , let's hope the players will be able to sustain the level of attractiveness and keep entertaining the fans in such a fabulous way . 
+86 matches: game n
+86 matches: player n
+86 matches: fan n
+
+The visiting team dominated the first half in most aspects of the game , but the hosts will surely attempt to turn the situation in their favour . 
+87 matches: visit v
+87 matches: team n
+87 matches: dominate v
+87 matches: half n
+87 matches: half n
+87 matches: game n
+87 matches: turn v
+
+The home team plays long-ball football unlike the away side which attempts to hold onto the ball for as long as possible . 
+88 matches: team n
+88 matches: play v
+88 matches: play v
+88 matches: play v
+88 matches: side n
+88 matches: hold v
+88 matches: ball n
+88 matches: ball n
+
+After the half-time break we are back again . 
+89 matches: half-time n
+89 matches: break n
+89 matches: break n
+
+The players are back out on the pitch , and the second half is underway . 
+90 matches: player n
+90 matches: pitch n
+90 matches: half n
+90 matches: half n
+
+Steve Bruce makes a half-time substitution . 
+91 matches: half-time n
+91 matches: substitution n
+
+David Meyler (Hull City) comes on in place of Jake Livermore (Hull City) . 
+
+Sone Aluko (Hull City) makes a yard for himself and goes for goal from long range . 
+93 matches: go v
+93 matches: goal n
+93 matches: goal n
+
+It never troubles the goalkeeper as it flies into the stands . 
+94 matches: goalkeeper n
+
+The ball is out of the pitch and it's a goal kick for Arsenal . 
+95 matches: ball n
+95 matches: ball n
+95 matches: pitch n
+95 matches: goal n
+95 matches: goal n
+
+David Meyler (Hull City) tackles a bit over-zealously . 
+96 matches: tackle v
+
+Lee Mason blows for a foul . 
+97 matches: foul n
+
+Laurent Koscielny (Arsenal) carelessly plunged himself under the feet of his opponent and couldn't expect to avoid punishment . 
+98 matches: foot n
+98 matches: opponent n
+
+This time , Lee Mason keeps the cards in his pocket , but he blows for the foul . 
+99 matches: foul n
+
+A pass by Sone Aluko (Hull City) ends up in no man's land , and the attacking effort comes to an end . 
+100 matches: pass n
+100 matches: attack v
+100 matches: effort n
+
+Some great controlled play and passing in the middle of the pitch from Arsenal . 
+101 matches: control v
+101 matches: pass v
+101 matches: pitch n
+
+The ball is cleared after Hector Bellerin (Arsenal) attempted to dribble past an opposing player . 
+102 matches: ball n
+102 matches: ball n
+102 matches: clear v
+102 matches: dribble v
+102 matches: player n
+
+Alexis Sanchez (Arsenal) attempts to feed Olivier Giroud (Arsenal) with a chip pass , but Steve Harper (Hull City) reacts well and comes off his line to intercept . 
+103 matches: feed v
+103 matches: chip n
+103 matches: pass n
+103 matches: line n
+103 matches: intercept v
+
+Flag goes up against Dame N'Doye (Hull City) . 
+104 matches: go v
+
+The referee blows the whistle for offside . 
+105 matches: referee n
+105 matches: whistle n
+105 matches: offside n
+
+Aaron Ramsey (Arsenal) makes a yard for himself inside the box after an accurate pass and takes a shot that goes just wide of the right post . 
+106 matches: box n
+106 matches: pass n
+106 matches: shot n
+106 matches: go v
+106 matches: post n
+
+The ball goes out-of-play and Hull City will have a goal kick . 
+107 matches: ball n
+107 matches: ball n
+107 matches: go v
+107 matches: goal n
+107 matches: goal n
+
+Stephen Quinn (Hull City) heads the ball inside the right post after a splendid cross . 
+108 matches: head v
+108 matches: ball n
+108 matches: ball n
+108 matches: post n
+108 matches: cross n
+
+This timely header makes a wonderful moment . 
+109 matches: header n
+
+Stephen Quinn (Hull City) is writhing in pain , and play has been stopped for a few moments . 
+110 matches: stop v
+
+Ahmed Elmohamady (Hull City) swings the cross over . 
+111 matches: swing v
+111 matches: cross n
+
+Paul McShane (Hull City) gets his head to it but it goes just over the crossbar . 
+112 matches: head n
+112 matches: go v
+112 matches: crossbar n
+
+The Arsenal players are exchanging some short passes to open the opposition’s defence to hit them swiftly on the break . 
+113 matches: player n
+113 matches: pass n
+113 matches: defence n
+113 matches: hit v
+113 matches: break n
+113 matches: break n
+
+Alexis Sanchez (Arsenal) receives a clever chip pass into a promising position . 
+114 matches: receive v
+114 matches: receive v
+114 matches: chip n
+114 matches: pass n
+
+Nevertheless , the opponent's defence is alert and averts the danger with a brilliant clearance . 
+115 matches: defence n
+115 matches: clearance n
+
+The ball is out-of-play , and the assistant referee points at the corner flag . 
+116 matches: ball n
+116 matches: ball n
+116 matches: referee n
+116 matches: corner n
+116 matches: corner n
+116 matches: flag n
+
+Arsenal will take it . 
+
+The resulting corner from Santi Cazorla (Arsenal) is cleared by the defence . 
+118 matches: corner n
+118 matches: corner n
+118 matches: clear v
+118 matches: defence n
+
+Alexis Sanchez (Arsenal) with a teasing cross into the area , but Steve Harper (Hull City) intercepts the ball . 
+119 matches: cross n
+119 matches: area n
+119 matches: intercept v
+119 matches: ball n
+119 matches: ball n
+
+Ambitious effort from Aaron Ramsey (Arsenal) as he finds himself in a great position after collecting a precise pass inside the penalty area and goes for goal , but it never troubles the goalkeeper and flies well over the bar . 
+120 matches: effort n
+120 matches: find v
+120 matches: collect v
+120 matches: collect v
+120 matches: collect v
+120 matches: pass n
+120 matches: penalty n
+120 matches: area n
+120 matches: go v
+120 matches: goal n
+120 matches: goal n
+120 matches: goalkeeper n
+120 matches: bar n
+
+The ball is out of the pitch and it's a goal kick for Hull City . 
+121 matches: ball n
+121 matches: ball n
+121 matches: pitch n
+121 matches: goal n
+121 matches: goal n
+
+We are about to witness a substitution . 
+122 matches: substitution n
+
+Andrew Robertson (Hull City) is replacing Sone Aluko (Hull City) . 
+
+Here is a change . 
+
+Aaron Ramsey (Arsenal) is going off and Arsene Wenger gives the last tactical orders to Jack Wilshere (Arsenal) . 
+125 matches: go v
+125 matches: give v
+
+Alexis Sanchez (Arsenal) bursts into the box , and latches on to a pin-point long through ball , but one of the defenders steps in to clear the ball to safety . 
+126 matches: box n
+126 matches: ball n
+126 matches: ball n
+126 matches: defender n
+126 matches: clear v
+126 matches: ball n
+126 matches: ball n
+
+A player from Hull City pulled an opponent down , making the referee blow the whistle . 
+127 matches: player n
+127 matches: opponent n
+127 matches: referee n
+127 matches: whistle n
+
+Arsenal earn a free kick which can lead to a goal-scoring opportunity . 
+128 matches: earn v
+128 matches: lead v
+128 matches: opportunity n
+
+Break in play with David Meyler (Hull City) down injured . 
+129 matches: break n
+129 matches: break n
+
+Alexis Sanchez (Arsenal) takes the resulting free kick from the edge of the box , but it was blocked by the players standing in the wall , saving the goalkeeper lot of effort . 
+130 matches: box n
+130 matches: block v
+130 matches: player n
+130 matches: wall n
+130 matches: save v
+130 matches: goalkeeper n
+130 matches: effort n
+
+The ball goes out-of-play . 
+131 matches: ball n
+131 matches: ball n
+131 matches: go v
+
+Arsenal have been awarded a corner kick . 
+132 matches: award v
+132 matches: award v
+132 matches: corner n
+132 matches: corner n
+
+David Meyler (Hull City) is moving again okay after that injury scare . 
+
+Mesut Ozil (Arsenal) sends in the corner , but he fails to find the head of any of his teamamtes , and the the defence makes a clearance . 
+134 matches: corner n
+134 matches: corner n
+134 matches: find v
+134 matches: head n
+134 matches: defence n
+134 matches: clearance n
+
+Alexis Sanchez (Arsenal) picks up a long through ball , but Steve Harper (Hull City) deserves praise for a brilliant reaction and interception . 
+135 matches: pick v
+135 matches: ball n
+135 matches: ball n
+135 matches: interception n
+
+It is unbelievable , Santi Cazorla (Arsenal) blows a huge opportunity ! 
+136 matches: opportunity n
+
+He is totally unmarked and fires a first-time shot towards goal from a few yards out , but Steve Harper (Hull City) reacts superbly to keep the ball out . 
+137 matches: fire v
+137 matches: fire v
+137 matches: shot n
+137 matches: goal n
+137 matches: goal n
+137 matches: ball n
+137 matches: ball n
+
+Ahmed Elmohamady (Hull City) produces a lovely ball into the penalty area but the defender manages to intercept and comfortably averts the danger . 
+138 matches: produce v
+138 matches: ball n
+138 matches: ball n
+138 matches: penalty n
+138 matches: area n
+138 matches: defender n
+138 matches: intercept v
+
+David Meyler (Hull City) sends a sweet pass into the penalty area , but one of the defenders averts the danger . 
+139 matches: pass n
+139 matches: penalty n
+139 matches: area n
+139 matches: defender n
+
+A lofted cross from Andrew Robertson (Hull City) was unsuccessful as the opponent's defence quickly gets the ball out of the penalty area . 
+140 matches: cross n
+140 matches: defence n
+140 matches: ball n
+140 matches: ball n
+140 matches: penalty n
+140 matches: area n
+
+An unsuccessful cross into the box by Andrew Robertson (Hull City) . 
+141 matches: cross n
+141 matches: box n
+
+The opponent's defence clears the ball away to safety . 
+142 matches: defence n
+142 matches: clear v
+142 matches: ball n
+142 matches: ball n
+
+Arsenal seem to be finding their feet as they enjoy some possession . 
+143 matches: find v
+143 matches: foot n
+143 matches: possession n
+
+They are waiting for the right moment to create new attacking opportunities . 
+144 matches: create v
+144 matches: attack v
+144 matches: opportunity n
+
+The defence is alert as they clear a dangerous cross from Mesut Ozil (Arsenal) . 
+145 matches: defence n
+145 matches: clear v
+145 matches: cross n
+
+Arsenal will take a corner kick . 
+146 matches: corner n
+146 matches: corner n
+
+Mesut Ozil (Arsenal) takes the corner but fails to find any of his teammates . 
+147 matches: corner n
+147 matches: corner n
+147 matches: find v
+
+Here comes a substitution . 
+148 matches: substitution n
+
+Stephen Quinn (Hull City) is given a rest as he is replaced by Nikica Jelavic (Hull City) . 
+149 matches: give v
+
+Dame N'Doye (Hull City) serves in a nice cross , but the defence clear the danger . 
+150 matches: cross n
+150 matches: defence n
+
+Hector Bellerin (Arsenal) had a golden opportunity as he fired from point blank range . 
+151 matches: opportunity n
+151 matches: fire v
+151 matches: fire v
+
+His volley was directed towards the middle of the goal , but Steve Harper (Hull City) was alert and made an amazing save ! 
+152 matches: volley n
+152 matches: goal n
+152 matches: goal n
+152 matches: save n
+
+Jack Wilshere (Arsenal) is first to the rebound but his shot is blocked . 
+153 matches: rebound n
+153 matches: rebound n
+153 matches: shot n
+153 matches: block v
+
+Wow , what an escape there for the opposition . 
+
+That will be all from Olivier Giroud (Arsenal) who is being replaced by the fresh legs of Theo Walcott (Arsenal) . 
+
+Jack Wilshere (Arsenal) skips past his man but can't keep the ball in play . 
+156 matches: ball n
+156 matches: ball n
+
+The ball goes out-of-play and Hull City will have a goal kick . 
+157 matches: ball n
+157 matches: ball n
+157 matches: go v
+157 matches: goal n
+157 matches: goal n
+
+The attendance for today's match is 23628 . 
+158 matches: match n
+
+Theo Walcott (Arsenal) is trying to get into the box . 
+159 matches: box n
+
+He sends a low pass , but it's blocked and cleared . 
+160 matches: pass n
+160 matches: block v
+160 matches: clear v
+
+It will be a corner kick for Arsenal . 
+161 matches: corner n
+161 matches: corner n
+
+Mesut Ozil (Arsenal) takes a short corner kick . 
+162 matches: corner n
+162 matches: corner n
+
+We will have 4 minutes of added time . 
+
+Flag up against Robbie Brady (Hull City) . 
+
+He had space to move into behind the defence , but he went too soon . 
+165 matches: defence n
+165 matches: go v
+
+Jack Wilshere (Arsenal) receives a good pass just outside the box , unleashes a strike from a promising position , but the shot is thwarted by the defender . 
+166 matches: receive v
+166 matches: receive v
+166 matches: pass n
+166 matches: box n
+166 matches: unleash v
+166 matches: strike n
+166 matches: strike n
+166 matches: shot n
+166 matches: defender n
+
+A big opportunity missed by Theo Walcott (Arsenal) . 
+167 matches: opportunity n
+167 matches: miss v
+167 matches: miss v
+167 matches: miss v
+
+He got on the ball inside the box and thumped a splendid first-time shot on goal , but it went narrowly wide of the right post . 
+168 matches: ball n
+168 matches: ball n
+168 matches: box n
+168 matches: shot n
+168 matches: goal n
+168 matches: goal n
+168 matches: go v
+168 matches: post n
+
+Alexis Sanchez (Arsenal) produces a stunning solo run from the middle of the pitch , all the way to the penalty area . 
+169 matches: produce v
+169 matches: pitch n
+169 matches: penalty n
+169 matches: area n
+
+He unleashes a decent strike which goes narrowly wide of the right post . 
+170 matches: unleash v
+170 matches: strike n
+170 matches: strike n
+170 matches: go v
+170 matches: post n
+
+The ball is out of the pitch and it's a goal kick for Hull City . 
+171 matches: ball n
+171 matches: ball n
+171 matches: pitch n
+171 matches: goal n
+171 matches: goal n
+
+That's all for today because the game is over . 
+172 matches: game n
+
+The game hasn't been extremely attractive , but it hasn't been totally boring either . 
+173 matches: game n
+
+There have been a few nice movements on both sides . 
+174 matches: side n
+
+The control of the game belonged to the visitors . 
+175 matches: control n
+175 matches: game n
+175 matches: visitor n
+
+Long balls and crosses were the strongest weapons of the home team . 
+176 matches: ball n
+176 matches: ball n
+176 matches: cross n
+176 matches: team n
+
+Players of the away team presented themselves with possession football . 
+177 matches: player n
+177 matches: team n
+177 matches: possession n
+

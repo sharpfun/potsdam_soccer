@@ -1,0 +1,354 @@
+The first half has just begun . 
+[u'half.n']
+The Arsenal players will kick off . 
+[u'kick-off.n', u'player.n']
+Neat passing move from Arsenal in order to create new attacking opportunities . 
+[u'pass.v', u'move.n', u'create.v', u'attack.v', u'opportunity.n']
+A fine lofted pass into the box , sent by Nacho Monreal (Arsenal) , is intercepted by the opposition's defence . 
+[u'intercept.v', u'pass.n', u'defence.n', u'loft.v', u'box.n']
+The assistant referee raises his flag . 
+[u'flag.n', u'assistant_referee.n']
+Dame N'Doye (Hull City) is adjudged offside . 
+[u'offside.n']
+A pass by Francis Coquelin (Arsenal) ends up in no man's land , and the attacking effort comes to an end . 
+[u'pass.n', u'effort.n', u'attack.v']
+Olivier Giroud (Arsenal) with an overly aggressive challenge , and referee Lee Mason blows his whistle for a foul . 
+[u'challenge.n', u'foul.n', u'whistle.n']
+Francis Coquelin (Arsenal) is writhing in pain . 
+[]
+The referee calls for physio , let's see whether he will be able to go on . 
+[u'go.v', u'referee.n']
+Francis Coquelin (Arsenal) hasn't suffered any serious injury which wouldn't allow him to stay on the pitch . 
+[u'pitch.n']
+He's back in the game now . 
+[u'game.n']
+Michael Dawson (Hull City) brings an opponent down and Lee Mason interrupts the game . 
+[u'opponent.n', u'game.n']
+Hector Bellerin (Arsenal) produces a cross into the box . 
+[u'cross.n', u'produce.v', u'box.n']
+The opposition's defence clears the ball to safety . 
+[u'clear.v', u'defence.n', u'ball.n']
+Santi Cazorla (Arsenal) sends a low pass from outside the box to Olivier Giroud (Arsenal) . 
+[u'pass.n', u'box.n']
+He lines up a shot , but the defence intercepts at the last moment . 
+[u'shot.n', u'defence.n']
+Ahmed Elmohamady (Hull City) swings a cross into the box , but is far too close to David Ospina (Arsenal) , who smothers the ball . 
+[u'swing.v', u'cross.n', u'box.n', u'ball.n']
+Alexis Sanchez (Arsenal) connected with a pass around the edge of the box , aimed and struck . 
+[u'pass.n', u'strike.v', u'connect.v', u'box.n']
+His attempt went in the direction of the left hand post , but Steve Harper (Hull City) was alert and didn't let the score change . 
+[u'score.n', u'attempt.n', u'go.v', u'hand.n', u'post.n']
+Olivier Giroud (Arsenal) is caught offside ! 
+[u'offside.n', u'catch.v']
+The Arsenal players keep the ball and are exchanging a combination of passes . 
+[u'combination.n', u'pass.n', u'player.n', u'ball.n']
+They are waiting for gaps in defence to open up . 
+[u'defence.n']
+A long through ball almost allows Mesut Ozil (Arsenal) to get in a good chance , but he loses it to one of the defenders . 
+[u'lose.v', u'defender.n', u'through-ball.n', u'chance.n']
+Per Mertesacker (Arsenal) makes a foul . 
+[u'foul.n']
+At least that's what referee Lee Mason signals . 
+[]
+Hull City are given an advantage . 
+[u'give.v']
+They have a free kick . 
+[u'free-kick.n']
+Robbie Brady (Hull City) takes the free kick but it is cleared by the first man . 
+[u'clear.v', u'free-kick.n']
+Francis Coquelin (Arsenal) attempts to find his teammate with a final pass from outside of the box , but one of the defenders clears the ball to safety . 
+[u'clear.v', u'pass.n', u'defender.n', u'find.v', u'box.n', u'ball.n']
+What a chance that is ! 
+[u'chance.n']
+Stephen Quinn (Hull City) squanders a huge opportunity as he latches on to a perfect cross from the side , and produces a bullet header from around the penalty spot which goes well wide of the right post ! 
+[u'squander.v', u'latch_on.v', u'header.n', u'cross.n', u'produce.v', u'go.v', u'opportunity.n', u'side.n', u'penalty_spot.n', u'post.n']
+Dame N'Doye (Hull City) fails to find the target . 
+[u'find.v']
+The goalkeeper , rooted to the spot , watches on helplessly as the volley goes well wide of the right post . 
+[u'volley.n', u'goalkeeper.n', u'go.v', u'post.n']
+The goalkeeper rode his luck there . 
+[u'goalkeeper.n']
+The ball goes out of play and Arsenal will have a goal kick . 
+[u'goal_kick.n', u'go.v', u'ball.n']
+Tom Huddlestone (Hull City) delivers a promising cross into the box , but one of the defending players wins the ball and averts the threat . 
+[u'win.v', u'cross.n', u'deliver.v', u'box.n', u'defend.v', u'player.n', u'ball.n']
+Dame N'Doye (Hull City) meets a cross inside the box , but his header is blocked by an opposing player . 
+[u'header.n', u'block.v', u'meet.v', u'cross.n', u'box.n', u'player.n']
+Jake Livermore (Hull City) can't expect anything else than a yellow card for his hard tackle . 
+[u'yellow_card.n', u'tackle.n']
+And a yellow it is . 
+[]
+Lee Mason doesn't think twice to pull it out of his pocket . 
+[]
+Aaron Ramsey (Arsenal) is asking for medical treatment after suffering bruises from the previous challenge . 
+[u'challenge.n']
+Aaron Ramsey (Arsenal) is able to continue to play . 
+[u'play.v']
+A pass by Mesut Ozil (Arsenal) ends up in no man's land , and the attacking effort comes to an end . 
+[u'pass.n', u'effort.n', u'attack.v']
+The ball has crossed the sideline . 
+[u'ball.n', u'cross.v']
+Hull City are taking a throw in . 
+[u'throw-in.n']
+Tom Huddlestone (Hull City) was trying to get to the ball but hit the legs of the opponent as well . 
+[u'hit.v', u'ball.n', u'opponent.n']
+Lee Mason blows the whistle for infingement . 
+[u'whistle.n']
+Arsenal win a free kick . 
+[u'win.v', u'free-kick.n']
+A promising situation for a direct shot . 
+[u'shot.n']
+Goal ! 
+[u'goal.n']
+Free kick is fired in by Alexis Sanchez (Arsenal) , which one of the opposition players flicks on , leaving Steve Harper (Hull City) stranded , and spins into the net . 
+[u'fire.v', u'free-kick.n', u'player.n', u'flick_on.v', u'flick_on.n', u'net.n']
+0 to 1 . 
+[]
+The resulting set piece , sent into the penalty area by Robbie Brady (Hull City) , was easily averted by one of the defenders . 
+[u'defender.n', u'set-piece.n', u'penalty_area.n']
+A yellow card for a tackle by Dame N'Doye (Hull City) . 
+[u'yellow_card.n', u'tackle.n']
+Lee Mason doesn't hesitate at all to make this decision . 
+[]
+Mesut Ozil (Arsenal) makes a harsh challenge and Lee Mason calls for a foul . 
+[u'challenge.n', u'foul.n']
+The Hull City players are exchanging some short passes . 
+[u'pass.n', u'player.n']
+Robbie Brady (Hull City) plays in a hopeful cross , but it doesn't find its way to any of the attacking players . 
+[u'find.v', u'cross.n', u'play_in.v', u'attack.v', u'player.n']
+Goal! ! 
+[]
+Santi Cazorla (Arsenal) passes the ball to Aaron Ramsey (Arsenal) and he fires in a deflected shot from the edge of the box . 
+[u'pass.v', u'fire.v', u'shot.n', u'ball.n', u'deflect.v', u'box.n']
+Steve Harper (Hull City) couldn't do anything about it . 
+[]
+0 to 2 . 
+[]
+A clumsy foul by Olivier Giroud (Arsenal) and Lee Mason blows the whistle . 
+[u'foul.n', u'whistle.n']
+Robbie Brady (Hull City) sends a beautiful cross into the penalty area . 
+[u'cross.n', u'penalty_area.n']
+The opposition's defence manages to clear the ball to safety . 
+[u'clear.v', u'defence.n', u'ball.n']
+Good clearance ! 
+[u'clearance.n']
+Aaron Ramsey (Arsenal) received a low pass , but he didn't catch to do anything before quick stealing from one of the defenders . 
+[u'receive.v', u'pass.n', u'steal.v', u'defender.n']
+Santi Cazorla (Arsenal) with a wonderful touch after collecting a pass inside the box . 
+[u'collect.v', u'pass.n', u'touch.n', u'box.n']
+He steers his low drive towards the left post , but the keeper dives low to keep the ball out . 
+[u'steer.v', u'dive.v', u'drive.n', u'post.n', u'keeper.n', u'ball.n']
+The ball is out of play and Arsenal manage to earn a corner . 
+[u'ball.n', u'earn.v', u'corner.n']
+Santi Cazorla (Arsenal) takes the corner and sends it into the penalty area , but the opposition's defence is ready and makes a good clearance . 
+[u'clearance.n', u'defence.n', u'corner.n', u'penalty_area.n']
+A pass from Dame N'Doye (Hull City) is intercepted by David Ospina (Arsenal) and the move breaks down . 
+[u'intercept.v', u'break.v', u'pass.n', u'move.n']
+The game is interrupted as Dame N'Doye (Hull City) is flagged for offside . 
+[u'offside.n', u'game.n']
+Ahmed Elmohamady (Hull City) releases a low pass from just outside the box in an attempt to find his teammate , but one of the defenders calmly averts the threat . 
+[u'attempt.n', u'pass.n', u'defender.n', u'find.v', u'release.v', u'box.n']
+Arsenal control the tempo of the game as they are exchanging some accurate short passes . 
+[u'control.v', u'pass.n', u'game.n']
+An offensive foul by Dame N'Doye (Hull City) was seen by Lee Mason who didn't hesitate to blow the whistle . 
+[u'foul.n', u'whistle.n']
+What a sweet touch by Mesut Ozil (Arsenal) as he collects a pass deep into the box , and produces a low drive towards the middle of the net . 
+[u'collect.v', u'pass.n', u'drive.n', u'produce.v', u'touch.n', u'box.n', u'net.n']
+The goalkeeper pulls off a reflex save and denies the attempt ! 
+[u'deny.v', u'attempt.n', u'reflex_save.n', u'goalkeeper.n']
+Santi Cazorla (Arsenal) comes close to scoring . 
+[]
+He connected with a pass inside the box , and he perhaps should have done better than direct his shot straight at Steve Harper (Hull City) . 
+[u'pass.n', u'connect.v', u'shot.n', u'box.n']
+Goal ! 
+[u'goal.n']
+Aaron Ramsey (Arsenal) displays great vision and sends a pass to Alexis Sanchez (Arsenal) , who shows brilliant composure inside the box to bury the ball from close range into the back of the net . 
+[u'pass.n', u'show.v', u'box.n', u'ball.n', u'net.n']
+The score is 0 to 3 . 
+[u'score.n']
+The first half of today's match has just finished . 
+[u'half.n', u'match.n', u'finish.v']
+We are seeing a great game so far , let's hope the players will be able to sustain the level of attractiveness and keep entertaining the fans in such a fabulous way . 
+[u'game.n', u'player.n', u'fan.n']
+The visiting team dominated the first half in most aspects of the game , but the hosts will surely attempt to turn the situation in their favour . 
+[u'half.n', u'visit.v', u'team.n', u'dominate.v', u'game.n', u'turn.v']
+The home team plays long ball football unlike the away side which attempts to hold onto the ball for as long as possible . 
+[u'team.n', u'play.v', u'ball.n', u'side.n', u'hold.v', u'ball.n']
+After the half time break we are back again . 
+[u'break.n', u'half-time.n']
+The players are back out on the pitch , and the second half is underway . 
+[u'half.n', u'pitch.n', u'player.n']
+Steve Bruce makes a half time substitution . 
+[u'substitution.n', u'half-time.n']
+David Meyler (Hull City) comes on in place of Jake Livermore (Hull City) . 
+[u'come_on.v']
+Sone Aluko (Hull City) makes a yard for himself and goes for goal from long range . 
+[u'goal.n', u'go.v']
+It never troubles the goalkeeper as it flies into the stands . 
+[u'goalkeeper.n']
+The ball is out of the pitch and it's a goal kick for Arsenal . 
+[u'goal_kick.n', u'pitch.n', u'ball.n']
+David Meyler (Hull City) tackles a bit over zealously . 
+[u'tackle.v']
+Lee Mason blows for a foul . 
+[u'foul.n']
+Laurent Koscielny (Arsenal) carelessly plunged himself under the feet of his opponent and couldn't expect to avoid punishment . 
+[u'foot.n', u'opponent.n']
+This time , Lee Mason keeps the cards in his pocket , but he blows for the foul . 
+[u'foul.n']
+A pass by Sone Aluko (Hull City) ends up in no man's land , and the attacking effort comes to an end . 
+[u'pass.n', u'effort.n', u'attack.v']
+Some great controlled play and passing in the middle of the pitch from Arsenal . 
+[u'control.v', u'pass.v', u'pitch.n']
+The ball is cleared after Hector Bellerin (Arsenal) attempted to dribble past an opposing player . 
+[u'clear.v', u'dribble.v', u'ball.n', u'player.n']
+Alexis Sanchez (Arsenal) attempts to feed Olivier Giroud (Arsenal) with a chip pass , but Steve Harper (Hull City) reacts well and comes off his line to intercept . 
+[u'intercept.v', u'pass.n', u'feed.v', u'chip.n', u'line.n']
+Flag goes up against Dame N'Doye (Hull City) . 
+[u'flag.n', u'go.v']
+The referee blows the whistle for offside . 
+[u'offside.n', u'whistle.n', u'referee.n']
+Aaron Ramsey (Arsenal) makes a yard for himself inside the box after an accurate pass and takes a shot that goes just wide of the right post . 
+[u'pass.n', u'shot.n', u'go.v', u'box.n', u'post.n']
+The ball goes out of play and Hull City will have a goal kick . 
+[u'goal_kick.n', u'go.v', u'ball.n']
+Stephen Quinn (Hull City) heads the ball inside the right post after a splendid cross . 
+[u'head.v', u'cross.n', u'ball.n', u'post.n']
+This timely header makes a wonderful moment . 
+[u'header.n']
+Stephen Quinn (Hull City) is writhing in pain , and play has been stopped for a few moments . 
+[u'stop.v']
+Ahmed Elmohamady (Hull City) swings the cross over . 
+[u'swing.v', u'cross.n']
+Paul McShane (Hull City) gets his head to it but it goes just over the crossbar . 
+[u'crossbar.n', u'head.n', u'go.v']
+The Arsenal players are exchanging some short passes to open the opposition’s defence to hit them swiftly on the break . 
+[u'pass.n', u'break.n', u'hit.v', u'defence.n', u'player.n']
+Alexis Sanchez (Arsenal) receives a clever chip pass into a promising position . 
+[u'receive.v', u'pass.n', u'chip.n']
+Nevertheless , the opponent's defence is alert and averts the danger with a brilliant clearance . 
+[u'clearance.n', u'defence.n']
+The ball is out of play , and the assistant referee points at the corner flag . 
+[u'corner_flag.n', u'ball.n', u'assistant_referee.n']
+Arsenal will take it . 
+[]
+The resulting corner from Santi Cazorla (Arsenal) is cleared by the defence . 
+[u'clear.v', u'defence.n', u'corner.n']
+Alexis Sanchez (Arsenal) with a teasing cross into the area , but Steve Harper (Hull City) intercepts the ball . 
+[u'intercept.v', u'cross.n', u'area.n', u'ball.n']
+Ambitious effort from Aaron Ramsey (Arsenal) as he finds himself in a great position after collecting a precise pass inside the penalty area and goes for goal , but it never troubles the goalkeeper and flies well over the bar . 
+[u'collect.v', u'pass.n', u'find.v', u'goalkeeper.n', u'effort.n', u'goal.n', u'go.v', u'penalty_area.n', u'bar.n']
+The ball is out of the pitch and it's a goal kick for Hull City . 
+[u'goal_kick.n', u'pitch.n', u'ball.n']
+We are about to witness a substitution . 
+[u'substitution.n']
+Andrew Robertson (Hull City) is replacing Sone Aluko (Hull City) . 
+[]
+Here is a change . 
+[]
+Aaron Ramsey (Arsenal) is going off and Arsene Wenger gives the last tactical orders to Jack Wilshere (Arsenal) . 
+[u'go.v', u'give.v']
+Alexis Sanchez (Arsenal) bursts into the box , and latches on to a pin point long through ball , but one of the defenders steps in to clear the ball to safety . 
+[u'clear.v', u'latch_on.v', u'defender.n', u'through-ball.n', u'box.n', u'ball.n']
+A player from Hull City pulled an opponent down , making the referee blow the whistle . 
+[u'whistle.n', u'player.n', u'opponent.n', u'referee.n']
+Arsenal earn a free kick which can lead to a goal scoring opportunity . 
+[u'free-kick.n', u'goal.n', u'earn.v', u'lead.v', u'opportunity.n']
+Break in play with David Meyler (Hull City) down injured . 
+[u'break.n']
+Alexis Sanchez (Arsenal) takes the resulting free kick from the edge of the box , but it was blocked by the players standing in the wall , saving the goalkeeper lot of effort . 
+[u'free-kick.n', u'block.v', u'goalkeeper.n', u'effort.n', u'box.n', u'player.n', u'wall.n', u'save.v']
+The ball goes out of play . 
+[u'go.v', u'ball.n']
+Arsenal have been awarded a corner kick . 
+[u'award.v', u'corner.n']
+David Meyler (Hull City) is moving again okay after that injury scare . 
+[]
+Mesut Ozil (Arsenal) sends in the corner , but he fails to find the head of any of his teamamtes , and the the defence makes a clearance . 
+[u'find.v', u'clearance.n', u'head.n', u'defence.n', u'corner.n']
+Alexis Sanchez (Arsenal) picks up a long through ball , but Steve Harper (Hull City) deserves praise for a brilliant reaction and interception . 
+[u'interception.n', u'pick_up.v', u'through-ball.n']
+It is unbelievable , Santi Cazorla (Arsenal) blows a huge opportunity ! 
+[u'opportunity.n']
+He is totally unmarked and fires a first time shot towards goal from a few yards out , but Steve Harper (Hull City) reacts superbly to keep the ball out . 
+[u'fire.v', u'shot.n', u'goal.n', u'ball.n']
+Ahmed Elmohamady (Hull City) produces a lovely ball into the penalty area but the defender manages to intercept and comfortably averts the danger . 
+[u'intercept.v', u'defender.n', u'produce.v', u'ball.n', u'penalty_area.n']
+David Meyler (Hull City) sends a sweet pass into the penalty area , but one of the defenders averts the danger . 
+[u'pass.n', u'defender.n', u'penalty_area.n']
+A lofted cross from Andrew Robertson (Hull City) was unsuccessful as the opponent's defence quickly gets the ball out of the penalty area . 
+[u'cross.n', u'defence.n', u'ball.n', u'penalty_area.n']
+An unsuccessful cross into the box by Andrew Robertson (Hull City) . 
+[u'cross.n', u'box.n']
+The opponent's defence clears the ball away to safety . 
+[u'clear.v', u'defence.n', u'ball.n']
+Arsenal seem to be finding their feet as they enjoy some possession . 
+[u'find.v', u'foot.n', u'possession.n']
+They are waiting for the right moment to create new attacking opportunities . 
+[u'create.v', u'attack.v', u'opportunity.n']
+The defence is alert as they clear a dangerous cross from Mesut Ozil (Arsenal) . 
+[u'clear.v', u'cross.n', u'defence.n']
+Arsenal will take a corner kick . 
+[u'corner.n']
+Mesut Ozil (Arsenal) takes the corner but fails to find any of his teammates . 
+[u'find.v', u'corner.n']
+Here comes a substitution . 
+[u'substitution.n']
+Stephen Quinn (Hull City) is given a rest as he is replaced by Nikica Jelavic (Hull City) . 
+[u'give.v']
+Dame N'Doye (Hull City) serves in a nice cross , but the defence clear the danger . 
+[u'cross.n', u'defence.n']
+Hector Bellerin (Arsenal) had a golden opportunity as he fired from point blank range . 
+[u'fire.v', u'opportunity.n']
+His volley was directed towards the middle of the goal , but Steve Harper (Hull City) was alert and made an amazing save ! 
+[u'save.n', u'volley.n', u'goal.n']
+Jack Wilshere (Arsenal) is first to the rebound but his shot is blocked . 
+[u'rebound.n', u'block.v', u'shot.n']
+Wow , what an escape there for the opposition . 
+[]
+That will be all from Olivier Giroud (Arsenal) who is being replaced by the fresh legs of Theo Walcott (Arsenal) . 
+[]
+Jack Wilshere (Arsenal) skips past his man but can't keep the ball in play . 
+[u'ball.n']
+The ball goes out of play and Hull City will have a goal kick . 
+[u'goal_kick.n', u'go.v', u'ball.n']
+The attendance for today's match is 23628 . 
+[u'match.n']
+Theo Walcott (Arsenal) is trying to get into the box . 
+[u'box.n']
+He sends a low pass , but it's blocked and cleared . 
+[u'clear.v', u'pass.n', u'block.v']
+It will be a corner kick for Arsenal . 
+[u'corner.n']
+Mesut Ozil (Arsenal) takes a short corner kick . 
+[u'corner.n']
+We will have 4 minutes of added time . 
+[]
+Flag up against Robbie Brady (Hull City) . 
+[]
+He had space to move into behind the defence , but he went too soon . 
+[u'go.v', u'defence.n']
+Jack Wilshere (Arsenal) receives a good pass just outside the box , unleashes a strike from a promising position , but the shot is thwarted by the defender . 
+[u'receive.v', u'strike.n', u'pass.n', u'defender.n', u'shot.n', u'box.n', u'unleash.v']
+A big opportunity missed by Theo Walcott (Arsenal) . 
+[u'opportunity.n', u'miss.v']
+He got on the ball inside the box and thumped a splendid first time shot on goal , but it went narrowly wide of the right post . 
+[u'shot.n', u'goal.n', u'go.v', u'ball.n', u'box.n', u'post.n']
+Alexis Sanchez (Arsenal) produces a stunning solo run from the middle of the pitch , all the way to the penalty area . 
+[u'solo_run.n', u'produce.v', u'pitch.n', u'penalty_area.n']
+He unleashes a decent strike which goes narrowly wide of the right post . 
+[u'strike.n', u'go.v', u'unleash.v', u'post.n']
+The ball is out of the pitch and it's a goal kick for Hull City . 
+[u'goal_kick.n', u'pitch.n', u'ball.n']
+That's all for today because the game is over . 
+[u'game.n']
+The game hasn't been extremely attractive , but it hasn't been totally boring either . 
+[u'game.n']
+There have been a few nice movements on both sides . 
+[u'side.n']
+The control of the game belonged to the visitors . 
+[u'control.n', u'game.n', u'visitor.n']
+Long balls and crosses were the strongest weapons of the home team . 
+[u'cross.n', u'ball.n', u'team.n']
+Players of the away team presented themselves with possession football . 
+[u'player.n', u'team.n', u'possession.n']
