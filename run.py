@@ -25,7 +25,7 @@ def main():
     parser.add_argument("--verbose", dest="verbose", help="print helpful messages about the progress", default=False)
     parser.add_argument("--kicktionary", dest="kicktionary", help="location of kicktionary xml file", default="data/kicktionary.xml")
     parser.add_argument("--verbnet", dest="verbnet", help="location of folder with verbnet xml files", default="data/verbnet")
-    parser.add_argument("--tickers", dest="tickers", help="location of tickers folder", default='data/input', nargs="*")
+    parser.add_argument("--tickers", dest="tickers", help="location of tickers folder", default='data/input')
     # parser.add_argument("--language", dest="language", help="language of tickers (en or de)", default="en")
     parser.add_argument("--luorder", dest="luorder", help="location of folder with lexical unit order file", default="data/lu_order")
     args = parser.parse_args()
