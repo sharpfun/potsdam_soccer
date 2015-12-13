@@ -1,7 +1,7 @@
 # Potsdam Soccer Project
 
 ## Overview
-Using natural language processng and answer set solving techniqzes this project reads in multiple tickers and by information extraction and merging them in an intelligent way we output a comprehensive summary of the given tickers.
+Using natural language processng and answer set solving techniques this project reads in multiple tickers and by information extraction and merging them in an intelligent way we output a comprehensive summary of the given tickers.
 
 ## Usage
 ```
@@ -19,27 +19,38 @@ optional arguments:
 ```
 
 ## Requirements
-We assume to have a running python verion 2.7 on the system. Further we use the well known anna dependecy parser. This parser needs to be placed in the parser folder. We used anna-3.3 for the english ticker messages. Following structure will be assumed that the program works correctly.
+- **Python 2.7**
+- **Anna Dependency Parser**: We use the well known anna dependency parser. This parser needs to be placed in the parser folder as well as its models for parsing, tagging and lemmatizing. We used anna-3.3 for the english ticker messages. The tool can be downloaded here: https://code.google.com/p/mate-tools/
+- **Gringo Python Lib**: For merging different tickers into one ticker we use answer set programming. Therefore we decided for using the asp solver developed by the Potassco group. It provides an easy integration of ASP into Python. The python library and further instructions on the compilation process are found on http://potassco.sourceforge.com and especially for the version we used under http://sourceforge.net/projects/potassco/files/clingo/4.5.3/
 ```
-parser
-├── anna-3.3.jar
-├── anna-3.61.jar
-├── models.de
-│   ├── lemmatizer.model
-│   ├── mtag.model
-│   ├── parser.model
-│   └── tagger.model
-├── models.en
-│   ├── lemmatizer.model
-│   ├── parser.model
-│   └── tagger.model
-├── parse2.sh
-├── parse.sh
+project_folder
+├── run.py
+├── data
+|     └── ...
+├── parser
+│     ├── anna-3.3.jar
+│     ├── anna-3.61.jar
+│     ├── models.de
+│     │   ├── lemmatizer.model
+│     │   ├── mtag.model
+│     │   ├── parser.model
+│     │   └── tagger.model
+│     ├── models.en
+│     │   ├── lemmatizer.model
+│     │   ├── parser.model
+│     │   └── tagger.model
+│     ├── parse2.sh
+│     ├── parse.sh
+├── extracting
+|     └── ...
+├── preprocessing
+|     └── ...
+├── reasoning
+      └── ...
 ```
 
-## Data
-### Input
+## Input Format
 All ticker files need to be placed in the same directory. The directory is easily selected using the commandline argument `-- tickers DIR`.
 
-### Output
+## Output Format
 The results are stored in the data/output folder. Each run gets its own subdir named by a timestamp.
