@@ -5,7 +5,7 @@ Using natural language processng and answer set solving techniques this project 
 
 ## Usage
 ```
-python run.py [-h] [--verbose VERBOSE] [--kicktionary KICKTIONARY]
+python2 run.py [-h] [--verbose VERBOSE] [--kicktionary KICKTIONARY]
               [--verbnet VERBNET] [--tickers TICKERS] [--luorder LUORDER]
 
 optional arguments:
@@ -14,7 +14,7 @@ optional arguments:
   --kicktionary KICKTIONARY
                         location of kicktionary xml file
   --verbnet VERBNET     location of folder with verbnet xml files
-  --tickers TICKERS     location of tickers folder
+  --tickers TICKERS     location of tickers folder (by default it's "data/input", so you can put tickers inside)
   --luorder LUORDER     location of folder with lexical unit order file
 ```
 
@@ -29,7 +29,6 @@ project_folder
 |     └── ...
 ├── parser
 │     ├── anna-3.3.jar
-│     ├── anna-3.61.jar
 │     ├── models.de
 │     │   ├── lemmatizer.model
 │     │   ├── mtag.model
@@ -39,7 +38,6 @@ project_folder
 │     │   ├── lemmatizer.model
 │     │   ├── parser.model
 │     │   └── tagger.model
-│     ├── parse2.sh
 │     ├── parse.sh
 ├── extracting
 |     └── ...
