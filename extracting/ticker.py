@@ -57,8 +57,8 @@ def read_ticker(parsed_ticker, verbose, language):
 											 .replace("é","e")	\
 											 .split("\n\n")
     trees = []
-    ticker = re.search(".*/(p[0-9])[\_a-zA-Z]*\.parsed", parsed_ticker)
-    ticker = ticker.group(1)
+    ticker = re.search(".*\/parsed\/([A-z-]*)~?\.parsed", parsed_ticker)
+    ticker = ticker.group(1) #"\'" + parsed_ticker + "\'" #ticker.group(1)
     minutes = [0]
 
     for rawsentence in rawsentences:
